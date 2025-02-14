@@ -1,0 +1,10 @@
+{
+    "title": "SarcPot Mods",
+    "requires-steamodded": true,
+    "requires-talisman": false,
+    "categories": ["Content", "Joker"],
+    "author": "SarcasticPotato",
+    "repo": "https://github.com/SarcPot/sarcpot-mod",
+    "downloadURL": "https://github.com/SarcPot/sarcpot-mod/archive/refs/tags/v0.1.1a.zip"
+  }
+  
