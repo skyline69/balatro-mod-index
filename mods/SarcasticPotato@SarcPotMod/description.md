@@ -1,5 +1,6 @@
 # SarcPot!!!
-A small mod that adds waves of themed jokers! 
+A small mod that adds waves of themed jokers for the **girls**,**gays** 
+and **indie game fans**!!!
 
 ## Queer Jokers
 
