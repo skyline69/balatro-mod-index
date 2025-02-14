@@ -1,4 +1,4 @@
-#SarcPot!!!
+# SarcPot!!!
 A small mod that adds waves of themed jokers! 
 
 ## Queer Jokers
@@ -21,3 +21,6 @@ The first wave contains **8** prideful jokers!
 
  *Coming Soon!*
 
+## Future additions
+
+Expect more jokers with miscellaneous themes...
