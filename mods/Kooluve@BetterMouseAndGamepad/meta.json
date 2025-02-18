@@ -1,0 +1,9 @@
+{
+    "title": "Better Mouse and Gamepad",
+    "requires-steamodded": true,
+    "requires-talisman": false,
+    "categories": ["Quality of Life"],
+    "author": "Kooluve",
+    "repo":"https://github.com/Kooluve/Better-Mouse-And-Gamepad",
+    "downloadURL":"https://github.com/Kooluve/Better-Mouse-And-Gamepad/archive/refs/heads/main.zip"
+}
