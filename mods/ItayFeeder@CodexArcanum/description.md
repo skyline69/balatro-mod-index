@@ -1,1 +1,2 @@
-A movie-themed Balatro expansion that focuses on providing special shops and various contents around it
+A new alchemical expansion for Balatro!
+Use powerful alchemy cards to change the tides of blinds. 

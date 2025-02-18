@@ -1,1 +1,1 @@
-A movie-themed Balatro expansion that focuses on providing special shops and various contents around it
+Adds new blinds based on mathematical symbols.
