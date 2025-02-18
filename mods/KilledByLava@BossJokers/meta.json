@@ -1,0 +1,9 @@
+{
+    "title": "BossJokers",
+    "requires-steamodded": true,
+    "requires-talisman": false,
+    "categories": ["Joker"],
+    "author": "KilledByLava",
+    "repo":"https://github.com/KilledByLava/BossJokers",
+    "downloadURL":"https://github.com/KilledByLava/BossJokers/archive/refs/heads/main.zip"
+}

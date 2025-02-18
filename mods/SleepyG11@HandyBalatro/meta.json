@@ -1,0 +1,9 @@
+{
+    "title": "HandyBalatro",
+    "requires-steamodded": true,
+    "requires-talisman": false,
+    "categories": ["Quality of Life"],
+    "author": "SleepyG11",
+    "repo":"https://github.com/SleepyG11/HandyBalatro",
+    "downloadURL":"https://github.com/SleepyG11/HandyBalatro/archive/refs/heads/main.zip"
+}

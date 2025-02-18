@@ -1,0 +1,1 @@
+Bunco is a mod by Firch, RENREN, Peas, minichibis, J.D., Guwahavel, and Ciirulean, which seeks to expand the game in a vanilla-style fashion. It adds several new Jokers, two new suits, and various other content. 

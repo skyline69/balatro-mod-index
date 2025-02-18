@@ -1,0 +1,1 @@
+Balatro content mod. A small pack of plausible Jokers with a faithful art style. Intended to look and feel as vanilla as possible.

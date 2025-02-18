@@ -1,0 +1,9 @@
+{
+    "title": "Reverie",
+    "requires-steamodded": true,
+    "requires-talisman": false,
+    "categories": ["Content"],
+    "author": "dvrp0",
+    "repo":"https://github.com/dvrp0/reverie/",
+    "downloadURL":"https://github.com/dvrp0/reverie/archive/refs/heads/main.zip"
+}

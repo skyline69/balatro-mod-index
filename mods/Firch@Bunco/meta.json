@@ -1,0 +1,9 @@
+{
+    "title": "Bunco",
+    "requires-steamodded": true,
+    "requires-talisman": false,
+    "categories": ["Content"],
+    "author": "Firch",
+    "repo":"https://github.com/Firch/Bunco",
+    "downloadURL": "https://github.com/Firch/Bunco/archive/refs/heads/main.zip"
+}

@@ -1,0 +1,1 @@
+A balatro mod for steamodded. Adds 44+ jokers, 4 decks, 16+ colour cards and 2+ vouchers!
