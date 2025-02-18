@@ -1,9 +1,0 @@
-{
-    "title": "MoreFluff",
-    "requires-steamodded": true,
-    "requires-talisman": false,
-    "categories": ["Content"],
-    "author": "NotMario",
-    "repo":"https://github.com/notmario/MoreFluff",
-    "downloadURL": "https://github.com/notmario/MoreFluff/archive/refs/heads/main.zip"
-}
