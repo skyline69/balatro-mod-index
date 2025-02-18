@@ -1,0 +1,9 @@
+{
+    "title": "Codex Arcanum",
+    "requires-steamodded": true,
+    "requires-talisman": false,
+    "categories": ["Content"],
+    "author": "itayfeder",
+    "repo":"https://github.com/itayfeder/Codex-Arcanum",
+    "downloadURL":"https://github.com/itayfeder/Codex-Arcanum/archive/refs/heads/main.zip"
+}
