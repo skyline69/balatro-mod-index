@@ -1,0 +1,14 @@
+{
+  "title": "Balatro Goes Kino!",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content"
+  ],
+  "author": "IcyEthics",
+  "repo": "https://github.com/icyethics/Kino",
+  "downloadURL": "https://github.com/icyethics/Kino/archive/refs/heads/main.zip",
+  "folderName": "Kino",
+  "version": "1.0.0",
+  "automatic-version-check": true
+}
