@@ -1,0 +1,13 @@
+{
+  "title": "Balatro Reverse Tarots",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content",
+    "Joker"
+  ],
+  "author": "SkywardTARDIS",
+  "repo": "https://github.com/SkywardTARDIS/balatro_reverse_tarots",
+  "downloadURL": "https://github.com/SkywardTARDIS/balatro_reverse_tarots",
+  "automatic-version-check": true,
+}
