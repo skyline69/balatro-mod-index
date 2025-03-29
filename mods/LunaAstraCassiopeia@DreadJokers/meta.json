@@ -1,0 +1,12 @@
+{
+  "title": "Dread Jokers",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content"
+  ],
+  "author": "LunaAstraCassiopeia",
+  "repo": "https://github.com/LunaAstraCassiopeia/DreadJokers/",
+  "downloadURL": "https://github.com/LunaAstraCassiopeia/DreadJokers/archive/refs/heads/main.zip",
+  "automatic-version-check": true,
+}
