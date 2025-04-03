@@ -1,0 +1,12 @@
+{
+  "title": "Warpzone",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content"
+  ],
+  "author": "frangnosquest",
+  "repo": "https://github.com/frangnosquest/Warpzone/",
+  "downloadURL": "https://github.com/frangnosquest/Warpzone/archive/refs/heads/main.zip",
+  "automatic-version-check": true,
+}
