@@ -1,0 +1,12 @@
+{
+  "title": "Revos Vault",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content"
+  ],
+  "author": "Cdrvo",
+  "repo": "https://github.com/Cdrvo/Revos-Vault---Balatro-Mod/",
+  "downloadURL": "https://github.com/Cdrvo/Revos-Vault---Balatro-Mod/archive/refs/heads/main.zip",
+  "automatic-version-check": true,
+}
