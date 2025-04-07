@@ -1,1 +1,0 @@
-Add's 30 new Jokers and 19 Consumables, inspired by the Magnus Archives
