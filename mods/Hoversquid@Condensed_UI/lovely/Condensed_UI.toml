@@ -1,0 +1,439 @@
+[manifest]
+version = "1.0.0"
+priority = 0
+
+### game.lua ###
+########################
+
+[[patches]]
+[patches.copy]
+target = "game.lua"
+position = "append"
+sources = [
+    "Condensed_UI.lua",
+]
+
+########################
+
+# Blind Tracker injection
+[[patches]]
+[patches.pattern]
+target = "game.lua"
+pattern = "self.HUD:recalculate()"
+position = "after"
+payload = '''
+    self.HUD_blind_tracker = Condensed_UI{}
+    self.HUD_blind_tracker.uibox:recalculate()
+'''
+match_indent = true
+times = 1
+
+### UI_definitions.lua ###
+########################
+[[patches]]
+[patches.pattern]
+target = "functions/UI_definitions.lua"
+pattern = "function G.UIDEF.shop()"
+position = "after"
+payload='''
+    G.HUD_blind_tracker:update_tracker()
+'''
+match_indent = true
+times = 1
+
+########################
+
+# Compact Blind UI
+
+[[patches]]
+[patches.pattern]
+target = "functions/UI_definitions.lua"
+pattern = '''
+  contents.hand =
+'''
+position = "before"
+payload = '''
+    contents.round = {
+      {n=G.UIT.R, config={align = "cm"}, nodes={
+        {n=G.UIT.C, config={id = 'hud_hands',align = "cm", padding = 0.05, minw = 1.45, colour = temp_col, emboss = 0.05, r = 0.1}, nodes={
+          {n=G.UIT.R, config={align = "cm", minh = 0.33, maxw = 1.35}, nodes={
+            {n=G.UIT.T, config={text = localize('k_hud_hands'), scale = 0.85*scale, colour = G.C.UI.TEXT_LIGHT, shadow = true}},
+          }},
+          {n=G.UIT.R, config={align = "cm", r = 0.1, minw = 1.2, colour = temp_col2}, nodes={
+            {n=G.UIT.O, config={object = DynaText({string = {{ref_table = G.GAME.current_round, ref_value = 'hands_left'}}, font = G.LANGUAGES['en-us'].font, colours = {G.C.BLUE},shadow = true, rotate = true, scale = 2*scale}),id = 'hand_UI_count'}},
+          }}
+        }},
+        {n=G.UIT.C, config={minw = spacing},nodes={}},
+        {n=G.UIT.C, config={align = "cm", padding = 0.05, minw = 1.45, colour = temp_col, emboss = 0.05, r = 0.1}, nodes={
+          {n=G.UIT.R, config={align = "cm", minh = 0.33, maxw = 1.35}, nodes={
+            {n=G.UIT.T, config={text = localize('k_hud_discards'), scale = 0.85*scale, colour = G.C.UI.TEXT_LIGHT, shadow = true}},
+          }},
+          {n=G.UIT.R, config={align = "cm"}, nodes={
+            {n=G.UIT.R, config={align = "cm", r = 0.1, minw = 1.2, colour = temp_col2}, nodes={
+              {n=G.UIT.O, config={object = DynaText({string = {{ref_table = G.GAME.current_round, ref_value = 'discards_left'}}, font = G.LANGUAGES['en-us'].font, colours = {G.C.RED},shadow = true, rotate = true, scale = 2*scale}),id = 'discard_UI_count'}},
+            }}
+          }},
+        }},
+        {n=G.UIT.C, config={align = "cm", minw=2.075}, nodes={}},
+      }},
+      {n=G.UIT.R, config={minh = spacing},nodes={}},
+      {n=G.UIT.R, config={align = "cm"}, nodes={
+        {n=G.UIT.C, config={align = "cm", padding = 0.05, minw = 1.45*2 + spacing, minh = 1.275, colour = temp_col, emboss = 0.05, r = 0.1}, nodes={
+          {n=G.UIT.R, config={align = "cm"}, nodes={
+            {n=G.UIT.C, config={align = "cm", r = 0.1, minw = 1.28*2+spacing, minh = 1.2, colour = temp_col2}, nodes={
+              {n=G.UIT.O, config={object = DynaText({string = {{ref_table = G.GAME, ref_value = 'dollars', prefix = localize('$')}}, maxw = 1.35, colours = {G.C.MONEY}, font = G.LANGUAGES['en-us'].font, shadow = true,spacing = 2, bump = true, scale = 2.2*scale}), id = 'dollar_text_UI'}}
+          }},
+          }},
+        }},
+        {n=G.UIT.C, config={align = "cm", minw=2.03}, nodes={}},
+      }},
+      {n=G.UIT.R, config={minh = spacing*14},nodes={}},
+      {n=G.UIT.R, config={align = "cm"}, nodes={
+        {n=G.UIT.C, config={id = 'hud_ante',align = "cm", padding = 0.05, minw = 1.45, minh = 1, colour = temp_col, emboss = 0.05, r = 0.1}, nodes={
+          {n=G.UIT.R, config={align = "cm", minh = 0.33, maxw = 1.35}, nodes={
+            {n=G.UIT.T, config={text = localize('k_ante'), scale = 0.85*scale, colour = G.C.UI.TEXT_LIGHT, shadow = true}},
+          }},
+          {n=G.UIT.R, config={align = "cm", r = 0.1, minw = 1.2, colour = temp_col2}, nodes={
+            {n=G.UIT.O, config={object = DynaText({string = {{ref_table = G.GAME.round_resets, ref_value = 'ante'}}, colours = {G.C.IMPORTANT},shadow = true, font = G.LANGUAGES['en-us'].font, scale = 2*scale}),id = 'ante_UI_count'}},
+            {n=G.UIT.T, config={text = " ", scale = 0.3*scale}},
+            {n=G.UIT.T, config={text = "/ ", scale = 0.7*scale, colour = G.C.WHITE, shadow = true}},
+            {n=G.UIT.T, config={ref_table = G.GAME, ref_value='win_ante', scale = scale, colour = G.C.WHITE, shadow = true}}
+          }},
+        }},
+        {n=G.UIT.C, config={minw = spacing},nodes={}},
+        {n=G.UIT.C, config={align = "cm", padding = 0.05, minw = 1.45, minh = 1, colour = temp_col, emboss = 0.05, r = 0.1}, nodes={
+          {n=G.UIT.R, config={align = "cm", maxw = 1.35}, nodes={
+            {n=G.UIT.T, config={text = localize('k_round'), minh = 0.33, scale = 0.85*scale, colour = G.C.UI.TEXT_LIGHT, shadow = true}},
+          }},
+          {n=G.UIT.R, config={align = "cm", r = 0.1, minw = 1.2, colour = temp_col2, id = 'row_round_text'}, nodes={
+            {n=G.UIT.O, config={object = DynaText({string = {{ref_table = G.GAME, ref_value = 'round'}}, colours = {G.C.IMPORTANT},shadow = true, scale = 2*scale}),id = 'round_UI_count'}},
+          }},
+        }},
+        {n=G.UIT.C, config={minw = spacing},nodes={}},
+
+        --blind tracker
+        {n=G.UIT.C, config={align="cm",minw =2.075,colour=temp_col,emboss = 0.05,r=0.1,minh=1}, nodes={
+          {n=G.UIT.R, config={align = "cm", maxw = 1.35}, nodes={
+            {n=G.UIT.T, config={text = 'Blinds', minh = 0.33, scale = 0.85*scale, colour = G.C.UI.TEXT_LIGHT, shadow = true}}
+          }},
+          {n=G.UIT.R, config={align = "cm"}, nodes={
+            {n=G.UIT.C, config={id='blind_tracker',align="cm",colour=temp_col2,emboss = 0.05,r=0.1,minw=2,minh=0.725}, nodes={}}
+          }}
+        }}
+      }},
+    }
+'''
+match_indent = true
+times = 1
+
+
+### state_events.lua ###
+########################
+
+[[patches]]
+[patches.pattern]
+target = "functions/state_events.lua"
+pattern = "G.GAME.blind:set_blind(G.GAME.round_resets.blind)"
+position = "after"
+payload = "G.HUD_blind_tracker:update_tracker()"
+match_indent = true
+times = 1
+
+### button_callbacks.lua ###
+########################
+
+[[patches]]
+[patches.pattern]
+target = "functions/button_callbacks.lua"
+pattern = "G.GAME.round_resets.blind_choices.Boss = get_new_boss()"
+position = "after"
+payload = "G.HUD_blind_tracker:update_tracker()"
+match_indent = true
+times = 2
+
+########################
+
+[[patches]]
+[patches.pattern]
+target = "functions/button_callbacks.lua"
+pattern = "G.GAME.blind_on_deck = skip_to"
+position = "after"
+payload = "G.HUD_blind_tracker:update_tracker()"
+match_indent = true
+times = 1
+
+########################
+
+# Moving blind selects to the left slightly
+[[patches]]
+[patches.pattern]
+target = "game.lua"
+pattern = '''config = {align="bmi", offset = {x=0,y=G.ROOM.T.y + 29},major = G.hand, bond = 'Weak'}'''
+position = "at"
+payload='''
+config = {align="bmi", offset = {x=-0.25,y=G.ROOM.T.y + 29},major = G.hand, bond = 'Weak'}
+'''
+match_indent = true
+times = 1
+
+########################
+
+# Moving blind selects to the left slightly
+[[patches]]
+[patches.pattern]
+target = "game.lua"
+pattern = "G.blind_select.alignment.offset.x = 0"
+position = "at"
+payload="G.blind_select.alignment.offset.x = -0.25"
+match_indent = true
+times = 1
+
+### UI_definitions ###
+########################
+
+# Horizontal tag adding
+
+[[patches]]
+[patches.pattern]
+target = "functions/UI_definitions.lua"
+pattern = '''
+function add_tag(_tag)
+  G.HUD_tags = G.HUD_tags or {}
+  local tag_sprite_ui = _tag:generate_UI()
+  G.HUD_tags[#G.HUD_tags+1] = UIBox{
+      definition = {n=G.UIT.ROOT, config={align = "cm",padding = 0.05, colour = G.C.CLEAR}, nodes={
+        tag_sprite_ui
+      }},
+      config = {
+        align = G.HUD_tags[1] and 'tm' or 'bri',
+        offset = G.HUD_tags[1] and {x=0,y=0} or {x=0.7,y=0},
+        major = G.HUD_tags[1] and G.HUD_tags[#G.HUD_tags] or G.ROOM_ATTACH}
+  }
+'''
+position = "at"
+payload='''
+function add_tag(_tag, tag_size, info_offset, tag_offset)
+  G.HUD_tags = G.HUD_tags or {}
+  tag_offset = tag_offset or {x=-15.25,y=-11.4925}
+  info_offset = info_offset or {x=-0.1,y=1.25}
+  tag_size = tag_size or 0.6225
+  local tag_sprite_ui = _tag:generate_UI(tag_size, info_offset)
+  
+  G.HUD_tags[#G.HUD_tags+1] = UIBox{
+      definition = {n=G.UIT.ROOT, config={align = "cm",padding = 0.05, colour = G.C.CLEAR}, nodes={
+        tag_sprite_ui
+      }},
+      config = {
+        align = G.HUD_tags[1] and 'rm' or 'bri',
+        offset = G.HUD_tags[1] and {x=0,y=0} or tag_offset,
+        major = G.HUD_tags[1] and G.HUD_tags[#G.HUD_tags] or G.ROOM_ATTACH}
+  }
+'''
+match_indent = true
+times = 1
+
+########################
+
+# Compact Left-side blind UI
+
+[[patches]]
+[patches.pattern]
+target = "functions/UI_definitions.lua"
+pattern = "local spacing = 0.13"
+position = "at"
+payload = "local spacing = 0.025"
+match_indent = false
+times = 1
+
+
+########################
+
+# Adjusts button layout
+
+[[patches]]
+[patches.pattern]
+target = "functions/UI_definitions.lua"
+pattern = '''
+    contents.buttons = {
+      {n=G.UIT.C, config={align = "cm", r=0.1, colour = G.C.CLEAR, shadow = true, id = 'button_area', padding = 0.2}, nodes={
+          {n=G.UIT.R, config={id = 'run_info_button', align = "cm", minh = 1.75, minw = 1.5,padding = 0.05, r = 0.1, hover = true, colour = G.C.RED, button = "run_info", shadow = true}, nodes={
+            {n=G.UIT.R, config={align = "cm", padding = 0, maxw = 1.4}, nodes={
+              {n=G.UIT.T, config={text = localize('b_run_info_1'), scale = 1.2*scale, colour = G.C.UI.TEXT_LIGHT, shadow = true}}
+            }},
+            {n=G.UIT.R, config={align = "cm", padding = 0, maxw = 1.4}, nodes={
+              {n=G.UIT.T, config={text = localize('b_run_info_2'), scale = 1*scale, colour = G.C.UI.TEXT_LIGHT, shadow = true, focus_args = {button = G.F_GUIDE and 'guide' or 'back', orientation = 'bm'}, func = 'set_button_pip'}}
+            }}
+          }},
+          {n=G.UIT.R, config={align = "cm", minh = 1.75, minw = 1.5,padding = 0.05, r = 0.1, hover = true, colour = G.C.ORANGE, button = "options", shadow = true}, nodes={
+            {n=G.UIT.C, config={align = "cm", maxw = 1.4, focus_args = {button = 'start', orientation = 'bm'}, func = 'set_button_pip'}, nodes={
+              {n=G.UIT.T, config={text = localize('b_options'), scale = scale, colour = G.C.UI.TEXT_LIGHT, shadow = true}}
+            }},
+          }}
+        }}
+    }
+'''
+position = "at"
+payload='''
+ contents.buttons = {
+      {n=G.UIT.C, config={align = "cm", r=0.1, colour = G.C.CLEAR, shadow = true, id = 'button_area', padding = 0}, nodes={
+        {n=G.UIT.C, config={align = "cm", minh = 0.65, minw = 2.25, r = 0.1, hover = true, colour = G.C.ORANGE, button = "options", shadow = true}, nodes={
+          {n=G.UIT.C, config={align = "cm", maxw = 1.4, focus_args = {button = 'start', orientation = 'bm'}, func = 'set_button_pip'}, nodes={
+            {n=G.UIT.T, config={text = localize('b_options'), scale = scale, colour = G.C.UI.TEXT_LIGHT, shadow = true}}
+          }},
+        }},
+        {n=G.UIT.C, config={align = "cm", minh = 0.65, minw = 0.275}},
+        {n=G.UIT.C, config={id = 'run_info_button', align = "cm", minh = 0.65, minw = 2.25, r = 0.1, hover = true, colour = G.C.RED, button = "run_info", shadow = true}, nodes={
+            {n=G.UIT.R, config={align = "cm", padding = 0, maxw = 1.4}, nodes={
+              {n=G.UIT.T, config={text = localize('b_run_info_1'), scale = 1.2*scale, colour = G.C.UI.TEXT_LIGHT, shadow = true}}
+            }},
+            {n=G.UIT.R, config={align = "cm", padding = 0, maxw = 1.4}, nodes={
+              {n=G.UIT.T, config={text = localize('b_run_info_2'), scale = 1*scale, colour = G.C.UI.TEXT_LIGHT, shadow = true, focus_args = {button = G.F_GUIDE and 'guide' or 'back', orientation = 'bm'}, func = 'set_button_pip'}}
+            }}
+          }},
+        }}
+    }
+'''
+match_indent = true
+times = 1
+
+########################
+
+# Adjusts HUD layout
+
+[[patches]]
+[patches.pattern]
+target = "functions/UI_definitions.lua"
+pattern = '''
+    return {n=G.UIT.ROOT, config = {align = "cm", padding = 0.03, colour = G.C.UI.TRANSPARENT_DARK}, nodes={
+      {n=G.UIT.R, config = {align = "cm", padding= 0.05, colour = G.C.DYN_UI.MAIN, r=0.1}, nodes={
+        {n=G.UIT.R, config={align = "cm", colour = G.C.DYN_UI.BOSS_DARK, r=0.1, minh = 30, padding = 0.08}, nodes={
+          {n=G.UIT.R, config={align = "cm", minh = 0.3}, nodes={}},
+          {n=G.UIT.R, config={align = "cm", id = 'row_blind', minw = 1, minh = 3.75}, nodes={
+              {n=G.UIT.B, config={w=0, h=3.64, id = 'row_blind_bottom'}, nodes={}}
+          }},
+          contents.dollars_chips,
+          contents.hand,
+          {n=G.UIT.R, config={align = "cm", id = 'row_round'}, nodes={
+            {n=G.UIT.C, config={align = "cm"}, nodes=contents.buttons},
+            {n=G.UIT.C, config={align = "cm"}, nodes=contents.round}
+          }},
+        }}
+      }}
+    }}
+'''
+position = "at"
+payload='''
+    return {n=G.UIT.ROOT, config = {align = "cm", padding = -0.815,colour = G.C.UI.TRANSPARENT_DARK}, nodes={
+      {n=G.UIT.R, config = {align = "cm", padding= 0.05, colour = G.C.DYN_UI.MAIN, r=0.1}, nodes={
+        {n=G.UIT.R, config={align = "cm", colour = G.C.DYN_UI.BOSS_DARK, r=0.1, minh = 30, padding = 0.08}, nodes={
+          {n=G.UIT.R, config={align = "cm", minh = 0.3}, nodes={}},
+          {n=G.UIT.R, config={align = "cm", id = 'row_blind', minw = 1, minh = 3.75}, nodes={
+            {n=G.UIT.B, config={w=0, h=3.64, id = 'row_blind_bottom'}, nodes={}}
+          }},
+          contents.dollars_chips,
+          contents.hand,
+          {n=G.UIT.R, config={align = "cm", id = 'row_round'}, nodes={
+            {n=G.UIT.R, config={align = "cm"}, nodes=contents.round},
+            
+          }},
+          {n=G.UIT.R, config={align = "cm"}, nodes={
+            {n=G.UIT.C, config={align = "cm", minw=1.55}, nodes=contents.buttons},
+          }},
+        }}
+      }}
+    }}
+'''
+match_indent = false
+times = 1
+
+
+### tag.lua ###
+########################
+
+# Updates generate_UI for custom sizes
+
+[[patches]]
+[patches.pattern]
+target = "tag.lua"
+pattern = "function Tag:generate_UI(_size)"
+position = "at"
+payload='''
+function Tag:generate_UI(_size, tag_offset)
+    tag_offset = tag_offset or {x=-0.1,y=0}
+'''
+match_indent = true
+times = 1
+ ###
+[[patches]]
+[patches.pattern]
+target = "tag.lua"
+pattern = "_self.config.h_popup_config ={align = 'cl', offset = {x=-0.1,y=0},parent = _self}"
+position = "at"
+payload='''
+function Tag:generate_UI(_size, tag_offset)
+    _self.config.h_popup_config ={align = 'cl', offset =tag_offset,parent = _self}
+'''
+match_indent = true
+times = 1
+
+[[patches]]
+[patches.pattern]
+target = "tag.lua"
+pattern = "offset = {x=0.7,y=0},"
+position = "at"
+payload='''
+offset = {x=-15.25,y=-11.4925},
+'''
+match_indent = true
+times = 1
+
+########################
+
+# Adjusts tag offset
+
+[[patches]]
+[patches.pattern]
+target = "tag.lua"
+pattern = "_self.config.h_popup_config ={align = 'cl', offset = {x=-0.1,y=0},parent = _self}"
+position = "at"
+payload='''
+function Tag:generate_UI(_size, tag_offset)
+    _self.config.h_popup_config ={align = "cl", offset =tag_offset,parent = _self}
+'''
+match_indent = true
+times = 1
+
+### common_events.lua ###
+########################
+
+[[patches]]
+[patches.pattern]
+target = "functions/common_events.lua"
+pattern = "G.hand.T.x = G.TILE_W - G.hand.T.w - 2.85"
+position = "at"
+payload = "G.hand.T.x = G.TILE_W - G.hand.T.w - 3.5"
+match_indent = true
+times = 1
+
+########################
+
+[[patches]]
+[patches.pattern]
+target = "functions/common_events.lua"
+pattern = '''
+        G.deck.T.x = G.TILE_W - G.deck.T.w - 0.5
+        G.deck.T.y = G.TILE_H - G.deck.T.h
+
+        G.discard.T.x = G.jokers.T.x + G.jokers.T.w/2 + 0.3 + 15
+        G.discard.T.y = 4.2
+'''
+position = "at"
+payload = '''
+        G.deck.T.x = G.TILE_W - G.deck.T.w - 16.225
+        G.deck.T.y = G.TILE_H - G.deck.T.h - 1.725
+
+        G.discard.T.x = G.TILE_W - G.deck.T.w - 15
+        G.discard.T.y = G.TILE_H - G.deck.T.h + 5
+'''
+match_indent = true
+times = 1
