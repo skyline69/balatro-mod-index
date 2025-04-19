@@ -1,0 +1,14 @@
+{
+    "id": "Condensed_UI",
+    "name": "Condensed UI",
+    "author": ["Hoversquid"],
+    "description": "Pushes all the UI to the left and adds a Blind Tracker for the Ante.",
+    "prefix": "CondensedUI",
+    "main_file": "Condensed_UI.lua",
+    "priority": 3,
+    "badge_colour": "c7638f",
+    "dependencies": [
+        "Steamodded (>=1.*)"
+    ],
+    "version": "1.0.0"
+}
