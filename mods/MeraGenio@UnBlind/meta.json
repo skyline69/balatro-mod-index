@@ -5,9 +5,10 @@
   "categories": [
     "Quality of Life"
   ],
-  "author": "MeraGenio",
+  "author": "Soap",
   "repo": "https://github.com/MeraGenio/UnBlind",
-  "downloadURL": "https://github.com/MeraGenio/UnBlind/archive/refs/tags/1.0.0.zip",
+  "downloadURL": "https://github.com/MeraGenio/UnBlind/releases/latest",
   "automatic-version-check": true,
+  "folderName": "UnBlind",
   "version": "1.0.0"
 }
