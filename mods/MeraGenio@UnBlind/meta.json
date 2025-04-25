@@ -2,9 +2,7 @@
   "title": "UnBlind",
   "requires-steamodded": true,
   "requires-talisman": false,
-  "categories": [
-    "Quality of Life"
-  ],
+  "categories": [ "Quality of Life" ],
   "author": "Soap",
   "repo": "https://github.com/MeraGenio/UnBlind",
   "downloadURL": "https://github.com/MeraGenio/UnBlind/releases/latest",
