@@ -36,13 +36,17 @@
       "type": "string",
       "pattern": "^[^<>:\"/\\|?*]+$"
     },
-	"version": {
+    "version": {
       "type": "string"
     },
-	"automatic-version-check": {
+    "automatic-version-check": {
       "type": "boolean"
+    },
+    "last-updated": {
+      "type": "integer",
+      "minimum": 0,
+      "exclusiveMaximum": 18446744073709551616
     }
   },
   "required": ["title", "requires-steamodded", "requires-talisman", "categories", "author", "repo", "downloadURL"]
 }
-
