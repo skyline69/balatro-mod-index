@@ -1,0 +1,14 @@
+{
+  "title": "AMY's Waifu",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Resource Packs"
+  ],
+  "author": "AMY",
+  "repo": "https://github.com/mikamiamy/AMY-s-Balatro-texturepack",
+  "downloadURL": "https://github.com/mikamiamy/AMY-s-Balatro-texturepack/archive/refs/heads/main.zip",
+  "folderName": "AMY's Waifu",
+  "automatic-version-check": true,
+  "version": "1.4.1"
+}
