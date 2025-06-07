@@ -3,11 +3,12 @@
   "requires-steamodded": false,
   "requires-talisman": false,
   "categories": [
-    "Technical"
+    "Technical",
+    "API"
   ],
   "author": "Steamodded",
   "repo": "https://github.com/Steamodded/smods",
-  "downloadURL": "https://github.com/Steamodded/smods/archive/refs/heads/main.zip",
+  "downloadURL": "https://github.com/Steamodded/smods/archive/refs/tags/1.0.0-beta-0530b.zip",
   "automatic-version-check": true,
-  "version": "2662552"
+  "version": "1.0.0-beta-0530b"
 }
