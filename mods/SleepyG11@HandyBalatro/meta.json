@@ -7,7 +7,7 @@
   ],
   "author": "SleepyG11",
   "repo": "https://github.com/SleepyG11/HandyBalatro",
-  "downloadURL": "https://github.com/SleepyG11/HandyBalatro/archive/refs/heads/main.zip",
+  "downloadURL": "https://github.com/SleepyG11/HandyBalatro/releases/download/v1.5.0/Handy-v1.5.0.zip",
   "automatic-version-check": true,
-  "version": "edc5735"
+  "version": "v1.5.0"
 }
