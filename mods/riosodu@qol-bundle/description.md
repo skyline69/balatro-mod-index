@@ -11,6 +11,7 @@ This mod provides several small adjustments to gameplay mechanics to enhance the
 - **Easier Wheel of Fortune**: Configurable ease for the Wheel of Fortune tarot card. Adjust the chance of hitting the desired outcome (1 = 100% chance, 4 = vanilla 25% chance). Default is 3.
 - **Wildcard Fix**: Prevents Wildcard and Smeared Joker from being negatively affected by suit debuffs when they could match a non-debuffed suit.
 - **Increased Shop Size**: Increases the base shop size by 1 (default is 2). This helps offset the dilution of the shop pool caused by other mods adding new cards and items.
+- **Unweighted Base Editions**: Makes Foil, Holo, and Polychrome editions equally likely when rolled, while preserving the original probability of Negative editions.
 
 ## Installation
 
