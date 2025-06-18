@@ -1,0 +1,15 @@
+{
+  "title": "Reddit Bonanza",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content",
+    "Joker"
+  ],
+  "author": "ItsGraphax, mindoftony",
+  "repo": "https://github.com/itsgraphax/reddit-bonanza",
+  "downloadURL": "https://github.com/itsgraphax/reddit-bonanza/releases/latest/download/mod.zip",
+  "folderName": "RedditBonanza",
+  "version": "v1.2.0",
+  "automatic-version-check": true
+}

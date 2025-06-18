@@ -9,8 +9,8 @@
   ],
   "author": "Firch",
   "repo": "https://github.com/jumbocarrot0/Bunco",
-  "downloadURL": "https://github.com/jumbocarrot0/Bunco/releases/download/5.2-JumboFork/Bunco.5.2.JumboFork.zip",
+  "downloadURL": "https://github.com/jumbocarrot0/Bunco/archive/refs/tags/5.4.1-JumboFork.zip",
   "folderName": "Bunco",
-  "version": "5.1",
-  "automatic-version-check": false
+  "version": "5.4.1-JumboFork",
+  "automatic-version-check": true
 }
