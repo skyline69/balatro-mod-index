@@ -1,0 +1,16 @@
+{
+  "title": "Brainstorm",
+  "requires-steamodded": false,
+  "requires-talisman": false,
+  "categories": [
+    "Content",
+    "Technical",
+    "Miscellaneous"
+  ],
+  "author": "OceanRamen",
+  "repo": "https://github.com/OceanRamen/Brainstorm/",
+  "downloadURL": "https://github.com/OceanRamen/Brainstorm/archive/refs/tags/v2.0.0-alpha-1.zip",
+  "folderName": "Brainstorm",
+  "version": "v2.0.0-alpha-1",
+  "automatic-version-check": false
+}
