@@ -1,0 +1,14 @@
+{
+  "title": "Stickers Always Shown",
+  "requires-steamodded": false,
+  "requires-talisman": true,
+  "categories": [
+    "Quality of Life"
+  ],
+  "author": "SirMaiquis",
+  "repo": "https://github.com/SirMaiquis/Balatro-Stickers-Always-Shown",
+  "downloadURL": "https://github.com/SirMaiquis/Balatro-Stickers-Always-Shown/archive/refs/heads/main.zip",
+  "folderName": "Balatro-Stickers-Always-Shown",
+  "automatic-version-check": true,
+  "version": "1.4.0"
+}
