@@ -52,8 +52,11 @@ This file stores essential metadata in JSON format. **Make sure you adhere to th
 - **version**: The version number of the mod files available at `downloadURL`.
 - *folderName*: (*Optional*) The name for the mod's install folder. This must be **unique**, and cannot contain characters `<` `>` `:` `"` `/` `\` `|` `?` `*`
 - *automatic-version-check*: (*Optional* but **recommended**) Set to `true` to let the Index automatically update the `version` field.
-    - Updates happen once every hour, by checking either your mod's latest Release **or** latest commit, depending on the `downloadURL`.
-    - Enable this option **only** if your `downloadURL` points to an automatically updating source, using a link to [releases/latest](https://docs.github.com/en/repositories/releasing-projects-on-github/linking-to-releases) (recommended), or a link to the [latest commit (HEAD)](https://docs.github.com/en/repositories/working-with-files/using-files/downloading-source-code-archives#source-code-archive-urls).
+    - Updates happen once every hour, by checking either your mod's latest Release, latest commit, or specific release tag, depending on the `downloadURL`.
+    - Enable this option **only** if your `downloadURL` points to an automatically updating source:
+        - **Latest release** (recommended): Using a link to [releases/latest](https://docs.github.com/en/repositories/releasing-projects-on-github/linking-to-releases) 
+        - **Latest commit**: Using a link to the [latest commit (HEAD)](https://docs.github.com/en/repositories/working-with-files/using-files/downloading-source-code-archives#source-code-archive-urls)
+        - **Permanent release tag**: Using a link to a specific release tag where you upload new files: `https://github.com/author/repo/releases/tag/my-release-tag`. **(This will always use the latest uploaded file)**.
 
 ### 3. thumbnail.jpg (Optional)
 If included, this image will appear alongside your mod in the index. Maximum and recommended size is 1920x1080 pixels.
