@@ -1,0 +1,15 @@
+{
+  "title": "Grab Bag",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content",
+    "Joker"
+  ],
+  "author": "Th30ne",
+  "repo": "https://github.com/thefaketh30ne/grab-bag",
+  "downloadURL": "https://github.com/thefaketh30ne/grab-bag/archive/refs/heads/main.zip",
+  "folderName": "GrabBag",
+  "automatic-version-check": true,
+  "version": "6467c19"
+}
