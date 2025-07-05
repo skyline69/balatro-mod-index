@@ -49,6 +49,9 @@
     },
     "automatic-version-check": {
       "type": "boolean"
+    },
+    "fixed-release-tag-updates": {
+      "type": "boolean"
     }
   },
   "required": [
@@ -58,7 +61,94 @@
     "categories",
     "author",
     "repo",
-    "downloadURL",
-    "version"
+    "downloadURL"
+  ],
+  "allOf": [
+    {
+      "$comment": "This rule prevents accidental freezing of updates",
+      "not": {
+        "allOf": [
+          {
+            "$comment": "'automatic-version-check' is true",
+            "properties": {
+              "automatic-version-check": {
+                "const": true
+              }
+            },
+            "required": [
+              "automatic-version-check"
+            ]
+          },
+          {
+            "$comment": "'downloadURL' points to a specific release page or asset",
+            "properties": {
+              "downloadURL": {
+                "pattern": "^https?://github\\.com/[^/]+/[^/]+/releases/(tag/[^/]+|download/[^/]+/.+)$"
+              }
+            },
+            "required": [
+              "downloadURL"
+            ]
+          },
+          {
+            "$comment": "'fixed-release-tag-updates' is NOT true (i.e., it's false, or it's completely missing)",
+            "not": {
+              "properties": {
+                "fixed-release-tag-updates": {
+                  "const": true
+                }
+              },
+              "required": [
+                "fixed-release-tag-updates"
+              ]
+            }
+          }
+        ]
+      },
+      "description": "When 'downloadURL' points to a specific GitHub release tag/asset AND 'automatic-version-check' is true, 'fixed-release-tag-updates' must also be true. This prevents accidental update freezing."
+    },
+    {
+      "$comment": "This rule checks the value of 'fixed-release-tag-updates' and guarantees consistency",
+      "if": {
+        "properties": {
+          "fixed-release-tag-updates": {
+            "const": true
+          }
+        },
+        "required": [
+          "fixed-release-tag-updates"
+        ]
+      },
+      "then": {
+        "$comment": "Conditions when 'fixed-release-tag-updates' is true)",
+        "not": {
+          "required": [
+            "version"
+          ],
+          "description": "When 'fixed-release-tag-updates' is true, the 'version' field must NOT be present as the version is extracted automatically."
+        },
+        "properties": {
+          "automatic-version-check": {
+            "const": true,
+            "description": "'automatic-version-check' must be true when 'fixed-release-tag-updates' is true."
+          },
+          "downloadURL": {
+            "pattern": "^https?://github\\.com/[^/]+/[^/]+/releases/(tag/[^/]+|download/[^/]+/.+)$",
+            "description": "When 'fixed-release-tag-updates' is true, 'downloadURL' must point to a specific GitHub release tag (e.g., '/releases/tag/v1.0.0') or a specific release asset (e.g., '/releases/download/v1.0.0/asset.zip'), NOT a branch head or latest release URL."
+          }
+        },
+        "required": [
+          "automatic-version-check"
+        ],
+        "description": "When 'fixed-release-tag-updates' is true: 'version' must be absent, 'automatic-version-check' must be true, and 'downloadURL' must point to a specific release tag or asset."
+      },
+      "else": {
+        "$comment": "Conditions when 'fixed-release-tag-updates' is false or absent",
+        "required": [
+          "version"
+        ],
+        "description": "When 'fixed-release-tag-updates' is false or absent, the 'version' field is required."
+      }
+    }
   ]
 }
