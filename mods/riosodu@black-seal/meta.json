@@ -7,9 +7,9 @@
   ],
   "author": "Riosodu",
   "repo": "https://github.com/gfreitash/balatro-mods",
-  "downloadURL": "https://github.com/gfreitash/balatro-mods/releases/download/black-seal__latest/black-seal.zip",
+  "downloadURL": "https://github.com/gfreitash/balatro-mods/releases/download/black-seal__v3.2.10/black-seal.zip",
   "folderName": "black-seal",
   "automatic-version-check": true,
   "fixed-release-tag-updates": true,
-  "version": "20250624_015936"
+  "version": "3.2.10"
 }
