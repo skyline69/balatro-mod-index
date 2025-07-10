@@ -5,7 +5,7 @@
   "categories": ["Resource Packs"],
   "author": "LazyTurtle33",
   "repo": "https://github.com/TheLazyTurtle33/Smokey",
-  "downloadURL": "https://github.com/TheLazyTurtle33/Smokey/releases/download/release/Smokey.zip",
+  "downloadURL": "https://github.com/TheLazyTurtle33/Smokey/releases/latest/download/Smokey.zip",
   "folderName": "Smokey",
   "version": "1.0.0",
   "automatic-version-check": true
