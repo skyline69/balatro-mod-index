@@ -15,6 +15,8 @@ Currently includes:
 
 and more to come!
 
+Check additions at https://cloudzxiii.github.io/
+
 # Cross Mod
 Currently adds content for:
 - [JokerDisplay](https://github.com/nh6574/JokerDisplay) 
