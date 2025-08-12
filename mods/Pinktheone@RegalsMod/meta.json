@@ -1,0 +1,12 @@
+{
+  "title": "Regals Mod",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": ["Content", "Joker"],
+  "author": "Pinktheone",
+  "repo": "https://github.com/mpa-LHutchinson/Regals-Mod",
+  "downloadURL": "https://github.com/mpa-LHutchinson/Regals-Mod/archive/refs/heads/main.zip",
+  "folderName": "RegalsMod",
+  "version": "1.0.0",
+  "automatic-version-check": true
+}
