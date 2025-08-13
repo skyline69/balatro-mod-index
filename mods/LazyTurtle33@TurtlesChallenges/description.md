@@ -6,6 +6,7 @@ AAAA (but fuck you) - same as AAAA but harder
 Empty Orbit - no leveling up hands
 NOPE - 1 in 4 chance for any action to NOT HAPPEN
 Stock Market - Instead of blind rewards, earn from -75% to 150% of money
+Celestial Fusion - on plasma deck, no scoring jokers
 
 All challenges has been beaten by ether me or a play tester :D
 
