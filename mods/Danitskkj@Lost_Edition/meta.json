@@ -9,9 +9,8 @@
   ],
   "author": "ClicknoPaulo & Danitskkj",
   "repo": "https://github.com/Danitskkj/Lost_Edition",
-  "downloadURL": "https://github.com/Danitskkj/Lost_Edition/releases/latest/download/Lost_Edition.rar",
+  "downloadURL": "https://github.com/Danitskkj/Lost_Edition/archive/refs/heads/main.zip",
   "folderName": "Lost_Edition",
   "automatic-version-check": true,
-  "fixed-release-tag-updates": true,
-  "version": "1.0"
+  "version": "6a0526b"
 }
