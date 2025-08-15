@@ -2,11 +2,13 @@
   "title": "Fears & Phobias",
   "requires-steamodded": true,
   "requires-talisman": false,
-  "categories": ["Content"],
+  "categories": [
+    "Content"
+  ],
   "author": "Stellr",
   "repo": "https://github.com/StellrVR/fears-phobias",
   "downloadURL": "https://github.com/StellrVR/fears-phobias/releases/latest/download/fearsphobias.zip",
   "folderName": "FearsPhobias",
-  "version": "1.0.0",
+  "version": "v1.1.1",
   "automatic-version-check": true
 }
