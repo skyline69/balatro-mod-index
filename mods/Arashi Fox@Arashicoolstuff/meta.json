@@ -5,7 +5,7 @@
   "categories": ["Joker"],
   "author": "Arashi Fox",
   "repo": "https://github.com/ArashiFox/Arashicoolstuff",
-  "downloadURL": "https://github.com/ArashiFox/Arashicoolstuff/releases/latest/download/coolstuff.zip",
+  "downloadURL": "https://github.com/ArashiFox/Arashicoolstuff/archive/refs/heads/main.zip",
   "folderName": "Arashicoolstuff",
   "version": "2.0.0",
   "automatic-version-check": true
