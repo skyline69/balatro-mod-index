@@ -8,5 +8,5 @@
   "downloadURL": "https://github.com/SimplyRan/IsraeliStreamerMod/releases/download/v1/IsraelStreamerMod.zip",
   "folderName": "IsraeliStreamerMod",
   "version": "1.0.0",
-  "automatic-version-check": true
+  "automatic-version-check": false
 }
