@@ -7,7 +7,7 @@
   ],
   "author": "wingedcatgirl",
   "repo": "https://github.com/wingedcatgirl/MintysSillyMod",
-  "downloadURL": "https://github.com/wingedcatgirl/MintysSillyMod/releases/download/v0.6.2/MintysSillyMod-0.6.2.zip",
+  "downloadURL": "https://github.com/wingedcatgirl/MintysSillyMod/archive/refs/tags/v0.7.3.zip",
   "automatic-version-check": false,
-  "version": "v0.6.2"
+  "version": "v0.7.3"
 }
