@@ -3,7 +3,7 @@
   "requires-steamodded": true,
   "requires-talisman": true,
   "categories": [
-    "Joker"
+    "Content"
   ],
   "author": "Dogg Fly",
   "repo": "https://github.com/Dogg-Fly/Another-Stupid-Balatro-Mod",
@@ -11,4 +11,6 @@
   "folderName": "anotherstupidbalatromod",
   "version": "v3.3",
   "automatic-version-check": true
+
+
 }
