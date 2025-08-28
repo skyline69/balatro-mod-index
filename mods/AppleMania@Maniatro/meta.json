@@ -5,7 +5,7 @@
   "categories": ["Content"],
   "author": "Applemania",
   "repo": "https://github.com/AppleMania30/Maniatro",
-  "downloadURL": "https://github.com/AppleMania30/Maniatro/releases/download/3.0.0/Maniatro.rar",
+  "downloadURL": "https://github.com/AppleMania30/Maniatro/archive/refs/tags/3.0.0.zip",
   "folderName": "Maniatro",
   "version": "3.0.0",
   "automatic-version-check": true
