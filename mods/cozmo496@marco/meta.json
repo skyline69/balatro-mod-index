@@ -1,0 +1,13 @@
+{
+  "title": "Balajeweled",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Resource Packs"
+  ],
+  "author": "ARandomTank7",
+  "repo": "https://github.com/ARandomTank7/Balajeweled",
+  "downloadURL": "https://github.com/ARandomTank7/Balajeweled/releases/latest/download/Balajeweled.zip",
+  "automatic-version-check": true,
+  "version": "v0.1.3a"
+}
