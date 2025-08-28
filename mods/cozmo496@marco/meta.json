@@ -1,0 +1,13 @@
+{
+  "title": "Marco",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Resource Packs"
+  ],
+  "author": "Cozmo496",
+  "repo": "https://github.com/Cozmo496/marco",
+  "downloadURL": "https://github.com/Cozmo496/marco/archive/refs/tags/marco4monthsold.zip",
+  "automatic-version-check": true,
+  "version": "marco4monthsold"
+}
