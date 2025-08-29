@@ -7,16 +7,21 @@
 
 # Features
 - 24 Deck Skins
-- 83 Jokers
+- 84 Jokers
 - 30 Blinds (Dates)
 - 4 Seals
 - 4 Suits
-- 1 Deck Back
+- 7 Deck Backs
 - 2 Vouchers
 - 3 Tarots
 - 2 Planets
 - 1 Spectral
 - 1 Enhancement
+
+# Notes:
+
+This mod does **NOT** require [Malverk](https://github.com/Eremel/Malverk), but it is compatible with it and will add itself as a texture pack if [Malverk](https://github.com/Eremel/Malverk) is also installed.
+
 # Credits
 Textures modified from textures in **[Huniepop 2: Double Date](https://huniepop2doubledate.com/)** and **[Huniecam Studio](https://huniecamstudio.com/)** are used with permission from the developer. These textures are owned by **[Huniepot](https://huniepot.com/)**.
 

@@ -1,0 +1,15 @@
+{
+  "title": "TagManager",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Quality of Life",
+    "Miscellaneous"
+  ],
+  "author": "SirMaiquis",
+  "repo": "https://github.com/SirMaiquis/Balatro-TagManager",
+  "downloadURL": "https://github.com/SirMaiquis/Balatro-TagManager/releases/latest/download/TagManager.zip",
+  "folderName": "TagManager",
+  "automatic-version-check": true,
+  "version": "v1.2.0"
+}

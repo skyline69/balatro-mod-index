@@ -1,0 +1,1 @@
+Community driven content mod with Cryptid/Entropy-style balance

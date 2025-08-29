@@ -1,0 +1,15 @@
+{
+  "title": "Cryptposting",
+  "requires-steamodded": true,
+  "requires-talisman": true,
+  "categories": [
+    "Content",
+    "Joker"
+  ],
+  "author": "Glitchkat10 and Poker The Poker",
+  "repo": "https://github.com/kierkat10/Cryptposting",
+  "downloadURL": "https://github.com/kierkat10/Cryptposting/archive/refs/heads/main.zip",
+  "folderName": "Cryptposting",
+  "version": "8834802",
+  "automatic-version-check": true
+}

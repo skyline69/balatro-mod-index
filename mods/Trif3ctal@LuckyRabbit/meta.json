@@ -3,12 +3,13 @@
   "requires-steamodded": true,
   "requires-talisman": false,
   "categories": [
-    "Content"
+    "Content",
+    "Joker"
   ],
   "author": "Fennex",
   "repo": "https://github.com/Trif3ctal/Lucky-Rabbit",
   "downloadURL": "https://github.com/Trif3ctal/Lucky-Rabbit/archive/refs/heads/main.zip",
   "folderName": "LuckyRabbit",
   "automatic-version-check": true,
-  "version": "2e906d4"
+  "version": "4c7fbab"
 }

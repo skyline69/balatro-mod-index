@@ -1,0 +1,16 @@
+{
+  "title": "Rebalanced Stakes",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content",
+    "Miscellaneous"
+  ],
+  "author": "Riosodu",
+  "repo": "https://github.com/gfreitash/balatro-mods",
+  "downloadURL": "https://github.com/gfreitash/balatro-mods/releases/download/rebalanced-stakes__latest/rebalanced-stakes.zip",
+  "folderName": "rebalanced-stakes",
+  "automatic-version-check": true,
+  "fixed-release-tag-updates": true,
+  "version": "20250708_032641"
+}

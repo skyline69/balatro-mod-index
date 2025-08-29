@@ -1,0 +1,12 @@
+{
+  "title": "EasternFarmer's corner",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": ["Content", "Joker"],
+  "author": "EasternFarmer",
+  "repo": "https://github.com/EasternFarmer/EasternFarmers_corner",
+  "downloadURL": "https://github.com/EasternFarmer/EasternFarmers_corner/releases/latest/download/EasternFarmers_corner.zip",
+  "folderName": "EasternFarmers_corner",
+  "version": "v1.0.2",
+  "automatic-version-check": true
+}

@@ -1,0 +1,16 @@
+{
+  "title": "Another Stupid Balatro Mod",
+  "requires-steamodded": true,
+  "requires-talisman": true,
+  "categories": [
+    "Content"
+  ],
+  "author": "Dogg Fly",
+  "repo": "https://github.com/Dogg-Fly/Another-Stupid-Balatro-Mod",
+  "downloadURL": "https://github.com/Dogg-Fly/Another-Stupid-Balatro-Mod/releases/latest/download/anotherstupidbalatromod.zip",
+  "folderName": "anotherstupidbalatromod",
+  "version": "v3.3",
+  "automatic-version-check": true
+
+
+}

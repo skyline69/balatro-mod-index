@@ -1,0 +1,15 @@
+{
+  "title": "Pokerleven",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content",
+    "Joker"
+  ],
+  "author": "Deco",
+  "folderName": "Pokerleven",
+  "repo": "https://github.com/DecoXFE/PokerLeven",
+  "downloadURL": "https://github.com/DecoXFE/PokerLeven/releases/latest/download/PokerLeven.zip",
+  "automatic-version-check": true,
+  "version": "v0.1.1a-BETA"
+}
