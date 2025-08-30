@@ -52,6 +52,11 @@
     },
     "fixed-release-tag-updates": {
       "type": "boolean"
+    },
+    "last-updated": {
+      "type": "integer",
+      "minimum": 0,
+      "exclusiveMaximum": 18446744073709551616
     }
   },
   "required": [
