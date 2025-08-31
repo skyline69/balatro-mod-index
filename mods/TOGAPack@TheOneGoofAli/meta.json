@@ -8,7 +8,8 @@
   ],
   "author": "TheOneGoofAli",
   "repo": "https://github.com/TheOneGoofAli/TOGAPackBalatro",
-  "downloadURL": "https://github.com/TheOneGoofAli/TOGAPackBalatro/archive/refs/tags/1.9.3.zip",
+  "downloadURL": "https://github.com/TheOneGoofAli/TOGAPackBalatro/archive/refs/tags/1.9.3a.zip",
   "automatic-version-check": true,
-  "version": "1.9.3"
+  "version": "1.9.3a",
+  "last-updated": 1756682109
 }
