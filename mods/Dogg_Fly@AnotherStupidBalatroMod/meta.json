@@ -9,8 +9,7 @@
   "repo": "https://github.com/Dogg-Fly/Another-Stupid-Balatro-Mod",
   "downloadURL": "https://github.com/Dogg-Fly/Another-Stupid-Balatro-Mod/releases/latest/download/anotherstupidbalatromod.zip",
   "folderName": "anotherstupidbalatromod",
-  "version": "v3.3",
-  "automatic-version-check": true
-
-
+  "version": "v3.4",
+  "automatic-version-check": true,
+  "last-updated": 1756690744
 }
