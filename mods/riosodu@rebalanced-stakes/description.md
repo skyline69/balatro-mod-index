@@ -9,6 +9,7 @@ Instead of introducing entirely new harsh mechanics early on, this mod shifts ex
 - **Blue Stake (Stake 5):**
     - Removes the `-1 Discard` penalty
     - Introduces Perishable Jokers to the shop pool *(effect moved from vanilla Orange Stake)*
+    - Perishable Jokers become negative when they expire alongside being debuffed
 
 - **Orange Stake (Stake 7):**
     - Removes the Perishable Joker effect
