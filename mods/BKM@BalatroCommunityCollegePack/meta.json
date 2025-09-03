@@ -10,6 +10,7 @@
   "repo": "https://github.com/beckcarver/balatro-cc-pack/",
   "downloadURL": "https://github.com/beckcarver/balatro-cc-pack/releases/latest/download/balatro-cc-pack.zip",
   "folderName": "BalatroCC",
-  "version": "v0.1.1",
-  "automatic-version-check": true
+  "version": "0.1.2",
+  "automatic-version-check": true,
+  "last-updated": 1756883754
 }
