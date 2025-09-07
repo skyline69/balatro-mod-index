@@ -10,5 +10,6 @@
   "repo": "https://github.com/kasimeka/balatro-mobile-essentials-mod",
   "downloadURL": "https://github.com/kasimeka/balatro-mobile-essentials-mod/archive/refs/heads/main.zip",
   "automatic-version-check": true,
-  "version": "HEAD"
+  "version": "85a7dbe",
+  "last-updated": 1757261866
 }
