@@ -1,0 +1,15 @@
+{
+  "title": "Punchline",
+  "requires-steamodded": true,
+  "requires-talisman": true,
+  "categories": [
+    "Content"
+  ],
+  "author": "Gfsgfs and EricTheToon",
+  "repo": "https://github.com/gfsgfsPunchlineGuy/Punchline",
+  "downloadURL": "https://github.com/gfsgfsPunchlineGuy/Punchline/archive/refs/heads/main.zip",
+  "folderName": "Punchline",
+  "version": "a963a99",
+  "automatic-version-check": true,
+  "last-updated": 1756700799
+}
