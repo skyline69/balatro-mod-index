@@ -1,0 +1,12 @@
+{
+    "title": "glumbus",
+    "requires-steamodded": true,
+    "requires-talisman": false,
+    "categories": ["Resource Packs"],
+    "author": "colonthreeing",
+    "repo": "https://github.com/colonthreeing/Glumbus",
+    "downloadURL": "https://github.com/colonthreeing/Glumbus/releases/latest/download/Glumbus.zip",
+    "folderName": "glumbus",
+    "version": "2.0.0",
+    "automatic-version-check": true
+}
