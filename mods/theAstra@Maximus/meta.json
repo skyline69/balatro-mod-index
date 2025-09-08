@@ -5,6 +5,8 @@
     "categories": ["Content"],
     "author": "theAstra, Maxiss02",
     "repo": "https://github.com/the-Astra/Maximus",
-    "downloadURL": "https://github.com/the-Astra/Maximus/archive/refs/heads/main.zip"
+    "downloadURL": "https://github.com/the-Astra/Maximus/releases/latest/download/Maximus-main.zip",
+    "version": "1.2.2b",
+    "automatic-version-check": true
   }
   
