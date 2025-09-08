@@ -2,8 +2,13 @@
   "title": "NeatoJokers",
   "requires-steamodded": true,
   "requires-talisman": false,
-  "categories": ["Content", "Joker"],
+  "categories": [
+    "Content",
+    "Joker"
+  ],
   "author": "Neato",
   "repo": "https://github.com/neatoqueen/NeatoJokers",
-  "downloadURL": "https://github.com/neatoqueen/NeatoJokers/archive/refs/heads/main.zip"
+  "downloadURL": "https://github.com/neatoqueen/NeatoJokers/archive/refs/heads/main.zip",
+  "automatic-version-check": true,
+  "version": "9bb678b"
 }

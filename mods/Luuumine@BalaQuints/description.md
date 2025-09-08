@@ -6,6 +6,7 @@ Texture pack for Balatro that changes some cards to characters from The Quintess
 
 - A retexture of all 5 Legendary jokers as the 5 Nakano sisters
 - A retexture of the Soul card
+- Translations for latin languages
 - More to come...
 
 ---

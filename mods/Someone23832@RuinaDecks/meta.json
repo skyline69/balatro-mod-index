@@ -1,0 +1,13 @@
+{
+  "title": "Ruina Decks",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content"
+  ],
+  "author": "Someone23832",
+  "repo": "https://github.com/someone23832/RuinaDecks",
+  "downloadURL": "https://github.com/someone23832/RuinaDecks/archive/refs/heads/main.zip",
+  "automatic-version-check": true,
+  "version": "765368a"
+}

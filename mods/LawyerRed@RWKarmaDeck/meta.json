@@ -2,8 +2,12 @@
   "title": "Rain World Karma Deck",
   "requires-steamodded": true,
   "requires-talisman": false,
-  "categories": ["Resource Packs"],
-  "author": "LawyerRed",
+  "categories": [
+    "Resource Packs"
+  ],
+  "author": "LawyerRed & SpomJ",
   "repo": "https://github.com/LawyerRed01/RW-Karma-Cards",
-  "downloadURL": "https://github.com/LawyerRed01/RW-Karma-Cards/archive/refs/heads/main.zip"
+  "downloadURL": "https://github.com/LawyerRed01/RW-Karma-Cards/archive/refs/heads/main.zip",
+  "automatic-version-check": true,
+  "version": "c2f5a2b"
 }

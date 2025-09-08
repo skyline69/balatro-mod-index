@@ -1,0 +1,12 @@
+{
+  "title": "Smokey",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": ["Resource Packs"],
+  "author": "LazyTurtle33",
+  "repo": "https://github.com/TheLazyTurtle33/Smokey",
+  "downloadURL": "https://github.com/TheLazyTurtle33/Smokey/releases/latest/download/Smokey.zip",
+  "folderName": "Smokey",
+  "version": "release",
+  "automatic-version-check": false
+}

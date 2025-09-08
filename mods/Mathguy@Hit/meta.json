@@ -1,0 +1,15 @@
+{
+  "title": "Hit",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content"
+  ],
+  "author": "mathguy",
+  "repo": "https://github.com/Mathguy23/Hit",
+  "downloadURL": "https://github.com/Mathguy23/Hit/archive/refs/heads/main.zip",
+  "folderName": "Hit",
+  "version": "691ade9",
+  "automatic-version-check": true,
+  "last-updated": 1757294425
+}

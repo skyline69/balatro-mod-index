@@ -1,9 +1,14 @@
 {
-    "title": "Wilder",
-    "requires-steamodded": true,
-    "requires-talisman": false,
-    "categories": ["Quality of Life", "Miscellaneous"],
-    "author": "Sir. Gameboy",
-    "repo": "https://github.com/Balin-P/Wilder",
-    "downloadURL": "https://github.com/Balin-P/Wilder/releases/download/Release/Wilder.zip"
-  }
+  "title": "Wilder",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Quality of Life",
+    "Miscellaneous"
+  ],
+  "author": "Sir. Gameboy",
+  "repo": "https://github.com/Balin-P/Wilder",
+  "downloadURL": "https://github.com/Balin-P/Wilder/releases/download/Release/Wilder.zip",
+  "automatic-version-check": true,
+  "version": "Release"
+}

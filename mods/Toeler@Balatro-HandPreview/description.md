@@ -1,1 +1,0 @@
-Hand Preview is a mod for Balatro that adds a window showing the possible poker hands that you can make with your current hand!

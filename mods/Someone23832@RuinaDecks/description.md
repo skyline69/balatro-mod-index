@@ -1,0 +1,2 @@
+#Ruina Decks
+WIP, but most of the way there. Adds in 8 out of 10 currently planned decks, may be bugs. For bugs, suggestions, thoughts on balance, or anything else, visit the github or thread in the Balatro Discord.

@@ -1,0 +1,15 @@
+{
+  "title": "Tiendita's",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content",
+    "Joker"
+  ],
+  "author": "KROOOL",
+  "repo": "https://github.com/KROOOL/Tiendita-s-Jokers",
+  "downloadURL": "https://github.com/KROOOL/Tiendita-s-Jokers/archive/refs/heads/main.zip",
+  "folderName": "Tiendita's Jokers",
+  "version": "7c01a1e",
+  "automatic-version-check": true
+}

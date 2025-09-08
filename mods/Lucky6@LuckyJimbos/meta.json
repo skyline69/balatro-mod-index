@@ -2,8 +2,12 @@
   "title": "Lucky Jimbos",
   "requires-steamodded": true,
   "requires-talisman": false,
-  "categories": ["Joker"],
+  "categories": [
+    "Joker"
+  ],
   "author": "Lucky6",
   "repo": "https://github.com/MamiKeRiko/luckyjimbos",
-  "downloadURL": "https://github.com/MamiKeRiko/luckyjimbos/archive/refs/heads/main.zip"
+  "downloadURL": "https://github.com/MamiKeRiko/luckyjimbos/archive/refs/heads/main.zip",
+  "automatic-version-check": true,
+  "version": "38f3fe7"
 }

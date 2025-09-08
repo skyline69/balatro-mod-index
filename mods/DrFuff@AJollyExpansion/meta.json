@@ -1,0 +1,11 @@
+{
+  "title": "A Jolly Expansion",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": ["Joker"],
+  "author": "DrFuff",
+  "repo": "https://github.com/HazzaMC/AJollyExpansion",
+  "downloadURL": "https://github.com/HazzaMC/AJollyExpansion/releases/download/v1.0.0/A_Jolly_Expansion.zip",
+  "folderName": "A Jolly Expansion",
+  "version": "1.0.0"
+}

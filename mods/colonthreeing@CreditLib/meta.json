@@ -1,0 +1,14 @@
+{
+  "title": "CreditLib",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "API"
+  ],
+  "author": "colonthreeing",
+  "repo": "https://github.com/colonthreeing/CreditLib",
+  "downloadURL": "https://github.com/colonthreeing/CreditLib/releases/latest/download/CreditLib.zip",
+  "folderName": "CreditLib",
+  "version": "v0.4.1",
+  "automatic-version-check": true
+}

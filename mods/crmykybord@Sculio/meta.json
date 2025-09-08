@@ -1,0 +1,16 @@
+{
+  "title": "Sculio",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content",
+    "Joker"
+  ],
+  "author": "crmykybord, BrandonE, chily",
+  "folderName": "Sculio",
+  "repo": "https://github.com/crmykybord/Sculio",
+  "downloadURL": "https://github.com/crmykybord/Sculio/releases/latest/download/Sculio.zip",
+  "automatic-version-check": true,
+  "version": "v1.0.0",
+  "last-updated": 1756948491
+}

@@ -1,9 +1,13 @@
 {
-    "title": "Deluxe Consumables",
-    "requires-steamodded": true,
-    "requires-talisman": false,
-    "categories": ["Content"],
-    "author": "JeffVi",
-    "repo":"https://github.com/JeffVi/DX-Tarots",
-    "downloadURL":"https://github.com/JeffVi/DX-Tarots/archive/refs/heads/master.zip"
+  "title": "Deluxe Consumables",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content"
+  ],
+  "author": "JeffVi",
+  "repo": "https://github.com/JeffVi/DX-Tarots",
+  "downloadURL": "https://github.com/JeffVi/DX-Tarots/archive/refs/heads/master.zip",
+  "automatic-version-check": true,
+  "version": "7c5c1df"
 }

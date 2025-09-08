@@ -1,0 +1,15 @@
+{
+  "title": "Ankh",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content",  
+    "Miscellaneous"
+  ],
+  "author": "MathIsFun0 & OceanRamen",
+  "repo": "https://github.com/SpectralPack/Ankh/",
+  "downloadURL": "https://github.com/SpectralPack/Ankh/releases/download/v2.0.0-beta3/MathIsFun0-Ankh.zip",
+  "folderName": "Ankh",
+  "automatic-version-check": false,
+  "version": "v2.0.0-beta3"
+}

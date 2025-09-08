@@ -1,0 +1,14 @@
+{
+  "title": "BalatrinGamingDeck",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Resource Packs"
+  ],
+  "author": "Celestin Gaming",
+  "repo": "https://github.com/CelestinGaming/BalatrinGamingDeck",
+  "downloadURL": "https://github.com/CelestinGaming/BalatrinGamingDeck/archive/refs/heads/main.zip",
+  "folderName": "BalatrinGamingDeck",
+  "automatic-version-check": true,
+  "version": "d1bc486"
+}

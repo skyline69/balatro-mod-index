@@ -1,9 +1,13 @@
 {
-    "title": "Colored Suit Tarots",
-    "requires-steamodded": true,
-    "requires-talisman": false,
-    "categories": ["Resource Packs"],
-    "author": "ywssp",
-    "repo":"https://github.com/ywssp/Balatro-ColoredSuitTarots",
-    "downloadURL": "https://github.com/ywssp/Balatro-ColoredSuitTarots/archive/refs/heads/main.zip"
+  "title": "Colored Suit Tarots",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Resource Packs"
+  ],
+  "author": "ywssp",
+  "repo": "https://github.com/ywssp/Balatro-ColoredSuitTarots",
+  "downloadURL": "https://github.com/ywssp/Balatro-ColoredSuitTarots/archive/refs/heads/main.zip",
+  "automatic-version-check": true,
+  "version": "5cd04f6"
 }

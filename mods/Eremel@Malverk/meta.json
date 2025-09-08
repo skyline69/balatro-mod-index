@@ -1,9 +1,14 @@
 {
-    "title": "Malverk",
-    "requires-steamodded": true,
-    "requires-talisman": false,
-    "categories": ["API", "Quality of Life"],
-    "author": "Eremel",
-    "repo":"https://github.com/Eremel/Malverk",
-    "downloadURL": "https://github.com/Eremel/Malverk/archive/refs/heads/main.zip"
+  "title": "Malverk",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "API",
+    "Quality of Life"
+  ],
+  "author": "Eremel",
+  "repo": "https://github.com/Eremel/Malverk",
+  "downloadURL": "https://github.com/Eremel/Malverk/archive/refs/heads/main.zip",
+  "automatic-version-check": true,
+  "version": "02cdf66"
 }

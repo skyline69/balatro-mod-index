@@ -1,10 +1,14 @@
 {
-    "title": "Blueprint",
-    "requires-steamodded": false,
-    "requires-talisman": false,
-    "categories": ["Quality of Life"],
-    "author": "Stupxd",
-    "repo": "https://github.com/stupxd/Blueprint",
-    "downloadURL": "https://github.com/stupxd/Blueprint/archive/refs/heads/master.zip"
-  }
-  
+  "title": "Blueprint",
+  "requires-steamodded": false,
+  "requires-talisman": false,
+  "categories": [
+    "Quality of Life"
+  ],
+  "author": "Stupxd",
+  "folderName": "Blueprint",
+  "repo": "https://github.com/stupxd/Blueprint",
+  "downloadURL": "https://github.com/stupxd/Blueprint/archive/refs/heads/master.zip",
+  "automatic-version-check": true,
+  "version": "4e18c48"
+}

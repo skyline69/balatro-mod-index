@@ -1,0 +1,12 @@
+{
+  "title": "Project Moon Texture Pack",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": ["Resource Packs"],
+  "author": "Kiro",
+  "repo": "https://github.com/CountKiro/PMBalatroMod",
+  "downloadURL": "https://github.com/CountKiro/PMBalatroMod/releases/download/v1.0/ProjectMoonTexturePack_v1.0.1.zip",
+  "folderName": "ProjectMoonTexturePack",
+  "version": "1.0",
+  "automatic-version-check": false
+}

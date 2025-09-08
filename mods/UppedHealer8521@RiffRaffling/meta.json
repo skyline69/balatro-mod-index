@@ -2,8 +2,12 @@
   "title": "Riff-Raffling",
   "requires-steamodded": true,
   "requires-talisman": false,
-  "categories": [ "Content" ],
+  "categories": [
+    "Content"
+  ],
   "author": "UppedHealer8521",
   "repo": "https://github.com/UppedHealer8521/Riff-Raffling",
-  "downloadURL": "https://github.com/UppedHealer8521/Riff-Raffling/archive/refs/heads/main.zip"
+  "downloadURL": "https://github.com/UppedHealer8521/Riff-Raffling/archive/refs/heads/main.zip",
+  "automatic-version-check": true,
+  "version": "597baf7"
 }

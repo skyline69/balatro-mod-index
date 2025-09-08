@@ -1,0 +1,14 @@
+{
+  "title": "Slay The Spire Jokers",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Joker"
+  ],
+  "author": "lammies.yum",
+  "repo": "https://github.com/lammies-yum/slaythespirejokers",
+  "downloadURL": "https://github.com/lammies-yum/slaythespirejokers/releases/latest/download/SlayTheSpireJokers.zip",
+  "folderName": "Slay The Spire Jokers",
+  "version": "yownload",
+  "automatic-version-check": true
+}

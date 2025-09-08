@@ -1,0 +1,14 @@
+{
+  "title": "Insolence",
+  "requires-steamodded": true,
+  "requires-talisman": true,
+  "categories": [
+    "Content"
+  ],
+  "author": "The Motherfucking Bearodactyl",
+  "repo": "https://github.com/thebearodactyl/insolence-balatro",
+  "downloadURL": "https://github.com/thebearodactyl/insolence-balatro/archive/refs/tags/2.1.5.zip",
+  "folderName": "Insolence",
+  "version": "2.1.5",
+  "automatic-version-check": true
+}

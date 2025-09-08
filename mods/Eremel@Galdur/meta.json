@@ -1,9 +1,14 @@
 {
-    "title": "Galdur",
-    "requires-steamodded": true,
-    "requires-talisman": false,
-    "categories": ["Content"],
-    "author": "Eremel",
-    "repo":"https://github.com/Eremel/Galdur",
-    "downloadURL": "https://github.com/Eremel/Galdur/archive/refs/heads/master.zip"
+  "title": "Galdur",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Quality of Life",
+    "API"
+  ],
+  "author": "Eremel",
+  "repo": "https://github.com/Eremel/Galdur",
+  "downloadURL": "https://github.com/Eremel/Galdur/archive/refs/heads/master.zip",
+  "automatic-version-check": true,
+  "version": "c0b9ad3"
 }

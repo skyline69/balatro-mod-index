@@ -2,8 +2,13 @@
   "title": "SDM_0's Stuff",
   "requires-steamodded": true,
   "requires-talisman": false,
-  "categories": [ "Content", "Joker" ],
+  "categories": [
+    "Content",
+    "Joker"
+  ],
   "author": "SDM0",
   "repo": "https://github.com/SDM0/SDM_0-s-Stuff",
-  "downloadURL": "https://github.com/SDM0/SDM_0-s-Stuff/archive/refs/heads/main.zip"
+  "downloadURL": "https://github.com/SDM0/SDM_0-s-Stuff/archive/refs/heads/main.zip",
+  "automatic-version-check": true,
+  "version": "3a0e52b"
 }

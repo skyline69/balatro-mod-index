@@ -1,0 +1,13 @@
+{
+  "title": "UnBlind",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Quality of Life"
+  ],
+  "author": "MeraGenio",
+  "repo": "https://github.com/MeraGenio/UnBlind",
+  "downloadURL": "https://github.com/MeraGenio/UnBlind/archive/refs/tags/1.2.1.zip",
+  "automatic-version-check": true,
+  "version": "1.2.1"
+}

@@ -1,0 +1,14 @@
+{
+  "title": "GARBSHIT",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content"
+  ],
+  "author": "Garb",
+  "repo": "https://github.com/Gainumki/GARBSHIT.git",
+  "downloadURL": "https://github.com/Gainumki/GARBSHIT/archive/refs/heads/main.zip",
+  "folderName": "GARBSHIT",
+  "automatic-version-check": true,
+  "version": "c5c9013"
+}

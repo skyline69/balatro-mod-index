@@ -1,9 +1,13 @@
 {
-    "title": "Colorblind Seals",
-    "requires-steamodded": true,
-    "requires-talisman": false,
-    "categories": ["Resource Packs"],
-    "author": "Martin Kauppinen",
-    "repo":"https://github.com/martinkauppinen/colorblind-seals",
-    "downloadURL": "https://github.com/martinkauppinen/colorblind-seals/archive/refs/heads/main.zip"
+  "title": "Colorblind Seals",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Resource Packs"
+  ],
+  "author": "Martin Kauppinen",
+  "repo": "https://github.com/martinkauppinen/colorblind-seals",
+  "downloadURL": "https://github.com/martinkauppinen/colorblind-seals/archive/refs/heads/main.zip",
+  "automatic-version-check": true,
+  "version": "3a31b59"
 }

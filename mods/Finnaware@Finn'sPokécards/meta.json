@@ -1,0 +1,14 @@
+{
+  "title": "Finn's Pokécards",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Resource Packs"
+  ],
+  "author": "Finnaware",
+  "repo": "https://github.com/Finnaware/Finn-Pokecards",
+  "downloadURL": "https://github.com/Finnaware/Finn-Pokecards/archive/refs/heads/main.zip",
+  "folderName": "Finn's Pokécards",
+  "version": "b0bb7b2",
+  "automatic-version-check": true
+}

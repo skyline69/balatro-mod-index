@@ -1,0 +1,13 @@
+{
+  "title": "SauKhongHuDecks",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content"
+  ],
+  "author": "HuyTheKiller",
+  "repo": "https://github.com/HuyTheKiller/SauKhongHuDecks",
+  "downloadURL": "https://github.com/HuyTheKiller/SauKhongHuDecks/archive/refs/heads/main.zip",
+  "automatic-version-check": true,
+  "version": "5d7fc48"
+}

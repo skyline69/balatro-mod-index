@@ -1,0 +1,14 @@
+{
+  "title": "Collabs Reimagined",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Resource Packs"
+  ],
+  "author": "Auto Watto & RS_Mind",
+  "repo": "https://github.com/AutoWatto/CollabsReimagined",
+  "downloadURL": "https://github.com/AutoWatto/CollabsReimagined/archive/refs/heads/main.zip",
+  "folderName": "CollabsReimagined",
+  "version": "89ebe04",
+  "automatic-version-check": true
+}

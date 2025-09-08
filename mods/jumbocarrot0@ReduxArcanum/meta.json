@@ -1,9 +1,13 @@
 {
-    "title": "Redux Arcanum",
-    "requires-steamodded": true,
-    "requires-talisman": false,
-    "categories": ["Content"],
-    "author": "itayfeder, jumbocarrot0",
-    "repo":"https://github.com/jumbocarrot0/Redux-Arcanum",
-    "downloadURL":"https://github.com/jumbocarrot0/Redux-Arcanum/archive/refs/heads/main.zip"
+  "title": "Redux Arcanum",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content"
+  ],
+  "author": "itayfeder, Lyman, jumbocarrot0",
+  "repo": "https://github.com/jumbocarrot0/Redux-Arcanum",
+  "downloadURL": "https://github.com/jumbocarrot0/Redux-Arcanum/archive/refs/heads/main.zip",
+  "automatic-version-check": true,
+  "version": "45bfdf5"
 }

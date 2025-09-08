@@ -1,9 +1,15 @@
 {
-    "title": "JokerDisplay",
-    "requires-steamodded": true,
-    "requires-talisman": false,
-    "categories": ["Quality of Life", "API"],
-    "author": "nh6574",
-    "repo":"https://github.com/nh6574/JokerDisplay",
-    "downloadURL": "https://github.com/nh6574/JokerDisplay/archive/refs/heads/master.zip"
-  }
+  "title": "JokerDisplay",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Quality of Life",
+    "API"
+  ],
+  "author": "nh6574",
+  "repo": "https://github.com/nh6574/JokerDisplay",
+  "downloadURL": "https://github.com/nh6574/JokerDisplay/archive/refs/heads/master.zip",
+  "automatic-version-check": true,
+  "version": "7d7a617",
+  "last-updated": 1757276179
+}

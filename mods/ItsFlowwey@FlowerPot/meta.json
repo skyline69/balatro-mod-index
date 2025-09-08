@@ -1,9 +1,14 @@
 {
-    "title": "Flower Pot",
-    "requires-steamodded": false,
-	"requires-talisman": false,
-    "categories": ["Technical"],
-    "author": "ItsFlowwey",
-    "repo":"https://github.com/GauntletGames-2086/Flower-Pot",
-    "downloadURL": "https://github.com/GauntletGames-2086/Flower-Pot/archive/refs/heads/master.zip"
+  "title": "Flower Pot",
+  "requires-steamodded": false,
+  "requires-talisman": false,
+  "categories": [
+    "Technical"
+  ],
+  "author": "ItsFlowwey",
+  "repo": "https://github.com/GauntletGames-2086/Flower-Pot",
+  "downloadURL": "https://github.com/GauntletGames-2086/Flower-Pot/archive/refs/heads/master.zip",
+  "folderName": "Flower-Pot",
+  "automatic-version-check": true,
+  "version": "b43b9f4"
 }

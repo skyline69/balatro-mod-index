@@ -1,0 +1,12 @@
+{
+  "title": "Israeli Streamer Mod",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": ["Content"],
+  "author": "SimplyRan & Shotist",
+  "repo": "https://github.com/SimplyRan/IsraeliStreamerMod",
+  "downloadURL": "https://github.com/SimplyRan/IsraeliStreamerMod/releases/download/v1/IsraelStreamerMod.zip",
+  "folderName": "IsraeliStreamerMod",
+  "version": "1.0.0",
+  "automatic-version-check": false
+}

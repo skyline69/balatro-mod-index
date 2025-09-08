@@ -2,8 +2,13 @@
   "title": "Deck Creator",
   "requires-steamodded": true,
   "requires-talisman": false,
-  "categories": ["Technical"],
+  "categories": [
+    "Technical"
+  ],
   "author": "Nyoxide",
-  "repo":"https://github.com/adambennett/Balatro-DeckCreator",
-  "downloadURL": "https://github.com/adambennett/Balatro-DeckCreator/releases/download/v1.2.2/DeckCreator.zip"
+  "repo": "https://github.com/adambennett/Balatro-DeckCreator",
+  "downloadURL": "https://github.com/adambennett/Balatro-DeckCreator/releases/download/v1.2.2/DeckCreator.zip",
+  "folderName": "Deck Creator",
+  "automatic-version-check": false,
+  "version": "v1.2.2"
 }

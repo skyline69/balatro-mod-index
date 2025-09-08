@@ -1,0 +1,14 @@
+{
+  "title": "Waifu Jokers",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Resource Packs"
+  ],
+  "author": "AgentWill",
+  "repo": "https://github.com/AgentWill/WaifuJokers",
+  "downloadURL": "https://github.com/AgentWill/WaifuJokers/archive/refs/heads/main.zip",
+  "folderName": "WaifuJokers",
+  "automatic-version-check": true,
+  "version": "711d45a"
+}

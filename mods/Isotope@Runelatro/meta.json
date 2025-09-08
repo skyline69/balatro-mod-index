@@ -1,0 +1,14 @@
+{
+  "title": "Runelatro",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Resource Packs"
+  ],
+  "author": "Isotope",
+  "repo": "https://github.com/IsotopeReal/Runelatro",
+  "downloadURL": "https://github.com/IsotopeReal/Runelatro/archive/refs/heads/main.zip",
+  "folderName": "Runelatro",
+  "version": "53e8448",
+  "automatic-version-check": true
+}

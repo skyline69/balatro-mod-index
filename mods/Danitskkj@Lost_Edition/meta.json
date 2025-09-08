@@ -1,0 +1,16 @@
+{
+  "title": "Lost Edition",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content",
+    "Joker",
+    "Quality of Life"
+  ],
+  "author": "ClicknoPaulo & Danitskkj",
+  "repo": "https://github.com/Danitskkj/Lost_Edition",
+  "downloadURL": "https://github.com/Danitskkj/Lost_Edition/archive/refs/heads/main.zip",
+  "folderName": "Lost_Edition",
+  "automatic-version-check": true,
+  "version": "58567c7"
+}

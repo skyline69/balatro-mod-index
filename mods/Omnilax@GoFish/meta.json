@@ -1,0 +1,14 @@
+{
+  "title": "Go Fish",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content"
+  ],
+  "author": "Omnilax",
+  "repo": "https://github.com/Omnilax/GoFishBalatro",
+  "downloadURL": "https://github.com/omnilax/Gofishbalatro/releases/latest/download/go-fish.zip",
+  "folderName": "GoFish",
+  "version": "v0.1.0",
+  "automatic-version-check": true
+}

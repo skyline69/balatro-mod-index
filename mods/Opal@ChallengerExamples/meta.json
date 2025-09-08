@@ -1,0 +1,13 @@
+{
+  "title": "Challenger Examples",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content"
+  ],
+  "author": "Opal",
+  "repo": "https://github.com/OOkayOak/Challenger-Examples",
+  "downloadURL": "https://github.com/OOkayOak/Challenger-Examples/releases/latest/download/ChallengerExamples.zip",
+  "automatic-version-check": true,
+  "version": "v1.1.0"
+}

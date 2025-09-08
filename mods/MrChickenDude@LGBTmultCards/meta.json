@@ -1,0 +1,14 @@
+{
+  "title": "LGBT Mult Cards",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Resource Packs"
+  ],
+  "author": "MrChickenDude",
+  "repo": "https://github.com/Catzzadilla/LGBT-Mult-Cards",
+  "downloadURL": "https://github.com/Catzzadilla/LGBT-Mult-Cards/archive/refs/heads/main.zip",
+  "folderName": "LGBT Mult Cards",
+  "version": "ecedd96",
+  "automatic-version-check": true
+}

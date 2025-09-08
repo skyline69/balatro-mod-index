@@ -1,0 +1,15 @@
+{
+  "title": "Baldatro",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Resource Packs",
+    "Joker"
+  ],
+  "author": "SirMaiquis",
+  "repo": "https://github.com/SirMaiquis/Balatro-Baldatro",
+  "downloadURL": "https://github.com/SirMaiquis/Balatro-Baldatro/releases/latest/download/Baldatro.zip",
+  "folderName": "Baldatro",
+  "automatic-version-check": true,
+  "version": "v1.2.0"
+}

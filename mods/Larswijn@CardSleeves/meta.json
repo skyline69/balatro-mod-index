@@ -2,8 +2,13 @@
   "title": "CardSleeves",
   "requires-steamodded": true,
   "requires-talisman": false,
-  "categories": ["Content"],
+  "categories": [
+    "Content",
+    "API"
+  ],
   "author": "Larswijn",
   "repo": "https://github.com/larswijn/CardSleeves",
-  "downloadURL": "https://github.com/larswijn/CardSleeves/archive/refs/heads/master.zip"
+  "downloadURL": "https://github.com/larswijn/CardSleeves/archive/refs/heads/master.zip",
+  "automatic-version-check": true,
+  "version": "c2a22f0"
 }

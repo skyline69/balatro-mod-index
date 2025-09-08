@@ -1,9 +1,13 @@
 {
-    "title": "Tetrapak",
-    "requires-steamodded": true,
-    "requires-talisman": false,
-    "categories": ["Content"],
-    "author": "Tetraminus",
-    "repo":"https://github.com/tetraminus/Tetrapak",
-    "downloadURL":"https://github.com/tetraminus/Tetrapak/archive/refs/heads/main.zip"
+  "title": "Tetrapak",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content"
+  ],
+  "author": "Tetraminus",
+  "repo": "https://github.com/tetraminus/Tetrapak",
+  "downloadURL": "https://github.com/tetraminus/Tetrapak/archive/refs/heads/main.zip",
+  "automatic-version-check": true,
+  "version": "6950664"
 }

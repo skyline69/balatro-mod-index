@@ -1,0 +1,15 @@
+{
+  "title": "Saturn",
+  "requires-steamodded": false,
+  "requires-talisman": false,
+  "categories": [
+    "Technical",
+    "Miscellaneous"
+  ],
+  "author": "Saturn",
+  "repo": "https://github.com/OceanRamen/Saturn",
+  "downloadURL": "https://github.com/OceanRamen/Saturn/archive/refs/tags/alpha-0.2.2-E-qf3.zip",
+  "folderName": "Saturn",
+  "version": "alpha-0.2.2-E-qf3",
+  "automatic-version-check": true
+}

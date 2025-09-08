@@ -1,9 +1,14 @@
 {
-    "title": "LocFixer",
-    "requires-steamodded": true,
-    "requires-talisman": false,
-    "categories": ["Quality of Life", "Miscellaneous"],
-    "author": "HuyTheKiller",
-    "repo": "https://github.com/HuyTheKiller/LocFixer",
-    "downloadURL": "https://github.com/HuyTheKiller/LocFixer/archive/refs/heads/main.zip"
+  "title": "LocFixer",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Quality of Life",
+    "Miscellaneous"
+  ],
+  "author": "HuyTheKiller",
+  "repo": "https://github.com/HuyTheKiller/LocFixer",
+  "downloadURL": "https://github.com/HuyTheKiller/LocFixer/archive/refs/heads/main.zip",
+  "automatic-version-check": true,
+  "version": "9eb27f1"
 }

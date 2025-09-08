@@ -1,0 +1,15 @@
+{
+  "title": "TerrariaXBalatro",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content",
+    "Joker"
+  ],
+  "author": "Misernol",
+  "repo": "https://github.com/misenrol/TerrariaXBalatro",
+  "downloadURL": "https://github.com/misenrol/TerrariaXBalatro/archive/refs/heads/main.zip",
+  "folderName": "TerrariaXBalatro",
+  "version": "2596544",
+  "automatic-version-check": true
+}

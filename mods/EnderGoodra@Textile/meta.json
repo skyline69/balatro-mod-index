@@ -2,8 +2,12 @@
   "title": "Textile",
   "requires-steamodded": true,
   "requires-talisman": false,
-  "categories": ["Technical"],
+  "categories": [
+    "Technical"
+  ],
   "author": "EnderGoodra",
   "repo": "https://github.com/EnderGoodra/Textile/",
-  "downloadURL": "https://github.com/EnderGoodra/Textile/archive/refs/heads/main.zip"
+  "downloadURL": "https://github.com/EnderGoodra/Textile/archive/refs/heads/main.zip",
+  "automatic-version-check": true,
+  "version": "1a70cc1"
 }

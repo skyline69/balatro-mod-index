@@ -1,0 +1,14 @@
+{
+  "title": "DismissAlert",
+  "requires-steamodded": false,
+  "requires-talisman": false,
+  "categories": [
+    "Quality of Life",
+    "Miscellaneous"
+  ],
+  "author": "Breezebuilder",
+  "repo": "https://github.com/Breezebuilder/DismissAlert",
+  "downloadURL": "https://github.com/Breezebuilder/DismissAlert/releases/latest/download/DismissAlert.zip",
+  "automatic-version-check": true,
+  "version": "v1.0.0"
+}

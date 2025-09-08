@@ -2,8 +2,13 @@
   "title": "Steamodded",
   "requires-steamodded": false,
   "requires-talisman": false,
-  "categories": ["Technical"],
+  "categories": [
+    "Technical"
+  ],
   "author": "Steamodded",
-  "repo":"https://github.com/Steamodded/smods",
-  "downloadURL": "https://github.com/Steamodded/smods/archive/refs/heads/main.zip"
+  "repo": "https://github.com/Steamodded/smods",
+  "downloadURL": "https://github.com/Steamodded/smods/archive/refs/tags/1.0.0-beta-0827c.zip",
+  "automatic-version-check": true,
+  "version": "1.0.0-beta-0827c",
+  "last-updated": 1756667555
 }

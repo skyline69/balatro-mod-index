@@ -1,9 +1,14 @@
 {
-    "title": "Vietnamese Balatro",
-    "requires-steamodded": true,
-    "requires-talisman": false,
-    "categories": ["Miscellaneous"],
-    "author": "HuyTheKiller",
-    "repo": "https://github.com/HuyTheKiller/VietnameseBalatro",
-    "downloadURL": "https://github.com/HuyTheKiller/VietnameseBalatro/archive/refs/heads/main.zip"
+  "title": "Vietnamese Balatro",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Miscellaneous"
+  ],
+  "author": "HuyTheKiller",
+  "repo": "https://github.com/HuyTheKiller/VietnameseBalatro",
+  "downloadURL": "https://github.com/HuyTheKiller/VietnameseBalatro/archive/refs/heads/main.zip",
+  "automatic-version-check": true,
+  "version": "c48aa69",
+  "last-updated": 1756826288
 }

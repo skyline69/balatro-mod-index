@@ -2,8 +2,12 @@
   "title": "Snows Mods",
   "requires-steamodded": true,
   "requires-talisman": false,
-  "categories": [ "Content" ],
+  "categories": [
+    "Content"
+  ],
   "author": "RattlingSnow353",
   "repo": "https://github.com/RattlingSnow353/Snow-s-Mods",
-  "downloadURL": "https://github.com/RattlingSnow353/Snow-s-Mods/archive/refs/heads/main.zip"
+  "downloadURL": "https://github.com/RattlingSnow353/Snow-s-Mods/archive/refs/heads/main.zip",
+  "automatic-version-check": true,
+  "version": "0b38ad9"
 }

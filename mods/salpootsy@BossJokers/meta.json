@@ -1,0 +1,15 @@
+{
+  "title": "Boss Jokers",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content",
+    "Joker"
+  ],
+  "author": "Salpootsy",
+  "repo": "https://github.com/salpootsy/BossJokers",
+  "downloadURL": "https://github.com/salpootsy/BossJokers/releases/latest/download/BossJokers.zip",
+  "folderName": "BossJokers",
+  "version": "0.1.3",
+  "automatic-version-check": true
+}

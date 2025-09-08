@@ -1,0 +1,12 @@
+{
+  "title": "Maniatro",
+  "requires-steamodded": true,
+  "requires-talisman": true,
+  "categories": ["Content"],
+  "author": "Applemania",
+  "repo": "https://github.com/AppleMania30/Maniatro",
+  "downloadURL": "https://github.com/AppleMania30/Maniatro/archive/refs/tags/3.0.0.zip",
+  "folderName": "Maniatro",
+  "version": "3.0.0",
+  "automatic-version-check": true
+}

@@ -1,0 +1,12 @@
+{
+  "title": "FireBotModList",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": ["Technical"],
+  "author": "LazyTurtle33",
+  "repo": "https://github.com/TheLazyTurtle33/BalatroFireBotModList",
+  "downloadURL": "https://github.com/TheLazyTurtle33/BalatroFireBotModList/releases/latest/download/FireBotModList.zip",
+  "folderName": "FireBotModList",
+  "version": "release",
+  "automatic-version-check": true
+}

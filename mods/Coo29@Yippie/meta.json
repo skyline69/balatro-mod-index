@@ -1,10 +1,14 @@
 {
-    "title": "Yippie",
-    "requires-steamodded": true,
-    "requires-talisman": false,
-    "categories": ["Content", "Joker"],
-    "author": "Coo29",
-    "repo": "https://github.com/Coo29/YippieMod",
-    "downloadURL": "https://github.com/Coo29/YippieMod/archive/refs/heads/main.zip"
-  }
-  
+  "title": "Yippie",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content",
+    "Joker"
+  ],
+  "author": "Coo29",
+  "repo": "https://github.com/Coo29/YippieMod",
+  "downloadURL": "https://github.com/Coo29/YippieMod/archive/refs/heads/main.zip",
+  "automatic-version-check": true,
+  "version": "bc91c0b"
+}

@@ -2,8 +2,15 @@
   "title": "Pokermon",
   "requires-steamodded": true,
   "requires-talisman": false,
-  "categories": ["Content", "Joker"],
+  "categories": [
+    "Content",
+    "Joker"
+  ],
   "author": "InertSteak",
-  "repo":"https://github.com/InertSteak/Pokermon",
-  "downloadURL": "https://github.com/InertSteak/Pokermon/archive/refs/heads/main.zip"
+  "folderName": "Pokermon",
+  "repo": "https://github.com/InertSteak/Pokermon",
+  "downloadURL": "https://github.com/InertSteak/Pokermon/archive/refs/heads/main.zip",
+  "automatic-version-check": true,
+  "version": "bd1fb8b",
+  "last-updated": 1757305232
 }

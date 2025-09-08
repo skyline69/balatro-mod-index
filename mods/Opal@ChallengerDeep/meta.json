@@ -1,0 +1,14 @@
+{
+  "title": "Challenger Deep",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "API",
+    "Technical"
+  ],
+  "author": "Opal",
+  "repo": "https://github.com/OOkayOak/Challenger-Deep",
+  "downloadURL": "https://github.com/OOkayOak/Challenger-Deep/releases/latest/download/ChallengerDeep.zip",
+  "automatic-version-check": true,
+  "version": "v1.4.2"
+}

@@ -1,9 +1,13 @@
 {
-    "title": "Codex Arcanum",
-    "requires-steamodded": true,
-    "requires-talisman": false,
-    "categories": ["Content"],
-    "author": "itayfeder, lshtech",
-    "repo":"https://github.com/lshtech/Codex-Arcanum",
-    "downloadURL":"https://github.com/lshtech/Codex-Arcanum/archive/refs/heads/main.zip"
+  "title": "Codex Arcanum",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content"
+  ],
+  "author": "itayfeder, lshtech",
+  "repo": "https://github.com/lshtech/Codex-Arcanum",
+  "downloadURL": "https://github.com/lshtech/Codex-Arcanum/archive/refs/heads/main.zip",
+  "automatic-version-check": true,
+  "version": "cf24773"
 }

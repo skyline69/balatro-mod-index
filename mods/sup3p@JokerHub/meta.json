@@ -1,0 +1,13 @@
+{
+  "title": "JokerHub",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content"
+  ],
+  "author": "sup3p",
+  "repo": "https://github.com/sup3p/JokerHub",
+  "downloadURL": "https://github.com/sup3p/JokerHub/archive/refs/heads/main.zip",
+  "automatic-version-check": true,
+  "version": "13895b4"
+}

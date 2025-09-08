@@ -1,9 +1,0 @@
-{
-    "title": "Hand Preview",
-    "requires-steamodded": true,
-    "requires-talisman": false,
-    "categories": ["Quality of Life"],
-    "author": "Toeler",
-    "repo": "https://github.com/Toeler/Balatro-HandPreview",
-    "downloadURL": "https://github.com/Toeler/Balatro-HandPreview/archive/refs/heads/master.zip"
-  }

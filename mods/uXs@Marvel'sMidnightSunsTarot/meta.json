@@ -1,9 +1,13 @@
 {
-    "title": "Marvel's Midnight Suns Tarot",
-    "requires-steamodded": true,
-    "requires-talisman": false,
-    "categories": ["Resource Packs"],
-    "author": "uXs",
-    "repo":"https://github.com/Staegloth/BalatroMarvelMidnightSuns",
-    "downloadURL": "https://github.com/Staegloth/BalatroMarvelMidnightSuns/archive/refs/heads/main.zip"
+  "title": "Marvel's Midnight Suns Tarot",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Resource Packs"
+  ],
+  "author": "uXs",
+  "repo": "https://github.com/Staegloth/BalatroMarvelMidnightSuns",
+  "downloadURL": "https://github.com/Staegloth/BalatroMarvelMidnightSuns/archive/refs/heads/main.zip",
+  "automatic-version-check": true,
+  "version": "19e1cba"
 }

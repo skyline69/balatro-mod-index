@@ -1,0 +1,14 @@
+{
+  "title": "GigaJokers",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Resource Packs"
+  ],
+  "author": "r0maps, Azurysu",
+  "repo": "https://github.com/r0maps/GigaJokers/tree/main",
+  "downloadURL": "https://github.com/r0maps/GigaJokers/archive/refs/heads/main.zip",
+  "folderName": "GigaJokers",
+  "version": "94d58a7",
+  "automatic-version-check": true
+}
