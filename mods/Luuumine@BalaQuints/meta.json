@@ -1,9 +1,13 @@
 {
-    "title": "BalaQuints",
-    "requires-steamodded": true,
-    "requires-talisman": false,
-    "categories": ["Resource Packs"],
-    "author": "Luuumine",
-    "repo": "https://github.com/Luuumine/BalaQuints",
-    "downloadURL": "https://github.com/Luuumine/BalaQuints/releases/download/v1.0/BalaQuints-v1.0.zip"
+  "title": "BalaQuints",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Resource Packs"
+  ],
+  "author": "Luuumine",
+  "repo": "https://github.com/Luuumine/BalaQuints",
+  "downloadURL": "https://github.com/Luuumine/BalaQuints/releases/latest/download/BalaQuints.zip",
+  "automatic-version-check": true,
+  "version": "v1.2"
 }

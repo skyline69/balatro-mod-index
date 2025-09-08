@@ -1,0 +1,14 @@
+{
+  "title": "Vortex",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Miscellaneous"
+  ],
+  "author": "Keku",
+  "repo": "https://github.com/Kekulism/Vortex/",
+  "downloadURL": "https://github.com/Kekulism/Vortex/archive/refs/heads/main.zip",
+  "folderName": "Vortex",
+  "version": "9bb708f",
+  "automatic-version-check": true
+}

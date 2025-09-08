@@ -1,9 +1,13 @@
 {
-    "title": "Pampa Joker Pack",
-    "requires-steamodded": true,
-    "requires-talisman": false,
-    "categories": ["Joker"],
-    "author": "batabata3",
-    "repo":"https://github.com/batabata3/balatro-pampa-joker-pack",
-    "downloadURL":"https://github.com/batabata3/balatro-pampa-joker-pack/archive/refs/heads/main.zip"
+  "title": "Pampa Joker Pack",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Joker"
+  ],
+  "author": "batabata3",
+  "repo": "https://github.com/batabata3/balatro-pampa-joker-pack",
+  "downloadURL": "https://github.com/batabata3/balatro-pampa-joker-pack/archive/refs/heads/main.zip",
+  "automatic-version-check": true,
+  "version": "91c0618"
 }

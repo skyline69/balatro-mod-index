@@ -1,0 +1,13 @@
+{
+  "title": "pi_cubed's Jokers",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Joker"
+  ],
+  "author": "pi_cubed",
+  "repo": "https://github.com/pi-cubed-cat/pi_cubeds_jokers",
+  "downloadURL": "https://github.com/pi-cubed-cat/pi_cubeds_jokers/archive/refs/heads/main.zip",
+  "version": "639b657",
+  "automatic-version-check": true
+}

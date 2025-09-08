@@ -2,8 +2,13 @@
   "title": "SystemClock",
   "requires-steamodded": false,
   "requires-talisman": false,
-  "categories": ["Quality of Life", "Miscellaneous"],
+  "categories": [
+    "Quality of Life",
+    "Miscellaneous"
+  ],
   "author": "Breezebuilder",
-  "repo":"https://github.com/Breezebuilder/SystemClock",
-  "downloadURL": "https://github.com/Breezebuilder/SystemClock/releases/download/v1.6.4/SystemClock-v1.6.4.zip"
+  "repo": "https://github.com/Breezebuilder/SystemClock",
+  "downloadURL": "https://github.com/Breezebuilder/SystemClock/releases/download/v1.7.1/SystemClock-v1.7.1.zip",
+  "automatic-version-check": false,
+  "version": "v1.7.1"
 }

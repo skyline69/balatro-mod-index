@@ -1,10 +1,14 @@
 {
-    "title": "Flush Hotkeys",
-    "requires-steamodded": true,
-    "requires-talisman": false,
-    "categories": ["Quality of Life"],
-    "author": "Agoraaa",
-    "repo": "https://github.com/Agoraaa/FlushHotkeys",
-    "downloadURL": "https://github.com/Agoraaa/FlushHotkeys/archive/refs/heads/main.zip"
-  }
-  
+  "title": "Flush Hotkeys",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Quality of Life"
+  ],
+  "author": "Agoraaa",
+  "folderName": "FlushHotkeys",
+  "repo": "https://github.com/Agoraaa/FlushHotkeys",
+  "downloadURL": "https://github.com/Agoraaa/FlushHotkeys/archive/refs/heads/main.zip",
+  "automatic-version-check": true,
+  "version": "ac9d035"
+}

@@ -1,9 +1,14 @@
 {
-    "title": "Plantain",
-    "requires-steamodded": true,
-    "requires-talisman": false,
-    "categories": ["Content", "Joker"],
-    "author": "TeamToaster",
-    "repo": "https://github.com/IcebergLettuce0/Plantain",
-    "downloadURL": "https://github.com/IcebergLettuce0/Plantain/archive/refs/heads/main.zip"
-  }
+  "title": "Plantain",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content",
+    "Joker"
+  ],
+  "author": "TeamToaster",
+  "repo": "https://github.com/IcebergLettuce0/Plantain",
+  "downloadURL": "https://github.com/IcebergLettuce0/Plantain/archive/refs/heads/main.zip",
+  "automatic-version-check": true,
+  "version": "541d16b"
+}

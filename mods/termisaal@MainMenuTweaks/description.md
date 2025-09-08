@@ -1,1 +1,1 @@
-Minor changes to the Main Menu Screen.
+Minor changes to the Main Menu Screen. The **Options** and **Mods** buttons are stacked on top of one another, to save space. **Collection** is also closer to **Play**, and **Quit** is on the opposite end of the main menu bar.

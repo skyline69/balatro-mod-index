@@ -1,0 +1,14 @@
+{
+  "title": "Quilombo",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Joker"
+  ],
+  "author": "acetna",
+  "repo": "https://github.com/acetna/Quilombo",
+  "downloadURL": "https://github.com/acetna/Quilombo/releases/latest/download/Quilombo.zip",
+  "folderName": "Quilombo",
+  "version": "hotfix",
+  "automatic-version-check": true
+}

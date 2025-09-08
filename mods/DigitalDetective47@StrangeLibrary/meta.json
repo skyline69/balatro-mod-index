@@ -1,9 +1,13 @@
 {
-    "title": "Strange Library",
-    "requires-steamodded": true,
-    "requires-talisman": false,
-    "categories": ["API"],
-    "author": "DigitalDetective47",
-    "repo": "https://github.com/DigitalDetective47/strange-library",
-    "downloadURL": "https://github.com/DigitalDetective47/strange-library/archive/refs/heads/main.zip"
+  "title": "Strange Library",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "API"
+  ],
+  "author": "DigitalDetective47",
+  "repo": "https://github.com/DigitalDetective47/strange-library",
+  "downloadURL": "https://github.com/DigitalDetective47/strange-library/archive/refs/heads/main.zip",
+  "automatic-version-check": true,
+  "version": "aa9ef89"
 }

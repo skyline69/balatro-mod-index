@@ -1,9 +1,13 @@
 {
-    "title": "HD Balatro",
-    "requires-steamodded": true,
-    "requires-talisman": false,
-    "categories": ["Resource Packs"],
-    "author": "DDRitter",
-    "repo":"https://github.com/Eremel/HD-Balatro",
-    "downloadURL": "https://github.com/Eremel/HD-Balatro/archive/refs/heads/main.zip"
+  "title": "HD Balatro",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Resource Packs"
+  ],
+  "author": "DDRitter",
+  "repo": "https://github.com/Eremel/HD-Balatro",
+  "downloadURL": "https://github.com/Eremel/HD-Balatro/archive/refs/heads/main.zip",
+  "automatic-version-check": true,
+  "version": "01a76b7"
 }

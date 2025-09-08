@@ -1,0 +1,13 @@
+{
+  "title": "HandsomeDevils",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content"
+  ],
+  "author": "Kars, sup3p",
+  "repo": "https://github.com/AlexanderAndersonAmenAmen/Handsome-Devils-Vanilla-mod-",
+  "downloadURL": "https://github.com/AlexanderAndersonAmenAmen/Handsome-Devils-Vanilla-mod-/archive/refs/heads/main.zip",
+  "automatic-version-check": true,
+  "version": "d9039c2"
+}

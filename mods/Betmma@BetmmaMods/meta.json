@@ -2,8 +2,12 @@
   "title": "Betmma Mods",
   "requires-steamodded": true,
   "requires-talisman": false,
-  "categories": ["Content"],
+  "categories": [
+    "Content"
+  ],
   "author": "Betmma",
   "repo": "https://github.com/betmma/my_balatro_mods",
-  "downloadURL": "https://github.com/betmma/my_balatro_mods/archive/refs/heads/main.zip"
+  "downloadURL": "https://github.com/betmma/my_balatro_mods/archive/refs/heads/main.zip",
+  "automatic-version-check": true,
+  "version": "b233911"
 }

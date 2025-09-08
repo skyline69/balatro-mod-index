@@ -1,0 +1,14 @@
+{
+  "title": "Beelatro",
+  "requires-steamodded": true,
+  "requires-talisman": true,
+  "categories": [
+    "Content"
+  ],
+  "author": "InspectorB & MarioFan597",
+  "repo": "https://github.com/InspectorBalloonicorn/Beelatro",
+  "downloadURL": "https://github.com/InspectorBalloonicorn/Beelatro/archive/refs/heads/main.zip",
+  "folderName": "Beelatro",
+  "version": "42c5b2d",
+  "automatic-version-check": true
+}

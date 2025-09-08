@@ -1,5 +1,5 @@
 # Azazel's Jokers!
-Adds 60 New Jokers each with (mostly) unique effects! 
+Adds 120 New Jokers each with (mostly) unique effects! 
 
 This mod is geared towards fun a bit more than game balance, so you might be finding yourself winning quite a bit!
 

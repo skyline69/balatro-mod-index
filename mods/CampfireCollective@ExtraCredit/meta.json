@@ -1,0 +1,14 @@
+{
+  "title": "ExtraCredit",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Joker",
+    "Content"
+  ],
+  "author": "CampfireCollective",
+  "repo": "https://github.com/GuilloryCraft/ExtraCredit",
+  "downloadURL": "https://github.com/GuilloryCraft/ExtraCredit/archive/refs/heads/main.zip",
+  "automatic-version-check": true,
+  "version": "0855210"
+}

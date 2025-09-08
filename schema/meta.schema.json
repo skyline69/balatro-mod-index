@@ -16,7 +16,15 @@
       "type": "array",
       "items": {
         "type": "string",
-        "enum": ["Content", "Joker", "Quality of Life", "Technical", "Miscellaneous", "Resource Packs", "API"]
+        "enum": [
+          "Content",
+          "Joker",
+          "Quality of Life",
+          "Technical",
+          "Miscellaneous",
+          "Resource Packs",
+          "API"
+        ]
       },
       "minItems": 1,
       "uniqueItems": true
@@ -31,8 +39,109 @@
     "downloadURL": {
       "type": "string",
       "format": "uri"
+    },
+    "folderName": {
+      "type": "string",
+      "pattern": "^[^<>:\"/\\|?*]+$"
+    },
+    "version": {
+      "type": "string"
+    },
+    "automatic-version-check": {
+      "type": "boolean"
+    },
+    "fixed-release-tag-updates": {
+      "type": "boolean"
+    },
+    "last-updated": {
+      "type": "integer",
+      "minimum": 0,
+      "exclusiveMaximum": 18446744073709551616
     }
   },
-  "required": ["title", "requires-steamodded", "categories", "author", "repo", "downloadURL"]
+  "required": [
+    "title",
+    "requires-steamodded",
+    "requires-talisman",
+    "categories",
+    "author",
+    "repo",
+    "downloadURL",
+    "version"
+  ],
+  "allOf": [
+    {
+      "$comment": "This rule prevents accidental freezing of updates",
+      "not": {
+        "allOf": [
+          {
+            "$comment": "'automatic-version-check' is true",
+            "properties": {
+              "automatic-version-check": {
+                "const": true
+              }
+            },
+            "required": [
+              "automatic-version-check"
+            ]
+          },
+          {
+            "$comment": "'downloadURL' points to a specific release asset",
+            "properties": {
+              "downloadURL": {
+                "pattern": "^https?://github\\.com/[^/]+/[^/]+/releases/download/[^/]+/.+$"
+              }
+            },
+            "required": [
+              "downloadURL"
+            ]
+          },
+          {
+            "$comment": "'fixed-release-tag-updates' is NOT true (i.e., it's false, or it's completely missing)",
+            "not": {
+              "properties": {
+                "fixed-release-tag-updates": {
+                  "const": true
+                }
+              },
+              "required": [
+                "fixed-release-tag-updates"
+              ]
+            }
+          }
+        ]
+      },
+      "errorMessage": "When 'downloadURL' points to a specific GitHub release asset AND 'automatic-version-check' is true, 'fixed-release-tag-updates' must also be true. This prevents accidental update freezing."
+    },
+    {
+      "$comment": "This rule checks the value of 'fixed-release-tag-updates' and guarantees consistency",
+      "if": {
+        "properties": {
+          "fixed-release-tag-updates": {
+            "const": true
+          }
+        },
+        "required": [
+          "fixed-release-tag-updates"
+        ]
+      },
+      "then": {
+        "$comment": "Conditions when 'fixed-release-tag-updates' is true",
+        "properties": {
+          "automatic-version-check": {
+            "const": true,
+            "errorMessage": "'automatic-version-check' must be true when 'fixed-release-tag-updates' is true."
+          },
+          "downloadURL": {
+            "pattern": "^https?://github\\.com/[^/]+/[^/]+/releases/download/[^/]+/.+$",
+            "errorMessage": "When 'fixed-release-tag-updates' is true, 'downloadURL' must point to a specific GitHub specific release asset (e.g., '/releases/download/v1.0.0/asset.zip'), NOT a branch head or latest release URL."
+          }
+        },
+        "required": [
+          "automatic-version-check"
+        ],
+        "errorMessage": "When 'fixed-release-tag-updates' 'automatic-version-check' must be true, and 'downloadURL' must point to a specific release asset."
+      }
+    }
+  ]
 }
-

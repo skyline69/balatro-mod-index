@@ -1,0 +1,15 @@
+{
+  "title": "Rofflatro",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content",
+    "Joker"
+  ],
+  "author": "Roffle's Chat",
+  "repo": "https://github.com/MamiKeRiko/Rofflatro",
+  "downloadURL": "https://github.com/MamiKeRiko/Rofflatro/archive/refs/tags/v1.2.0b.zip",
+  "folderName": "Rofflatro",
+  "version": "v1.2.0b",
+  "automatic-version-check": true
+}

@@ -1,9 +1,13 @@
 {
-    "title": "Celestial Funk",
-    "requires-steamodded": true,
-    "requires-talisman": false,
-    "categories": ["Resource Packs"],
-    "author": "Lime_Effy",
-    "repo":"https://github.com/LimeEffy/Celestial-Funk",
-    "downloadURL": "https://github.com/LimeEffy/Celestial-Funk/archive/refs/heads/main.zip"
+  "title": "Celestial Funk",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Resource Packs"
+  ],
+  "author": "Lime_Effy",
+  "repo": "https://github.com/LimeEffy/Celestial-Funk",
+  "downloadURL": "https://github.com/LimeEffy/Celestial-Funk/archive/refs/heads/main.zip",
+  "automatic-version-check": true,
+  "version": "0cd8f89"
 }

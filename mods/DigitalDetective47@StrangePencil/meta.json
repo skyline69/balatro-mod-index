@@ -1,9 +1,13 @@
 {
-    "title": "Strange Pencil",
-    "requires-steamodded": true,
-    "requires-talisman": false,
-    "categories": ["Content"],
-    "author": "DigitalDetective47",
-    "repo": "https://github.com/DigitalDetective47/strange-pencil",
-    "downloadURL": "https://github.com/DigitalDetective47/strange-pencil/archive/refs/heads/main.zip"
+  "title": "Strange Pencil",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content"
+  ],
+  "author": "DigitalDetective47",
+  "repo": "https://github.com/DigitalDetective47/strange-pencil",
+  "downloadURL": "https://github.com/DigitalDetective47/strange-pencil/archive/refs/heads/main.zip",
+  "automatic-version-check": true,
+  "version": "ea890e9"
 }

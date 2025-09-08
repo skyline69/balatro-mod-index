@@ -1,0 +1,17 @@
+{
+  "title": "Tangents",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Joker",
+    "Content",
+    "Miscellaneous"
+  ],
+  "author": "Nxkoo",
+  "repo": "https://github.com/Clickseee/Tangents",
+  "downloadURL": "https://github.com/Clickseee/Tangents/archive/refs/heads/main.zip",
+  "folderName": "Tangents",
+  "version": "8bfb412",
+  "automatic-version-check": true,
+  "last-updated": 1757269215
+}

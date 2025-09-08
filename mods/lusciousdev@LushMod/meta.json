@@ -1,9 +1,13 @@
 {
-    "title": "LushMod",
-    "requires-steamodded": true,
-    "requires-talisman": false,
-    "categories": ["Joker"],
-    "author": "lusciousdev",
-    "repo":"https://github.com/lusciousdev/LushMod",
-    "downloadURL":"https://github.com/lusciousdev/LushMod/archive/refs/heads/main.zip"
+  "title": "LushMod",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Joker"
+  ],
+  "author": "lusciousdev",
+  "repo": "https://github.com/lusciousdev/LushMod",
+  "downloadURL": "https://github.com/lusciousdev/LushMod/archive/refs/heads/main.zip",
+  "automatic-version-check": true,
+  "version": "18e7554"
 }

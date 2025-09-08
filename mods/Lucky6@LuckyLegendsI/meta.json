@@ -1,0 +1,13 @@
+{
+  "title": "Lucky Legends I",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content"
+  ],
+  "author": "Lucky6",
+  "repo": "https://github.com/MamiKeRiko/luckylegends",
+  "downloadURL": "https://github.com/MamiKeRiko/luckylegends/archive/refs/heads/main.zip",
+  "automatic-version-check": true,
+  "version": "b1533c2"
+}

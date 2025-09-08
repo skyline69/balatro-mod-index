@@ -1,0 +1,13 @@
+{
+  "title": "Condensed UI",
+  "automatic-version-check": true,
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "author": "Hoversquid",
+  "categories": [
+    "Quality of Life"
+  ],
+  "repo": "https://github.com/Hoversquid/Condensed_UI",
+  "downloadURL": "https://github.com/Hoversquid/Condensed_UI/archive/refs/tags/v1.2-alpha.zip",
+  "version": "v1.2-alpha"
+}

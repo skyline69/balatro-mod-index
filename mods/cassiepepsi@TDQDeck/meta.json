@@ -2,8 +2,12 @@
   "title": "The Dragon Quest Deck",
   "requires-steamodded": true,
   "requires-talisman": false,
-  "categories": ["Resource Packs"],
+  "categories": [
+    "Resource Packs"
+  ],
   "author": "cassiepepsi",
   "repo": "https://github.com/cloverpepsi/Balatro-TDQDeck",
-  "downloadURL": "https://github.com/cloverpepsi/Balatro-TDQDeck/releases/download/v1.0.0/TDQ-Deck-main.zip"
+  "downloadURL": "https://github.com/cloverpepsi/Balatro-TDQDeck/releases/download/v1.0.0/TDQ-Deck-main.zip",
+  "automatic-version-check": false,
+  "version": "v1.0.0"
 }

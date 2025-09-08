@@ -1,9 +1,13 @@
 {
-    "title": "Planet Nine",
-    "requires-steamodded": true,
-    "requires-talisman": false,
-    "categories": ["Resource Packs"],
-    "author": "DarkAutumn2618",
-    "repo":"https://github.com/DarkAutumn2618/balatro-planetnine",
-    "downloadURL": "https://github.com/DarkAutumn2618/balatro-planetnine/archive/refs/heads/master.zip"
+  "title": "Planet Nine",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Resource Packs"
+  ],
+  "author": "DarkAutumn2618",
+  "repo": "https://github.com/DarkAutumn2618/balatro-planetnine",
+  "downloadURL": "https://github.com/DarkAutumn2618/balatro-planetnine/archive/refs/heads/master.zip",
+  "automatic-version-check": true,
+  "version": "f551f58"
 }

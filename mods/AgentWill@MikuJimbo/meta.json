@@ -1,0 +1,14 @@
+{
+  "title": "Joker Miku over Jimbo",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Resource Packs"
+  ],
+  "author": "AgentWill",
+  "repo": "https://github.com/AgentWill/MikuJimbo",
+  "downloadURL": "https://github.com/AgentWill/MikuJimbo/archive/refs/heads/main.zip",
+  "folderName": "MikuJimbo",
+  "automatic-version-check": true,
+  "version": "5576478"
+}

@@ -1,0 +1,15 @@
+{
+  "title": "Seals On Everything",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content",
+    "Miscellaneous"
+  ],
+  "author": "Somethingcom515",
+  "repo": "https://github.com/Somethingcom515/SealsOnJokers",
+  "downloadURL": "https://github.com/Somethingcom515/SealsOnJokers/archive/refs/heads/main.zip",
+  "folderName": "SealsOnEverything",
+  "automatic-version-check": true,
+  "version": "8b78702"
+}

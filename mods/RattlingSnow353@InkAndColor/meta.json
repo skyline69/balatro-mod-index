@@ -2,8 +2,12 @@
   "title": "Ink And Color Suits",
   "requires-steamodded": true,
   "requires-talisman": false,
-  "categories": [ "Content" ],
+  "categories": [
+    "Content"
+  ],
   "author": "RattlingSnow353",
   "repo": "https://github.com/RattlingSnow353/InkAndColor",
-  "downloadURL": "https://github.com/RattlingSnow353/InkAndColor/archive/refs/heads/main.zip"
+  "downloadURL": "https://github.com/RattlingSnow353/InkAndColor/archive/refs/heads/main.zip",
+  "automatic-version-check": true,
+  "version": "849a291"
 }

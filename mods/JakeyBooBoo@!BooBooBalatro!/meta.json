@@ -1,0 +1,14 @@
+{
+  "title": "!BooBooBalatro!",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content"
+  ],
+  "author": "JakeyBooBoo",
+  "repo": "https://github.com/Jakey2BooBoo/-BooBooBalatro-",
+  "downloadURL": "https://github.com/Jakey2BooBoo/-BooBooBalatro-/archive/refs/heads/main.zip",
+  "folderName": "!BooBooBalatro!",
+  "version": "acedd29",
+  "automatic-version-check": true
+}

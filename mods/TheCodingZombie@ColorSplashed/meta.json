@@ -1,0 +1,14 @@
+{
+  "title": "ColorSplashed",
+  "requires-steamodded": true,
+  "requires-talisman": true,
+  "categories": [
+    "Content"
+  ],
+  "author": "TheCodingZombie",
+  "repo": "https://github.com/TheCodingZombie/PMCSBalatro",
+  "downloadURL": "https://github.com/TheCodingZombie/PMCSBalatro/archive/refs/tags/v1.1.zip",
+  "folderName": "ColorSplashed",
+  "version": "v1.1",
+  "automatic-version-check": true
+}

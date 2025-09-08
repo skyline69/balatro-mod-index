@@ -1,0 +1,14 @@
+{
+  "title": "Go to bed, Minty",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Quality of Life",
+    "Miscellaneous"
+  ],
+  "author": "wingedcatgirl",
+  "repo": "https://github.com/wingedcatgirl/Go-To-Bed--Minty",
+  "downloadURL": "https://github.com/wingedcatgirl/Go-To-Bed--Minty/archive/refs/heads/main.zip",
+  "automatic-version-check": true,
+  "version": "3899f54"
+}

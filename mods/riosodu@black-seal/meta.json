@@ -1,0 +1,15 @@
+{
+  "title": "Black Seal",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content"
+  ],
+  "author": "Riosodu",
+  "repo": "https://github.com/gfreitash/balatro-mods",
+  "downloadURL": "https://github.com/gfreitash/balatro-mods/releases/download/black-seal__latest/black-seal.zip",
+  "folderName": "black-seal",
+  "automatic-version-check": true,
+  "fixed-release-tag-updates": true,
+  "version": "20250902_120043"
+}

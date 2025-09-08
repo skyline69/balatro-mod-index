@@ -1,9 +1,13 @@
 {
-    "title": "Gemstones",
-    "requires-steamodded": true,
-	"requires-talisman": false,
-    "categories": ["Content"],
-    "author": "Halo / OfficialHalo",
-    "repo": "https://github.com/0fficialHalo/Gemstones",
-    "downloadURL": "https://github.com/0fficialHalo/Gemstones/releases/latest/download/Gemstones.zip"
-  }
+  "title": "Gemstones",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content"
+  ],
+  "author": "Halo / OfficialHalo",
+  "repo": "https://github.com/0fficialHalo/Gemstones",
+  "downloadURL": "https://github.com/0fficialHalo/Gemstones/releases/latest/download/Gemstones.zip",
+  "automatic-version-check": true,
+  "version": "v0.8.0"
+}

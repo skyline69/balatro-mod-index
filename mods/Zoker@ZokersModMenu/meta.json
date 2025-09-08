@@ -1,0 +1,16 @@
+{
+  "title": "ZokersModMenu",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Technical",
+    "Quality of Life",
+    "Content"
+  ],
+  "author": "Zoker",
+  "repo": "https://github.com/1Zoker/ZokersModMenu",
+  "downloadURL": "https://github.com/1Zoker/ZokersModMenu/releases/latest/download/ZokersModMenu.zip",
+  "folderName": "ZokersModMenu",
+  "version": "Newest",
+  "automatic-version-check": true
+}

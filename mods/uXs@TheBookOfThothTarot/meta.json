@@ -1,9 +1,13 @@
 {
-    "title": "The Book of Thoth Tarot",
-    "requires-steamodded": true,
-    "requires-talisman": false,
-    "categories": ["Resource Packs"],
-    "author": "uXs",
-    "repo":"https://github.com/Staegloth/BalatroThoth",
-    "downloadURL": "https://github.com/Staegloth/BalatroThoth/archive/refs/heads/main.zip"
+  "title": "The Book of Thoth Tarot",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Resource Packs"
+  ],
+  "author": "uXs",
+  "repo": "https://github.com/Staegloth/BalatroThoth",
+  "downloadURL": "https://github.com/Staegloth/BalatroThoth/archive/refs/heads/main.zip",
+  "automatic-version-check": true,
+  "version": "29e2e81"
 }

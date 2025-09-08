@@ -2,8 +2,15 @@
   "title": "Cardsauce",
   "requires-steamodded": true,
   "requires-talisman": false,
-  "categories": ["Content", "Joker", "Miscellaneous"],
+  "categories": [
+    "Content",
+    "Joker",
+    "Miscellaneous"
+  ],
   "author": "BarrierTrio & Keku",
   "repo": "https://github.com/BarrierTrio/Cardsauce",
-  "downloadURL": "https://github.com/BarrierTrio/Cardsauce/releases/latest/download/Cardsauce.zip"
+  "downloadURL": "https://github.com/BarrierTrio/Cardsauce/archive/refs/heads/main.zip",
+  "folderName": "Cardsauce",
+  "automatic-version-check": true,
+  "version": "71485d9"
 }

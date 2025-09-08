@@ -1,9 +1,13 @@
 {
-    "title": "KCVanilla",
-    "requires-steamodded": true,
-    "requires-talisman": false,
-    "categories": ["Joker"],
-    "author": "kcgidw",
-    "repo":"https://github.com/kcgidw/kcvanilla",
-    "downloadURL":"https://github.com/kcgidw/kcvanilla/archive/refs/heads/master.zip"
+  "title": "KCVanilla",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Joker"
+  ],
+  "author": "kcgidw",
+  "repo": "https://github.com/kcgidw/kcvanilla",
+  "downloadURL": "https://github.com/kcgidw/kcvanilla/archive/refs/heads/master.zip",
+  "automatic-version-check": true,
+  "version": "a4a10f8"
 }

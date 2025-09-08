@@ -1,0 +1,12 @@
+{
+  "title": "Solar",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": ["Resource Packs"],
+  "author": "LazyTurtle33",
+  "repo": "https://github.com/TheLazyTurtle33/SolarBalatro",
+  "downloadURL": "https://github.com/TheLazyTurtle33/SolarBalatro/releases/latest/download/Solar.zip",
+  "folderName": "Solar",
+  "version": "release",
+  "automatic-version-check": false
+}

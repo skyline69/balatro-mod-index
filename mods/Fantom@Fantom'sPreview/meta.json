@@ -1,0 +1,14 @@
+{
+  "title": "Fantom's Preview",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Quality of Life"
+  ],
+  "author": "Fantom, Divvy",
+  "repo": "https://github.com/Fantom-Balatro/Fantoms-Preview",
+  "downloadURL": "https://github.com/Fantom-Balatro/Fantoms-Preview/releases/latest/download/Fantoms-Preview.zip",
+  "folderName": "Fantoms-Preview",
+  "version": "v2.4.1",
+  "automatic-version-check": true
+}

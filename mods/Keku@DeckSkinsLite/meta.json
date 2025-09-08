@@ -2,8 +2,12 @@
   "title": "DeckSkinsLite",
   "requires-steamodded": true,
   "requires-talisman": false,
-  "categories": ["Miscellaneous"],
+  "categories": [
+    "Miscellaneous"
+  ],
   "author": "Keku",
   "repo": "https://github.com/Kekulism/DeckSkinsLite",
-  "downloadURL": "https://github.com/Kekulism/DeckSkinsLite/archive/refs/heads/main.zip"
+  "downloadURL": "https://github.com/Kekulism/DeckSkinsLite/archive/refs/heads/main.zip",
+  "automatic-version-check": true,
+  "version": "78cb154"
 }

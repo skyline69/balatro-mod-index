@@ -1,9 +1,13 @@
 {
-    "title": "Math Blinds",
-    "requires-steamodded": true,
-    "requires-talisman": false,
-    "categories": ["Content"],
-    "author": "dvrp0",
-    "repo":"https://github.com/Bazinga9000/MathBlinds",
-    "downloadURL":"https://github.com/Bazinga9000/MathBlinds/archive/refs/heads/main.zip"
+  "title": "Math Blinds",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content"
+  ],
+  "author": "dvrp0",
+  "repo": "https://github.com/Bazinga9000/MathBlinds",
+  "downloadURL": "https://github.com/Bazinga9000/MathBlinds/archive/refs/heads/main.zip",
+  "automatic-version-check": true,
+  "version": "8807e86"
 }

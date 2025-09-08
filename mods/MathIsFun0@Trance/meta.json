@@ -2,8 +2,13 @@
   "title": "Trance",
   "requires-steamodded": false,
   "requires-talisman": false,
-  "categories": ["Miscellaneous"],
+  "categories": [
+    "Miscellaneous"
+  ],
   "author": "MathIsFun0",
-  "repo":"https://github.com/MathIsFun0/Trance",
-  "downloadURL": "https://github.com/MathIsFun0/Trance/archive/refs/heads/main.zip"
+  "repo": "https://github.com/MathIsFun0/Trance",
+  "downloadURL": "https://github.com/MathIsFun0/Trance/archive/refs/heads/main.zip",
+  "folderName": "Trance",
+  "automatic-version-check": true,
+  "version": "fb86ebd"
 }

@@ -1,9 +1,13 @@
 {
-    "title": "Aikoyori Paint Job",
-    "requires-steamodded": true,
-    "requires-talisman": false,
-    "categories": ["Resource Packs"],
-    "author": "Aikoyori",
-    "repo":"https://github.com/Aikoyori/Balatro_AikoPaintJob",
-    "downloadURL": "https://github.com/Aikoyori/Balatro_AikoPaintJob/archive/refs/heads/main.zip"
+  "title": "Aikoyori Paint Job",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Resource Packs"
+  ],
+  "author": "Aikoyori",
+  "repo": "https://github.com/Aikoyori/Balatro_AikoPaintJob",
+  "downloadURL": "https://github.com/Aikoyori/Balatro_AikoPaintJob/archive/refs/heads/main.zip",
+  "automatic-version-check": true,
+  "version": "df146e1"
 }

@@ -1,9 +1,13 @@
 {
-    "title": "DebugPlus",
-    "requires-steamodded": false,
-    "requires-talisman": false,
-    "categories": ["Technical"],
-    "author": "WilsontheWolf",
-    "repo":"https://github.com/WilsontheWolf/DebugPlus",
-    "downloadURL": "https://github.com/WilsontheWolf/DebugPlus/releases/latest/download/DebugPlus.zip"
-  }
+  "title": "DebugPlus",
+  "requires-steamodded": false,
+  "requires-talisman": false,
+  "categories": [
+    "Technical"
+  ],
+  "author": "WilsontheWolf",
+  "repo": "https://github.com/WilsontheWolf/DebugPlus",
+  "downloadURL": "https://github.com/WilsontheWolf/DebugPlus/releases/latest/download/DebugPlus.zip",
+  "automatic-version-check": true,
+  "version": "v1.5.1"
+}

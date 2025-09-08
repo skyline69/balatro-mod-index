@@ -1,0 +1,14 @@
+{
+  "title": "TurtlesChallenges",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content"
+  ],
+  "author": "LazyTurtle33",
+  "repo": "https://github.com/TheLazyTurtle33/TurtlesChallenges",
+  "downloadURL": "https://github.com/TheLazyTurtle33/TurtlesChallenges/releases/latest/download/TurtlesChallenges.zip",
+  "folderName": "TurtlesChallenges",
+  "version": "1.5.3",
+  "automatic-version-check": true
+}

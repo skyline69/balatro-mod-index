@@ -1,9 +1,13 @@
 {
-    "title": "Binding of Isaac Tarot",
-    "requires-steamodded": true,
-    "requires-talisman": false,
-    "categories": ["Resource Packs"],
-    "author": "Zamos",
-    "repo":"https://github.com/theZamos/Isaac-Tarot",
-    "downloadURL": "https://github.com/theZamos/Isaac-Tarot/archive/refs/heads/main.zip"
+  "title": "Binding of Isaac Tarot",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Resource Packs"
+  ],
+  "author": "Zamos",
+  "repo": "https://github.com/theZamos/Isaac-Tarot",
+  "downloadURL": "https://github.com/theZamos/Isaac-Tarot/archive/refs/heads/main.zip",
+  "automatic-version-check": true,
+  "version": "ecbff66"
 }

@@ -1,18 +1,15 @@
-Handy - a lovely mod which adds a bunch of new controls designed to make playing Balatro much easier.
-Especially useful with other mods where using or selling thousands of cards and opening hundreds of booster packs is a common gameplay.
-Key features
+Handy - a lovely mod which adds new controls and keybinds to the game
+designed for faster and easier playing Vanilla and Modded Balatro.
 
-    Keybinds for common buttons: "Play", "Discard", "Reroll shop", "Leave shop", "Skip Booster pack", "Skip blind", "Select blind", "Sort hand by rank/suit", "Deselect hand", "Cash out", "Run info", "View deck", "Deck preview";
-    Highlight cards in hand on hover + keybind for highlight entire hand;
-    Keybinds to move highlight/card in card areas: Jokers, Consumabled, Shop, Booster packs, etc;
-    Hold keybinds to quick buy/sell/use cards + unsafe versions for maximum speed;
-    In-game ability to adjust game speed (from x1/512 to x512);
-    Mods support:
-        Not Just Yet: keybind for "End round" button;
-        Nopeus: In-game ability to adjust "Fast-Forward" setting (from "Off" to "Unsafe");
-    For keybindsб "On press" or "On release" trigger mode can be selected.
-    Each feature can be toggled and/or reassigned to any keyboard buttons, mouse buttons and mouse wheel
-    No run or game restarts required.
-    All listed controls and assigned keybinds listed in mod settings.
-    Unsafe controls designed to be speed-first, which can cause bugs/crashes.
-    Needs to be enabled separately in mod settings.
+- Vanilla-friendly: no new run required; stability is priority, safe for use in base game and Multiplayer;
+- Works without Steamodded: but included supports for variety of different mods (NotJustYet, Nopeus, Cryptid);
+- Fast hand selection: highlight cards just by hovering them;
+- Keybinds for all vanilla buttons and actions: play, discard, hand sorting, cash out, shop reroll, view deck, and more;
+- Game speed: adjust game speed up to x512 in-run;
+- Animation skip: instant scoring and removing unnecessary animations to speedup game even further;
+- Quick Buy/Sell/Use: controls to buy, sell or use cards faster;
+- Selection movement: more precise management on large amoung of jokers or consumables;
+- Full control: each feature can be disabled/enabled individually, each keybind can be reassigned to any keyboard or mouse button;
+- Gamepad support: most features can be used with gamepad aswell;
+- Presets: save up to 3 mod settings layouts and switch between them in-run to have more freedom with limited amount of buttons;
+- ...and more!

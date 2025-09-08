@@ -1,9 +1,13 @@
 {
-    "title": "Multi Jokers",
-    "requires-steamodded": true,
-    "requires-talisman": false,
-    "categories": ["Joker"],
-    "author": "JohnMaged",
-    "repo":"https://github.com/iJohnMaged/multi-jokers",
-    "downloadURL":"https://github.com/lusciousdev/LushMod/archive/refs/heads/main.zip"
+  "title": "Multi Jokers",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Joker"
+  ],
+  "author": "JohnMaged",
+  "repo": "https://github.com/iJohnMaged/multi-jokers",
+  "downloadURL": "https://github.com/lusciousdev/LushMod/archive/refs/heads/main.zip",
+  "automatic-version-check": true,
+  "version": "bab6c42"
 }

@@ -1,9 +1,13 @@
 {
-	"title": "Last Stand",
-	"requires-steamodded": true,
-	"requires-talisman": false,
-	"categories": ["Content"],
-	"author": "Tucaonormal",
-	"repo": "https://github.com/Tucaonormal/LastStand",
-	"downloadURL": "https://github.com/Tucaonormal/LastStand/archive/refs/heads/main.zip"
+  "title": "Last Stand",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content"
+  ],
+  "author": "Tucaonormal",
+  "repo": "https://github.com/Tucaonormal/LastStand",
+  "downloadURL": "https://github.com/Tucaonormal/LastStand/archive/refs/heads/main.zip",
+  "automatic-version-check": true,
+  "version": "e96277d"
 }

@@ -1,0 +1,15 @@
+{
+  "title": "Soup",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content",
+    "Resource Packs",
+    "Miscellaneous"
+  ],
+  "author": "Coo29",
+  "repo": "https://github.com/Coo29/Soup",
+  "downloadURL": "https://github.com/Coo29/Soup/archive/refs/heads/main.zip",
+  "automatic-version-check": true,
+  "version": "79c38cd"
+}

@@ -1,9 +1,14 @@
 {
-    "title": "Turbulent Jokers",
-    "requires-steamodded": true,
-    "requires-talisman": false,
-    "categories": ["Joker","Content"],
-    "author": "Snoresville",
-    "repo":"https://github.com/Snoresville/snoresville_turbulent_jokers/",
-    "downloadURL":"https://github.com/Snoresville/snoresville_turbulent_jokers/releases/download/v1.1.3/SnoresvilleTurbulentJokers.zip"
+  "title": "Turbulent Jokers",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Joker",
+    "Content"
+  ],
+  "author": "Snoresville",
+  "repo": "https://github.com/Snoresville/snoresville_turbulent_jokers/",
+  "downloadURL": "https://github.com/Snoresville/snoresville_turbulent_jokers/releases/download/v1.1.3/SnoresvilleTurbulentJokers.zip",
+  "automatic-version-check": false,
+  "version": "v1.1.3"
 }

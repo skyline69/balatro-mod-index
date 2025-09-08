@@ -1,0 +1,13 @@
+{
+  "title": "SoulTarots",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Resource Packs"
+  ],
+  "author": "OppositeWolf770",
+  "repo": "https://github.com/OppositeWolf770/SoulEverything",
+  "downloadURL": "https://github.com/OppositeWolf770/SoulEverything/archive/refs/heads/main.zip",
+  "automatic-version-check": true,
+  "version": "38b5bdc"
+}

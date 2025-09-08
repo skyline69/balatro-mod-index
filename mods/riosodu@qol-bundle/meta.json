@@ -1,0 +1,16 @@
+{
+  "title": "QoL Bundle",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Quality of Life"
+  ],
+  "author": "Riosodu",
+  "repo": "https://github.com/gfreitash/balatro-mods",
+  "downloadURL": "https://github.com/gfreitash/balatro-mods/releases/download/qol-bundle__latest/qol-bundle.zip",
+  "folderName": "qol-bundle",
+  "automatic-version-check": true,
+  "fixed-release-tag-updates": true,
+  "version": "20250908_164337",
+  "last-updated": 1757351697
+}

@@ -35,17 +35,32 @@ This file stores essential metadata in JSON format. **Make sure you adhere to th
   "categories": ["Content"],
   "author": "Joe Mama",
   "repo": "https://github.com/joemama/extended-cards",
-  "downloadURL": "https://github.com/joemama/extended-cards/releases/latest/extended-cards.tar.gz"
+  "downloadURL": "https://github.com/joemama/extended-cards/releases/latest/download/extended-cards.zip",
+  "folderName": "ExtendedCards",
+  "version": "1.0.0",
+  "automatic-version-check": true
 }
 
 ```
 - **title**: The name of your mod.
 - **requires-steamodded**: If your mod requires the [Steamodded](https://github.com/Steamodded/smods) mod loader, set this to `true`.
 - **requires-talisman**: If your mod requires the [Talisman](https://github.com/MathIsFun0/Talisman) mod, set this to `true`.
-- **categories**: Must be of `Content`, `Joker`, `Quality of Life`, `Technical`, `Miscellaneous`, `Resource Packs` or `API`.
+- **categories**: Must contain at least one of `Content`, `Joker`, `Quality of Life`, `Technical`, `Miscellaneous`, `Resource Packs` or `API`.
 - **author**: Your chosen username or handle.
 - **repo**: A link to your mod's repository.
-- **downloadURL**: A direct link to the latest version of your released mod. (Can be same as `repo` if no separate download link exists.)
+- **downloadURL**: A direct link to the latest version of your released mod. Using an automatic link to the [latest release](https://docs.github.com/en/repositories/releasing-projects-on-github/linking-to-releases) is preferred.
+- **version**: The version number of the mod files available at `downloadURL`.
+- *folderName*: (*Optional*) The name for the mod's install folder. This must be **unique**, and cannot contain characters `<` `>` `:` `"` `/` `\` `|` `?` `*`
+- *automatic-version-check*: (*Optional* but **recommended**) Set to `true` to let the Index automatically update the `version` field.
+    - Updates happen once every hour, by checking either your mod's latest Release, latest commit, or specific release tag, depending on the `downloadURL`.
+    - Enable this option **only** if your `downloadURL` points to an automatically updating source:
+        - **Latest release** (recommended): Using a link to [releases/latest](https://docs.github.com/en/repositories/releasing-projects-on-github/linking-to-releases) 
+        - **Latest commit**: Using a link to the [latest commit (HEAD)](https://docs.github.com/en/repositories/working-with-files/using-files/downloading-source-code-archives#source-code-archive-urls)
+- *fixed-release-tag-updates*: (*Optional*) Set to `true` if your mod uses a fixed release tag and still wants to auto-update when modifying the underlying files. This can be useful for repositories with multiple mods, allowing you to have a release tag dedicated for each mod where you upload new versions. Note that:
+  - Requires `automatic-version-check` to also be set to `true`.
+  - The `downloadURL` must point to a specific release asset using a link such as `https://github.com/author/repo/releases/download/my-release-tag/mod.zip`. 
+ 
+ 
 
 ### 3. thumbnail.jpg (Optional)
 If included, this image will appear alongside your mod in the index. Maximum and recommended size is 1920x1080 pixels.
@@ -88,4 +103,40 @@ Once your submission is reviewed and approved, your mod will be added to the Bal
 
 ---
 
-Thanks for contributing to the **Balatro Mod Index** and helping the community grow! 
+## Submission Policy
+
+All submissions must be safe, legal, and appropriate for a general audience. This means:
+1. No mods containing malware or spyware.
+
+2. No copyrighted content that is used without permission.
+   
+3. No hateful, discriminatory, or offensive material.
+
+By submitting your own mod to the *Balatro Mod Index*, you are agreeing to allow your mod to be displayed in and redistributed by [Balatro Mod Manager](https://github.com/skyline69/balatro-mod-manager/).
+If you would like your content to be removed from the *Balatro Mod Index* at any point, please create an [Issue](https://github.com/skyline69/balatro-mod-index/issues) or submit a [Pull Request](https://github.com/skyline69/balatro-mod-manager/pulls) with the relevant content deleted.
+
+
+### Third-Party Submissions
+Mods should ideally be submitted by their creators. If you would like to submit a mod on behalf of a mod's creator, please do so in a way that is considerate of the author, their creative works, and their time.
+
+Mods will only be accepted on the Balatro Mod Index if they have been released under a redistribution-friendly license (such as GPL, MIT, MPL or similar), or if the mod's authors have given explicit and public permission.
+It is strongly encouraged to ask for permission before submitting other's mods to the *Balatro Mod Index*, regardless of license.
+
+**Before submitting mods created by other people:**
+1. Check that the mod is **working** on the most current version of the game, and has not been **deprecated** or **abandoned**.
+
+2. Check that the mod's **license** allows **redistribution** by third parties - otherwise, **ask permission** from the creator.
+   
+3. Check the mod's requirements for **Steamodded** and **Talisman**, along with any other dependencies that should be listed in the description.
+   
+4. Check if the mod requires a specific installation **folder name**, and set the `folderName` parameter accordingly.
+   
+5. Check that the mod doesn't have any other special or unusual **installation requirements**.
+   
+6. Check if the mod has any **promotional images** that might be suitable for use as a **thumbnail**.
+
+When submitting a mod on behalf of someone else, please link to the latest **Release** whenever possible rather than the latest repository HEAD.
+This helps to keep modded Balatro stable for more players, by only using tested releases instead of potentially untested in-development builds.
+
+
+Thanks for contributing to the *Balatro Mod Index* and helping the community grow! 

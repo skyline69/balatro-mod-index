@@ -1,9 +1,13 @@
 {
-    "title": "Bad Apple",
-    "requires-steamodded": true,
-    "requires-talisman": false,
-    "categories": ["Joker"],
-    "author": "JamesTheJellyfish",
-    "repo":"https://github.com/jamesthejellyfish/BadAppleBalatro",
-    "downloadURL":"https://github.com/jamesthejellyfish/BadAppleBalatro/archive/refs/heads/main.zip"
+  "title": "Bad Apple",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Joker"
+  ],
+  "author": "JamesTheJellyfish",
+  "repo": "https://github.com/jamesthejellyfish/BadAppleBalatro",
+  "downloadURL": "https://github.com/jamesthejellyfish/BadAppleBalatro/archive/refs/heads/main.zip",
+  "automatic-version-check": true,
+  "version": "ee0d3c2"
 }

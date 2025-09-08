@@ -1,9 +1,9 @@
-![Njlogo-export](https://github.com/user-attachments/assets/b8557954-122b-4f95-8afb-d04c41d9803a) <br>
-A **vanilla-like joker expansion mod** with references <br>to my favorite *youtube/twitch creators, tv shows* and<br> whatever other jokers I draw for fun!<br>
+A **vanilla-like joker expansion mod** with references to my favorite *youtube/twitch creators, tv shows* and whatever other jokers I draw for fun!
+
 ### Bugs? Feedback?<br> Report here: [Google Form](https://forms.gle/Riyai7krZrmHRfsJ8)
 
 # About Me
-![AneatoHiBWNEW2](https://github.com/user-attachments/assets/5f1b6ded-700a-432e-b323-a8b4f6ded044) I'm Neato! I'm a pixel artist and part-time streamer.
+Hi, I'm Neato! I'm a pixel artist and part-time streamer.
 
 I drew all the jokers for this mod over the course of of a year. You may have seen them on my [twitter](https://x.com/NEAT0QUEEN), [reddit](https://www.reddit.com/user/neatoqueen/submitted/) or [bluesky](https://bsky.app/profile/neato.live). <br> 
 I plan to keep making more jokers and adding them in batches of 15!
@@ -24,8 +24,7 @@ You can also find more of my joker art in these other vanilla-like mods
 - [ExtraCredit by Balatro University Community](https://github.com/GuilloryCraft/ExtraCredit/tree/main)
 - [Cosmos Mod by Cosmos](https://github.com/neatoqueen/Cosmos)
 
-## ADDITIONS ![neatoPoker2-export](https://github.com/user-attachments/assets/52341aeb-17cc-405a-ad6b-a756c2ebeec8)
-
+## ADDITIONS
 
 <details> 
 <summary> Creator Jokers </summary>
@@ -63,8 +62,8 @@ You can also find more of my joker art in these other vanilla-like mods
 </details>
 
 ## PROGRAMMERS
-![HorseNice-export](https://github.com/user-attachments/assets/4cedfbcf-3c7f-4ca8-b773-0cb194583fe4) Larswijn <br>
-![alexMine-export](https://github.com/user-attachments/assets/c2eca34a-8161-461a-ab0e-a64afa56d728) Lia_Fr0st
+* Larswijn
+* Lia_Fr0st
 
 ## RECOMMENDED MODS
 - [Card Sleeves by Larswijn](https://github.com/larswijn/CardSleeves) *New tech*

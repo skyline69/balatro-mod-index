@@ -1,9 +1,13 @@
 {
-    "title": "GemSteel Texture",
-    "requires-steamodded": true,
-    "requires-talisman": false,
-    "categories": ["Resource Packs"],
-    "author": "Newcat07",
-    "repo":"https://github.com/newcat07/GemSteelTexture",
-    "downloadURL": "https://github.com/newcat07/GemSteelTexture/archive/refs/heads/main.zip"
+  "title": "GemSteel Texture",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Resource Packs"
+  ],
+  "author": "Newcat07",
+  "repo": "https://github.com/newcat07/GemSteelTexture",
+  "downloadURL": "https://github.com/newcat07/GemSteelTexture/archive/refs/heads/main.zip",
+  "automatic-version-check": true,
+  "version": "134b9d1"
 }

@@ -1,0 +1,14 @@
+{
+  "title": "Glue For Modpacks",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Quality of Life",
+    "Miscellaneous"
+  ],
+  "author": "IcyEthics",
+  "repo": "https://github.com/icyethics/Glue-For-Modpacks",
+  "downloadURL": "https://github.com/icyethics/Glue-For-Modpacks/archive/refs/heads/main.zip",
+  "automatic-version-check": true,
+  "version": "3320b50"
+}

@@ -1,10 +1,8 @@
 # YippieMod
-An in progress mod for balatro, (hopefully) adding various things!
+An in progress vanilla+ mod for balatro, adding jokers, decks, and more in the future!
 
 (Requires Steamodded, untested on versions prior to v1.0.0~ALPHA-1424a)
 
-Currently added:
-3 Jokers
 
 # Credits
 

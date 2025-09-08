@@ -1,0 +1,14 @@
+{
+  "title": "More Fluff",
+  "requires-steamodded": true,
+  "requires-talisman": true,
+  "categories": [
+    "Content",
+    "Joker"
+  ],
+  "author": "notmario",
+  "repo": "https://github.com/notmario/MoreFluff",
+  "downloadURL": "https://github.com/notmario/MoreFluff/archive/refs/heads/main.zip",
+  "automatic-version-check": true,
+  "version": "a809883"
+}

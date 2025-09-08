@@ -1,0 +1,13 @@
+{
+    "title": "Casey",
+    "requires-steamodded": true,
+    "requires-talisman": false,
+    "categories": [
+        "Resource Packs"
+    ],
+    "author": "cat.bread",
+    "repo": "https://github.com/janw4ld/balatro-casey-mod",
+    "downloadURL": "https://github.com/janw4ld/balatro-casey-mod/archive/refs/heads/main.zip",
+    "automatic-version-check": true,
+    "version": "ae8f383"
+}

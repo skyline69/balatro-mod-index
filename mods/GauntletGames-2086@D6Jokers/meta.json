@@ -1,9 +1,13 @@
 {
-    "title": "D6 Jokers",
-    "requires-steamodded": true,
-    "requires-talisman": false,
-    "categories": ["Joker"],
-    "author": "GauntletGames-2086",
-    "repo":"https://github.com/GauntletGames-2086/D6-Jokers",
-    "downloadURL":"https://github.com/GauntletGames-2086/D6-Jokers/archive/refs/heads/main.zip"
+  "title": "D6 Jokers",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Joker"
+  ],
+  "author": "GauntletGames-2086",
+  "repo": "https://github.com/GauntletGames-2086/D6-Jokers",
+  "downloadURL": "https://github.com/GauntletGames-2086/D6-Jokers/archive/refs/heads/main.zip",
+  "automatic-version-check": true,
+  "version": "ac2a2ae"
 }

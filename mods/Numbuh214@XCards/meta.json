@@ -1,9 +1,13 @@
 {
-    "title": "X-Cards",
-    "requires-steamodded": true,
-    "requires-talisman": false,
-    "categories": ["Content"],
-    "author": "Numbuh214",
-    "repo":"https://github.com/Numbuh214/X-Card",
-    "downloadURL":"https://github.com/Numbuh214/X-Card/archive/refs/heads/main.zip"
+  "title": "X-Cards",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content"
+  ],
+  "author": "Numbuh214",
+  "repo": "https://github.com/Numbuh214/X-Card",
+  "downloadURL": "https://github.com/Numbuh214/X-Card/archive/refs/heads/main.zip",
+  "automatic-version-check": true,
+  "version": "992b4ad"
 }

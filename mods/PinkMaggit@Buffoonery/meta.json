@@ -1,9 +1,13 @@
 {
-    "title": "Buffoonery",
-    "requires-steamodded": true,
-    "requires-talisman": false,
-    "categories": ["Content"],
-    "author": "PinkMaggit",
-    "repo":"https://github.com/pinkmaggit-hub/Buffoonery",
-    "downloadURL": "https://github.com/pinkmaggit-hub/Buffoonery/archive/refs/heads/main.zip"
-  }
+  "title": "Buffoonery",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content"
+  ],
+  "author": "PinkMaggit",
+  "repo": "https://github.com/pinkmaggit-hub/Buffoonery",
+  "downloadURL": "https://github.com/pinkmaggit-hub/Buffoonery/archive/refs/heads/main.zip",
+  "automatic-version-check": true,
+  "version": "b282125"
+}
