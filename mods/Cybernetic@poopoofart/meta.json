@@ -1,15 +1,15 @@
 {
-  "title": "cokelatro",
+  "title": "poopoofart",
   "requires-steamodded": true,
   "requires-talisman": true,
   "categories": [
     "Content"
   ],
-  "author": "cokeblock",
-  "repo": "https://github.com/cokeblock/Cokelatro",
-  "downloadURL": "https://github.com/cokeblock/Cokelatro/releases/latest/download/cokelatro.zip",
-  "folderName": "cokelatro",
-  "version": "V0.6.8A",
+  "author": "cybernetic",
+  "repo": "https://github.com/Cybernetic2884/PooPooFart",
+  "downloadURL": "https://github.com/Cybernetic2884/PooPooFart/releases/latest/download/poopoofart.zip",
+  "folderName": "poopoofart",
+  "version": "V1.0.0",
   "automatic-version-check": true,
   "last-updated": 1757386766
 }
