@@ -10,6 +10,7 @@
   "repo": "https://github.com/peakshitposts/peakshitmod",
   "downloadURL": "https://github.com/peakshitposts/peakshitmod/releases/latest/download/peakshitmod-main.zip",
   "folderName": "peakshitmod",
-  "version": "newer",
-  "automatic-version-check": true
+  "version": "evennewer",
+  "automatic-version-check": true,
+  "last-updated": 1757286839
 }

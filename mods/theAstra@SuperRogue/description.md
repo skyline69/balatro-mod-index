@@ -1,0 +1,1 @@
+SuperRogue is a mod designed to add another highly-configurable Rogue-like layer to Balatro by allowing mod content to be unlocked as the run progresses!

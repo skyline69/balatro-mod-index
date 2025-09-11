@@ -10,6 +10,7 @@
   "repo": "https://github.com/Mod-Of-Theseus/Mod-Of-Theseus",
   "downloadURL": "https://github.com/Mod-Of-Theseus/Mod-Of-Theseus/archive/refs/heads/main.zip",
   "folderName": "ModOfTheseus",
-  "version": "2079f72",
-  "automatic-version-check": true
+  "version": "a6b5366",
+  "automatic-version-check": true,
+  "last-updated": 1757559496
 }
