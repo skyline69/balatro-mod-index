@@ -1,6 +1,6 @@
 Basically a content mod where I add whatever I feel like adding.
 
-The thumbnail is not doing this mod's justice because there are way more than what's there.
+The thumbnail is still not doing this mod's justice because there are way more than what's there.
 
 ## What does it have?
 
@@ -9,12 +9,12 @@ This mod features (as of time writing this)
 - At least three unique new mechanics never before seen in Balatro!
 - Literally play Scrabble in Balatro
 - 11 Planet Cards and at least 25 consumables (I ain't putting the exact numbers)!
-- Two Balance Mode for either a Balanced experience or Maximum numbers
-- 30+ Boss Blinds
+- Two Balance Mode for either a Balanced experience or number go up mode
+- 40+ Boss Blinds
 - 10+ Card Enhancements
-- 4 Decks
+- 6 Decks
 - Hardcore Challenge Mode (for those looking to test their mod set)
-- A lot of cross-mod content! (I am looking for more cross-mod)
+- A lot of cross-mod content! (I am looking for more cross-mod so if you make a mod please let me know!)
 - More to come!
 
 ## What, what?
@@ -36,7 +36,8 @@ That's for you to find out! Download now!
 Feel free to ask in [Discord Server](https://discord.gg/JVg8Bynm7k) for the mod or open an issue!
 
 ## Credits
-`@larantula_l` on Discord for their Maxwell's Notebook contribution
+`@larantula_l` on Discord for their art contributions
+`@eggymari` on Discord for their ?????? Joker Art
 
 @nh_6574 for his Card UI code 
 
