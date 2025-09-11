@@ -5,7 +5,7 @@
   "categories": ["Content"],
   "author": "Jammbo",
   "repo": "https://github.com/the-2nd-olsberg/Jambatro/",
-  "downloadURL": "https://github.com/the-2nd-olsberg/Jambatro/releases/download/Jambatro/Jammbo.zip",
+  "downloadURL": "https://github.com/the-2nd-olsberg/Jambatro/archive/refs/heads/master.zip",
   "folderName": "Jambatro",
   "version": "1.0.3",
   "automatic-version-check": true
