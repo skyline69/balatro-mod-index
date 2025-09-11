@@ -3,12 +3,15 @@
   "requires-steamodded": true,
   "requires-talisman": true,
   "categories": [
-    "Content","Joker","Miscellaneous"
+    "Content",
+    "Joker",
+    "Miscellaneous"
   ],
   "author": "Dogg Fly",
   "repo": "https://github.com/Dogg-Fly/Another-Stupid-Balatro-Mod",
   "downloadURL": "https://github.com/Dogg-Fly/Another-Stupid-Balatro-Mod/releases/latest/download/anotherstupidbalatromod.zip",
   "folderName": "anotherstupidbalatromod",
-  "version": "v3.5",
-  "automatic-version-check": true
+  "version": "v3.6",
+  "automatic-version-check": true,
+  "last-updated": 1757571932
 }

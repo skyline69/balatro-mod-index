@@ -1,0 +1,14 @@
+{
+  "title": "SuperRogue",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Miscellaneous"
+  ],
+  "author": "theAstra",
+  "repo": "https://github.com/the-Astra/SuperRogue",
+  "downloadURL": "https://github.com/the-Astra/SuperRogue/releases/latest/download/SuperRogue-main.zip",
+  "version": "v1.1.2",
+  "automatic-version-check": true,
+  "last-updated": 1757553458
+}
