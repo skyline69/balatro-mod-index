@@ -1,0 +1,15 @@
+{
+  "title": "poopoofart",
+  "requires-steamodded": true,
+  "requires-talisman": true,
+  "categories": [
+    "Content"
+  ],
+  "author": "cybernetic",
+  "repo": "https://github.com/Cybernetic2884/PooPooFart",
+  "downloadURL": "https://github.com/Cybernetic2884/PooPooFart/releases/latest/download/poopoofart.zip",
+  "folderName": "poopoofart",
+  "version": "V1.0.0",
+  "automatic-version-check": true,
+  "last-updated": 1757386766
+}
