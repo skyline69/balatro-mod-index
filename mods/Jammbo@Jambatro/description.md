@@ -1,0 +1,1 @@
+This is the Jambatro Mod! Super easy to install and super easy to understand! Its a bit silly and its a bit funny but its not a "GUUEGGHH BIG NUMBER" ahh mod, yknow?
