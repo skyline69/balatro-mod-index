@@ -1,0 +1,15 @@
+{
+  "title": "pixelperfect",
+  "requires-steamodded": true,
+  "requires-talisman": true,
+  "categories": [
+    "Content"
+  ],
+  "author": "ecla17",
+  "repo": "https://github.com/MacPlayz12/Pixel-Perfect",
+  "downloadURL": "https://github.com/MacPlayz12/Pixel-Perfect/releases/latest/download/pixelperfect.zip",
+  "folderName": "pixelperfect",
+  "version": "V0.7.2",
+  "automatic-version-check": true,
+  "last-updated": 1757386766
+}
