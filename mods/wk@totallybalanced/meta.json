@@ -2,11 +2,12 @@
   "title": "totally balanced",
   "requires-steamodded": true,
   "requires-talisman": true,
-  "categories": ["Content"],
+  "categories": ["Content","Joker","Miscellaneous"],
   "author": "wk",
   "repo": "https://github.com/WiktorProj/totally_balanced",
   "downloadURL": "https://github.com/WiktorProj/totally_balanced/releases/latest/download/totally_balanced.zip",
   "folderName": "totally_balanced",
   "version": "v1.0.0",
   "automatic-version-check": true
+
 }
