@@ -9,7 +9,7 @@
   ],
   "author": "Virtualized",
   "repo": "https://github.com/Balatro-Multiplayer/BalatroMultiplayer",
-  "downloadURL": "https://github.com/Balatro-Multiplayer/BalatroMultiplayer/archive/refs/heads/main.zip",
+  "downloadURL": "https://github.com/Balatro-Multiplayer/BalatroMultiplayer/releases/latest/download/BalatroMultiplayer.zip",
   "folderName": "Multiplayer",
   "automatic-version-check": true,
   "version": "a2c567f",
