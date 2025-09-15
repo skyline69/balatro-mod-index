@@ -10,6 +10,7 @@
   "repo": "https://github.com/GhostSalt/BFDI",
   "downloadURL": "https://github.com/GhostSalt/BFDI/archive/refs/heads/main.zip",
   "folderName": "BFDI",
-  "version": "1.6.0~ALPHA",
-  "automatic-version-check": true
+  "version": "0869ac8",
+  "automatic-version-check": true,
+  "last-updated": 1757970882
 }

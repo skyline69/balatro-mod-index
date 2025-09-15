@@ -10,6 +10,7 @@
   "repo": "https://github.com/GhostSalt/Catan",
   "downloadURL": "https://github.com/GhostSalt/Catan/archive/refs/heads/master.zip",
   "folderName": "Catan",
-  "version": "1.1.0~ALPHA",
-  "automatic-version-check": true
+  "version": "d097947",
+  "automatic-version-check": true,
+  "last-updated": 1757970882
 }

@@ -2,11 +2,16 @@
   "title": "SparkLatro",
   "requires-steamodded": true,
   "requires-talisman": false,
-  "categories": ["Content","Joker","Miscellaneous"],
+  "categories": [
+    "Content",
+    "Joker",
+    "Miscellaneous"
+  ],
   "author": "BestSpark687090",
   "repo": "https://github.com/BestSpark687090/SparkLatro",
   "downloadURL": "https://github.com/BestSpark687090/SparkLatro/archive/refs/heads/main.zip",
   "folderName": "SparkLatro",
-  "version": "1.0.0",
-  "automatic-version-check": true
+  "version": "fc4c5ee",
+  "automatic-version-check": true,
+  "last-updated": 1757970882
 }
