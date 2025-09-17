@@ -1,5 +1,5 @@
 {
-  "title": "Balatro Community College Pack",
+  "title": "Balatro Community College",
   "requires-steamodded": true,
   "requires-talisman": false,
   "categories": [
@@ -10,6 +10,6 @@
   "repo": "https://github.com/beckcarver/balatro-cc-pack/",
   "downloadURL": "https://github.com/beckcarver/balatro-cc-pack/releases/latest/download/balatro-cc-pack.zip",
   "folderName": "BalatroCC",
-  "version": "v0.1.1",
+  "version": "v1.0.0",
   "automatic-version-check": true
 }
