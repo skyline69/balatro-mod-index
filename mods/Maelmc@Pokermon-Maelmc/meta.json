@@ -1,0 +1,15 @@
+{
+  "title": "Pokermon-Maelmc",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content",
+    "Joker"
+  ],
+  "author": "Maelmc",
+  "repo": "https://github.com/Maelmc/Pokermon-Maelmc",
+  "downloadURL": "https://github.com/Maelmc/Pokermon-Maelmc/archive/refs/heads/main.zip",
+  "folderName": "Pokermon-Maelmc",
+  "version": "1.0.0",
+  "automatic-version-check": true
+}
