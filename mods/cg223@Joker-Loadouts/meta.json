@@ -8,5 +8,6 @@
   "author": "cg223",
   "repo": "https://github.com/cg-223/Joker-Loadouts",
   "downloadURL": "https://github.com/cg-223/Joker-Loadouts/archive/refs/heads/main.zip",
-  "automatic-version-check": true
+  "automatic-version-check": true,
+  "version": "0.0.1"
 }
