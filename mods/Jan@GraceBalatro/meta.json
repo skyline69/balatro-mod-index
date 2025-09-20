@@ -1,0 +1,12 @@
+{
+  "title": "BalatroGrace",
+  "requires-steamodded": true,
+  "requires-talisman": true,
+  "categories": ["Jokers", "Consumables"],
+  "author": "Joe Mama",
+  "repo": "https://github.com/joemama/extended-cards",
+  "downloadURL": "https://github.com/joemama/extended-cards/releases/latest/download/extended-cards.zip",
+  "folderName": "ExtendedCards",
+  "version": "1.0.0",
+  "automatic-version-check": true
+}
