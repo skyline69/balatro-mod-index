@@ -13,7 +13,7 @@ Cross-Mod Joker effects (More may release in the future!)
 
 * Current Cross-Mod Content
   * [Cryptid](https://github.com/SpectralPack/Cryptid) (1 Joker)
-  * [Talisman](https://github.com/SpectralPack/Talisman) (3 Jokers)
+  * [Talisman](https://github.com/SpectralPack/Talisman) (4 Jokers)
 
 There are currently a few additions that have gameplay/QoL changes related to other mods, listed below!
 * [CardSleeves](https://github.com/larswijn/CardSleeves) [*Requires v1.7.8+*](https://github.com/larswijn/CardSleeves/releases/tag/v1.7.8)
@@ -30,3 +30,4 @@ With v1.1.0 releasing, I'm happy to announce that I'm planning on hosting a tour
 but will announce details here and in the [Discord](https://discord.gg/fCnxr4dWfh) server when thay are ready! Date of the event is planned to be around 
 Halloween week (Week of the 31st of October) but could be earlier or later! Please tell your floofy friends to hop on in and compete with other floofs as
 I would like to have at least 8 players participate in the tournament <3
+
