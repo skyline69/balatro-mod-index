@@ -1,0 +1,15 @@
+{
+  "title": "Sholatro",
+  "requires-steamodded": true,
+  "requires-talisman": true,
+  "categories": [
+    "Content",
+    "Joker"
+  ],
+  "author": "GreenKookie",
+  "repo": "https://github.com/GreenKookie56/Sholatro",
+  "downloadURL": "https://github.com/GreenKookie56/Sholatro/releases/latest",
+  "folderName": "Sholatro",
+  "version": "1.2.4a",
+  "automatic-version-check": true
+}
