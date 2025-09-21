@@ -10,6 +10,7 @@
   "repo": "https://github.com/horizon7006/Dumbtro",
   "downloadURL": "https://github.com/horizon7006/Dumbtro/releases/latest/download/Dumbtro.zip",
   "folderName": "Dumbtro",
-  "version": "1.0.0",
-  "automatic-version-check": true
+  "version": "1.1",
+  "automatic-version-check": true,
+  "last-updated": 1758481929
 }
