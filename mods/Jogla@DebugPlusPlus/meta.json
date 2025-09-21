@@ -5,8 +5,9 @@
   "categories": ["Quality of Life","Technical"],
   "author": "Jogla",
   "repo": "https://github.com/Joglacraft/DebugPlusPlus",
-  "downloadURL": "https://github.com/Joglacraft/DebugPlusPlus/releases/latest",
+  "downloadURL": "https://github.com/Joglacraft/DebugPlusPlus/archive/refs/tags/v1.0.0.zip",
   "folderName": "DebugPlusPlus",
   "version": "1.0.0",
   "automatic-version-check": true
+
 }
