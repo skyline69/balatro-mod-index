@@ -12,8 +12,8 @@ that can elevate your score to new heights
 Cross-Mod Joker effects (More may release in the future!)
 
 * Current Cross-Mod Content
-[Cryptid](https://github.com/SpectralPack/Cryptid) (1 Joker)
-[Talisman](https://github.com/SpectralPack/Talisman) (3 Jokers)
+  * [Cryptid](https://github.com/SpectralPack/Cryptid) (1 Joker)
+  * [Talisman](https://github.com/SpectralPack/Talisman) (3 Jokers)
 
 There are currently a few additions that have gameplay/QoL changes related to other mods, listed below!
 * [CardSleeves](https://github.com/larswijn/CardSleeves) [*Requires v1.7.8+*](https://github.com/larswijn/CardSleeves/releases/tag/v1.7.8)
@@ -25,3 +25,4 @@ Requires the [minimum](https://github.com/Steamodded/smods/releases/tag/1.0.0-be
 # Notes
 With Furlatro v1.1.0 and later, [Talisman](https://github.com/SpectralPack/Talisman/releases/latest) is no longer required
 for the mod to function, but is still reccomended!
+
