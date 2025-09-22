@@ -10,6 +10,7 @@
   "repo": "https://github.com/Maelmc/Pokermon-Maelmc",
   "downloadURL": "https://github.com/Maelmc/Pokermon-Maelmc/archive/refs/heads/main.zip",
   "folderName": "Pokermon-Maelmc",
-  "version": "1.0.0",
-  "automatic-version-check": true
+  "version": "c6a2ccf",
+  "automatic-version-check": true,
+  "last-updated": 1758478877
 }
