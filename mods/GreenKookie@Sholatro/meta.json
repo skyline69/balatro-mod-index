@@ -8,8 +8,9 @@
   ],
   "author": "GreenKookie",
   "repo": "https://github.com/GreenKookie56/Sholatro",
-  "downloadURL": "https://github.com/GreenKookie56/Sholatro/archive/refs/tags/1.2.4a.zip",
+  "downloadURL": "https://github.com/GreenKookie56/Sholatro/archive/refs/tags/1.2.4b.zip",
   "folderName": "Sholatro",
-  "version": "1.2.4a",
-  "automatic-version-check": true
+  "version": "1.2.4b",
+  "automatic-version-check": true,
+  "last-updated": 1758544565
 }
