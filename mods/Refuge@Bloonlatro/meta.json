@@ -1,0 +1,11 @@
+{
+  "title": "Bloonlatro",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": ["Content"],
+  "author": "Refuge",
+  "repo": "https://github.com/Amphiapple/Bloonlatro",
+  "downloadURL": "https://github.com/Amphiapple/extended-cards/releases/latest/download/Bloonlatro.zip",
+  "version": "0.2.4",
+  "automatic-version-check": true
+}
