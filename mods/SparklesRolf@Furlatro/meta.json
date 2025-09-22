@@ -11,5 +11,6 @@
   "downloadURL": "https://github.com/SparklesRolf/Furlatro/releases/latest/download/Furlatro.zip",
   "folderName": "Furlatro",
   "version": "v1.1.0",
-  "automatic-version-check": true
+  "automatic-version-check": true,
+  "last-updated": 1758504156
 }
