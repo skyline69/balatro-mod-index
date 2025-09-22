@@ -8,6 +8,7 @@
   "author": "Shenanigans",
   "repo": "https://github.com/ShenanigansBunul/balatro-shenanigans-decks",
   "downloadURL": "https://github.com/ShenanigansBunul/balatro-shenanigans-decks/archive/refs/tags/update.zip",
-  "version": "v1.0.0",
-  "automatic-version-check": true
+  "version": "update",
+  "automatic-version-check": true,
+  "last-updated": 1758536354
 }
