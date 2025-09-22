@@ -20,7 +20,7 @@ There are currently a few additions that have gameplay/QoL changes related to ot
 * [JokerDisplay](https://github.com/nh6574/JokerDisplay) [*Requires v1.4.8.2+*](https://github.com/nh6574/JokerDisplay/releases/tag/v1.8.4.2)
 
 # Requirements
-Requires the [minimum](https://github.com/Steamodded/smods/releases/tag/1.0.0-beta-0530b) version of steammodded!
+Requires the [minimum](https://github.com/Steamodded/smods/releases/tag/1.0.0-beta-0530b) or [latest](https://github.com/Steamodded/smods/releases/latest) version of steammodded!
 
 # Notes
 With Furlatro v1.1.0 and later, [Talisman](https://github.com/SpectralPack/Talisman/releases/latest) is no longer required
@@ -30,4 +30,5 @@ With v1.1.0 releasing, I'm happy to announce that I'm planning on hosting a tour
 but will announce details here and in the [Discord](https://discord.gg/fCnxr4dWfh) server when thay are ready! Date of the event is planned to be around 
 Halloween week (Week of the 31st of October) but could be earlier or later! Please tell your floofy friends to hop on in and compete with other floofs as
 I would like to have at least 8 players participate in the tournament <3
+
 
