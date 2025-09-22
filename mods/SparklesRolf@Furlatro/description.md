@@ -1,10 +1,12 @@
 # Furlatro. The Furry Balatro Mod!
 THE Furry modpack for balatro. A passion side project brought to life!
+
 Actively taking new submissions for custom Jokers! Join the [Discord](https://discord.gg/fCnxr4dWfh) to submit one! <3
 *Submissions are free, but may have applicable fine print
 
 # Additions
 Introduces 20 Furry Jokers, each with unique effects!
+
 Adds a new rarity: Mythic! These are ultra powerful jokers
 that can elevate your score to new heights
 
@@ -30,5 +32,6 @@ With v1.1.0 releasing, I'm happy to announce that I'm planning on hosting a tour
 but will announce details here and in the [Discord](https://discord.gg/fCnxr4dWfh) server when thay are ready! Date of the event is planned to be around 
 Halloween week (Week of the 31st of October) but could be earlier or later! Please tell your floofy friends to hop on in and compete with other floofs as
 I would like to have at least 8 players participate in the tournament <3
+
 
 
