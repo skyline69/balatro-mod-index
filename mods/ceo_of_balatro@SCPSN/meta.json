@@ -1,0 +1,12 @@
+{
+  "title": "SCPSN",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [ "Content", "Joker" ],
+  "author": "ceo_of_balatro & TheMaster",
+  "repo": "https://github.com/ceo-of-git/SCPSN-Balatro",
+  "downloadURL": "https://github.com/ceo-of-git/SCPSN-Balatro/releases/latest/download/SCPSN.zip",
+  "folderName": "SCPSN",
+  "version": "3.0.0",
+  "automatic-version-check": true
+}
