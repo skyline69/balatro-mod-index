@@ -1,0 +1,11 @@
+{
+  "title": "Bloonlatro",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": ["Content", "Joker"],
+  "author": "Refuge",
+  "repo": "https://github.com/Amphiapple/Bloonlatro",
+  "downloadURL": "https://github.com/Amphiapple/Bloonlatro/releases/latest/download/Bloonlatro.zip",
+  "version": "0.2.4",
+  "automatic-version-check": true
+}
