@@ -1,0 +1,12 @@
+{
+  "title": "El super mod de mierda que nadie entiende (ni entenderan)",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": ["Content"],
+  "author": "heyandresito",
+  "repo": "https://github.com/dashandregeometry-dev/el-super-mod-estupido-que-nadie-entiende-ni-entendera-",
+  "downloadURL": "github.com/dashandregeometry-dev/el-super-mod-estupido-que-nadie-entiende-ni-entendera-/releases/latest",
+  "folderName": "",
+  "version": "1.0.0",
+  "automatic-version-check": true
+}
