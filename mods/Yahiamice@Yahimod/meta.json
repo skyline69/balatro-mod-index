@@ -1,0 +1,15 @@
+{
+  "title": "YAHIMOD",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content",
+    "Joker"
+  ],
+  "author": "Yahiamice",
+  "repo": "https://github.com/Yahiamice/yahimod-balatro",
+  "downloadURL": "https://github.com/Yahiamice/yahimod-balatro/archive/refs/heads/master.zip",
+  "automatic-version-check": true,
+  "version": "2.32",
+  "folderName": "YAHIMOD"
+}
