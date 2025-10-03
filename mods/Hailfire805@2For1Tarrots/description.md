@@ -1,5 +1,5 @@
 # 2 For 1 Tarots
-![Thumbnail](thumbnail.jpg)
-A mod that adds a new tarot card that allows you to enhance 2 cards instead of 1 when using a tarot card.
+![](thumbnail.jpg)
+Allows Tarot Cards that normally enhance only 1 card to instead enhance 2 cards.
 
-Now you can scale your deck towards your desired win condition even faster!
+This way you can scale your deck towards your desired win condition faster and it makes it more appealing to consider using some of the less inticing Tarots!
