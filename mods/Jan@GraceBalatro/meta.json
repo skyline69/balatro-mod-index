@@ -1,8 +1,8 @@
 {
-  "title": "BalatroGrace",
+  "title": "GraceBalatro",
   "requires-steamodded": true,
   "requires-talisman": true,
-  "categories": ["Jokers", "Consumables"],
+  "categories": ["Joker", "Content"],
   "author": "Jan",
   "repo": "https://github.com/jan-balatro/GraceBalatro",
   "downloadURL": "https://github.com/jan-balatro/GraceBalatro/archive/refs/heads/main.zip",
@@ -11,3 +11,4 @@
   "automatic-version-check": true
 
 }
+
