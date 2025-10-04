@@ -9,6 +9,7 @@
   "repo": "https://github.com/cokeblock/Cokelatro",
   "downloadURL": "https://github.com/cokeblock/Cokelatro/releases/latest/download/cokelatro.zip",
   "folderName": "cokelatro",
-  "version": "V0.6.0A",
-  "automatic-version-check": true
+  "version": "V0.6.8A",
+  "automatic-version-check": true,
+  "last-updated": 1757386766
 }

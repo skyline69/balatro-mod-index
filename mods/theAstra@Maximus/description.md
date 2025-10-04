@@ -1,1 +1,1 @@
-A vanilla-inspired mod that adds many new ideas to Balatro, ranging from new Jokers, Decks, Vouchers, and more! This mod is still very much WIP, so expect things to break!!!
+Maximus is a Vanilla+ mod that strives to preserve the Vanilla feel of the game (for the most part, looking at you Nuclear deck) while innovating on newer ideas to keep things fresh!

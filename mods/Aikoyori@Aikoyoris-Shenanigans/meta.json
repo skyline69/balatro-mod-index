@@ -7,7 +7,8 @@
   ],
   "author": "Aikoyori",
   "repo": "https://github.com/Aikoyori/Balatro-Aikoyoris-Shenanigans",
-  "downloadURL": "https://github.com/Aikoyori/Balatro-Aikoyoris-Shenanigans/archive/refs/heads/main.zip",
+  "downloadURL": "https://github.com/Aikoyori/Balatro-Aikoyoris-Shenanigans/archive/refs/heads/stable.zip",
   "automatic-version-check": true,
-  "version": "0d31bd4"
+  "version": "1400027",
+  "last-updated": 1759335671
 }

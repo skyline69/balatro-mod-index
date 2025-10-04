@@ -7,8 +7,9 @@
   ],
   "author": "The Motherfucking Bearodactyl",
   "repo": "https://github.com/thebearodactyl/insolence-balatro",
-  "downloadURL": "https://github.com/thebearodactyl/insolence-balatro/archive/refs/tags/2.1.4.zip",
+  "downloadURL": "https://github.com/thebearodactyl/insolence-balatro/archive/refs/tags/2.1.6.zip",
   "folderName": "Insolence",
-  "version": "2.1.4",
-  "automatic-version-check": true
+  "version": "2.1.6",
+  "automatic-version-check": true,
+  "last-updated": 1757553458
 }

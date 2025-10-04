@@ -1,0 +1,15 @@
+{
+  "title": "mobile essentials",
+  "requires-steamodded": false,
+  "requires-talisman": false,
+  "categories": [
+    "Quality of Life",
+    "Miscellaneous"
+  ],
+  "author": "kasimeka",
+  "repo": "https://github.com/kasimeka/balatro-mobile-essentials-mod",
+  "downloadURL": "https://github.com/kasimeka/balatro-mobile-essentials-mod/archive/refs/heads/main.zip",
+  "automatic-version-check": true,
+  "version": "85a7dbe",
+  "last-updated": 1757261866
+}

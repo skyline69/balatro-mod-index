@@ -15,6 +15,8 @@ import requests
 GITHUB_TOKEN = os.environ.get('GITHUB_TOKEN')
 HEADERS = {'Authorization': f'token {GITHUB_TOKEN}'} if GITHUB_TOKEN else {}
 
+TIME_NOW = int(time.time())
+
 def extract_repo_info(repo_url):
     """Extract owner and repo name from GitHub repo URL."""
     match = re.search(r'github\.com/([^/]+)/([^/]+)', repo_url)
@@ -233,6 +235,7 @@ def process_mod(start_timestamp, name, meta_file):
         f"✅ Updating {name} from {current_version} to {new_version} ({source})"
     )
     meta['version'] = new_version
+    meta['last-updated'] = TIME_NOW
     if "/archive/refs/tags/" in download_url:
         meta['downloadURL'] = f"{repo_url}/archive/refs/tags/{meta['version']}.zip"
     elif source == VersionSource.SPECIFIC_TAG:
