@@ -1,0 +1,14 @@
+{
+  "title": "GraceBalatro",
+  "requires-steamodded": true,
+  "requires-talisman": true,
+  "categories": ["Joker", "Content"],
+  "author": "Jan",
+  "repo": "https://github.com/jan-balatro/GraceBalatro",
+  "downloadURL": "https://github.com/jan-balatro/GraceBalatro/archive/refs/heads/main.zip",
+  "folderName": "GraceBalatro",
+  "version": "1.0.0",
+  "automatic-version-check": true
+
+}
+
