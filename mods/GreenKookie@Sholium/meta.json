@@ -1,0 +1,15 @@
+{
+  "title": "Sholium",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content",
+    "Joker"
+  ],
+  "author": "GreenKookie",
+  "repo": "https://github.com/GreenKookie56/Sholium",
+  "downloadURL": "https://github.com/GreenKookie56/Sholium/archive/refs/tags/2.4.8b.zip",
+  "folderName": "Sholium",
+  "version": "2.4.8b",
+  "automatic-version-check": true
+}
