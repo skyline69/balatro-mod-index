@@ -10,6 +10,7 @@
   "repo": "https://github.com/AbsentAbigail/AbsentDealer",
   "downloadURL": "https://github.com/AbsentAbigail/AbsentDealer/releases/latest/download/absentdealer.zip",
   "folderName": "AbsentDealer",
-  "version": "v1.3.2",
-  "automatic-version-check": true
+  "version": "v1.3.3",
+  "automatic-version-check": true,
+  "last-updated": 1759843666
 }
