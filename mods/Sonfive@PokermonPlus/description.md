@@ -1,0 +1,1 @@
+An add-on for Pokermon, which adds Pokemon that aren't in Pokermon yet, as well as new Decks that explore some of the unique parts of the Pokermon mod

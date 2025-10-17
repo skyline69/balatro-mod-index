@@ -1,0 +1,10 @@
+{
+  "title": "2 For 1 Tarots",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": ["Quality of Life", "Miscellaneous"],
+  "author": "Hailfire805",
+  "repo": "https://github.com/Hailfire805/2-for-1-Tarots",
+  "downloadURL": "https://github.com/Hailfire805/2-for-1-Tarots/archive/refs/tags/V1.0.0.zip",
+  "version": "1.0.0"
+}

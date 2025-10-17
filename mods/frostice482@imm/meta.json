@@ -1,0 +1,10 @@
+{
+  "title": "imm",
+  "requires-steamodded": false,
+  "requires-talisman": false,
+  "categories": [ "Technical", "Miscellaneous" ],
+  "author": "frostice482",
+  "repo": "https://github.com/frostice482/balatro-imm",
+  "downloadURL": "https://github.com/frostice482/balatro-imm/releases/latest/download/inmodman.zip",
+  "version": "2.0.3"
+}

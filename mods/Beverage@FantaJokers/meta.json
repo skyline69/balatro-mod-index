@@ -1,0 +1,15 @@
+{
+  "title": "Fanta the Clown Jokers",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Resource Packs"
+  ],
+  "author": "Beverage",
+  "repo": "https://github.com/BeverageArt/fanta-jokers",
+  "downloadURL": "https://github.com/BeverageArt/fanta-jokers/archive/refs/heads/main.zip",
+  "folderName": "FantaJokers",
+  "version": "8a40082",
+  "automatic-version-check": true,
+  "last-updated": 1758784625
+}

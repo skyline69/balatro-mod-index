@@ -1,0 +1,15 @@
+{
+  "title": "Divvy's Preview",
+  "requires-steamodded": false,
+  "requires-talisman": false,
+  "categories": [
+    "Quality of Life"
+  ],
+  "author": "Divvy C.",
+  "repo": "https://github.com/DivvyCr/Balatro-Preview",
+  "downloadURL": "https://github.com/DivvyCr/Balatro-Preview/releases/latest/download/DVPreview_BMM.zip",
+  "folderName": "DVPreview",
+  "version": "v4.1",
+  "automatic-version-check": true,
+  "fixed-release-tag-updates": false
+}

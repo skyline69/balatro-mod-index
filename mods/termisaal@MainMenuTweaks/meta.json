@@ -1,6 +1,6 @@
 {
   "title": "Main Menu Tweaks",
-  "requires-steamodded": false,
+  "requires-steamodded": true,
   "requires-talisman": false,
   "categories": [
     "Quality of Life"

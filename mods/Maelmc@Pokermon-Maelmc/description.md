@@ -1,0 +1,1 @@
+A Pokermon extension, that adds Pokémon-related jokers, consumables and other things that aren't (yet) featured in InertSteak's Pokermon mod.

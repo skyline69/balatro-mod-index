@@ -1,0 +1,1 @@
+An art themed mod adding all kinds of stuff! Especially new ways of modifying playing cards.
