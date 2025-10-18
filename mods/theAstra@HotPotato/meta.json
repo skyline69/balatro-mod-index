@@ -1,0 +1,13 @@
+{
+  "title": "Hot Potato",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content"
+  ],
+  "author": "Various Developers",
+  "repo": "https://github.com/the-Astra/Hot-Potato",
+  "downloadURL": "https://github.com/the-Astra/Hot-Potato/releases/latest/download/Hot-Potato-main.zip",
+  "version": "v1.0.0b",
+  "automatic-version-check": true
+}
