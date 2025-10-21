@@ -7,7 +7,7 @@
   ],
   "author": "Various Developers",
   "repo": "https://github.com/the-Astra/Hot-Potato",
-  "downloadURL": "https://github.com/the-Astra/Hot-Potato/releases/latest/download/Hot-Potato-main.zip",
+  "downloadURL": "https://github.com/the-Astra/Hot-Potato/archive/refs/tags/v1.0.3-qf1.zip",
   "version": "v1.0.3-qf1",
   "automatic-version-check": true,
   "last-updated": 1760908442
