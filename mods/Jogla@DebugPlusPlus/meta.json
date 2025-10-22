@@ -8,9 +8,9 @@
   ],
   "author": "Jogla",
   "repo": "https://github.com/Joglacraft/DebugPlusPlus",
-  "downloadURL": "https://github.com/Joglacraft/DebugPlusPlus/archive/refs/tags/v1.0.0.zip",
+  "downloadURL": "https://github.com/Joglacraft/DebugPlusPlus/archive/refs/tags/v1.1.0.zip",
   "folderName": "DebugPlusPlus",
-  "version": "v1.0.0",
+  "version": "v1.1.0",
   "automatic-version-check": true,
-  "last-updated": 1758485830
+  "last-updated": 1761164452
 }
