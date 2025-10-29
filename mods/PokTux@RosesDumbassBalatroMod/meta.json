@@ -1,5 +1,5 @@
 {
-  "title": "Rose\'s Dumbass Balatro Mod",
+  "title": "Rose's Dumbass Balatro Mod",
   "requires-steamodded": true,
   "requires-talisman": false,
   "categories": ["Content"],
@@ -9,4 +9,5 @@
   "folderName": "rosemod2",
   "version": "1.0.0",
   "automatic-version-check": true
+
 }
