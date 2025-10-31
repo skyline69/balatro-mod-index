@@ -1,7 +1,7 @@
 # Fazbear's Video Poker Simulator
 
 <div style="text-align: center;">
-    <img width="100%" src="/assets/2x/Logo.png">
+    <img width="100%" src="https://github.com/YUORKI/Fazbears-Video-Poker-Simulator/blob/main/assets/2x/Logo.png">
 </div>
 
 **THIS MOD IS CURRENTLY IN DEVELOPMENT**
@@ -17,7 +17,7 @@
 **Fazbear's Video Poker Simulator** is a Balatro mod that aims to add Five Nights at Freddy's™ themed content to balatro, such as new Jokers, Enhancements, Seals and Consumables
 
 <div style="text-align: center;">
-    <img width="100%" src="/assets/Sem%20t%C3%ADtulo.png">
+    <img width="100%" src="https://github.com/YUORKI/Fazbears-Video-Poker-Simulator/blob/main/assets/Sem%20t%C3%ADtulo.png">
 </div>
 
 Currently, this mod adds:
@@ -64,3 +64,4 @@ Freddy Icon used on the mod was originaly created by [KniteBlargh](https://gamej
 The team behind [VanillaRemade](https://github.com/nh6574/VanillaRemade), specially nh6574 or [N'](https://nh6574.carrd.co). (If it weren't for them, I wouldn't have a code to ~~steal~~ use as a point of reference to know how to mod)
 
 Based on the video game series ***Five Nights at Freddy's*** by ***Scott Cawthon***
+
