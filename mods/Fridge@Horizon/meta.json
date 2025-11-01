@@ -7,7 +7,8 @@
   ],
   "author": "Microwave",
   "repo": "https://github.com/ItsaMicrowave/Horizon-Mod",
-  "downloadURL": "https://github.com/ItsaMicrowave/Horizon-Mod/releases/latest",
+  "downloadURL": "https://github.com/ItsaMicrowave/Horizon-Mod/archive/refs/tags/v2.zip",
   "automatic-version-check": true,
-  "version": "v1"
+  "version": "v2",
+  "last-updated": 1762017176
 }
