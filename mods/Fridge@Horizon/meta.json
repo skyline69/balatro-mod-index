@@ -1,9 +1,9 @@
 {
   "title": "Horizon Mod",
   "requires-steamodded": true,
-  "requires-talisman": false,
+  "requires-talisman": true,
   "categories": [
-    "Joker"
+    "Content"
   ],
   "author": "Microwave",
   "repo": "https://github.com/ItsaMicrowave/Horizon-Mod",
