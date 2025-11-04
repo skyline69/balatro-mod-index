@@ -4,8 +4,8 @@
   "requires-talisman": false,
   "categories": ["Resource Packs"],
   "author": "symmetricspiral",
-  "repo": "https://github.com/SymmetricSpiral/Balatro-mods/tree/pokemod",
-  "downloadURL": "https://github.com/SymmetricSpiral/Balatro-mods/releases/latest/download/symmetricspiral_Pokemon_Skins.zip",
+  "repo": "https://github.com/SymmetricSpiral/balatromods/tree/pokemod",
+  "downloadURL": "https://github.com/SymmetricSpiral/balatromods/releases/latest/download/symmetricspiral_Pokemon_Skins.zip",
   "folderName": "symmetricspiral's_Pokemon_Skins",
   "version": "1.1.0",
 }
