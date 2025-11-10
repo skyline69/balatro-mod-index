@@ -1,0 +1,16 @@
+{
+  "title": "Dumbtro",
+  "requires-steamodded": true,
+  "requires-talisman": true,
+  "categories": [
+    "Joker",
+    "Content"
+  ],
+  "author": "Horizon7006",
+  "repo": "https://github.com/horizon7006/Dumbtro",
+  "downloadURL": "https://github.com/horizon7006/Dumbtro/releases/latest/download/Dumbtro.zip",
+  "folderName": "Dumbtro",
+  "version": "1.1",
+  "automatic-version-check": true,
+  "last-updated": 1758481929
+}

@@ -1,0 +1,13 @@
+{
+  "title": "MagicSort",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Quality of Life"
+  ],
+  "author": "WUOTE",
+  "repo": "https://github.com/acidflow-balatro/MagicSort",
+  "downloadURL": "https://github.com/acidflow-balatro/MagicSort/releases/latest/download/MagicSort.zip",
+  "automatic-version-check": true,
+  "version": "0.6.9"
+}

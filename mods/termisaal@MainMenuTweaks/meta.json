@@ -1,6 +1,6 @@
 {
   "title": "Main Menu Tweaks",
-  "requires-steamodded": false,
+  "requires-steamodded": true,
   "requires-talisman": false,
   "categories": [
     "Quality of Life"
@@ -10,5 +10,5 @@
   "repo": "https://github.com/Catzzadilla/Main-Menu-Tweaks/",
   "downloadURL": "https://github.com/Catzzadilla/Main-Menu-Tweaks/archive/refs/heads/main.zip",
   "automatic-version-check": true,
-  "version": "8c14dea"
+  "version": "5c976d0"
 }

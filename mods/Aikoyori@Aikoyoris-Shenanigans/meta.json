@@ -1,0 +1,14 @@
+{
+  "title": "Aikoyori's Shenanigans",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content"
+  ],
+  "author": "Aikoyori",
+  "repo": "https://github.com/Aikoyori/Balatro-Aikoyoris-Shenanigans",
+  "downloadURL": "https://github.com/Aikoyori/Balatro-Aikoyoris-Shenanigans/archive/refs/heads/stable.zip",
+  "automatic-version-check": true,
+  "version": "bc8db9a",
+  "last-updated": 1762694522
+}

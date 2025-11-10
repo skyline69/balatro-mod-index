@@ -121,10 +121,11 @@ jobs:
 
       - name: Validate meta.json Against Schema
         if: always() && steps.find-changed-mods.outputs.changed_mods_found == 'true'
-        uses: dsanders11/json-schema-validate-action@v1.2.0
+        uses: dsanders11/json-schema-validate-action@v1.4.0
         with:
           schema: "./schema/meta.schema.json"
           files: ${{ steps.find-changed-mods.outputs.meta_json_files }}
+          custom-errors: true
 
       - name: Validate Download URLs
         if: always() && steps.find-changed-mods.outputs.changed_mods_found == 'true'
@@ -148,12 +149,3 @@ jobs:
               fi
             fi
           done < changed_mods.txt
-
-  review-and-approve:
-    needs: validate # This job will only run after 'validate' completes successfully.
-    runs-on: ubuntu-latest
-    environment:
-      name: mod-review # This is the environment you created earlier.
-    steps:
-      - name: Await Approval from Maintainers
-        run: echo "Waiting for manual approval by maintainers..."

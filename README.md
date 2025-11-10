@@ -35,7 +35,7 @@ This file stores essential metadata in JSON format. **Make sure you adhere to th
   "categories": ["Content"],
   "author": "Joe Mama",
   "repo": "https://github.com/joemama/extended-cards",
-  "downloadURL": "https://github.com/joemama/extended-cards/releases/latest/extended-cards.zip",
+  "downloadURL": "https://github.com/joemama/extended-cards/releases/latest/download/extended-cards.zip",
   "folderName": "ExtendedCards",
   "version": "1.0.0",
   "automatic-version-check": true
@@ -49,11 +49,18 @@ This file stores essential metadata in JSON format. **Make sure you adhere to th
 - **author**: Your chosen username or handle.
 - **repo**: A link to your mod's repository.
 - **downloadURL**: A direct link to the latest version of your released mod. Using an automatic link to the [latest release](https://docs.github.com/en/repositories/releasing-projects-on-github/linking-to-releases) is preferred.
+- **version**: The version number of the mod files available at `downloadURL`.
 - *folderName*: (*Optional*) The name for the mod's install folder. This must be **unique**, and cannot contain characters `<` `>` `:` `"` `/` `\` `|` `?` `*`
-- *version*: (*Optional*) The version number of the mod files available at `downloadURL`.
 - *automatic-version-check*: (*Optional* but **recommended**) Set to `true` to let the Index automatically update the `version` field.
-    - Updates happen once every hour, by checking either your mod's latest Release **or** latest commit, depending on the `downloadURL`.
-    - Enable this option **only** if your `downloadURL` points to an automatically updating source, using a link to [releases/latest](https://docs.github.com/en/repositories/releasing-projects-on-github/linking-to-releases) (recommended), or a link to the [latest commit (HEAD)](https://docs.github.com/en/repositories/working-with-files/using-files/downloading-source-code-archives#source-code-archive-urls).
+    - Updates happen once every hour, by checking either your mod's latest Release, latest commit, or specific release tag, depending on the `downloadURL`.
+    - Enable this option **only** if your `downloadURL` points to an automatically updating source:
+        - **Latest release** (recommended): Using a link to [releases/latest](https://docs.github.com/en/repositories/releasing-projects-on-github/linking-to-releases) 
+        - **Latest commit**: Using a link to the [latest commit (HEAD)](https://docs.github.com/en/repositories/working-with-files/using-files/downloading-source-code-archives#source-code-archive-urls)
+- *fixed-release-tag-updates*: (*Optional*) Set to `true` if your mod uses a fixed release tag and still wants to auto-update when modifying the underlying files. This can be useful for repositories with multiple mods, allowing you to have a release tag dedicated for each mod where you upload new versions. Note that:
+  - Requires `automatic-version-check` to also be set to `true`.
+  - The `downloadURL` must point to a specific release asset using a link such as `https://github.com/author/repo/releases/download/my-release-tag/mod.zip`. 
+ 
+ 
 
 ### 3. thumbnail.jpg (Optional)
 If included, this image will appear alongside your mod in the index. Maximum and recommended size is 1920x1080 pixels.

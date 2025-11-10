@@ -1,0 +1,16 @@
+{
+  "title": "Mod of Theseus",
+  "requires-steamodded": true,
+  "requires-talisman": true,
+  "categories": [
+    "Content",
+    "Joker"
+  ],
+  "author": "MothBall",
+  "repo": "https://github.com/Mod-Of-Theseus/Mod-Of-Theseus",
+  "downloadURL": "https://github.com/Mod-Of-Theseus/Mod-Of-Theseus/archive/refs/heads/main.zip",
+  "folderName": "ModOfTheseus",
+  "version": "a6b5366",
+  "automatic-version-check": true,
+  "last-updated": 1757559496
+}

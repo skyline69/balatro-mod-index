@@ -1,13 +1,14 @@
 {
   "title": "Maximus",
   "requires-steamodded": true,
-  "requires-talisman": true,
+  "requires-talisman": false,
   "categories": [
     "Content"
   ],
   "author": "theAstra, Maxiss02",
   "repo": "https://github.com/the-Astra/Maximus",
-  "downloadURL": "https://github.com/the-Astra/Maximus/archive/refs/heads/main.zip",
+  "downloadURL": "https://github.com/the-Astra/Maximus/releases/latest/download/Maximus-main.zip",
+  "version": "v1.2.3c",
   "automatic-version-check": true,
-  "version": "238bf49"
+  "last-updated": 1761711878
 }

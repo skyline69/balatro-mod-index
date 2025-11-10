@@ -1,0 +1,13 @@
+{
+  "title": "Telepurte Cards",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Resource Packs"
+  ],
+  "author": "OneSuchKeeper",
+  "repo": "https://github.com/onesuchkeeper/telepurtedeck",
+  "downloadURL": "https://github.com/onesuchkeeper/telepurtedeck/releases/latest/download/TelepurteCards.zip",
+  "automatic-version-check": true,
+  "version": "v1.0.1"
+}

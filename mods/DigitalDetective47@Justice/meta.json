@@ -1,0 +1,14 @@
+{
+  "title": "Justice",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Quality of Life"
+  ],
+  "author": "DigitalDetective47",
+  "repo": "https://github.com/DigitalDetective47/justice",
+  "downloadURL": "https://github.com/DigitalDetective47/justice/archive/refs/heads/main.zip",
+  "automatic-version-check": true,
+  "version": "fb6e09e",
+  "last-updated": 1761873664
+}

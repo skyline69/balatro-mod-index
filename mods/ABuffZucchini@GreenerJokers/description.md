@@ -1,0 +1,1 @@
+A content mod with 50 Vanilla-balanced Jokers, and 5 Decks. Fully complete but some new Jokers may be added in the future!

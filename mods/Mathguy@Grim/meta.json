@@ -2,8 +2,13 @@
   "title": "Grim",
   "requires-steamodded": true,
   "requires-talisman": false,
-  "categories": ["Content"],
+  "categories": [
+    "Content"
+  ],
   "author": "Mathguy",
   "repo": "https://github.com/Mathguy23/Grim",
-  "downloadURL": "https://github.com/Mathguy23/Grim/archive/refs/heads/main.zip"
+  "automatic-version-check": true,
+  "version": "a855573",
+  "downloadURL": "https://github.com/Mathguy23/Grim/archive/refs/heads/main.zip",
+  "last-updated": 1758392434
 }

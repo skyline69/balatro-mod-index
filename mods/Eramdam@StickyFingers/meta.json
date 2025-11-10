@@ -2,10 +2,13 @@
   "title": "Sticky Fingers",
   "requires-steamodded": true,
   "requires-talisman": false,
-  "categories": ["Quality of Life"],
+  "categories": [
+    "Quality of Life"
+  ],
   "author": "Eramdam",
   "repo": "https://github.com/eramdam/sticky-fingers/",
   "downloadURL": "https://github.com/eramdam/sticky-fingers/archive/refs/heads/main.zip",
   "automatic-version-check": true,
-  "version": "5664de4"
+  "version": "4a73d33",
+  "last-updated": 1758435804
 }

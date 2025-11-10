@@ -1,0 +1,15 @@
+{
+  "title": "Arashicoolstuff",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Joker"
+  ],
+  "author": "Arashi Fox",
+  "repo": "https://github.com/ArashiFox/Arashicoolstuff",
+  "downloadURL": "https://github.com/ArashiFox/Arashicoolstuff/archive/refs/heads/main.zip",
+  "folderName": "Arashicoolstuff",
+  "version": "228226f",
+  "automatic-version-check": true,
+  "last-updated": 1757153689
+}

@@ -5,8 +5,10 @@
     "categories": ["Content","Joker"],
     "author": "SurelyNotClover",
     "repo": "https://github.com/SurelyNotClover/Kevin-s-UTY-Balatro-Mod",
-    "downloadURL": "https://github.com/SurelyNotClover/Kevin-s-UTY-Balatro-Mod/releases/download/Release/KevinsUTY.zip",
+    "downloadURL": "https://github.com/SurelyNotClover/Kevin-s-UTY-Balatro-Mod/releases/download/V2.1/KevinsUTY.zip",
     "folderName": "KevinsUTY",
-    "version": "1.0.0",
+    "version": "2.1.0",
     "automatic-version-check": false
+
   }
+

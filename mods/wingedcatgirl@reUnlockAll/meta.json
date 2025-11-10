@@ -1,0 +1,16 @@
+{
+  "title": "re:Unlock All",
+  "folderName": "reUnlockAll",
+  "requires-steamodded": false,
+  "requires-talisman": false,
+  "categories": [
+    "Quality of Life",
+    "Miscellaneous"
+  ],
+  "author": "wingedcatgirl",
+  "repo": "https://github.com/wingedcatgirl/re-Unlock-All",
+  "downloadURL": "https://github.com/wingedcatgirl/re-Unlock-All/archive/refs/heads/main.zip",
+  "automatic-version-check": true,
+  "version": "3485490",
+  "last-updated": 1760861992
+}

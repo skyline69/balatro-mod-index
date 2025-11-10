@@ -1,0 +1,14 @@
+{
+  "title": "Yorick",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Quality of Life"
+  ],
+  "author": "Somethingcom515",
+  "repo": "https://github.com/Somethingcom515/Yorick",
+  "downloadURL": "https://github.com/Somethingcom515/Yorick/archive/refs/heads/main.zip",
+  "folderName": "Yorick",
+  "automatic-version-check": true,
+  "version": "8e5fdff"
+}

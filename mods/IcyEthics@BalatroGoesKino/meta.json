@@ -9,6 +9,7 @@
   "repo": "https://github.com/icyethics/Kino",
   "downloadURL": "https://github.com/icyethics/Kino/archive/refs/heads/main.zip",
   "folderName": "Kino",
-  "version": "db617a2",
-  "automatic-version-check": true
+  "version": "094d3a0",
+  "automatic-version-check": true,
+  "last-updated": 1761769199
 }

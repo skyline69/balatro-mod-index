@@ -15,6 +15,8 @@ import requests
 GITHUB_TOKEN = os.environ.get('GITHUB_TOKEN')
 HEADERS = {'Authorization': f'token {GITHUB_TOKEN}'} if GITHUB_TOKEN else {}
 
+TIME_NOW = int(time.time())
+
 def extract_repo_info(repo_url):
     """Extract owner and repo name from GitHub repo URL."""
     match = re.search(r'github\.com/([^/]+)/([^/]+)', repo_url)
@@ -27,14 +29,22 @@ def extract_repo_info(repo_url):
     return None, None
 
 VersionSource = Enum("VersionSource", [
-    ("RELEASE_TAG", "release"),
+    ("LATEST_TAG", "release"),
     ("HEAD", "commit"),
+    ("SPECIFIC_TAG", "specific_tag"),
 ])
-def get_version_string(source: Enum, owner, repo, start_timestamp, n = 1):
+def get_version_string(source: Enum, owner, repo, start_timestamp, n = 1, tag_data=None):
     """Get the version string from a given GitHub repo."""
     
-    if source is VersionSource.RELEASE_TAG:
+    if source is VersionSource.LATEST_TAG:
         url = f'https://api.github.com/repos/{owner}/{repo}/releases/latest'
+    elif source is VersionSource.SPECIFIC_TAG:
+        if not tag_data:
+            print(f"ERROR: SPECIFIC_TAG source requires tag_name")
+            return None
+        
+        tag_name = tag_data['name']
+        url = f'https://api.github.com/repos/{owner}/{repo}/releases/tags/{tag_name}'
     else:
         if not source is VersionSource.HEAD:
             print(f"UNIMPLEMENTED(VersionSource): `{source}`,\nfalling back to `HEAD`")
@@ -58,9 +68,32 @@ def get_version_string(source: Enum, owner, repo, start_timestamp, n = 1):
         if response.status_code == 200:
             data = response.json()
 
-            if source is VersionSource.RELEASE_TAG:
+            if source is VersionSource.LATEST_TAG:
                 # Return name of latest tag
                 return data.get('tag_name')
+
+            elif source is VersionSource.SPECIFIC_TAG:
+                assets = data.get('assets', [])
+                if not assets:
+                    print(f"⚠️ No assets found in release {tag_name}")
+                    return None
+
+                latest_created_at = ""
+                latest_asset = None
+                
+                for asset in assets:
+                    created_at = asset.get('created_at', '')
+                    if created_at > latest_created_at:
+                        latest_created_at = created_at
+                        latest_asset = asset['name']
+
+                # Convert 2099-12-31T01:02:03Z to 20991231_010203
+                parts = latest_created_at.replace('Z', '').split('T')
+                date_part = parts[0].replace('-', '')  # 20991231
+                time_part = parts[1].replace(':', '')  # 010203
+                version = f"{date_part}_{time_part}"   # 20991231_010203
+                tag_data['file'] = latest_asset
+                return version
 
             if data and len(data) > 0:
                 # Return shortened commit hash (first 7 characters)
@@ -98,7 +131,7 @@ def get_version_string(source: Enum, owner, repo, start_timestamp, n = 1):
                 print(f"Waiting {wait_time} seconds until next attempt...")
                 time.sleep(wait_time)
                 n += 1
-                return get_version_string(source, owner, repo, start_timestamp, n)  # Retry
+                return get_version_string(source, owner, repo, start_timestamp, n, tag_data=tag_data)  # Retry
             else:
                 print(f"Next attempt in {wait_time} seconds, but Action run time would exceed 1800 seconds - Stopping...")
                 sys.exit(1)
@@ -165,10 +198,22 @@ def process_mod(start_timestamp, name, meta_file):
         print("Download URL links to HEAD, checking latest commit...")
         source = VersionSource.HEAD
         new_version = get_version_string(VersionSource.HEAD, owner, repo, start_timestamp)
+    elif (meta.get('fixed-release-tag-updates') == True) and "/releases/download/" in download_url:
+        source = VersionSource.SPECIFIC_TAG
+        tag_data = {}
+        
+        # Pattern: /releases/download/{tag}/{file} - tag is second-to-last
+        print("Download URL links to specific release asset, checking that asset's tag...")
+        tag_name = download_url.split('/')[-2]
+        print(f"Checking release tag: {tag_name}")
+        tag_data['name'] = tag_name
 
+        new_version = get_version_string(
+            source, owner, repo, start_timestamp, tag_data=tag_data
+        )
     else:
         print("Checking releases for latest version tag...")
-        source = VersionSource.RELEASE_TAG
+        source = VersionSource.LATEST_TAG
         new_version = get_version_string(source, owner, repo, start_timestamp)
 
         if not new_version:
@@ -190,8 +235,11 @@ def process_mod(start_timestamp, name, meta_file):
         f"✅ Updating {name} from {current_version} to {new_version} ({source})"
     )
     meta['version'] = new_version
+    meta['last-updated'] = TIME_NOW
     if "/archive/refs/tags/" in download_url:
         meta['downloadURL'] = f"{repo_url}/archive/refs/tags/{meta['version']}.zip"
+    elif source == VersionSource.SPECIFIC_TAG:
+        meta['downloadURL'] = f"{repo_url}/releases/download/{tag_data['name']}/{tag_data['file']}"
     
     with open(meta_file, 'w', encoding='utf-8') as f:
         # Preserve formatting with indentation
@@ -241,4 +289,3 @@ if __name__ == "__main__":
     
     # Exit with status code 0 even if no updates were made
     sys.exit(0)
-

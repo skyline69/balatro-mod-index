@@ -9,6 +9,7 @@
   "repo": "https://github.com/lord-ruby/Entropy",
   "downloadURL": "https://github.com/lord-ruby/Entropy/archive/refs/heads/main.zip",
   "folderName": "Entropy",
-  "version": "c6f8291",
-  "automatic-version-check": true
+  "version": "d7c28c6",
+  "automatic-version-check": true,
+  "last-updated": 1762737934
 }

@@ -1,0 +1,15 @@
+{
+  "title": "Kyu-latro!",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Resource Packs"
+  ],
+  "author": "Finnaware",
+  "repo": "https://github.com/Finnaware/Kyu-latro",
+  "downloadURL": "https://github.com/Finnaware/Kyu-latro/archive/refs/heads/main.zip",
+  "folderName": "Kyu-latro!",
+  "version": "1de9936",
+  "automatic-version-check": true,
+  "last-updated": 1762384583
+}
