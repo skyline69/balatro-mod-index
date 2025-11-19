@@ -3,8 +3,8 @@
   "requires-steamodded": true,
   "requires-talisman": false,
   "categories": [
-    ["Content"],
-    ["Joker"]
+    "Content",
+    "Joker"
   ],
   "author": "Kahn",
   "repo": "https://github.com/Kahnio-110/balatro_producciones",
