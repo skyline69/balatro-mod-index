@@ -7,8 +7,9 @@
   ],
   "author": "Survivalaiden",
   "repo": "https://github.com/survovoaneend/All-In-Jest",
-  "downloadURL": "https://github.com/survovoaneend/All-In-Jest/archive/refs/tags/0.5.2b.zip",
+  "downloadURL": "https://github.com/survovoaneend/All-In-Jest/archive/refs/tags/0.6.0.zip",
   "folderName": "All-In-Jest",
   "automatic-version-check": true,
-  "version": "0.5.2b"
+  "version": "0.6.0",
+  "last-updated": 1764274676
 }
