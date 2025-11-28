@@ -1,0 +1,16 @@
+{
+  "title": "Fazbears-Video-Poker-Simulator",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content",
+	"Joker",
+    "Miscellaneous"
+  ],
+  "author": "YUORKI",
+  "repo": "https://github.com/YUORKI/Fazbears-Video-Poker-Simulator",
+  "downloadURL": "https://github.com/YUORKI/Fazbears-Video-Poker-Simulator/releases/latest/download/Fazbears-Video-Poker-Simulator.zip",
+  "folderName": "Fazbears-Video-Poker-Simulator",
+  "version": "Fazbears-Video-Poker-Simulator-1.0.0-alpha",
+  "automatic-version-check": true
+}
