@@ -1,0 +1,13 @@
+{
+  "title": "Overstock",
+  "requires-steamodded": true,
+  "requires-talisman": true,
+  "categories": ["Quality of Life"],
+  "author": "baltdev",
+  "repo": "https://github.com/balt-dev/Overstock",
+  "downloadURL": "https://github.com/balt-dev/Overstock/archive/refs/heads/master.zip",
+  "folderName": "Overstock",
+  "version": "1.0.0",
+  "automatic-version-check": true,
+  "last-updated": 0
+}
