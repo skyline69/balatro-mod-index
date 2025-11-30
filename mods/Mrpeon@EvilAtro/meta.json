@@ -1,5 +1,5 @@
 {
-  "title": "Evil-Atro",
+  "title": "EvilAtro",
   "requires-steamodded": true,
   "requires-talisman": false,
   "categories": ["Content"],
@@ -7,6 +7,6 @@
   "repo": "https://github.com/Mrpeon/Mrpeon-EvilAtro",
   "downloadURL": "https://github.com/Mrpeon/Mrpeon-EvilAtro/releases/download/Evil-Atro-0.9.4/EvilAtro-0.9.4.zip",
   "folderName": "Evil-Atro",
-  "version": "1.0.0",
+  "version": "0.9.4",
   "automatic-version-check": true
 }
