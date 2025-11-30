@@ -11,10 +11,11 @@ The idea of ​​the Jokers being evil when you buy or obtain them makes the ga
 This mod adds all 150 Balatro Jokers in their evil versions. You can obtain them when you purchase any Joker, and there's a 50% chance you'll get either the evil or normal version. 
 I'm not sure if it works with Balatro seeds, but I think you're relying on luck to complete this mod. The odds can't be changed within the mod itself, and you'll only discover the Joker as you play.
 
-Currently, the mod only has three Jokers that cannot appear in their evil versions: Evil Mr.Bones, Evil Luchador, and Evil Chicot.
+Currently, the mod only has three Jokers that cannot appear in their evil versions: Evil Luchador, and Evil Chicot.
 
 I believe I've included all the other Jokers without any errors or bugs that could crash your game. If you find a bug or problem, I'm not sure how to report it, but I'll try to fix them if I find them.
 
 The mod will eventually include all the game's content in its "evil" version, so I have a lot of work to do.
+
 
 That's all I think, and thanks for playing my mod.
