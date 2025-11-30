@@ -10,6 +10,7 @@
   "repo": "https://github.com/Eternalnacho/NachosPokermonDip",
   "downloadURL": "https://github.com/Eternalnacho/NachosPokermonDip/archive/refs/heads/main.zip",
   "folderName": "NachosPokermonDip",
-  "version": "1.6.9-5",
-  "automatic-version-check": true
+  "version": "b099b9a",
+  "automatic-version-check": true,
+  "last-updated": 1764533967
 }
