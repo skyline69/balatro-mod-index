@@ -1,0 +1,15 @@
+{
+  "title": "HQShaders",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Quality of Life"
+  ],
+  "author": "baltdev",
+  "repo": "https://github.com/balt-dev/HQShaders",
+  "downloadURL": "https://github.com/balt-dev/HQShaders/archive/refs/heads/master.zip",
+  "folderName": "HQShaders",
+  "version": "1.0.0",
+  "automatic-version-check": true,
+  "last-updated": 0
+}
