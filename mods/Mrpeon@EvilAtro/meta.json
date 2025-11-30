@@ -1,0 +1,12 @@
+{
+  "title": "EvilAtro",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": ["Content"],
+  "author": "Mrpeon",
+  "repo": "https://github.com/Mrpeon/Mrpeon-EvilAtro",
+  "downloadURL": "https://github.com/Mrpeon/Mrpeon-EvilAtro/releases/latest/download/Evil-Atro-0.9.4/EvilAtro-0.9.4.zip",
+  "folderName": "ExtendedCards",
+  "version": "0.9.4",
+  "automatic-version-check": true
+}
