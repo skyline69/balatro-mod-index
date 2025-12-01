@@ -1,0 +1,17 @@
+{
+  "title": "Multiplayer",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content",
+    "Technical",
+    "Miscellaneous"
+  ],
+  "author": "Virtualized",
+  "repo": "https://github.com/Balatro-Multiplayer/BalatroMultiplayer",
+  "downloadURL": "https://github.com/Balatro-Multiplayer/BalatroMultiplayer/releases/latest/download/BalatroMultiplayer.zip",
+  "folderName": "Multiplayer",
+  "automatic-version-check": true,
+  "version": "v0.2.18",
+  "last-updated": 1757970882
+}
