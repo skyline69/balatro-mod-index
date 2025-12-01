@@ -1,0 +1,15 @@
+{
+  "title": "Lightspeed",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Quality of Life"
+  ],
+  "author": "baltdev",
+  "repo": "https://github.com/balt-dev/Lightspeed",
+  "downloadURL": "https://github.com/balt-dev/Lightspeed/archive/refs/heads/master.zip",
+  "folderName": "Lightspeed",
+  "version": "1.0.0",
+  "automatic-version-check": true,
+  "last-updated": 0
+}
