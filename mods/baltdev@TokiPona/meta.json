@@ -1,0 +1,15 @@
+{
+  "title": "Toki Pona",
+  "requires-steamodded": false,
+  "requires-talisman": false,
+  "categories": [
+    "Miscellaneous",
+  ],
+  "author": "baltdev",
+  "repo": "https://github.com/balt-dev/musi-talato",
+  "downloadURL": "https://github.com/balt-dev/musi-talato/archive/refs/heads/master.zip",
+  "folderName": "TokiPona",
+  "version": "7903234",
+  "automatic-version-check": true,
+  "last-updated": 0
+}
