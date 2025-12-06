@@ -11,6 +11,7 @@
   "repo": "https://github.com/SiIvaGunner/qualatro",
   "downloadURL": "https://github.com/SiIvaGunner/qualatro/releases/latest/download/Qualatro.zip",
   "folderName": "Qualatro",
-  "version": "v1.0.1",
-  "automatic-version-check": true
+  "version": "v1.0.2",
+  "automatic-version-check": true,
+  "last-updated": 1765059390
 }
