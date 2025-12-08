@@ -1,0 +1,15 @@
+{
+  "title": "WOKElatro",
+  "requires-steamodded": false,
+  "requires-talisman": false,
+  "categories": [
+    "API", "Miscellaneous"
+  ],
+  "author": "baltdev",
+  "repo": "https://github.com/balt-dev/WOKElatro",
+  "downloadURL": "https://github.com/balt-dev/WOKElatro/archive/refs/heads/master.zip",
+  "folderName": "WOKElatro",
+  "version": "0",
+  "automatic-version-check": true,
+  "last-updated": 0
+}
