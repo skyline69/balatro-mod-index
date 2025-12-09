@@ -3,13 +3,14 @@
   "requires-steamodded": true,
   "requires-talisman": false,
   "categories": [
-    "API", "Miscellaneous"
+    "API",
+    "Miscellaneous"
   ],
   "author": "baltdev",
   "repo": "https://github.com/balt-dev/WOKElatro",
   "downloadURL": "https://github.com/balt-dev/WOKElatro/archive/refs/heads/master.zip",
   "folderName": "WOKElatro",
-  "version": "0",
+  "version": "73af698",
   "automatic-version-check": true,
-  "last-updated": 0
+  "last-updated": 1765293712
 }
