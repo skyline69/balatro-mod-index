@@ -1,6 +1,6 @@
 {
   "title": "WOKElatro",
-  "requires-steamodded": false,
+  "requires-steamodded": true,
   "requires-talisman": false,
   "categories": [
     "API", "Miscellaneous"
