@@ -1,0 +1,12 @@
+{
+  "title": "Requiem",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": ["Content", "Joker"],
+  "author": "LFMoth",
+  "repo": "https://github.com/LFMoth/Requiem",
+  "downloadURL": "https://github.com/LFMoth/Requiem/releases/latest/download/Requiem.zip",
+  "folderName": "Requiem",
+  "version": "0.1.1.1",
+  "automatic-version-check": true
+}
