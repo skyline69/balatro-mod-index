@@ -1,12 +1,14 @@
 # All art made by symmetricspiral
 You're allowed to use this mod for anything as long as you credit @symmetricspiral
-## Current Version (v1.1.0)
+## Current Version (v1.4.0)
 ### Contains:
-+ Hoenn Legendary Weather Trio (diamonds)
-+ Hitmonchan, Hitmonlee, and Hitmontop (clubs)
-+ Aggron Evolution line (hearts)
 + Shiftry Evolution line (spades)
++ Aggron Evolution line (hearts)
++ Hitmonchan, Hitmonlee, and Hitmontop (clubs)
++ Hoenn Legendary Weather Trio (diamonds)
++ Gengar Evolution line (spades)
++ Aegislash Evolution line (hearts)
 
 
-#
+
 hope you enjoy :]
