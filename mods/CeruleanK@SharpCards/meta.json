@@ -8,5 +8,5 @@
   "downloadURL": "https://github.com/CeruleanKay/sharpcards/releases/latest/download/v1.0.0.zip",
   "folderName": "SharpCards",
   "version": "1.0.0",
-  "automatic-version-check": true
+  "automatic-version-check": false
 }
