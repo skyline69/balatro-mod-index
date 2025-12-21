@@ -1,0 +1,12 @@
+{
+  "title": "Minecraft Title Text",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": ["Resource Packs"],
+  "author": "N8uron",
+  "repo": "https://github.com/markoDankic85/Balatro-Minecraft-Title-Text-Mod",
+  "downloadURL": "https://github.com/markoDankic85/Balatro-Minecraft-Title-Text-Mod/releases/download/v1.0/minecrafttitletext.zip",
+  "folderName": "minecrafttitletext",
+  "version": "1.0.0",
+  "automatic-version-check": true
+}
