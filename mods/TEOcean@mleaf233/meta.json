@@ -1,0 +1,12 @@
+{
+  "title": "TEOcean",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": ["Quality of Life"],
+  "author": "mleaf233",
+  "repo": "https://github.com/mleaf233/TEOcean",
+  "downloadURL": "https://github.com/mleaf233/TEOcean/archive/refs/heads/main.zip",
+  "folderName": "TEOcean",
+  "version": "1.0.5",
+  "automatic-version-check": true
+}
