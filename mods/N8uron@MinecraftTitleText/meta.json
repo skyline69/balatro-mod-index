@@ -8,5 +8,6 @@
   "downloadURL": "https://github.com/markoDankic85/Balatro-Minecraft-Title-Text-Mod/releases/download/v1.0/minecrafttitletext.zip",
   "folderName": "minecrafttitletext",
   "version": "1.0.0",
-  "automatic-version-check": true
+  "automatic-version-check": false
 }
+
