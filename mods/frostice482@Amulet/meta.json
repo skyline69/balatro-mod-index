@@ -1,0 +1,12 @@
+{
+  "title": "Amulet",
+  "requires-steamodded": false,
+  "requires-talisman": false,
+  "categories": ["Technical"],
+  "author": "frostice482",
+  "repo": "https://github.com/frostice482/amulet",
+  "downloadURL": "https://github.com/frostice482/amulet/releases/latest/download/Amulet.zip",
+  "folderName": "Amulet",
+  "version": "3.2.4",
+  "automatic-version-check": true
+}
