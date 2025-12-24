@@ -1,0 +1,16 @@
+{
+  "title": "Morne",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content",
+    "Joker"
+  ],
+  "author": "Tay",
+  "repo": "https://github.com/Lichton/Morne/",
+  "downloadURL": "https://github.com/Lichton/Morne/archive/refs/heads/master.zip",
+  "folderName": "Morne",
+  "version": "1.0.0",
+  "automatic-version-check": true,
+  "last-updated": 1766514520
+}
