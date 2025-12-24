@@ -1,0 +1,12 @@
+{
+  "title": "BalatroAudioHotSwitch",
+  "requires-steamodded": false,
+  "requires-talisman": false,
+  "categories": ["Quality of Life"],
+  "author": "robertbsmith",
+  "repo": "https://github.com/robertbsmith/BalatroAudioHotSwitch",
+  "downloadURL": "https://github.com/robertbsmith/BalatroAudioHotSwitch/releases/latest/download/BalatroAudioHotSwitch.zip",
+  "folderName": "BalatroAudioHotSwitch",
+  "version": "1.0.0",
+  "automatic-version-check": true
+}
