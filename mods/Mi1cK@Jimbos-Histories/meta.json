@@ -9,6 +9,7 @@
   "repo": "https://github.com/InertSteak/Jimbos-Histories-InertSteak/tree/main",
   "downloadURL": "https://github.com/InertSteak/Jimbos-Histories-InertSteak/archive/refs/heads/main.zip",
   "folderName": "Jimbo's Histories",
-  "version": "0.0.4",
-  "automatic-version-check": true
+  "version": "848e3f5",
+  "automatic-version-check": true,
+  "last-updated": 1767155508
 }
