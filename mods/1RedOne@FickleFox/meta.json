@@ -9,7 +9,7 @@
   ],
   "author": "1RedOne",
   "repo": "https://github.com/1RedOne/FickleFox",
-  "downloadURL": "https://codeload.github.com/1RedOne/FickleFox/zip/refs/heads/master.zip",
+  "downloadURL": "https://github.com/1RedOne/FickleFox/archive/refs/heads/master.zip",
   "automatic-version-check": true,
   "version": "cfca03b"
 }
