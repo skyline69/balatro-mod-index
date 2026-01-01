@@ -11,6 +11,7 @@
   "repo": "https://github.com/ABGamma/Brainstorm-Rerolled/",
   "downloadURL": "https://github.com/ABGamma/Brainstorm-Rerolled/releases/latest/download/Brainstorm-Rerolled.zip",
   "folderName": "Brainstorm-Rerolled",
-  "version": "Brainstorm-Rerolled-1.0.2-alpha",
-  "automatic-version-check": true
+  "version": "9be9690",
+  "automatic-version-check": true,
+  "last-updated": 1767284194
 }
