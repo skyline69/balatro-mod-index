@@ -36,5 +36,6 @@ Please report any bugs to my forums in Cryptid, Balatro, Balatro CLAMS, and Ever
 **EUT art was authorized to be used by EUT's current Owner Unby6 and the Illustrator Jiskin**
 
 # Credits
-Unby6 - Owner of EUT
-Jiskin the Banana - Illustrator for almost all the Jokers and Packs
+- Unby6 - Owner of EUT
+- Jiskin the Banana - Illustrator for almost all the Jokers and Packs
+- Saster, Juora & TaeSkull - HunterJ360 BGM (Animated Soundtrack: https://www.youtube.com/watch?v=-VPpexoFuYA&list=RD-VPpexoFuYA&start_radio=1)
