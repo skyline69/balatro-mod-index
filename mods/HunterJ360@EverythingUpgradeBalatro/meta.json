@@ -3,13 +3,10 @@
   "requires-steamodded": true,
   "requires-talisman": true,
   "categories": [
-    "All Mods",
     "Content",
     "Joker"
   ],
-  "author": [
-    "HunterJ360"
-  ],
+  "author": "HunterJ360",
   "repo": "https://github.com/HunterJ360/Everything_Upgrade_Balatro/",
   "downloadURL": "https://github.com/HunterJ360/Everything_Upgrade_Balatro/releases/latest/",
   "folderName": "everything_upgrade_balatro",
