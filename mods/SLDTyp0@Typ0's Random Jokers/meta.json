@@ -2,10 +2,14 @@
   "title": "Typ0's Random Jokers",
   "requires-steamodded": true,
   "requires-talisman": false,
-  "categories": ["Content","Joker"],
+  "categories": [
+    "Content",
+    "Joker"
+  ],
   "author": "SLDTyp0",
   "repo": "https://github.com/Typ0Codes/Typ0s-Random-Jokers",
   "downloadURL": "https://github.com/Typ0Codes/Typ0s-Random-Jokers/releases/latest/download/Typ0sRandomJokers.zip",
-  "version": "1.0.0",
-  "automatic-version-check": true
+  "version": "1.0.1",
+  "automatic-version-check": true,
+  "last-updated": 1767584884
 }
