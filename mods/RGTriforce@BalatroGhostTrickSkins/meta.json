@@ -1,0 +1,13 @@
+{
+  "title": "Ghost Trick Skin Pack",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Resource Packs"
+  ],
+  "author": "RGTriforce & nuclearbirb",
+  "repo": "https://github.com/RGTriforce/BalatroGhostTrickSkins",
+  "downloadURL": "https://github.com/RGTriforce/BalatroGhostTrickSkins/archive/refs/tags/v1.0.0.zip",
+  "version": "v1.0.0",
+  "automatic-version-check": true
+}
