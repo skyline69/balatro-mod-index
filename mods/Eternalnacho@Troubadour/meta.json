@@ -1,0 +1,12 @@
+{
+  "title": "Troubadour",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [ "Quality of Life" ],
+  "author": "Eternalnacho",
+  "repo": "https://github.com/Eternalnacho/Troubadour",
+  "downloadURL": "https://github.com/Eternalnacho/Troubadour/archive/refs/heads/main.zip",
+  "folderName": "Troubadour",
+  "version": "0.0.4",
+  "automatic-version-check": true
+}
