@@ -10,6 +10,7 @@
   "repo": "https://github.com/HunterJ360/Everything_Upgrade_Balatro/",
   "downloadURL": "https://github.com/HunterJ360/Everything_Upgrade_Balatro/releases/latest/download/everything-upgrade-balatro.zip",
   "folderName": "everything_upgrade_balatro",
-  "version": "1.0~Alpha",
-  "automatic-version-check": true
+  "version": "Alpha1",
+  "automatic-version-check": true,
+  "last-updated": 1767961643
 }
