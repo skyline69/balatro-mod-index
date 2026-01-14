@@ -1,0 +1,12 @@
+{
+  "title": "Regretevator ModPack",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": ["Resource Packs"], ["Miscellaneous"], ["Jokers"]
+  "author": "Mediumkey",
+  "repo": "https://github.com/TheMediumkey/Regretevator-Check-Raising-Balatro-Mod",
+  "downloadURL": "https://github.com/TheMediumkey/Regretevator-Check-Raising-Balatro-Mod/releases/latest",
+  "folderName": "RegretevatorBossBlinds", "Regretevator-Jokers", "Regretevator-Cards",
+  "version": "2.6.0",
+  "automatic-version-check": true
+}
