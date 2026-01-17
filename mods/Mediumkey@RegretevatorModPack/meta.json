@@ -5,11 +5,12 @@
   "categories": ["Resource Packs", "Miscellaneous", "Joker"],
   "author": "Mediumkey",
   "repo": "https://github.com/TheMediumkey/Regretevator-Check-Raising-Balatro-Mod",
-  "downloadURL": "https://github.com/TheMediumkey/Regretevator-Check-Raising-Balatro-Mod/releases/download/balatro3/RegretevatorMegaPack.7z",
+  "downloadURL": "https://github.com/TheMediumkey/Regretevator-Check-Raising-Balatro-Mod/releases/download/balatro3/RegretevatorMegaPack.zip",
   "folderName": "RegretevatorBossBlinds", "Regretevator-Jokers", "Regretevator-Cards",
   "version": "2.6.0",
   "automatic-version-check": true
 }
+
 
 
 
