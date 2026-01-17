@@ -13,4 +13,6 @@
   "folderName": "RegretevatorMegaPackModManager",
   "version": "2.6.0",
   "automatic-version-check": true
+  "fixed-release-tag-updates": true
 }
+
