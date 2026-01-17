@@ -2,12 +2,14 @@
   "title": "Save Rewinder",
   "requires-steamodded": true,
   "requires-talisman": false,
-  "categories": ["Quality of Life"],
+  "categories": [
+    "Quality of Life"
+  ],
   "author": "Liafonx",
   "repo": "https://github.com/Liafonx/Balatro-SaveRewinder",
   "downloadURL": "https://github.com/Liafonx/Balatro-SaveRewinder/releases/latest/download/SaveRewinder.zip",
   "folderName": "SaveRewinder",
-  "version": "1.4.5",
-  "automatic-version-check": true
+  "version": "v1.4.6",
+  "automatic-version-check": true,
+  "last-updated": 1768680852
 }
-
