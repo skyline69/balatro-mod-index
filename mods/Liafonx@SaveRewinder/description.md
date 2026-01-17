@@ -1,5 +1,7 @@
 # Save Rewinder
 
+[简体中文](https://github.com/Liafonx/Balatro-SaveRewinder/blob/main/README_zh.md) | [Changelog](https://github.com/Liafonx/Balatro-SaveRewinder/blob/main/CHANGELOG.md) | [更新日志](https://github.com/Liafonx/Balatro-SaveRewinder/blob/main/CHANGELOG_zh.md)
+
 **Undo mistakes. Experiment freely. Never lose progress.**
 
 Automatically creates save points as you play, letting you rewind to any recent moment with a single keystroke.
@@ -26,8 +28,8 @@ Click the **orange "Saves" button** in pause menu or press `Ctrl+S` to open the 
 
 | Action | Keyboard | Controller |
 |--------|----------|------------|
-| Step back one save | `S` | L3 |
-| Open saves list | `Ctrl+S` | R3 |
+| Step back one save | `S` | Click Left Stick |
+| Open saves list | `Ctrl+S` | Click Right Stick |
 
 ## Configuration
 
@@ -42,6 +44,7 @@ In the Steamodded config menu:
 Saves are stored in `[Balatro Save Path]/[Profile]/SaveRewinder/`
 
 - Saves persist if you quit mid-run — continue later and all saves remain
+- **Smart Continue** — When you continue a run, the mod highlights your exact position (even if it's not the latest save)
 - Starting a **new run** automatically clears previous saves
 - Use "Delete all" in config to manually clear saves
 
@@ -49,4 +52,8 @@ Saves are stored in `[Balatro Save Path]/[Profile]/SaveRewinder/`
 
 - English
 - 简体中文 (Simplified Chinese)
+
+---
+
+> ℹ️ **Note**: This mod adds a small `_rewinder_id` field to your save data for accurate position tracking. This does not affect normal gameplay or compatibility with other mods.
 
