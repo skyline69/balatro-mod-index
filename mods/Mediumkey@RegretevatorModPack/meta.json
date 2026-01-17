@@ -5,8 +5,7 @@
   "categories": [
     "Resource Packs", 
     "Miscellaneous", 
-    "Joker"
-  ],
+    "Joker" ],
   "author": "Mediumkey",
   "repo": "https://github.com/TheMediumkey/Regretevator-Check-Raising-Balatro-Mod",
   "downloadURL": "https://github.com/TheMediumkey/Regretevator-Check-Raising-Balatro-Mod/releases/download/balatro3/RegretevatorMegaPackModManager.zip",
@@ -15,4 +14,5 @@
   "automatic-version-check": true
   "fixed-release-tag-updates": true
 }
+
 
