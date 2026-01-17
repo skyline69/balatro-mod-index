@@ -6,11 +6,10 @@
   "author": "Mediumkey",
   "repo": "https://github.com/TheMediumkey/Regretevator-Check-Raising-Balatro-Mod",
   "downloadURL": "https://github.com/TheMediumkey/Regretevator-Check-Raising-Balatro-Mod/releases/download/balatro3/RegretevatorMegaPackModManager.zip",
-  "folderName": "RegretevatorMegaPackModManager",
-  "version": "2.6.0",
-  "automatic-version-check": true,
-  "fixed-release-tag-updates": true
+  "version": "6.7.8",
+  "automatic-version-check": true
 }
+
 
 
 
