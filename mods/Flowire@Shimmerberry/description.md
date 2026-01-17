@@ -1,5 +1,4 @@
-# Shimmerberry
-Shimmerberry adds Custom, Fluffy and Vanilla-Like content:
+Adds Custom, Fluffy and Vanilla-Like content:
 
 - 90 Jokers
   > 34 Common<br> 37 Uncommon<br> 16 Rare<br> 3 Legendary
@@ -21,5 +20,5 @@ Shimmerberry adds Custom, Fluffy and Vanilla-Like content:
 Programming by <ins>Flowire</ins>.<br>
 Art by <ins>unkokat</ins> and <ins>Flowire</ins>.
 
-# Requirements
-Shimmerberry requires Lovely(v0.8.0 or above) and Steamodded(vBETA-1221a or above).
+## Requirements
+Shimmerberry requires Lovely(v.0.8.0 or above) and Steamodded(v.BETA-1221a or above).
