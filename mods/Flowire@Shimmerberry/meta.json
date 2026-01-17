@@ -1,0 +1,16 @@
+{
+  "title": "Shimmerberry",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content",
+    "Joker",
+    "Miscellaneous"
+  ],
+  "author": "Flowire, unkokat",
+  "repo": "https://github.com/FlowireXen/Shimmerberry",
+  "downloadURL": "https://github.com/FlowireXen/Shimmerberry/archive/refs/heads/master.zip",
+  "automatic-version-check": true,
+  "version": "5a8af8a",
+  "last-updated": 1768662746
+}
