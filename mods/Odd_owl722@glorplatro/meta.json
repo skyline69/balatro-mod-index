@@ -2,10 +2,13 @@
   "title": "Glorplatro",
   "requires-steamodded": true,
   "requires-talisman": false,
-  "categories": ["Resource Packs"],
+  "categories": [
+    "Resource Packs"
+  ],
   "author": "Odd_owl722",
   "repo": "https://github.com/Odd-owl/Glorplatro",
   "downloadURL": "https://github.com/Odd-owl/Glorplatro/archive/refs/heads/main.zip",
   "automatic-version-check": true,
-  "version": "1.0"
+  "version": "1e6d7d1",
+  "last-updated": 1768763379
 }

@@ -2,10 +2,14 @@
   "title": "Genshin HSR Jokers",
   "requires-steamodded": true,
   "requires-talisman": false,
-  "categories": ["Content", "Joker"],
+  "categories": [
+    "Content",
+    "Joker"
+  ],
   "author": "Odd_owl722",
   "repo": "https://github.com/Odd-owl/GI-HSR-jokers",
   "downloadURL": "https://github.com/Odd-owl/GI-HSR-jokers/archive/refs/heads/main.zip",
   "automatic-version-check": true,
-  "version": "1.0"
+  "version": "010da96",
+  "last-updated": 1768763379
 }
