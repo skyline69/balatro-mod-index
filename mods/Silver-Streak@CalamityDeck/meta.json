@@ -2,11 +2,14 @@
   "title": "The Calamity Crew Deck",
   "requires-steamodded": true,
   "requires-talisman": false,
-  "categories": ["Resource Packs"],
+  "categories": [
+    "Resource Packs"
+  ],
   "author": "Silver-Streak",
   "repo": "https://github.com/Silver-Streak/CalamityDeck",
   "downloadURL": "https://github.com/Silver-Streak/CalamityDeck/releases/latest/download/CalamityDeck.zip",
   "folderName": "CalamityDeck",
-  "version": "1.0.0",
-  "automatic-version-check": true
+  "version": "release",
+  "automatic-version-check": true,
+  "last-updated": 1768853708
 }
