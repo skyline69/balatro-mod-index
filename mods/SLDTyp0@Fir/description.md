@@ -7,4 +7,6 @@ if they want me to change it reach out on discord
 
 programmed entirely by me with the exception of the one cryptid hook i stole from yahimod which was in turn stolen from cryptid
 
+https://www.youtube.com/@Fir
+
 enjoy
