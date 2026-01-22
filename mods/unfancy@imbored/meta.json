@@ -5,8 +5,9 @@
   "categories": ["Content"],
   "author": "unfancy",
   "repo": "https://github.com/unfanciousthewizard/imbored-balatro/",
-  "downloadURL": "https://github.com/unfanciousthewizard/imbored-balatro/releases/latest/download/imbored-v0.2.6.zip",
+  "downloadURL": "https://github.com/unfanciousthewizard/imbored-balatro/archive/refs/heads/main.zip",
   "folderName": "imbored",
   "version": "0.2.6",
   "automatic-version-check": true
 }
+
