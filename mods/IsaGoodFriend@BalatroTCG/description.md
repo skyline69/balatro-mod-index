@@ -29,7 +29,7 @@ Example:
 
 Okay, here's a simple table to help
 
-| Base Score | Damage output |
+| Final Score | Damage output |
 | --- | --- |
 | 10 | 1 |
 | 100 | 4 |
