@@ -8,8 +8,9 @@
   ],
   "author": "GreenKookie",
   "repo": "https://github.com/GreenKookie56/Sholium",
-  "downloadURL": "https://github.com/GreenKookie56/Sholium/archive/refs/tags/2.4.8b.zip",
+  "downloadURL": "https://github.com/GreenKookie56/Sholium/archive/refs/tags/2.4.9.zip",
   "folderName": "Sholium",
-  "version": "2.4.8b",
-  "automatic-version-check": true
+  "version": "2.4.9",
+  "automatic-version-check": true,
+  "last-updated": 1769312798
 }
