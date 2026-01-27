@@ -1,0 +1,8 @@
+{
+	"title": "Vanilla+ Decks",
+	"categories": ["Content"],
+	"repo": "https://github.com/DaniVals/VanillaPlusDecks",
+	"downloadURL": "https://github.com/DaniVals/VanillaPlusDecks/releases/latest/download/VanillaPlusDecks.zip",
+	"folderName": "VanillaPlusDecks",
+	"automatic-version-check": true
+}
