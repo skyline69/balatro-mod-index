@@ -7,9 +7,9 @@
   ],
   "author": "Ortalab Team",
   "repo": "https://github.com/EremelMods/Ortalab/",
-  "downloadURL": "https://github.com/EremelMods/Ortalab/releases/latest/download/Ortalab-main.zip",
+  "downloadURL": "https://github.com/EremelMods/Ortalab/archive/refs/heads/main.zip",
   "folderName": "Ortalab",
-  "version": "1.0.1a",
+  "version": "d55a60f",
   "automatic-version-check": true,
-  "last-updated": 1766240202
+  "last-updated": 1768774342
 }
