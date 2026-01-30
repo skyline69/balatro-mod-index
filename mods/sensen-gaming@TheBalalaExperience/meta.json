@@ -1,0 +1,12 @@
+{
+  "title": "The Balala Experience",
+  "requires-steamodded": true,
+  "requires-talisman": true,
+  "categories": ["Content", "Jokers"],
+  "author": "Sen",
+  "repo": "https://github.com/sensen-gaming/TheBalalaExperience",
+  "downloadURL": "https://github.com/sensen-gaming/TheBalalaExperience/archive/refs/tags/Version.zip",
+  "folderName": "thebalalaexperience",
+  "version": "0.0.1",
+  "automatic-version-check": true
+}
