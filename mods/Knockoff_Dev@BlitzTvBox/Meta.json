@@ -5,8 +5,9 @@
   "categories": ["Content"],
   "author": "Knockoff_Dev",
   "repo": "https://github.com/KnockoffDev/BlitzTvBox",
-  "downloadURL": "https://github.com/KnockoffDev/BlitzTvBox/archive/refs/tags/patches.zip",
+  "downloadURL": "https://github.com/KnockoffDev/BlitzTvBox/releases/download/mainrelease/BlitzTvBox-patches.zip",
   "folderName": "BlitzTvBox",
   "version": "1.0.1",
   "automatic-version-check": true
+
 }
