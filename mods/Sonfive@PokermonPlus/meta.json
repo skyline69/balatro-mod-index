@@ -1,5 +1,5 @@
 {
-  "title": "Pokermon+",
+  "title": "PokermonPlus",
   "requires-steamodded": true,
   "requires-talisman": false,
   "categories": [
@@ -10,7 +10,7 @@
   "repo": "https://github.com/SonfiveTV/PokermonPlus",
   "downloadURL": "https://github.com/SonfiveTV/PokermonPlus/archive/refs/heads/main.zip",
   "folderName": "PokermonPlus",
-  "version": "74831e6",
+  "version": "32bce21",
   "automatic-version-check": true,
-  "last-updated": 1767557668
+  "last-updated": 1769721581
 }
