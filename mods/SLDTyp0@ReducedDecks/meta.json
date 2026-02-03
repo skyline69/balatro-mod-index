@@ -1,0 +1,11 @@
+{
+  "title": "ReducedDecks",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": ["Content","Miscellaneous"],
+  "author": "SLDTyp0",
+  "repo": "https://github.com/Typ0Codes/Reduced-Decks",
+  "downloadURL": "https://github.com/Typ0Codes/Reduced-Decks/releases/latest/download/ReducedDecks.zip",
+  "version": "1.0.0",
+  "automatic-version-check": true
+}
