@@ -1,5 +1,5 @@
 # Foolish Dreams : A Pseudoregalia themed mod 
-Foolish dreams is mod attempting to bring Pseudoregalia to Balatro while trying to keep a certain 'Vanilla feel' to it, for now this mod is not complete complete as there's still quite more elements to add, but i  consider adding them progressively as i make the mod.
+Foolish Dreams is a mod attempting to bring Pseudoregalia to Balatro while trying to keep a certain 'Vanilla feel' to it, for now this mod is not complete as there's still quite more elements to add, but I consider adding them progressively as I make the mod.
 
 Adds :
 - 54 Jokers
