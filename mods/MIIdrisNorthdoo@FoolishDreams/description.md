@@ -1,5 +1,5 @@
 # Foolish Dreams : A Pseudoregalia themed mod 
-Foolish Dreams is a mod attempting to bring Pseudoregalia to Balatro while trying to keep a certain 'Vanilla feel' to it, for now this mod is not complete as there's still quite more elements to add, but I consider adding them progressively as I make the mod.
+Foolish Dreams is a mod attempting to bring Pseudoregalia to Balatro while trying to keep a certain 'Vanilla feel' to it.
 
 Adds :
 - 54 Jokers
@@ -7,5 +7,5 @@ Adds :
 
 # WARNING
 Talisman will crash with some jokers of the mod due to the way Talisman handle calculations and scoring, however you could still use that mod with it as otherwise there's no major crash or issue, works also with Cryptid.
-However, i didn't think of the compatibility of other gameplay mods primarly while making this one. So conflicts can be possible.
+However, i didn't think of the compatibility of other gameplay mods primarily while making this one. So conflicts can be possible.
 
