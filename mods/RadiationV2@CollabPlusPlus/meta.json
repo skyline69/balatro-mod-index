@@ -1,0 +1,13 @@
+{
+  "title": "Collab++",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": ["Resource Packs"],
+  "author": "RadiationV2",
+  "repo": "https://github.com/RadadaV2/Balatro-CollabPlusPlus",
+  "downloadURL": "https://github.com/RadadaV2/Balatro-CollabPlusPlus/releases/latest/download/Balatro-CollabPlusPlus.zip",
+  "folderName": "CollabPlusPlus",
+  "version": "1.0.2",
+  "automatic-version-check": true
+
+}
