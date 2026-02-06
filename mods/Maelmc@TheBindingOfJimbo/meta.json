@@ -1,0 +1,15 @@
+{
+  "title": "The Binding of Jimbo (The Binding of Isaac)",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content",
+    "Joker"
+  ],
+  "author": "Maelmc",
+  "repo": "https://github.com/Maelmc/The-Binding-of-Jimbo",
+  "downloadURL": "https://github.com/Maelmc/The-Binding-of-Jimbo/archive/refs/heads/master.zip",
+  "folderName": "The Binding of Jimbo",
+  "version": "1.0",
+  "automatic-version-check": true
+}
