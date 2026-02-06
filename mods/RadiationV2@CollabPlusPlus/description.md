@@ -16,8 +16,4 @@ All card artworks were drawn by RadiationV2, based on the following titles:
 - "Pizza Tower" by Tour De Pizza, inspiration taken from ingame sprites and characters
 
 ## Installation
-
 Requires steammodded
-
-
-
