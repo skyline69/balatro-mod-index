@@ -9,7 +9,7 @@ V1.0... Platformer pack 1
 - (Clubs) Pizza Tower:      Peppino, Gustavo and The Noise
 
 ## Credits
-All card artworks drawn by RadiationV2, based on the following titles:
+All card artworks were drawn by RadiationV2, based on the following titles:
 - "Hollow Knight" by Team Cherry, inspiration taken from official promotionnal artwork
 - "Celeste" by Maddy Makes Games, inspiration taken from official promotionnal artwork
 - "Fez" by Polytron Corporation, reinterpretation of certain ingame sprites
@@ -18,3 +18,4 @@ All card artworks drawn by RadiationV2, based on the following titles:
 ## Installation
 
 Requires steammodded
+
