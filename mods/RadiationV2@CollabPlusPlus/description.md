@@ -1,5 +1,5 @@
 # Collab++
-Simple mod which adds new fan-made face card skins inspired by other games.
+Simple mod which adds new fan-made face card skins and their high contrast variants inspired by other games.
 
 ## Content
 V1.0... Platformer pack 1 
