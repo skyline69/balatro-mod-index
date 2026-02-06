@@ -1,5 +1,5 @@
 # Collab++
-Simple mod which adds new fan-made face card skins and their high contrast variants inspired by other games.
+Simple mod which adds new fan-made face card collabs and their high contrast variants.
 
 ## Content
 V1.0... Platformer pack 1 
@@ -18,5 +18,6 @@ All card artworks were drawn by RadiationV2, based on the following titles:
 ## Installation
 
 Requires steammodded
+
 
 
