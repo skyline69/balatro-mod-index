@@ -3,10 +3,10 @@ Simple mod which adds new fan-made face card skins and their high contrast varia
 
 ## Content
 V1.0... Platformer pack 1 
-- (Hearts) Celeste:         Theo, Madeline and Badeline
-- (Diamonds) Fez:           Gomez, Dodecahedron and Owls
 - (Spades) Hollow Knight:   The Knight, Hornet and Zote
+- (Hearts) Celeste:         Theo, Madeline and Badeline
 - (Clubs) Pizza Tower:      Peppino, Gustavo and The Noise
+- (Diamonds) Fez:           Gomez, Dodecahedron and Owls
 
 ## Credits
 All card artworks were drawn by RadiationV2, based on the following titles:
@@ -18,4 +18,5 @@ All card artworks were drawn by RadiationV2, based on the following titles:
 ## Installation
 
 Requires steammodded
+
 
