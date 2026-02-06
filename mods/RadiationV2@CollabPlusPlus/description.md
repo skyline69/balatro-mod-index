@@ -15,7 +15,6 @@ All card artworks drawn by RadiationV2, based on the following titles:
 - "Fez" by Polytron Corporation, reinterpretation of certain ingame sprites
 - "Pizza Tower" by Tour De Pizza, inspiration taken from ingame sprites and characters
 
-All artworks in this mod are unofficial. Each ip represented belongs to their respective owners.
-
 ## Installation
+
 Requires steammodded
