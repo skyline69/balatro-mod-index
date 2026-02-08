@@ -1,0 +1,12 @@
+{
+	"title": "Inky's Suit Skins",
+	"requires-steamodded": true,
+	"requires-talisman": false,
+	"categories": ["Resource Packs"],
+	"author": [ "Inky 'Ivory' Enby"],
+	"repo": "https://github.com/InkyEnby/InkySuitSkins",
+	"downloadURL": "https://github.com/InkyEnby/InkySuitSkins/releases/download/Releases/InkySuitSkins.zip",
+	"folderName": "InkySuitSkins",
+	"version": "1.0.0",
+	"automatic-version-check": true
+}
