@@ -7,8 +7,9 @@
   ],
   "author": "JosephPB09 and Balatro fans",
   "repo": "https://github.com/JosephPB0909/CuriLatro",
-  "downloadURL": "https://github.com/JosephPB0909/CuriLatro/archive/refs/tags/mod.zip",
+  "downloadURL": "https://github.com/JosephPB0909/CuriLatro/archive/refs/tags/663bd86.zip",
   "folderName": "CuriLatro",
-  "version": "mod",
-  "automatic-version-check": true
+  "version": "663bd86",
+  "automatic-version-check": true,
+  "last-updated": 1770667057
 }

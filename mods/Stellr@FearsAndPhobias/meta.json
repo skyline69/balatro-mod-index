@@ -9,6 +9,7 @@
   "repo": "https://github.com/StellrVR/fears-phobias",
   "downloadURL": "https://github.com/StellrVR/fears-phobias/releases/latest/download/fearsphobias.zip",
   "folderName": "FearsPhobias",
-  "version": "v1.2.1",
-  "automatic-version-check": true
+  "version": "b9b6d1f",
+  "automatic-version-check": true,
+  "last-updated": 1770667057
 }
