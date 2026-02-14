@@ -11,7 +11,7 @@
   "repo": "https://github.com/BalatroTCG/BalatroTCG",
   "downloadURL": "https://github.com/BalatroTCG/BalatroTCG/releases/latest/download/BalatroTCG.zip",
   "folderName": "BalatroTCG",
-  "version": "0.3.1",
+  "version": "v0.3.1b",
   "automatic-version-check": true,
-  "last-updated": 1771024935
+  "last-updated": 1771103765
 }
