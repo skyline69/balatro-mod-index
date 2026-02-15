@@ -23,7 +23,8 @@ This repository tracks Balatro mods and their metadata. When reviewing pull requ
 - Folder format should be `mods/Author@Modname/`.
 - `description.md` must exist.
 - `meta.json` must exist and be valid JSON.
-- Thumbnail is optional, but if present should be an image file and reasonably sized.
+- Thumbnail is optional, but if present it must be a `.jpg` file.
+- Reject `.png`, `.jpeg`, or other thumbnail extensions.
 
 ### 2) `meta.json` Required Fields
 Ensure required fields exist and types are correct:
@@ -83,6 +84,10 @@ For mods submitted by someone other than creator, flag if unclear:
 - Redistribution permission/license status.
 - Whether the mod appears abandoned/deprecated.
 - Whether using stable release links is possible instead of volatile HEAD links.
+
+### 10) Thumbnail Extension Policy
+- Only `.jpg` thumbnails are accepted in this repository.
+- If a PR uses `thumbnail.png`, `thumbnail.jpeg`, or any other extension, mark it `Needs Change`.
 
 ## Recommendation Rules for Download Links
 For users with `automatic-version-check: true` using weak or non-file links:

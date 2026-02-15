@@ -83,14 +83,34 @@ jobs:
           done < changed_mods.txt
 
       - name: Check Thumbnail Dimensions
-        if: always() && steps.find-changed-mods.outputs.changed_mods_found == 'true'
+        if: steps.find-changed-mods.outputs.changed_mods_found == 'true'
         run: |
           while read -r mod_path; do
             if [ -d "$mod_path" ]; then
               MOD_DIR="$(basename "$mod_path")"
               THUMBNAIL="$mod_path/thumbnail.jpg"
               
+              # Enforce thumbnail policy: if present, it must be exactly thumbnail.jpg
+              INVALID_THUMBNAILS=$(find "$mod_path" -maxdepth 1 -type f -print \
+                | awk -F/ '{print $NF}' \
+                | grep -Ei '^thumbnail\.' \
+                | grep -Ev '^thumbnail\.jpg$' || true)
+              
+              if [ -n "$INVALID_THUMBNAILS" ]; then
+                echo "Error: Invalid thumbnail filename(s) in $MOD_DIR:"
+                echo "$INVALID_THUMBNAILS"
+                echo "Only 'thumbnail.jpg' is accepted."
+                exit 1
+              fi
+              
               if [ -f "$THUMBNAIL" ]; then
+                # Ensure thumbnail.jpg is actually a JPEG file
+                MIME_TYPE=$(file --brief --mime-type "$THUMBNAIL")
+                if [ "$MIME_TYPE" != "image/jpeg" ]; then
+                  echo "Error: $MOD_DIR/thumbnail.jpg must be a JPEG image (found: $MIME_TYPE)."
+                  exit 1
+                fi
+              
                 # Extract width and height using ImageMagick identify
                 # Using identify-im6.q16 directly as identify is a symlink that is not created by the cache restoration
                 DIMENSIONS=$(/usr/bin/identify-im6.q16 -format "%wx%h" "$THUMBNAIL")
@@ -107,7 +127,7 @@ jobs:
           done < changed_mods.txt
 
       - name: Validate JSON Format
-        if: always() && steps.find-changed-mods.outputs.changed_mods_found == 'true'
+        if: steps.find-changed-mods.outputs.changed_mods_found == 'true'
         run: |
           # Use jq to validate each JSON file
           while read -r mod_path; do
@@ -120,20 +140,64 @@ jobs:
           done < changed_mods.txt
 
       - name: Validate meta.json Against Schema
-        if: always() && steps.find-changed-mods.outputs.changed_mods_found == 'true'
+        if: steps.find-changed-mods.outputs.changed_mods_found == 'true' && steps.find-changed-mods.outputs.meta_json_files != ''
         uses: dsanders11/json-schema-validate-action@v1.4.0
         with:
           schema: "./schema/meta.schema.json"
           files: ${{ steps.find-changed-mods.outputs.meta_json_files }}
           custom-errors: true
 
-      - name: Validate Download URLs
-        if: always() && steps.find-changed-mods.outputs.changed_mods_found == 'true'
+      - name: Validate Metadata Logic
+        if: steps.find-changed-mods.outputs.changed_mods_found == 'true'
         run: |
           while read -r mod_path; do
             if [ -d "$mod_path" ]; then
               MOD_DIR="$(basename "$mod_path")"
               META_JSON="$mod_path/meta.json"
+
+              if [ ! -f "$META_JSON" ]; then
+                echo "Error: Missing meta.json in $MOD_DIR"
+                exit 1
+              fi
+
+              # mod folder must follow Author@Modname format
+              if ! echo "$MOD_DIR" | grep -Eq '^[^@]+@[^@]+$'; then
+                echo "Error: Mod folder must follow Author@Modname format: $MOD_DIR"
+                exit 1
+              fi
+
+              DOWNLOAD_URL=$(jq -r '.downloadURL // empty' "$META_JSON")
+              AUTO_CHECK=$(jq -r '."automatic-version-check" // false' "$META_JSON")
+
+              # Enforce a valid URL scheme
+              if ! echo "$DOWNLOAD_URL" | grep -Eq '^https?://'; then
+                echo "Error: downloadURL in $MOD_DIR/meta.json must start with http:// or https://"
+                exit 1
+              fi
+
+              # automatic-version-check should not use static blob/tree/repo links
+              if [ "$AUTO_CHECK" = "true" ]; then
+                if echo "$DOWNLOAD_URL" | grep -Eq '/blob/|/tree/|/archive/refs/tags/|/releases/latest$'; then
+                  echo "Error: automatic-version-check in $MOD_DIR/meta.json requires an auto-updating file URL."
+                  echo "Avoid /blob/, /tree/, /archive/refs/tags/, or /releases/latest page URLs."
+                  exit 1
+                fi
+              fi
+            fi
+          done < changed_mods.txt
+
+      - name: Validate Download URLs
+        if: steps.find-changed-mods.outputs.changed_mods_found == 'true'
+        run: |
+          while read -r mod_path; do
+            if [ -d "$mod_path" ]; then
+              MOD_DIR="$(basename "$mod_path")"
+              META_JSON="$mod_path/meta.json"
+
+              if [ ! -f "$META_JSON" ]; then
+                echo "Error: Missing meta.json in $MOD_DIR"
+                exit 1
+              fi
               
               # Check if downloadURL exists and is not empty
               DOWNLOAD_URL=$(jq -r '.downloadURL // empty' "$META_JSON")
@@ -142,9 +206,28 @@ jobs:
                 exit 1
               fi
               
-              # Optional: Check if URL is accessible
-              if ! curl --output /dev/null --silent --head --fail "$DOWNLOAD_URL"; then
-                echo "Error: downloadURL in $MOD_DIR/meta.json is not accessible"
+              # Verify URL is accessible and resolves to a downloadable file
+              RESULT=$(curl --silent --show-error --location --max-redirs 10 --output /dev/null \
+                --write-out "%{http_code}|%{content_type}|%{url_effective}" "$DOWNLOAD_URL")
+              HTTP_CODE=$(echo "$RESULT" | cut -d'|' -f1)
+              CONTENT_TYPE=$(echo "$RESULT" | cut -d'|' -f2)
+              FINAL_URL=$(echo "$RESULT" | cut -d'|' -f3-)
+
+              if [ "$HTTP_CODE" -ge 400 ]; then
+                echo "Error: downloadURL in $MOD_DIR/meta.json returned HTTP $HTTP_CODE"
+                exit 1
+              fi
+
+              # Reject HTML pages (repo pages, release pages, blob/tree views, etc.)
+              if echo "$CONTENT_TYPE" | grep -qi '^text/html'; then
+                echo "Error: downloadURL in $MOD_DIR/meta.json resolves to an HTML page, not a file."
+                echo "Final URL: $FINAL_URL"
+                exit 1
+              fi
+
+              if echo "$FINAL_URL" | grep -Eq '/blob/|/tree/|/releases/latest$|/releases/tag/|github\.com/[^/]+/[^/]+/?$'; then
+                echo "Error: downloadURL in $MOD_DIR/meta.json resolves to a non-file page URL."
+                echo "Final URL: $FINAL_URL"
                 exit 1
               fi
             fi
