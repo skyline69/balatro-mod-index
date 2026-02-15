@@ -2,8 +2,17 @@ name: Validate Balatro Mods
 
 on:
   pull_request:
-    paths:
-      - "mods/**"
+    types:
+      - opened
+      - reopened
+      - synchronize
+      - ready_for_review
+      - edited
+
+permissions:
+  contents: read
+  pull-requests: write
+  issues: write
 
 jobs:
   validate:
@@ -12,7 +21,7 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v3
         with:
-          fetch-depth: 0  # Get full history for comparing changes
+          fetch-depth: 0
 
       - name: Use ImageMagick from cache
         uses: awalsh128/cache-apt-pkgs-action@v1
@@ -20,47 +29,46 @@ jobs:
           packages: imagemagick
           version: 8:6.9.12.98+dfsg1-5.2build2
 
+      - name: Initialize validation report
+        run: |
+          REPORT_FILE="$RUNNER_TEMP/validation_report.txt"
+          : > "$REPORT_FILE"
+          echo "REPORT_FILE=$REPORT_FILE" >> "$GITHUB_ENV"
+
       - name: Identify Changed Mods
         id: find-changed-mods
         run: |
-          # Get the list of files changed in the PR using GitHub API
           API_RESPONSE=$(curl -s -X GET \
             -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
             -H "Accept: application/vnd.github.v3+json" \
             "https://api.github.com/repos/${{ github.repository }}/pulls/${{ github.event.pull_request.number }}/files")
 
-          # Use fallback method if API fails
           if echo "$API_RESPONSE" | jq -e 'if type=="array" then true else false end' > /dev/null; then
             echo "Using GitHub API method to find changed files"
             echo "$API_RESPONSE" | jq -r '.[] | .filename' | grep -E '^mods/[^/]+/' | cut -d'/' -f1-2 | sort | uniq > changed_mods.txt
           else
             echo "Using git diff method as fallback"
-            # Fetch the base branch of the PR
             git fetch origin ${{ github.event.pull_request.base.ref }}
-            
-            # Find all added or modified files in mods directory using git diff
             git diff --name-only --diff-filter=AM origin/${{ github.event.pull_request.base.ref }}..HEAD | grep -E '^mods/[^/]+/' | cut -d'/' -f1-2 | sort | uniq > changed_mods.txt
           fi
-          
-          # Check if any mods were found
+
           if [ ! -s changed_mods.txt ]; then
             echo "No mods were added or modified in this PR."
-            echo "changed_mods_found=false" >> $GITHUB_OUTPUT
+            echo "changed_mods_found=false" >> "$GITHUB_OUTPUT"
             exit 0
           fi
-          
+
           echo "Changed mods found:"
           cat changed_mods.txt
-          echo "changed_mods_found=true" >> $GITHUB_OUTPUT
-          
-          # Create a newline-separated list for JSON schema validation
+          echo "changed_mods_found=true" >> "$GITHUB_OUTPUT"
+
           META_JSON_FILES=$(while read -r mod_path; do
             [ -f "$mod_path/meta.json" ] && echo "$mod_path/meta.json"
           done < changed_mods.txt)
-                  
-          echo "meta_json_files<<EOF" >> $GITHUB_OUTPUT
-          echo "$META_JSON_FILES" >> $GITHUB_OUTPUT
-          echo "EOF" >> $GITHUB_OUTPUT
+
+          echo "meta_json_files<<EOF" >> "$GITHUB_OUTPUT"
+          echo "$META_JSON_FILES" >> "$GITHUB_OUTPUT"
+          echo "EOF" >> "$GITHUB_OUTPUT"
 
       - name: Check Required Files
         if: steps.find-changed-mods.outputs.changed_mods_found == 'true'
@@ -68,16 +76,13 @@ jobs:
           while read -r mod_path; do
             if [ -d "$mod_path" ]; then
               MOD_DIR="$(basename "$mod_path")"
-              
-              # Ensure description.md and meta.json exist
+
               if [ ! -f "$mod_path/description.md" ]; then
-                echo "Error: Missing description.md in $MOD_DIR"
-                exit 1
+                echo "- '$MOD_DIR': Missing description.md" >> "$REPORT_FILE"
               fi
-              
+
               if [ ! -f "$mod_path/meta.json" ]; then
-                echo "Error: Missing meta.json in $MOD_DIR"
-                exit 1
+                echo "- '$MOD_DIR': Missing meta.json" >> "$REPORT_FILE"
               fi
             fi
           done < changed_mods.txt
@@ -89,38 +94,29 @@ jobs:
             if [ -d "$mod_path" ]; then
               MOD_DIR="$(basename "$mod_path")"
               THUMBNAIL="$mod_path/thumbnail.jpg"
-              
-              # Enforce thumbnail policy: if present, it must be exactly thumbnail.jpg
+
               INVALID_THUMBNAILS=$(find "$mod_path" -maxdepth 1 -type f -print \
                 | awk -F/ '{print $NF}' \
                 | grep -Ei '^thumbnail\.' \
                 | grep -Ev '^thumbnail\.jpg$' || true)
-              
+
               if [ -n "$INVALID_THUMBNAILS" ]; then
-                echo "Error: Invalid thumbnail filename(s) in $MOD_DIR:"
-                echo "$INVALID_THUMBNAILS"
-                echo "Only 'thumbnail.jpg' is accepted."
-                exit 1
+                INVALID_LIST=$(echo "$INVALID_THUMBNAILS" | tr '\n' ',' | sed 's/,$//')
+                echo "- '$MOD_DIR': Invalid thumbnail filename(s): $INVALID_LIST (only thumbnail.jpg is allowed)" >> "$REPORT_FILE"
               fi
-              
+
               if [ -f "$THUMBNAIL" ]; then
-                # Ensure thumbnail.jpg is actually a JPEG file
                 MIME_TYPE=$(file --brief --mime-type "$THUMBNAIL")
                 if [ "$MIME_TYPE" != "image/jpeg" ]; then
-                  echo "Error: $MOD_DIR/thumbnail.jpg must be a JPEG image (found: $MIME_TYPE)."
-                  exit 1
+                  echo "- '$MOD_DIR': thumbnail.jpg must be a JPEG (found: $MIME_TYPE)" >> "$REPORT_FILE"
                 fi
-              
-                # Extract width and height using ImageMagick identify
-                # Using identify-im6.q16 directly as identify is a symlink that is not created by the cache restoration
+
                 DIMENSIONS=$(/usr/bin/identify-im6.q16 -format "%wx%h" "$THUMBNAIL")
                 WIDTH=$(echo "$DIMENSIONS" | cut -dx -f1)
                 HEIGHT=$(echo "$DIMENSIONS" | cut -dx -f2)
-                
-                # Check if dimensions exceed 1920x1080
+
                 if [ "$WIDTH" -gt 1920 ] || [ "$HEIGHT" -gt 1080 ]; then
-                  echo "Error: Thumbnail in $MOD_DIR exceeds the recommended size of 1920×1080."
-                  exit 1
+                  echo "- '$MOD_DIR': thumbnail.jpg exceeds 1920x1080 recommendation" >> "$REPORT_FILE"
                 fi
               fi
             fi
@@ -129,23 +125,28 @@ jobs:
       - name: Validate JSON Format
         if: steps.find-changed-mods.outputs.changed_mods_found == 'true'
         run: |
-          # Use jq to validate each JSON file
           while read -r mod_path; do
             if [ -f "$mod_path/meta.json" ]; then
               if ! jq empty "$mod_path/meta.json" 2>/dev/null; then
-                echo "Error: Invalid JSON format in $mod_path/meta.json"
-                exit 1
+                echo "- '$mod_path': meta.json is not valid JSON" >> "$REPORT_FILE"
               fi
             fi
           done < changed_mods.txt
 
       - name: Validate meta.json Against Schema
         if: steps.find-changed-mods.outputs.changed_mods_found == 'true' && steps.find-changed-mods.outputs.meta_json_files != ''
+        id: schema-validation
+        continue-on-error: true
         uses: dsanders11/json-schema-validate-action@v1.4.0
         with:
           schema: "./schema/meta.schema.json"
           files: ${{ steps.find-changed-mods.outputs.meta_json_files }}
           custom-errors: true
+
+      - name: Record Schema Validation Errors
+        if: steps.find-changed-mods.outputs.changed_mods_found == 'true' && steps.schema-validation.outcome == 'failure'
+        run: |
+          echo "- One or more meta.json files do not match schema/meta.schema.json" >> "$REPORT_FILE"
 
       - name: Validate Metadata Logic
         if: steps.find-changed-mods.outputs.changed_mods_found == 'true'
@@ -156,31 +157,23 @@ jobs:
               META_JSON="$mod_path/meta.json"
 
               if [ ! -f "$META_JSON" ]; then
-                echo "Error: Missing meta.json in $MOD_DIR"
-                exit 1
+                continue
               fi
 
-              # mod folder must follow Author@Modname format
               if ! echo "$MOD_DIR" | grep -Eq '^[^@]+@[^@]+$'; then
-                echo "Error: Mod folder must follow Author@Modname format: $MOD_DIR"
-                exit 1
+                echo "- '$MOD_DIR': folder must follow Author@Modname format" >> "$REPORT_FILE"
               fi
 
               DOWNLOAD_URL=$(jq -r '.downloadURL // empty' "$META_JSON")
               AUTO_CHECK=$(jq -r '."automatic-version-check" // false' "$META_JSON")
 
-              # Enforce a valid URL scheme
               if ! echo "$DOWNLOAD_URL" | grep -Eq '^https?://'; then
-                echo "Error: downloadURL in $MOD_DIR/meta.json must start with http:// or https://"
-                exit 1
+                echo "- '$MOD_DIR': downloadURL must start with http:// or https://" >> "$REPORT_FILE"
               fi
 
-              # automatic-version-check should not use static blob/tree/repo links
               if [ "$AUTO_CHECK" = "true" ]; then
                 if echo "$DOWNLOAD_URL" | grep -Eq '/blob/|/tree/|/archive/refs/tags/|/releases/latest$'; then
-                  echo "Error: automatic-version-check in $MOD_DIR/meta.json requires an auto-updating file URL."
-                  echo "Avoid /blob/, /tree/, /archive/refs/tags/, or /releases/latest page URLs."
-                  exit 1
+                  echo "- '$MOD_DIR': automatic-version-check requires an auto-updating file URL" >> "$REPORT_FILE"
                 fi
               fi
             fi
@@ -195,18 +188,15 @@ jobs:
               META_JSON="$mod_path/meta.json"
 
               if [ ! -f "$META_JSON" ]; then
-                echo "Error: Missing meta.json in $MOD_DIR"
-                exit 1
+                continue
               fi
-              
-              # Check if downloadURL exists and is not empty
+
               DOWNLOAD_URL=$(jq -r '.downloadURL // empty' "$META_JSON")
               if [ -z "$DOWNLOAD_URL" ]; then
-                echo "Error: Missing or empty downloadURL in $MOD_DIR/meta.json"
-                exit 1
+                echo "- '$MOD_DIR': Missing or empty downloadURL" >> "$REPORT_FILE"
+                continue
               fi
-              
-              # Verify URL is accessible and resolves to a downloadable file
+
               RESULT=$(curl --silent --show-error --location --max-redirs 10 --output /dev/null \
                 --write-out "%{http_code}|%{content_type}|%{url_effective}" "$DOWNLOAD_URL")
               HTTP_CODE=$(echo "$RESULT" | cut -d'|' -f1)
@@ -214,21 +204,82 @@ jobs:
               FINAL_URL=$(echo "$RESULT" | cut -d'|' -f3-)
 
               if [ "$HTTP_CODE" -ge 400 ]; then
-                echo "Error: downloadURL in $MOD_DIR/meta.json returned HTTP $HTTP_CODE"
-                exit 1
+                echo "- '$MOD_DIR': downloadURL returned HTTP $HTTP_CODE" >> "$REPORT_FILE"
+                continue
               fi
 
-              # Reject HTML pages (repo pages, release pages, blob/tree views, etc.)
               if echo "$CONTENT_TYPE" | grep -qi '^text/html'; then
-                echo "Error: downloadURL in $MOD_DIR/meta.json resolves to an HTML page, not a file."
-                echo "Final URL: $FINAL_URL"
-                exit 1
+                echo "- '$MOD_DIR': downloadURL resolves to HTML page, not file" >> "$REPORT_FILE"
+                continue
               fi
 
               if echo "$FINAL_URL" | grep -Eq '/blob/|/tree/|/releases/latest$|/releases/tag/|github\.com/[^/]+/[^/]+/?$'; then
-                echo "Error: downloadURL in $MOD_DIR/meta.json resolves to a non-file page URL."
-                echo "Final URL: $FINAL_URL"
-                exit 1
+                echo "- '$MOD_DIR': downloadURL resolves to non-file page URL" >> "$REPORT_FILE"
               fi
             fi
           done < changed_mods.txt
+
+      - name: Determine Validation Status
+        id: status
+        if: always()
+        run: |
+          if [ -s "$REPORT_FILE" ]; then
+            echo "has_errors=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "has_errors=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Comment Validation Result
+        if: always() && github.event_name == 'pull_request'
+        uses: actions/github-script@v7
+        env:
+          HAS_ERRORS: ${{ steps.status.outputs.has_errors }}
+        with:
+          script: |
+            const fs = require('fs');
+            const marker = '<!-- balatro-validate-comment -->';
+            const reportPath = process.env.REPORT_FILE;
+            const hasErrors = process.env.HAS_ERRORS === 'true';
+
+            let body;
+            if (!hasErrors) {
+              body = `${marker}\nValidation passed for changed mod entries.`;
+            } else {
+              const raw = fs.existsSync(reportPath) ? fs.readFileSync(reportPath, 'utf8').trim() : '';
+              const lines = raw.split('\n').filter(Boolean).slice(0, 12);
+              const overflow = raw.split('\n').filter(Boolean).length - lines.length;
+              const extra = overflow > 0 ? `\n- ...and ${overflow} more issue(s)` : '';
+              body = `${marker}\nValidation found issue(s):\n${lines.join('\n')}${extra}`;
+            }
+
+            const { owner, repo } = context.repo;
+            const issue_number = context.issue.number;
+            const comments = await github.paginate(github.rest.issues.listComments, {
+              owner,
+              repo,
+              issue_number,
+              per_page: 100
+            });
+
+            const existing = comments.find(c => c.user?.type === 'Bot' && c.body?.includes(marker));
+            if (existing) {
+              await github.rest.issues.updateComment({
+                owner,
+                repo,
+                comment_id: existing.id,
+                body
+              });
+            } else {
+              await github.rest.issues.createComment({
+                owner,
+                repo,
+                issue_number,
+                body
+              });
+            }
+
+      - name: Fail If Validation Errors Exist
+        if: always() && steps.status.outputs.has_errors == 'true'
+        run: |
+          echo "Validation failed. See PR comment for short summary."
+          exit 1
