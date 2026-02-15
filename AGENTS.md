@@ -1,52 +1,107 @@
 # AGENTS.md
 
 ## Purpose
-This repository tracks Balatro mods and their metadata. When reviewing pull requests, validate that `downloadURL` values point to real downloadable files and provide actionable recommendations for maintainers.
+This repository tracks Balatro mods and their metadata. When reviewing pull requests, validate metadata correctness, check download reliability, and provide clear fixes maintainers can apply quickly.
 
 ## Scope
 - Review only files changed by the PR unless explicitly asked to run a full-repo audit.
-- Focus on `meta.json` validity, especially `downloadURL` and version-check related fields.
-- Use `README.md` as the source of truth for repository conventions.
+- Use `README.md` and `schema/meta.schema.json` as source of truth.
+- Focus on `mods/<Author>@<Modname>/` entries and their `meta.json`, `description.md`, and optional thumbnail.
 
 ## PR Review Workflow
-1. Read `README.md` and confirm current metadata rules.
-2. List changed `meta.json` files in the PR.
-3. For each changed mod entry:
-- Parse `downloadURL`.
-- Verify the URL resolves to an actual file download (direct archive/file endpoint, not a repository landing page).
-- Flag URLs that return HTML pages or require manual navigation.
-4. If automatic version checking is enabled for the mod, recommend stable archive links when applicable:
-- Prefer links like `https://github.com/<owner>/<repo>/archive/refs/heads/main.zip`
-- Or equivalent archive endpoints for the host in use.
-5. Report results per mod:
-- `Valid` / `Needs Change`
-- Why
-- Exact suggested replacement URL when needed
+1. Read `README.md` and `schema/meta.schema.json`.
+2. List changed mod directories and changed `meta.json` files.
+3. Validate metadata structure and schema rules.
+4. Validate `downloadURL` behavior (must be real downloadable file/archive).
+5. Validate automatic update settings and URL strategy.
+6. Check required files and basic submission quality signals.
+7. Report per mod: `Valid` or `Needs Change`, with exact fixes.
 
-## Validation Criteria
-A `downloadURL` is considered valid when:
-- It is reachable.
-- It points directly to a file/archive (zip, tar.gz, etc.) that can be downloaded.
-- It does not rely on HTML repo pages (`/tree/`, `/blob/`, root repo pages, release overview pages without asset links).
+## Core Checks
 
-## Common Fix Pattern (GitHub)
-Use:
-- `https://github.com/<owner>/<repo>/archive/refs/heads/main.zip`
+### 1) Required Files and Layout
+- Folder format should be `mods/Author@Modname/`.
+- `description.md` must exist.
+- `meta.json` must exist and be valid JSON.
+- Thumbnail is optional, but if present should be an image file and reasonably sized.
 
-Avoid:
-- `https://github.com/<owner>/<repo>`
-- `https://github.com/<owner>/<repo>/tree/main`
-- `https://github.com/<owner>/<repo>/blob/main/...`
+### 2) `meta.json` Required Fields
+Ensure required fields exist and types are correct:
+- `title` (string)
+- `requires-steamodded` (boolean)
+- `requires-talisman` (boolean)
+- `categories` (array, non-empty, unique, allowed values only)
+- `author` (string)
+- `repo` (URI)
+- `downloadURL` (URI)
+- `version` (string)
+
+### 3) Category and Value Validation
+`categories` entries must be one or more of:
+- `Content`
+- `Joker`
+- `Quality of Life`
+- `Technical`
+- `Miscellaneous`
+- `Resource Packs`
+- `API`
+
+### 4) Folder Name Rules
+If `folderName` exists:
+- It should be unique in the index.
+- It must not contain invalid characters: `<` `>` `:` `"` `/` `\` `|` `?` `*`
+
+### 5) Download URL Validation
+A `downloadURL` is valid when:
+- Reachable without manual steps.
+- Returns a downloadable file/archive (zip/tar.gz/etc.), not a repository HTML page.
+- Does not use non-download links (`/tree/`, `/blob/`, repo root, release overview page without an asset URL).
+
+### 6) Automatic Version Check Rules
+If `automatic-version-check` is `true`, verify `downloadURL` points to an automatically updating source.
+
+Preferred patterns:
+- Latest release asset URL
+- Branch archive URL like `https://github.com/<owner>/<repo>/archive/refs/heads/main.zip`
+
+If `downloadURL` points to a specific release tag asset (`/releases/download/<tag>/...`):
+- `fixed-release-tag-updates` must be `true`
+- `automatic-version-check` must be `true`
+
+### 7) Repo/Metadata Consistency
+- `repo` and `downloadURL` should refer to the same project.
+- `author` in metadata should reasonably match the submission path (`Author@Modname`) unless intentionally different.
+- `version` should match the downloadable artifact versioning strategy.
+
+### 8) Description and Dependency Clarity
+In `description.md`, check for:
+- Basic install/use context.
+- Mention of required dependencies when relevant (Steamodded/Talisman/other critical deps).
+
+### 9) Third-Party Submission Signals
+For mods submitted by someone other than creator, flag if unclear:
+- Redistribution permission/license status.
+- Whether the mod appears abandoned/deprecated.
+- Whether using stable release links is possible instead of volatile HEAD links.
+
+## Recommendation Rules for Download Links
+For users with `automatic-version-check: true` using weak or non-file links:
+- Recommend direct archive/release asset URLs.
+- For GitHub branch-based auto updates, suggest:
+  - `https://github.com/<owner>/<repo>/archive/refs/heads/main.zip`
+  - Use `master.zip` equivalent when default branch is `master`.
 
 ## Reporting Format
 For each mod reviewed, include:
 - Mod path
 - Current `downloadURL`
-- Validation result
-- Recommendation (if any)
+- Automatic version flags (`automatic-version-check`, `fixed-release-tag-updates`)
+- Validation result: `Valid` or `Needs Change`
+- Findings (concise)
+- Exact replacement recommendation(s), if needed
 
-End with a short summary:
+End with summary totals:
 - Total checked
 - Valid
 - Needs changes
-- Mods with auto-version-check enabled that should switch to archive URLs
+- Auto-check mods needing archive/release-link fixes
