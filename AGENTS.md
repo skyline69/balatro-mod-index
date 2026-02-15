@@ -15,7 +15,8 @@ This repository tracks Balatro mods and their metadata. When reviewing pull requ
 4. Validate `downloadURL` behavior (must be real downloadable file/archive).
 5. Validate automatic update settings and URL strategy.
 6. Check required files and basic submission quality signals.
-7. Report per mod: `Valid` or `Needs Change`, with exact fixes.
+7. Check existing PR comments/reviews before posting feedback.
+8. Report per mod: `Valid` or `Needs Change`, with exact fixes.
 
 ## Core Checks
 
@@ -110,3 +111,10 @@ End with summary totals:
 - Valid
 - Needs changes
 - Auto-check mods needing archive/release-link fixes
+
+## Review Hygiene (No Duplicates)
+- Before posting a new review/comment, check existing bot/maintainer comments on that PR.
+- If the same issue was already reported, do not post it again.
+- Prefer one consolidated `REQUEST_CHANGES` review per PR instead of multiple repeated reviews.
+- If new context appears, update the previous feedback thread or post only the delta.
+- Keep review comments short and actionable.
