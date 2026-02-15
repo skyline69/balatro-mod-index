@@ -1,0 +1,14 @@
+{
+  "title": "Test Mod",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content"
+  ],
+  "author": "Test Author",
+  "repo": "https://github.com/skyline69/balatro-mod-index/",
+  "downloadURL": "https://github.com/AbsentAbigail/AbsentDealer/releases/latest/download/absentdealer.zip",
+  "version": "0.0.1",
+  "automatic-version-check": true,
+  "fixed-release-tag-updates": false
+}
