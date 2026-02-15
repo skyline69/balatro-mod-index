@@ -2,11 +2,15 @@
   "title": "AdventureTro",
   "requires-steamodded": true,
   "requires-talisman": false,
-  "categories": ["Content", "Joker"],
+  "categories": [
+    "Content",
+    "Joker"
+  ],
   "author": "RAYTRAC3R",
   "repo": "https://github.com/RAYTRAC3R/AdventureTro/",
   "downloadURL": "https://github.com/RAYTRAC3R/AdventureTro/releases/latest/download/AdventureTro.zip",
   "folderName": "AdventureTro",
-  "version": "0.1.0",
-  "automatic-version-check": true
+  "version": "v0.1.0",
+  "automatic-version-check": true,
+  "last-updated": 1771118490
 }

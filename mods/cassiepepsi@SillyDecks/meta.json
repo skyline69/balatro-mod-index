@@ -9,6 +9,7 @@
   "repo": "https://github.com/cloverpepsi/SillyDecks",
   "downloadURL": "https://github.com/cloverpepsi/SillyDecks/releases/latest/download/SillyDecks.zip",
   "folderName": "SillyDecks",
-  "version": "v3.0.0",
-  "automatic-version-check": true
+  "version": "v3.1.0",
+  "automatic-version-check": true,
+  "last-updated": 1771118490
 }
