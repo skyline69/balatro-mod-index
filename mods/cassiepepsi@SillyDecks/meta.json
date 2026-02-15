@@ -1,0 +1,14 @@
+{
+  "title": "Silly Decks",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content"
+  ],
+  "author": "cassiepepsi",
+  "repo": "https://github.com/cloverpepsi/SillyDecks",
+  "downloadURL": "https://github.com/cloverpepsi/SillyDecks/releases/latest/download/SillyDecks.zip",
+  "folderName": "SillyDecks",
+  "version": "v3.0.0",
+  "automatic-version-check": true
+}
