@@ -118,3 +118,9 @@ End with summary totals:
 - Prefer one consolidated `REQUEST_CHANGES` review per PR instead of multiple repeated reviews.
 - If new context appears, update the previous feedback thread or post only the delta.
 - Keep review comments short and actionable.
+
+## Commit Message Style
+- Use conventional commit prefixes for all commits in this repo.
+- Preferred prefixes: `fix:`, `docs:`, `chore:`, `refactor:`, `test:`, `ci:`.
+- Keep the subject short and specific (one line).
+- Example: `fix: auto-run PR validation and post short feedback`.
