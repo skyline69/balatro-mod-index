@@ -1,0 +1,15 @@
+{
+  "title": "Foolish Dreams",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content",
+    "Joker"
+  ],
+  "author": "MIIdris Northdoo",
+  "repo": "https://github.com/Northdoo/Foolish-Dreams/",
+  "downloadURL": "https://github.com/Northdoo/Foolish-Dreams/releases/latest/download/Foolish.Dreams.zip",
+  "version": "2.0.1",
+  "automatic-version-check": true,
+  "last-updated": 1771128809
+}
