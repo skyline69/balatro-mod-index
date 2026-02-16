@@ -1,0 +1,15 @@
+{
+  "title": "Save Rewinder",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Quality of Life"
+  ],
+  "author": "Liafonx",
+  "repo": "https://github.com/Liafonx/Balatro-SaveRewinder",
+  "downloadURL": "https://github.com/Liafonx/Balatro-SaveRewinder/releases/latest/download/SaveRewinder.zip",
+  "folderName": "SaveRewinder",
+  "version": "v1.5.5",
+  "automatic-version-check": true,
+  "last-updated": 1771221650
+}

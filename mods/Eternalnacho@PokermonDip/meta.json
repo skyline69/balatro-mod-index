@@ -1,0 +1,16 @@
+{
+  "title": "Nacho's Pokermon Dip",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content",
+    "Joker"
+  ],
+  "author": "Eternalnacho",
+  "repo": "https://github.com/Eternalnacho/NachosPokermonDip",
+  "downloadURL": "https://github.com/Eternalnacho/NachosPokermonDip/archive/refs/heads/main.zip",
+  "folderName": "NachosPokermonDip",
+  "version": "429b292",
+  "automatic-version-check": true,
+  "last-updated": 1769485268
+}

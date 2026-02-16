@@ -1,0 +1,16 @@
+{
+  "title": "The Library",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content",
+    "Joker"
+  ],
+  "author": "cassiepepsi",
+  "repo": "https://github.com/cloverpepsi/TheLibrary",
+  "downloadURL": "https://github.com/cloverpepsi/TheLibrary/releases/latest/download/TheLibrary.zip",
+  "folderName": "TheLibrary",
+  "version": "v2.1.2",
+  "automatic-version-check": true,
+  "last-updated": 1771128809
+}
