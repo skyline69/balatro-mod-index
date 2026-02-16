@@ -62,9 +62,13 @@ jobs:
           cat changed_mods.txt
           echo "changed_mods_found=true" >> "$GITHUB_OUTPUT"
 
-          META_JSON_FILES=$(while read -r mod_path; do
-            [ -f "$mod_path/meta.json" ] && echo "$mod_path/meta.json"
-          done < changed_mods.txt)
+          META_JSON_FILES=$(
+            while read -r mod_path; do
+              if [ -f "$mod_path/meta.json" ]; then
+                echo "$mod_path/meta.json"
+              fi
+            done < changed_mods.txt
+          )
 
           echo "meta_json_files<<EOF" >> "$GITHUB_OUTPUT"
           echo "$META_JSON_FILES" >> "$GITHUB_OUTPUT"
