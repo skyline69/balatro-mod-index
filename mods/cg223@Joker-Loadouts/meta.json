@@ -1,0 +1,14 @@
+{
+  "title": "Joker Loadouts",
+  "requires-steamodded": false,
+  "requires-talisman": false,
+  "categories": [
+    "Quality of Life"
+  ],
+  "author": "cg223",
+  "repo": "https://github.com/cg-223/Joker-Loadouts",
+  "downloadURL": "https://github.com/cg-223/Joker-Loadouts/archive/refs/heads/main.zip",
+  "automatic-version-check": true,
+  "version": "d2bdae4",
+  "last-updated": 1759090606
+}

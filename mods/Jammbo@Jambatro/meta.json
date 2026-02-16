@@ -1,0 +1,15 @@
+{
+  "title": "Jambatro",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content"
+  ],
+  "author": "Jammbo",
+  "repo": "https://github.com/the-2nd-olsberg/Jambatro/",
+  "downloadURL": "https://github.com/the-2nd-olsberg/Jambatro/archive/refs/heads/master.zip",
+  "folderName": "Jambatro",
+  "version": "dd8172d",
+  "automatic-version-check": true,
+  "last-updated": 1766323570
+}

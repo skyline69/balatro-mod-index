@@ -1,0 +1,1 @@
+Hot Potato is a Balatro Mod Developer Event where teams were created and given a week on their own to contribute to a mod. Cross-team communication was not allowed outside of major bugfixing efforts. The ordeal took 2 months, and this mod is the culmination of this work.

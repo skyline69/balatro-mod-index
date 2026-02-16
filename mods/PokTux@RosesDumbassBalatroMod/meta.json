@@ -1,0 +1,15 @@
+{
+  "title": "Rose's Dumbass Balatro Mod",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content"
+  ],
+  "author": "Rose",
+  "repo": "https://github.com/PokTux/Rose-s-Dumbass-Balatro-Mod",
+  "downloadURL": "https://github.com/PokTux/Rose-s-Dumbass-Balatro-Mod/archive/refs/heads/main.zip",
+  "folderName": "rosemod2",
+  "version": "162ccf6",
+  "automatic-version-check": true,
+  "last-updated": 1765416454
+}

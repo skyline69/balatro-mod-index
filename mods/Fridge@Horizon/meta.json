@@ -1,13 +1,14 @@
 {
   "title": "Horizon Mod",
   "requires-steamodded": true,
-  "requires-talisman": false,
+  "requires-talisman": true,
   "categories": [
-    "Joker"
+    "Content"
   ],
   "author": "Microwave",
   "repo": "https://github.com/ItsaMicrowave/Horizon-Mod",
-  "downloadURL": "https://github.com/ItsaMicrowave/Horizon-Mod/archive/refs/tags/v1.zip",
+  "downloadURL": "https://github.com/ItsaMicrowave/Horizon-Mod/archive/refs/tags/v2.zip",
   "automatic-version-check": true,
-  "version": "v1"
+  "version": "v2",
+  "last-updated": 1762017176
 }

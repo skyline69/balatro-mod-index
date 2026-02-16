@@ -1,0 +1,14 @@
+{
+  "title": "Shenanigans's Decks",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content"
+  ],
+  "author": "Shenanigans",
+  "repo": "https://github.com/ShenanigansBunul/balatro-shenanigans-decks",
+  "downloadURL": "https://github.com/ShenanigansBunul/balatro-shenanigans-decks/archive/refs/tags/1.2.zip",
+  "version": "1.2",
+  "automatic-version-check": true,
+  "last-updated": 1769379166
+}

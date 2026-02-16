@@ -1,0 +1,17 @@
+{
+  "title": "Kloun",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content",
+    "Joker",
+    "Miscellaneous"
+  ],
+  "author": "Dogg Fly",
+  "repo": "https://github.com/Dogg-Fly/Kloun",
+  "downloadURL": "https://github.com/Dogg-Fly/Kloun/releases/latest/download/kloun.zip",
+  "folderName": "kloun",
+  "version": "v1.2.1",
+  "automatic-version-check": true,
+  "last-updated": 1762838285
+}

@@ -1,0 +1,14 @@
+{
+  "title": "ArtBox",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content"
+  ],
+  "author": "SadCube",
+  "repo": "https://github.com/SadCubeArt/ArtBox",
+  "downloadURL": "https://github.com/SadCubeArt/ArtBox/archive/refs/heads/main.zip",
+  "version": "69acab2",
+  "automatic-version-check": true,
+  "last-updated": 1764087898
+}

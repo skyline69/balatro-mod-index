@@ -1,0 +1,16 @@
+{
+  "title": "PokermonPlus",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content",
+    "Joker"
+  ],
+  "author": "Sonfive",
+  "repo": "https://github.com/SonfiveTV/PokermonPlus",
+  "downloadURL": "https://github.com/SonfiveTV/PokermonPlus/archive/refs/heads/main.zip",
+  "folderName": "PokermonPlus",
+  "version": "b027c14",
+  "automatic-version-check": true,
+  "last-updated": 1770323005
+}

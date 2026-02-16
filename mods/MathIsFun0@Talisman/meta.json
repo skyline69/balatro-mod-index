@@ -9,9 +9,9 @@
   ],
   "author": "MathIsFun0",
   "repo": "https://github.com/MathIsFun0/Talisman",
-  "downloadURL": "https://github.com/MathIsFun0/Talisman/releases/latest/download/Talisman.zip",
+  "downloadURL": "https://github.com/MathIsFun0/Talisman/archive/refs/heads/main.zip",
   "folderName": "Talisman",
   "automatic-version-check": true,
-  "version": "v2.5",
-  "last-updated": 1756690744
+  "version": "3d7129e",
+  "last-updated": 1767760394
 }

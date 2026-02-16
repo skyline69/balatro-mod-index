@@ -1,0 +1,16 @@
+{
+  "title": "Phanta",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content",
+    "Joker"
+  ],
+  "author": "GhostSalt",
+  "repo": "https://github.com/GhostSalt/Phanta",
+  "downloadURL": "https://github.com/GhostSalt/Phanta/archive/refs/heads/main.zip",
+  "folderName": "Phanta",
+  "version": "07520d9",
+  "automatic-version-check": true,
+  "last-updated": 1770599951
+}

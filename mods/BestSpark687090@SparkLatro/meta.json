@@ -1,0 +1,17 @@
+{
+  "title": "SparkLatro",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content",
+    "Joker",
+    "Miscellaneous"
+  ],
+  "author": "BestSpark687090",
+  "repo": "https://github.com/BestSpark687090/SparkLatro",
+  "downloadURL": "https://github.com/BestSpark687090/SparkLatro/archive/refs/heads/main.zip",
+  "folderName": "SparkLatro",
+  "version": "d3dae2e",
+  "automatic-version-check": true,
+  "last-updated": 1768093761
+}

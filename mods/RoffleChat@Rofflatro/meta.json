@@ -8,8 +8,9 @@
   ],
   "author": "Roffle's Chat",
   "repo": "https://github.com/MamiKeRiko/Rofflatro",
-  "downloadURL": "https://github.com/MamiKeRiko/Rofflatro/archive/refs/tags/v1.2.0b.zip",
+  "downloadURL": "https://github.com/MamiKeRiko/Rofflatro/archive/refs/tags/v1.2.1b.zip",
   "folderName": "Rofflatro",
-  "version": "v1.2.0b",
-  "automatic-version-check": true
+  "version": "v1.2.1b",
+  "automatic-version-check": true,
+  "last-updated": 1765284038
 }

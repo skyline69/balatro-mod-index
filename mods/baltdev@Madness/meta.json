@@ -1,0 +1,16 @@
+{
+  "title": "Madness",
+  "requires-steamodded": true,
+  "requires-talisman": true,
+  "categories": [
+    "Content",
+    "Joker"
+  ],
+  "author": "baltdev",
+  "repo": "https://github.com/balt-dev/Madness",
+  "downloadURL": "https://github.com/balt-dev/Madness/archive/refs/heads/trunk.zip",
+  "folderName": "Madness",
+  "version": "ffab0e9",
+  "automatic-version-check": true,
+  "last-updated": 1765059390
+}

@@ -1,0 +1,14 @@
+{
+  "title": "Lucky Seven",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Joker"
+  ],
+  "author": "Yaminson",
+  "repo": "https://github.com/JamesGiesbrecht/lucky-seven",
+  "downloadURL": "https://github.com/JamesGiesbrecht/lucky-seven/releases/latest/download/LuckySeven.zip",
+  "automatic-version-check": true,
+  "version": "v0.1.0",
+  "last-updated": 1770669393
+}

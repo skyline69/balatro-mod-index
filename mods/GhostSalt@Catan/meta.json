@@ -1,0 +1,16 @@
+{
+  "title": "Catan",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content",
+    "Joker"
+  ],
+  "author": "GhostSalt",
+  "repo": "https://github.com/GhostSalt/Catan",
+  "downloadURL": "https://github.com/GhostSalt/Catan/archive/refs/heads/master.zip",
+  "folderName": "Catan",
+  "version": "e1eafee",
+  "automatic-version-check": true,
+  "last-updated": 1770599951
+}

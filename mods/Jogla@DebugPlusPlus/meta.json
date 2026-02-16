@@ -1,0 +1,16 @@
+{
+  "title": "DebugPlusPlus",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Quality of Life",
+    "Technical"
+  ],
+  "author": "Jogla",
+  "repo": "https://github.com/Joglacraft/DebugPlusPlus",
+  "downloadURL": "https://github.com/Joglacraft/DebugPlusPlus/archive/refs/tags/v1.3.1.zip",
+  "folderName": "DebugPlusPlus",
+  "version": "v1.3.1",
+  "automatic-version-check": true,
+  "last-updated": 1764105418
+}

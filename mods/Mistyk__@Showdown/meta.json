@@ -1,0 +1,15 @@
+{
+  "title": "Showdown",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content"
+  ],
+  "author": "Mistyk__",
+  "repo": "https://github.com/Mistyk1/Showdown",
+  "downloadURL": "https://github.com/Mistyk1/Showdown/releases/latest/download/Showdown.zip",
+  "folderName": "Showdown",
+  "version": "v1.4.2",
+  "automatic-version-check": true,
+  "last-updated": 1766585586
+}

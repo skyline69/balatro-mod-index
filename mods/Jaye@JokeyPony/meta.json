@@ -1,0 +1,12 @@
+{
+  "title": "JokeyPony",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": ["Content", "Joker"],
+  "author": "Jaye",
+  "repo": "https://github.com/Jayeaaaaa/JokeyPony",
+  "downloadURL": "https://github.com/Jayeaaaaa/JokeyPony/archive/refs/tags/25.9.18a.zip",
+  "folderName": "JokeyPony",
+  "version": "25.9.18a",
+  "automatic-version-check": true
+}

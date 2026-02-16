@@ -1,0 +1,16 @@
+{
+  "title": "BaltsWarehouse",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content",
+    "Joker"
+  ],
+  "author": "baltdev",
+  "repo": "https://github.com/balt-dev/BaltsWarehouse",
+  "downloadURL": "https://github.com/balt-dev/BaltsWarehouse/archive/refs/heads/trunk.zip",
+  "folderName": "BaltsWarehouse",
+  "version": "f01b15d",
+  "automatic-version-check": true,
+  "last-updated": 1769476058
+}

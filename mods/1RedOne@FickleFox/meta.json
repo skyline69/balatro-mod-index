@@ -1,0 +1,16 @@
+{
+  "title": "Fickle Fox",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content",
+    "Joker",
+    "Quality of Life"
+  ],
+  "author": "1RedOne",
+  "repo": "https://github.com/1RedOne/FickleFox",
+  "downloadURL": "https://github.com/1RedOne/FickleFox/archive/refs/heads/master.zip",
+  "automatic-version-check": true,
+  "version": "7e97cb6",
+  "last-updated": 1767377960
+}

@@ -9,6 +9,7 @@
   "repo": "https://github.com/TheLazyTurtle33/TurtlesChallenges",
   "downloadURL": "https://github.com/TheLazyTurtle33/TurtlesChallenges/releases/latest/download/TurtlesChallenges.zip",
   "folderName": "TurtlesChallenges",
-  "version": "1.5.3",
-  "automatic-version-check": true
+  "version": "1.5.4",
+  "automatic-version-check": true,
+  "last-updated": 1764515807
 }

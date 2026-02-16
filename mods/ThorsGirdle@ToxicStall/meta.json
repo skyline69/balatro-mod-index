@@ -1,0 +1,16 @@
+{
+  "title": "The Toxic Stall: A Pokermon addon",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content",
+    "Joker"
+  ],
+  "author": "Thor's Girdle",
+  "repo": "https://github.com/ThorsGirdle/Toxic-Stall",
+  "downloadURL": "https://github.com/ThorsGirdle/Toxic-Stall/archive/refs/heads/main.zip",
+  "folderName": "ToxicStall",
+  "version": "22a2324",
+  "automatic-version-check": true,
+  "last-updated": 1771041712
+}

@@ -1,0 +1,15 @@
+{
+  "title": "Epic Jokers",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content"
+  ],
+  "author": "rodney",
+  "repo": "https://github.com/rodneyyyyyyyy/Epic-Jokers",
+  "downloadURL": "https://github.com/rodneyyyyyyyy/Epic-Jokers/archive/refs/heads/main.zip",
+  "folderName": "EpicJokers",
+  "version": "74f959c",
+  "automatic-version-check": true,
+  "last-updated": 1764584482
+}

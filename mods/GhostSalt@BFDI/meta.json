@@ -1,0 +1,16 @@
+{
+  "title": "BFDI",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content",
+    "Joker"
+  ],
+  "author": "GhostSalt",
+  "repo": "https://github.com/GhostSalt/BFDI",
+  "downloadURL": "https://github.com/GhostSalt/BFDI/archive/refs/heads/main.zip",
+  "folderName": "BFDI",
+  "version": "eddced5",
+  "automatic-version-check": true,
+  "last-updated": 1770599951
+}
