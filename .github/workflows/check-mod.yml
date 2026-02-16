@@ -289,23 +289,25 @@ jobs:
       - name: Publish Validation Report
         if: always() && steps.status.outputs.has_errors == 'true'
         run: |
+          report_path="${REPORT_FILE:-$RUNNER_TEMP/validation_report.txt}"
+
           echo "Validation found issue(s):"
-          if [ -s "$REPORT_FILE" ]; then
-            cat "$REPORT_FILE"
+          if [ -s "$report_path" ]; then
+            cat "$report_path"
           else
-            echo "- Report file is empty."
+            echo "- Report file is empty or missing."
           fi
 
           {
             echo "## Mod validation failed"
             echo
-            echo "```text"
-            if [ -s "$REPORT_FILE" ]; then
-              cat "$REPORT_FILE"
+            echo '```text'
+            if [ -s "$report_path" ]; then
+              cat "$report_path"
             else
-              echo "Report file is empty."
+              echo "Report file is empty or missing."
             fi
-            echo "```"
+            echo '```'
           } >> "$GITHUB_STEP_SUMMARY"
 
       - name: Fail If Validation Errors Exist
