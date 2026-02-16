@@ -200,6 +200,11 @@ jobs:
 
               DOWNLOAD_URL=$(jq -r '.downloadURL // empty' "$META_JSON")
               AUTO_CHECK=$(jq -r '."automatic-version-check" // false' "$META_JSON")
+              FIXED_RELEASE_UPDATES=$(jq -r '."fixed-release-tag-updates" // false' "$META_JSON")
+              IS_TAGGED_RELEASE_ASSET=false
+              if echo "$DOWNLOAD_URL" | grep -Eq '^https?://github\.com/[^/]+/[^/]+/releases/download/[^/]+/.+$'; then
+                IS_TAGGED_RELEASE_ASSET=true
+              fi
 
               if ! echo "$DOWNLOAD_URL" | grep -Eq '^https?://'; then
                 echo "- '$MOD_DIR': downloadURL must start with http:// or https://" >> "$REPORT_FILE"
@@ -208,6 +213,20 @@ jobs:
               if [ "$AUTO_CHECK" = "true" ]; then
                 if echo "$DOWNLOAD_URL" | grep -Eq '/blob/|/tree/|/archive/refs/tags/|/releases/latest$'; then
                   echo "- '$MOD_DIR': automatic-version-check requires an auto-updating file URL" >> "$REPORT_FILE"
+                fi
+
+                if [ "$IS_TAGGED_RELEASE_ASSET" = "true" ] && [ "$FIXED_RELEASE_UPDATES" != "true" ]; then
+                  echo "- '$MOD_DIR': when automatic-version-check is true and downloadURL is a specific release asset, fixed-release-tag-updates must be true" >> "$REPORT_FILE"
+                fi
+              fi
+
+              if [ "$FIXED_RELEASE_UPDATES" = "true" ]; then
+                if [ "$AUTO_CHECK" != "true" ]; then
+                  echo "- '$MOD_DIR': fixed-release-tag-updates requires automatic-version-check=true" >> "$REPORT_FILE"
+                fi
+
+                if [ "$IS_TAGGED_RELEASE_ASSET" != "true" ]; then
+                  echo "- '$MOD_DIR': fixed-release-tag-updates requires downloadURL to be a specific GitHub release asset URL" >> "$REPORT_FILE"
                 fi
               fi
             fi
