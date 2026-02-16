@@ -177,15 +177,6 @@ jobs:
           all-errors: true
           custom-errors: true
 
-      - name: Record Schema Validation Errors
-        if: steps.find-changed-mods.outputs.changed_mods_found == 'true' && steps.schema-validation.outcome == 'failure'
-        run: |
-          if [ -s "$REPORT_FILE" ]; then
-            echo "- Schema validator also reported mismatches; review field-level errors above for exact fixes." >> "$WARNING_FILE"
-          else
-            echo "- One or more meta.json files do not match schema/meta.schema.json" >> "$REPORT_FILE"
-          fi
-
       - name: Validate Metadata Logic
         if: steps.find-changed-mods.outputs.changed_mods_found == 'true'
         run: |
@@ -375,6 +366,15 @@ jobs:
               fi
             fi
           done < changed_mods.txt
+
+      - name: Record Schema Validation Errors
+        if: steps.find-changed-mods.outputs.changed_mods_found == 'true' && steps.schema-validation.outcome == 'failure'
+        run: |
+          if [ -s "$REPORT_FILE" ]; then
+            echo "- Schema validator also reported mismatches; review field-level errors above for exact fixes." >> "$WARNING_FILE"
+          else
+            echo "- One or more meta.json files do not match schema/meta.schema.json" >> "$REPORT_FILE"
+          fi
 
       - name: Validate Download URLs
         if: steps.find-changed-mods.outputs.changed_mods_found == 'true'
