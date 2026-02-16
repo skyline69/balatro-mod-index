@@ -1,0 +1,13 @@
+{
+  "title": "BalatroAP",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Miscellaneous"
+  ],
+  "author": "BurndiL",
+  "repo": "https://github.com/BurndiL/BalatroAP",
+  "downloadURL": "https://github.com/BurndiL/BalatroAP/releases/latest/download/BalatroAP.zip",
+  "automatic-version-check": true,
+  "version": "v0.1.9f"
+}
