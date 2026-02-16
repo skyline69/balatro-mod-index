@@ -8,5 +8,6 @@
   "author": "DigitalDetective47",
   "repo": "https://github.com/DigitalDetective47/profiles-plus",
   "downloadURL": "https://github.com/DigitalDetective47/profiles-plus/archive/refs/heads/main.zip",
-  "automatic-version-check": true
+  "automatic-version-check": true,
+  "version": "1.1.0"
 }
