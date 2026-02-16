@@ -1,0 +1,13 @@
+{
+  "title": "Profiles Plus",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Quality of Life"
+  ],
+  "author": "DigitalDetective47",
+  "repo": "https://github.com/DigitalDetective47/profiles-plus",
+  "downloadURL": "https://github.com/DigitalDetective47/profiles-plus/archive/refs/heads/main.zip",
+  "automatic-version-check": true,
+  "version": "1.1.0"
+}
