@@ -180,17 +180,56 @@ jobs:
       - name: Record Schema Validation Errors
         if: steps.find-changed-mods.outputs.changed_mods_found == 'true' && steps.schema-validation.outcome == 'failure'
         run: |
-          echo "- One or more meta.json files do not match schema/meta.schema.json" >> "$REPORT_FILE"
+          if [ -s "$REPORT_FILE" ]; then
+            echo "- Schema validator also reported mismatches; review field-level errors above for exact fixes." >> "$WARNING_FILE"
+          else
+            echo "- One or more meta.json files do not match schema/meta.schema.json" >> "$REPORT_FILE"
+          fi
 
       - name: Validate Metadata Logic
         if: steps.find-changed-mods.outputs.changed_mods_found == 'true'
         run: |
+          normalize_string() {
+            echo "$1" | tr '[:upper:]' '[:lower:]' | tr -cd '[:alnum:]'
+          }
+
+          require_type() {
+            local mod="$1"
+            local file="$2"
+            local key="$3"
+            local expected="$4"
+            local actual
+            actual=$(jq -r --arg key "$key" 'if has($key) then .[$key] | type else "missing" end' "$file")
+            if [ "$actual" = "missing" ]; then
+              echo "- '$mod': missing required field '$key'" >> "$REPORT_FILE"
+            elif [ "$actual" != "$expected" ]; then
+              echo "- '$mod': field '$key' must be $expected (found: $actual)" >> "$REPORT_FILE"
+            fi
+          }
+
+          FOLDERNAME_INDEX="$RUNNER_TEMP/folder_names_index.tsv"
+          : > "$FOLDERNAME_INDEX"
+          while IFS= read -r meta_file; do
+            if jq empty "$meta_file" >/dev/null 2>&1; then
+              folder_name=$(jq -r '.folderName // empty' "$meta_file")
+              if [ -n "$folder_name" ]; then
+                printf '%s\t%s\n' "$folder_name" "$meta_file" >> "$FOLDERNAME_INDEX"
+              fi
+            fi
+          done < <(find mods -mindepth 2 -maxdepth 2 -type f -name meta.json)
+
           while read -r mod_path; do
             if [ -d "$mod_path" ]; then
               MOD_DIR="$(basename "$mod_path")"
               META_JSON="$mod_path/meta.json"
+              DESCRIPTION_MD="$mod_path/description.md"
+              PATH_AUTHOR="${MOD_DIR%%@*}"
 
               if [ ! -f "$META_JSON" ]; then
+                continue
+              fi
+
+              if ! jq empty "$META_JSON" >/dev/null 2>&1; then
                 continue
               fi
 
@@ -198,16 +237,95 @@ jobs:
                 echo "- '$MOD_DIR': folder must follow Author@Modname format" >> "$REPORT_FILE"
               fi
 
+              require_type "$MOD_DIR" "$META_JSON" "title" "string"
+              require_type "$MOD_DIR" "$META_JSON" "requires-steamodded" "boolean"
+              require_type "$MOD_DIR" "$META_JSON" "requires-talisman" "boolean"
+              require_type "$MOD_DIR" "$META_JSON" "categories" "array"
+              require_type "$MOD_DIR" "$META_JSON" "author" "string"
+              require_type "$MOD_DIR" "$META_JSON" "repo" "string"
+              require_type "$MOD_DIR" "$META_JSON" "downloadURL" "string"
+              require_type "$MOD_DIR" "$META_JSON" "version" "string"
+
               DOWNLOAD_URL=$(jq -r '.downloadURL // empty' "$META_JSON")
+              REPO_URL=$(jq -r '.repo // empty' "$META_JSON")
+              AUTHOR_NAME=$(jq -r '.author // empty' "$META_JSON")
+              VERSION_VALUE=$(jq -r '.version // empty' "$META_JSON")
               AUTO_CHECK=$(jq -r '."automatic-version-check" // false' "$META_JSON")
               FIXED_RELEASE_UPDATES=$(jq -r '."fixed-release-tag-updates" // false' "$META_JSON")
+              REQUIRES_STEAMODDED=$(jq -r '."requires-steamodded" // false' "$META_JSON")
+              REQUIRES_TALISMAN=$(jq -r '."requires-talisman" // false' "$META_JSON")
+              FOLDER_NAME=$(jq -r '.folderName // empty' "$META_JSON")
+
+              if [ -z "$(echo "$AUTHOR_NAME" | tr -d '[:space:]')" ]; then
+                echo "- '$MOD_DIR': author must be a non-empty string" >> "$REPORT_FILE"
+              fi
+
+              if [ -z "$(echo "$VERSION_VALUE" | tr -d '[:space:]')" ]; then
+                echo "- '$MOD_DIR': version must be a non-empty string" >> "$REPORT_FILE"
+              fi
+
+              if [ -n "$REPO_URL" ] && ! echo "$REPO_URL" | grep -Eq '^[a-zA-Z][a-zA-Z0-9+.-]*://'; then
+                echo "- '$MOD_DIR': repo must be a valid URI" >> "$REPORT_FILE"
+              fi
+
               IS_TAGGED_RELEASE_ASSET=false
               if echo "$DOWNLOAD_URL" | grep -Eq '^https?://github\.com/[^/]+/[^/]+/releases/download/[^/]+/.+$'; then
                 IS_TAGGED_RELEASE_ASSET=true
               fi
 
+              IS_BRANCH_ARCHIVE=false
+              if echo "$DOWNLOAD_URL" | grep -Eq '^https?://github\.com/[^/]+/[^/]+/archive/refs/heads/(main|master)\.zip$'; then
+                IS_BRANCH_ARCHIVE=true
+              fi
+
               if ! echo "$DOWNLOAD_URL" | grep -Eq '^https?://'; then
                 echo "- '$MOD_DIR': downloadURL must start with http:// or https://" >> "$REPORT_FILE"
+              fi
+
+              if jq -e '.categories | type=="array"' "$META_JSON" >/dev/null; then
+                CATEGORY_COUNT=$(jq '.categories | length' "$META_JSON")
+                UNIQUE_CATEGORY_COUNT=$(jq '.categories | unique | length' "$META_JSON")
+                if [ "$CATEGORY_COUNT" -eq 0 ]; then
+                  echo "- '$MOD_DIR': categories must contain at least one value" >> "$REPORT_FILE"
+                fi
+                if [ "$CATEGORY_COUNT" -ne "$UNIQUE_CATEGORY_COUNT" ]; then
+                  echo "- '$MOD_DIR': categories must not contain duplicates" >> "$REPORT_FILE"
+                fi
+
+                INVALID_CATEGORIES=$(jq -r '.categories[]? | select(. != "Content" and . != "Joker" and . != "Quality of Life" and . != "Technical" and . != "Miscellaneous" and . != "Resource Packs" and . != "API")' "$META_JSON")
+                if [ -n "$INVALID_CATEGORIES" ]; then
+                  INVALID_CATEGORY_LIST=$(echo "$INVALID_CATEGORIES" | tr '\n' ',' | sed 's/,$//')
+                  echo "- '$MOD_DIR': categories contains invalid value(s): $INVALID_CATEGORY_LIST" >> "$REPORT_FILE"
+                fi
+              fi
+
+              if [ -n "$FOLDER_NAME" ]; then
+                if echo "$FOLDER_NAME" | grep -Eq '[<>:"/\\|?*]'; then
+                  echo "- '$MOD_DIR': folderName contains invalid characters (< > : \" / \\ | ? *)" >> "$REPORT_FILE"
+                fi
+
+                FOLDERNAME_COUNT=$(awk -F'\t' -v folder="$FOLDER_NAME" '$1 == folder { count++ } END { print count+0 }' "$FOLDERNAME_INDEX")
+                if [ "$FOLDERNAME_COUNT" -gt 1 ]; then
+                  echo "- '$MOD_DIR': folderName '$FOLDER_NAME' is already used by another mod entry" >> "$REPORT_FILE"
+                fi
+              fi
+
+              if jq -e 'has("last-updated")' "$META_JSON" >/dev/null; then
+                if ! jq -e '."last-updated" | type == "number" and . >= 0 and (floor == .)' "$META_JSON" >/dev/null; then
+                  echo "- '$MOD_DIR': last-updated must be a non-negative integer" >> "$REPORT_FILE"
+                fi
+              fi
+
+              REPO_SLUG=$(echo "$REPO_URL" | sed -nE 's#^https?://github\.com/([^/]+/[^/]+)/?.*$#\1#p' | tr '[:upper:]' '[:lower:]')
+              DOWNLOAD_SLUG=$(echo "$DOWNLOAD_URL" | sed -nE 's#^https?://github\.com/([^/]+/[^/]+)/.*$#\1#p' | tr '[:upper:]' '[:lower:]')
+              if [ -n "$REPO_SLUG" ] && [ -n "$DOWNLOAD_SLUG" ] && [ "$REPO_SLUG" != "$DOWNLOAD_SLUG" ]; then
+                echo "- '$MOD_DIR': repo and downloadURL should reference the same GitHub repository" >> "$REPORT_FILE"
+              fi
+
+              if [ -n "$AUTHOR_NAME" ] && [ -n "$PATH_AUTHOR" ]; then
+                if [ "$(normalize_string "$AUTHOR_NAME")" != "$(normalize_string "$PATH_AUTHOR")" ]; then
+                  echo "- '$MOD_DIR': author '$AUTHOR_NAME' differs from folder author '$PATH_AUTHOR'; verify submission ownership/permission" >> "$WARNING_FILE"
+                fi
               fi
 
               if [ "$AUTO_CHECK" = "true" ]; then
@@ -218,6 +336,10 @@ jobs:
                 if [ "$IS_TAGGED_RELEASE_ASSET" = "true" ] && [ "$FIXED_RELEASE_UPDATES" != "true" ]; then
                   echo "- '$MOD_DIR': when automatic-version-check is true and downloadURL is a specific release asset, fixed-release-tag-updates must be true" >> "$REPORT_FILE"
                 fi
+
+                if [ "$IS_TAGGED_RELEASE_ASSET" != "true" ] && [ "$IS_BRANCH_ARCHIVE" != "true" ]; then
+                  echo "- '$MOD_DIR': automatic-version-check should use a branch archive URL or a release-asset URL" >> "$WARNING_FILE"
+                fi
               fi
 
               if [ "$FIXED_RELEASE_UPDATES" = "true" ]; then
@@ -227,6 +349,28 @@ jobs:
 
                 if [ "$IS_TAGGED_RELEASE_ASSET" != "true" ]; then
                   echo "- '$MOD_DIR': fixed-release-tag-updates requires downloadURL to be a specific GitHub release asset URL" >> "$REPORT_FILE"
+                fi
+              fi
+
+              if [ "$IS_TAGGED_RELEASE_ASSET" = "true" ] && [ -n "$VERSION_VALUE" ] && [[ "$DOWNLOAD_URL" != *"$VERSION_VALUE"* ]]; then
+                echo "- '$MOD_DIR': version '$VERSION_VALUE' does not appear in downloadURL; verify versioning consistency" >> "$WARNING_FILE"
+              fi
+
+              if [ "$AUTO_CHECK" != "true" ] && echo "$DOWNLOAD_URL" | grep -Eq '/archive/refs/heads/'; then
+                echo "- '$MOD_DIR': downloadURL uses a moving branch archive while automatic-version-check is false; consider a stable release asset URL" >> "$WARNING_FILE"
+              fi
+
+              if [ -f "$DESCRIPTION_MD" ]; then
+                if [ "$REQUIRES_STEAMODDED" = "true" ] && ! grep -Eiq 'steamodded' "$DESCRIPTION_MD"; then
+                  echo "- '$MOD_DIR': description.md should mention Steamodded dependency" >> "$WARNING_FILE"
+                fi
+
+                if [ "$REQUIRES_TALISMAN" = "true" ] && ! grep -Eiq 'talisman' "$DESCRIPTION_MD"; then
+                  echo "- '$MOD_DIR': description.md should mention Talisman dependency" >> "$WARNING_FILE"
+                fi
+
+                if [ "$(normalize_string "$AUTHOR_NAME")" != "$(normalize_string "$PATH_AUTHOR")" ] && ! grep -Eiq 'license|permission|authorized|redistribut' "$DESCRIPTION_MD"; then
+                  echo "- '$MOD_DIR': third-party submission detected; description.md should clarify redistribution permission/license" >> "$WARNING_FILE"
                 fi
               fi
             fi
