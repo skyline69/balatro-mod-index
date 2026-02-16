@@ -243,8 +243,6 @@ jobs:
               VERSION_VALUE=$(jq -r '.version // empty' "$META_JSON")
               AUTO_CHECK=$(jq -r '."automatic-version-check" // false' "$META_JSON")
               FIXED_RELEASE_UPDATES=$(jq -r '."fixed-release-tag-updates" // false' "$META_JSON")
-              REQUIRES_STEAMODDED=$(jq -r '."requires-steamodded" // false' "$META_JSON")
-              REQUIRES_TALISMAN=$(jq -r '."requires-talisman" // false' "$META_JSON")
               FOLDER_NAME=$(jq -r '.folderName // empty' "$META_JSON")
 
               if [ -z "$(echo "$AUTHOR_NAME" | tr -d '[:space:]')" ]; then
@@ -264,9 +262,19 @@ jobs:
                 IS_TAGGED_RELEASE_ASSET=true
               fi
 
+              IS_LATEST_RELEASE_ASSET=false
+              if echo "$DOWNLOAD_URL" | grep -Eq '^https?://github\.com/[^/]+/[^/]+/releases/latest/download/.+$'; then
+                IS_LATEST_RELEASE_ASSET=true
+              fi
+
               IS_BRANCH_ARCHIVE=false
-              if echo "$DOWNLOAD_URL" | grep -Eq '^https?://github\.com/[^/]+/[^/]+/archive/refs/heads/(main|master)\.zip$'; then
+              if echo "$DOWNLOAD_URL" | grep -Eq '^https?://github\.com/[^/]+/[^/]+/archive/refs/heads/(main|master)\.(zip|tar\.gz)$'; then
                 IS_BRANCH_ARCHIVE=true
+              fi
+
+              IS_RECOGNIZED_AUTO_ARTIFACT=false
+              if [ "$IS_TAGGED_RELEASE_ASSET" = "true" ] || [ "$IS_LATEST_RELEASE_ASSET" = "true" ] || [ "$IS_BRANCH_ARCHIVE" = "true" ]; then
+                IS_RECOGNIZED_AUTO_ARTIFACT=true
               fi
 
               if ! echo "$DOWNLOAD_URL" | grep -Eq '^https?://'; then
@@ -309,18 +317,21 @@ jobs:
 
               REPO_SLUG=$(echo "$REPO_URL" | sed -nE 's#^https?://github\.com/([^/]+/[^/]+)/?.*$#\1#p' | tr '[:upper:]' '[:lower:]')
               DOWNLOAD_SLUG=$(echo "$DOWNLOAD_URL" | sed -nE 's#^https?://github\.com/([^/]+/[^/]+)/.*$#\1#p' | tr '[:upper:]' '[:lower:]')
+              REPO_OWNER=$(echo "$REPO_URL" | sed -nE 's#^https?://github\.com/([^/]+)/[^/]+.*$#\1#p')
               if [ -n "$REPO_SLUG" ] && [ -n "$DOWNLOAD_SLUG" ] && [ "$REPO_SLUG" != "$DOWNLOAD_SLUG" ]; then
                 echo "- '$MOD_DIR': repo and downloadURL should reference the same GitHub repository" >> "$REPORT_FILE"
               fi
 
-              if [ -n "$AUTHOR_NAME" ] && [ -n "$PATH_AUTHOR" ]; then
-                if [ "$(normalize_string "$AUTHOR_NAME")" != "$(normalize_string "$PATH_AUTHOR")" ]; then
-                  echo "- '$MOD_DIR': author '$AUTHOR_NAME' differs from folder author '$PATH_AUTHOR'; verify submission ownership/permission" >> "$WARNING_FILE"
+              LIKELY_THIRD_PARTY=false
+              if [ -n "$REPO_OWNER" ] && [ -n "$PATH_AUTHOR" ] && [ -n "$AUTHOR_NAME" ]; then
+                if [ "$(normalize_string "$REPO_OWNER")" != "$(normalize_string "$PATH_AUTHOR")" ] && [ "$(normalize_string "$AUTHOR_NAME")" != "$(normalize_string "$PATH_AUTHOR")" ]; then
+                  LIKELY_THIRD_PARTY=true
+                  echo "- '$MOD_DIR': author '$AUTHOR_NAME' and repo owner '$REPO_OWNER' differ from folder author '$PATH_AUTHOR'; verify submission ownership/permission" >> "$WARNING_FILE"
                 fi
               fi
 
               if [ "$AUTO_CHECK" = "true" ]; then
-                if echo "$DOWNLOAD_URL" | grep -Eq '/blob/|/tree/|/archive/refs/tags/|/releases/latest$'; then
+                if echo "$DOWNLOAD_URL" | grep -Eq '/blob/|/tree/|/archive/refs/tags/|/releases/latest$|/releases/tag/|github\.com/[^/]+/[^/]+/?$'; then
                   echo "- '$MOD_DIR': automatic-version-check requires an auto-updating file URL" >> "$REPORT_FILE"
                 fi
 
@@ -328,8 +339,10 @@ jobs:
                   echo "- '$MOD_DIR': when automatic-version-check is true and downloadURL is a specific release asset, fixed-release-tag-updates must be true" >> "$REPORT_FILE"
                 fi
 
-                if [ "$IS_TAGGED_RELEASE_ASSET" != "true" ] && [ "$IS_BRANCH_ARCHIVE" != "true" ]; then
-                  echo "- '$MOD_DIR': automatic-version-check should use a branch archive URL or a release-asset URL" >> "$WARNING_FILE"
+                if echo "$DOWNLOAD_URL" | grep -Eq '^https?://github\.com/' && [ "$IS_RECOGNIZED_AUTO_ARTIFACT" != "true" ]; then
+                  if ! echo "$DOWNLOAD_URL" | grep -Eq '/blob/|/tree/|/archive/refs/tags/|/releases/latest$|/releases/tag/|github\.com/[^/]+/[^/]+/?$'; then
+                    echo "- '$MOD_DIR': automatic-version-check is true but downloadURL is not a recognized GitHub auto-updating artifact URL" >> "$WARNING_FILE"
+                  fi
                 fi
               fi
 
@@ -352,15 +365,7 @@ jobs:
               fi
 
               if [ -f "$DESCRIPTION_MD" ]; then
-                if [ "$REQUIRES_STEAMODDED" = "true" ] && ! grep -Eiq 'steamodded' "$DESCRIPTION_MD"; then
-                  echo "- '$MOD_DIR': description.md should mention Steamodded dependency" >> "$WARNING_FILE"
-                fi
-
-                if [ "$REQUIRES_TALISMAN" = "true" ] && ! grep -Eiq 'talisman' "$DESCRIPTION_MD"; then
-                  echo "- '$MOD_DIR': description.md should mention Talisman dependency" >> "$WARNING_FILE"
-                fi
-
-                if [ "$(normalize_string "$AUTHOR_NAME")" != "$(normalize_string "$PATH_AUTHOR")" ] && ! grep -Eiq 'license|permission|authorized|redistribut' "$DESCRIPTION_MD"; then
+                if [ "$LIKELY_THIRD_PARTY" = "true" ] && ! grep -Eiq 'license|permission|authorized|redistribut' "$DESCRIPTION_MD"; then
                   echo "- '$MOD_DIR': third-party submission detected; description.md should clarify redistribution permission/license" >> "$WARNING_FILE"
                 fi
               fi
