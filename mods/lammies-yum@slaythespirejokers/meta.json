@@ -10,5 +10,6 @@
   "downloadURL": "https://github.com/lammies-yum/slaythespirejokers/releases/latest/download/SlayTheSpireJokers.zip",
   "folderName": "Slay The Spire Jokers",
   "version": "yownload",
-  "automatic-version-check": true
+  "automatic-version-check": true,
+  "last-updated": 1770669393
 }
