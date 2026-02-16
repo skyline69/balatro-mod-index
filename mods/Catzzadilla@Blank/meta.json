@@ -1,0 +1,14 @@
+{
+  "title": "Blank",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Miscellaneous"
+  ],
+  "author": "Catzzadilla",
+  "repo": "https://github.com/Catzzadilla/Blank-Balatro-mod-",
+  "downloadURL": "https://github.com/Catzzadilla/Blank-Balatro-mod-/archive/refs/heads/main.zip",
+  "folderName": "Blank",
+  "version": "1.0",
+  "automatic-version-check": true
+}
