@@ -12,30 +12,4 @@ Not anymore!  Thanks to Virtualized for helping me get their server up to date a
 
 ## How does damage even calculate?
 
-So... there's an short and long answer.
-
-### Short answer
-Basically the more digits in your final score for the round, the higher your attack.
-
-### Long answer
-The scoring is slightly complicated.
-
-Your final attack is the square of the log base 10 of your final score.  Take how many extra digits your number has, Square that, and add a bit more depending on close it is to the next digit threashold.
-
-Example:
-    3.42e11 => 11.54 => 133 points of damage
-
-### That's confusing...
-
-Okay, here's a simple table to help
-
-| Final Score | Damage output |
-| --- | --- |
-| 10 | 1 |
-| 100 | 4 |
-| 1,000 | 9 |
-| 10,000 | 16 |
-| 100,000 | 25 |
-| 11,780,000 | 50 |
-| 457,500,000 | 75 |
-| 10,000,000,000 | 100 |
+Basically the more digits in your final score for the round, the higher your attack.  100 points starts off at 1 damage, and every 10x to that score equals 4 more points of damage.  Or about 1.75x mult equals 1 point of damage.
