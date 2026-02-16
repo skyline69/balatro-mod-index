@@ -237,7 +237,6 @@ jobs:
         with:
           script: |
             const fs = require('fs');
-            const core = require('@actions/core');
             const marker = '<!-- balatro-validate-comment -->';
             const reportPath = process.env.REPORT_FILE;
             const hasErrors = process.env.HAS_ERRORS === 'true';
