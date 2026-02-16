@@ -1,7 +1,7 @@
 name: Validate Balatro Mods
 
 on:
-  pull_request:
+  pull_request_target:
     types:
       - opened
       - reopened
@@ -19,9 +19,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          ref: refs/pull/${{ github.event.pull_request.number }}/head
+          persist-credentials: false
 
       - name: Use ImageMagick from cache
         uses: awalsh128/cache-apt-pkgs-action@v1
@@ -32,24 +34,51 @@ jobs:
       - name: Initialize validation report
         run: |
           REPORT_FILE="$RUNNER_TEMP/validation_report.txt"
+          WARNING_FILE="$RUNNER_TEMP/validation_warnings.txt"
           : > "$REPORT_FILE"
+          : > "$WARNING_FILE"
           echo "REPORT_FILE=$REPORT_FILE" >> "$GITHUB_ENV"
+          echo "WARNING_FILE=$WARNING_FILE" >> "$GITHUB_ENV"
 
       - name: Identify Changed Mods
         id: find-changed-mods
         run: |
-          API_RESPONSE=$(curl -s -X GET \
-            -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
-            -H "Accept: application/vnd.github.v3+json" \
-            "https://api.github.com/repos/${{ github.repository }}/pulls/${{ github.event.pull_request.number }}/files")
+          : > changed_mods.txt
+          : > changed_files.txt
 
-          if echo "$API_RESPONSE" | jq -e 'if type=="array" then true else false end' > /dev/null; then
+          api_ok=true
+          page=1
+          while true; do
+            API_RESPONSE=$(curl --silent --show-error --location \
+              -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+              -H "Accept: application/vnd.github.v3+json" \
+              "https://api.github.com/repos/${{ github.repository }}/pulls/${{ github.event.pull_request.number }}/files?per_page=100&page=${page}") || api_ok=false
+
+            if [ "$api_ok" != "true" ] || ! echo "$API_RESPONSE" | jq -e 'type=="array"' >/dev/null; then
+              api_ok=false
+              break
+            fi
+
+            count=$(echo "$API_RESPONSE" | jq 'length')
+            if [ "$count" -eq 0 ]; then
+              break
+            fi
+
+            echo "$API_RESPONSE" | jq -r '.[] | .filename' >> changed_files.txt
+
+            if [ "$count" -lt 100 ]; then
+              break
+            fi
+            page=$((page + 1))
+          done
+
+          if [ "$api_ok" = "true" ] && [ -s changed_files.txt ]; then
             echo "Using GitHub API method to find changed files"
-            echo "$API_RESPONSE" | jq -r '.[] | .filename' | grep -E '^mods/[^/]+/' | cut -d'/' -f1-2 | sort | uniq > changed_mods.txt
+            grep -E '^mods/[^/]+/' changed_files.txt | cut -d'/' -f1-2 | sort -u > changed_mods.txt || true
           else
             echo "Using git diff method as fallback"
-            git fetch origin ${{ github.event.pull_request.base.ref }}
-            git diff --name-only --diff-filter=AM origin/${{ github.event.pull_request.base.ref }}..HEAD | grep -E '^mods/[^/]+/' | cut -d'/' -f1-2 | sort | uniq > changed_mods.txt
+            git fetch origin "${{ github.event.pull_request.base.ref }}"
+            git diff --name-only --diff-filter=AM "origin/${{ github.event.pull_request.base.ref }}...HEAD" | grep -E '^mods/[^/]+/' | cut -d'/' -f1-2 | sort -u > changed_mods.txt || true
           fi
 
           if [ ! -s changed_mods.txt ]; then
@@ -120,7 +149,7 @@ jobs:
                 HEIGHT=$(echo "$DIMENSIONS" | cut -dx -f2)
 
                 if [ "$WIDTH" -gt 1920 ] || [ "$HEIGHT" -gt 1080 ]; then
-                  echo "- '$MOD_DIR': thumbnail.jpg exceeds 1920x1080 recommendation" >> "$REPORT_FILE"
+                  echo "- '$MOD_DIR': thumbnail.jpg exceeds 1920x1080 recommendation" >> "$WARNING_FILE"
                 fi
               fi
             fi
@@ -145,6 +174,7 @@ jobs:
         with:
           schema: "./schema/meta.schema.json"
           files: ${{ steps.find-changed-mods.outputs.meta_json_files }}
+          all-errors: true
           custom-errors: true
 
       - name: Record Schema Validation Errors
@@ -233,28 +263,65 @@ jobs:
             echo "has_errors=false" >> "$GITHUB_OUTPUT"
           fi
 
+          if [ -s "$WARNING_FILE" ]; then
+            echo "has_warnings=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "has_warnings=false" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Comment Validation Result
-        if: always() && github.event_name == 'pull_request'
+        if: always() && github.event_name == 'pull_request_target'
         uses: actions/github-script@v7
         env:
           HAS_ERRORS: ${{ steps.status.outputs.has_errors }}
+          HAS_WARNINGS: ${{ steps.status.outputs.has_warnings }}
         with:
           script: |
             const fs = require('fs');
             const marker = '<!-- balatro-validate-comment -->';
             const reportPath = process.env.REPORT_FILE;
+            const warningPath = process.env.WARNING_FILE;
             const hasErrors = process.env.HAS_ERRORS === 'true';
+            const hasWarnings = process.env.HAS_WARNINGS === 'true';
 
-            let body;
-            if (!hasErrors) {
-              body = `${marker}\nValidation passed for changed mod entries.`;
-            } else {
-              const raw = fs.existsSync(reportPath) ? fs.readFileSync(reportPath, 'utf8').trim() : '';
-              const lines = raw.split('\n').filter(Boolean).slice(0, 12);
-              const overflow = raw.split('\n').filter(Boolean).length - lines.length;
-              const extra = overflow > 0 ? `\n- ...and ${overflow} more issue(s)` : '';
-              body = `${marker}\nValidation found issue(s):\n${lines.join('\n')}${extra}`;
+            function readLines(path, limit = 12) {
+              const raw = fs.existsSync(path) ? fs.readFileSync(path, 'utf8').trim() : '';
+              const all = raw.split('\n').filter(Boolean);
+              const shown = all.slice(0, limit);
+              const overflow = all.length - shown.length;
+              return { shown, overflow };
             }
+
+            const chunks = [marker];
+            if (!hasErrors) {
+              chunks.push('Validation passed for changed mod entries.');
+            } else {
+              const { shown, overflow } = readLines(reportPath);
+              chunks.push('Validation found error(s):');
+              if (shown.length > 0) {
+                chunks.push(...shown);
+              } else {
+                chunks.push('- Error report file is empty or missing.');
+              }
+              if (overflow > 0) {
+                chunks.push(`- ...and ${overflow} more error(s)`);
+              }
+            }
+
+            if (hasWarnings) {
+              const { shown, overflow } = readLines(warningPath);
+              chunks.push('');
+              chunks.push('Validation warning(s):');
+              if (shown.length > 0) {
+                chunks.push(...shown);
+              } else {
+                chunks.push('- Warning report file is empty or missing.');
+              }
+              if (overflow > 0) {
+                chunks.push(`- ...and ${overflow} more warning(s)`);
+              }
+            }
+            const body = chunks.join('\n');
 
             const { owner, repo } = context.repo;
             const issue_number = context.issue.number;
@@ -291,25 +358,42 @@ jobs:
             }
 
       - name: Publish Validation Report
-        if: always() && steps.status.outputs.has_errors == 'true'
+        if: always() && (steps.status.outputs.has_errors == 'true' || steps.status.outputs.has_warnings == 'true')
         run: |
           report_path="${REPORT_FILE:-$RUNNER_TEMP/validation_report.txt}"
+          warning_path="${WARNING_FILE:-$RUNNER_TEMP/validation_warnings.txt}"
 
-          echo "Validation found issue(s):"
+          echo "Validation found error(s):"
           if [ -s "$report_path" ]; then
             cat "$report_path"
           else
-            echo "- Report file is empty or missing."
+            echo "- No errors found."
+          fi
+
+          if [ -s "$warning_path" ]; then
+            echo
+            echo "Validation warning(s):"
+            cat "$warning_path"
           fi
 
           {
-            echo "## Mod validation failed"
+            echo "## Mod validation summary"
             echo
+            echo "### Errors"
             echo '```text'
             if [ -s "$report_path" ]; then
               cat "$report_path"
             else
-              echo "Report file is empty or missing."
+              echo "No errors found."
+            fi
+            echo '```'
+            echo
+            echo "### Warnings"
+            echo '```text'
+            if [ -s "$warning_path" ]; then
+              cat "$warning_path"
+            else
+              echo "No warnings found."
             fi
             echo '```'
           } >> "$GITHUB_STEP_SUMMARY"
