@@ -1,0 +1,14 @@
+{
+  "title": "Test Mod",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content"
+  ],
+  "author": "Test Author",
+  "repo": "https://github.com/skyline69/balatro-mod-index/",
+  "downloadURL": "https://github.com/1RedOne/FickleFox/archive/refs/heads/master.zip",
+  "version": "0.1.0",
+  "automatic-version-check": true,
+  "fixed-release-tag-updates": false
+}
