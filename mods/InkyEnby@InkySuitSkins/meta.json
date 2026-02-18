@@ -5,10 +5,11 @@
 	"categories": [
 		"Resource Packs"
 	],
-	"author": "Inky 'Ivory' Enby",
+	"author": "InkyEnby",
 	"repo": "https://github.com/InkyEnby/InkySuitSkins",
 	"downloadURL": "https://github.com/InkyEnby/InkySuitSkins/releases/latest/download/InkySuitSkins.zip",
 	"folderName": "InkySuitSkins",
 	"version": "1.0.0",
-	"automatic-version-check": true
+	"automatic-version-check": true,
+	"fixed-release-tag-updates": false
 }
