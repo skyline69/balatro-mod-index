@@ -8,5 +8,6 @@
   "downloadURL": "https://github.com/KnockoffDev/BlitzTvBox/archive/refs/tags/patches.zip",
   "folderName": "BlitzTvBox",
   "version": "1.0.1",
-  "automatic-version-check": true
+  "automatic-version-check": false
+
 }
