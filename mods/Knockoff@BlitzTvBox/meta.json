@@ -1,0 +1,15 @@
+{
+  "title": "Blitz's Tv Box!",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content",
+    "Joker"
+  ],
+  "author": "Knockoff",
+  "repo": "https://github.com/KnockoffDev/BlitzTvBox",
+  "downloadURL": "https://github.com/KnockoffDev/BlitzTvBox/releases/latest/download/BlitzTvBox.zip",
+  "version": "1.2.2",
+  "automatic-version-check": true,
+  "fixed-release-tag-updates": false
+}
