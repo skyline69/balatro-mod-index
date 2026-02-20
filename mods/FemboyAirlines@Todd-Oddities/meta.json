@@ -9,6 +9,6 @@
   "repo": "https://github.com/Femboy-Airlines/todd_oddities.git",
   "downloadURL": "https://github.com/Femboy-Airlines/todd_oddities/archive/refs/tags/1.0.0.zip",
   "version": "1.0.0",
-  "automatic-version-check": true,
+  "automatic-version-check": false,
   "fixed-release-tag-updates": false
 }
