@@ -1,0 +1,15 @@
+{
+  "title": "Sauce's Condiment Pack",
+  "requires-steamodded": true,
+  "requires-talisman": true,
+  "categories": [
+    "Content",
+    "Joker"
+  ],
+  "author": "SauceQuest31",
+  "repo": "https://github.com/saucequest/Sauces-Condiment-Pack---Balatro-Mod",
+  "downloadURL": "https://github.com/saucequest/Sauces-Condiment-Pack---Balatro-Mod/releases/download/8.2.0/condiments.zip",
+  "version": "8.2.0",
+  "automatic-version-check": true,
+  "fixed-release-tag-updates": true
+}
