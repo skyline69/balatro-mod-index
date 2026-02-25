@@ -1,0 +1,14 @@
+{
+  "title": "Karambit Blue Gem",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Resource Packs"
+  ],
+  "author": "packid879",
+  "repo": "https://github.com/packid879/Karambit-Blue-Gem-Balatro-Mod",
+  "downloadURL": "https://github.com/packid879/Karambit-Blue-Gem-Balatro-Mod/releases/download/ResourcePack/packid879@KarambitBlueGem.zip",
+  "version": "1.0.0",
+  "automatic-version-check": false,
+  "fixed-release-tag-updates": false
+}
