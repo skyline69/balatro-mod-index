@@ -9,6 +9,7 @@
   "repo": "https://github.com/acetna/Quilombo",
   "downloadURL": "https://github.com/acetna/Quilombo/releases/latest/download/Quilombo.zip",
   "folderName": "Quilombo",
-  "version": "hotfix",
-  "automatic-version-check": true
+  "version": "ecc98db",
+  "automatic-version-check": true,
+  "last-updated": 1772473054
 }
