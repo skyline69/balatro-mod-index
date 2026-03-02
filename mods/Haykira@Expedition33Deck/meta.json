@@ -6,7 +6,8 @@
   "author": "Haykira",
   "repo": "https://github.com/Haykira/balatro-expedition33-cards/",
   "downloadURL": "https://github.com/Haykira/balatro-expedition33-cards/releases/download/release/expedition33_deck.zip",
-  "folderName": "Expedition33Deck",
-  "version": "1.0.0",
-  "automatic-version-check": true
+  "folderName": "balatro-expedition33-cards",
+  "version": "1.0c",
+  "automatic-version-check": true,
+  "fixed-release-tag-updates": true
 }
