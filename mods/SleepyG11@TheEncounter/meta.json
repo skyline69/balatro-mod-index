@@ -8,7 +8,8 @@
   "author": "SleepyG11",
   "repo": "https://github.com/SleepyG11/TheEncounterBalatro/tree/main",
   "downloadURL": "https://github.com/SleepyG11/TheEncounterBalatro/archive/refs/heads/main.zip",
-  "version": "0.1.0",
+  "version": "eebc174",
   "automatic-version-check": true,
-  "fixed-release-tag-updates": false
+  "fixed-release-tag-updates": false,
+  "last-updated": 1772447757
 }
