@@ -1,0 +1,1 @@
+An add-on for InertSteak's Pokermon mod, adding new Pokémon, various Legendaries, and the Gigantamax system to play with

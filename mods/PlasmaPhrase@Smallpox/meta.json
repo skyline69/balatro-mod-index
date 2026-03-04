@@ -1,0 +1,15 @@
+{
+  "title": "Smallpox",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content",
+    "Joker"
+  ],
+  "author": "Various",
+  "repo": "https://github.com/PlasmaPhrase/Smallpox",
+  "downloadURL": "https://github.com/PlasmaPhrase/Smallpox/releases/latest/download/smallpox.zip",
+  "version": "v1.0.0",
+  "automatic-version-check": true,
+  "last-updated": 1772447757
+}

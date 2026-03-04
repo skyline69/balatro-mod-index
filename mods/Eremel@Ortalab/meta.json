@@ -1,0 +1,15 @@
+{
+  "title": "Ortalab",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content"
+  ],
+  "author": "Ortalab Team",
+  "repo": "https://github.com/EremelMods/Ortalab/",
+  "downloadURL": "https://github.com/EremelMods/Ortalab/archive/refs/heads/main.zip",
+  "folderName": "Ortalab",
+  "version": "abfa713",
+  "automatic-version-check": true,
+  "last-updated": 1771021432
+}

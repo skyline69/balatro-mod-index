@@ -1,0 +1,11 @@
+{
+  "title": "Fir",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": ["Content","Joker"],
+  "author": "SLDTyp0",
+  "repo": "https://github.com/Typ0Codes/Fir-Mod",
+  "downloadURL": "https://github.com/Typ0Codes/Fir-Mod/releases/latest/download/Fir-Mod.zip",
+  "version": "1.0.0",
+  "automatic-version-check": true
+}

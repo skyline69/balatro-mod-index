@@ -7,7 +7,8 @@
   ],
   "author": "cassiepepsi",
   "repo": "https://github.com/cloverpepsi/Balatro-TDQDeck",
-  "downloadURL": "https://github.com/cloverpepsi/Balatro-TDQDeck/releases/download/v1.0.0/TDQ-Deck-main.zip",
-  "automatic-version-check": false,
-  "version": "v1.0.0"
+  "downloadURL": "https://github.com/cloverpepsi/Balatro-TDQDeck/releases/latest/download/TDQ-Deck.zip",
+  "automatic-version-check": true,
+  "version": "v2.0.0"
 }
+

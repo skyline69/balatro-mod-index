@@ -1,0 +1,1 @@
+This mod replaces the vanilla balatro title text with a custom one that uses the Minecraft text font

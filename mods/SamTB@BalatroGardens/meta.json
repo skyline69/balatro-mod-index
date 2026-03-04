@@ -1,0 +1,15 @@
+{
+  "title": "Balatro Gardens",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content"
+  ],
+  "author": "SamTB",
+  "repo": "https://github.com/samtabareh/Balatro-Gardens",
+  "downloadURL": "https://github.com/samtabareh/Balatro-Gardens/archive/refs/heads/main.zip",
+  "folderName": "BalatroGardens",
+  "version": "a6f66e2",
+  "automatic-version-check": true,
+  "last-updated": 1763914818
+}

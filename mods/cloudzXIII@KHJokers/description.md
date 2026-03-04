@@ -1,27 +1,30 @@
-Kingdom Hearts Themed Jokers + more!
+Kingdom Hearts Themed Content Mod!
 
-Kingdom Hearts Themed Balatro mod that brings new content and unique mechanics based on the videogames!
+Adds 30 Jokers and new content based on the Kingdom Hearts series! 
 
-# Content
-Currently includes:
-- Kingdom Hearts x Friends of Jimbo Face Cards
-- 20+ Jokers
-- 3 Challenges
-- 2 Spectral cards
-- 1 Tarot card
-- 1 Boss Blind
-- 1 Deck
-- 1 Seal
+As of now, Final Mix adds the following: 
 
-and more to come!
+- 30 Jokers<br>
+- 2 Decks<br>
+- 2 Challenges<br>
+- 3 Spectral Cards<br>
+- 1 Tarot Card<br>
+- 1 Sticker<br>
+- 2 Seals<br>
+- 2 Vouchers<br>
+- 4 suits of Kingdom Hearts x Friends of Jimbo Face cards!<br>
 
 Check additions at https://cloudzxiii.github.io/
 
 # Cross Mod
-Currently adds content for:
-- [JokerDisplay](https://github.com/nh6574/JokerDisplay) 
+
+Final Mix currently adds content for the following mods:
+
+- [JokerDisplay](https://github.com/nh6574/JokerDisplay)
 - [CardSleeves](https://github.com/larswijn/CardSleeves)
+- [Partner-API](https://github.com/Icecanno/Partner-API/)
 
 # Requirements
+
 - [Steamodded](https://github.com/Steamopollys/Steamodded)
 - [Lovely](https://github.com/ethangreen-dev/lovely-injector)

@@ -1,0 +1,11 @@
+{
+    "title": "Jimbo's Metrics",
+    "requires-steamodded": true,
+    "requires-talisman": false,
+    "categories": ["Technical"],
+    "author": "CraftedCart",
+    "repo":"https://gitlab.com/CraftedCart/jimbos_metrics/",
+    "downloadURL": "https://gitlab.com/CraftedCart/jimbos_metrics/-/archive/master/jimbos_metrics-master.zip?ref_type=heads",
+    "version": "0.1.0",
+    "automatic-version-check": true
+}

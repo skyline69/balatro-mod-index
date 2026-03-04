@@ -1,0 +1,16 @@
+{
+  "title": "Jimbotomy",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content",
+    "Joker"
+  ],
+  "author": "baltdev",
+  "repo": "https://github.com/balt-dev/Jimbotomy",
+  "downloadURL": "https://github.com/balt-dev/Jimbotomy/archive/refs/heads/master.zip",
+  "folderName": "Jimbotomy",
+  "version": "70cbfce",
+  "automatic-version-check": true,
+  "last-updated": 1765495075
+}

@@ -1,0 +1,11 @@
+{
+  "title": "symmetricspiral's Pokemon Skins",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": ["Resource Packs"],
+  "author": "symmetricspiral",
+  "repo": "https://github.com/SymmetricSpiral/balatromods/tree/pokemod",
+  "downloadURL": "https://github.com/SymmetricSpiral/balatromods/releases/latest/download/symmetricspiral_Pokemon_Skins.zip",
+  "folderName": "symmetricspiral's_Pokemon_Skins",
+  "version": "1.7.0"
+}

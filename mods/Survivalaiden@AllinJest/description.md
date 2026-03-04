@@ -3,14 +3,18 @@ All in Jest is a mod which provides a fun and unique balatro experience that exp
 # Content
 
 The mod currently adds:
-- 200 Jokers, 30 of which being Legendary
-- 5 Tarot Cards
-- 2 New Enhancements and 2 new Editions
+- 300 Jokers, 35 of which being Legendary
+- 11 Tarot Cards
+- 6 New Enhancements and 4 new Editions
 - 24 "Moon" Planet cards, which upgrade the base hands by double their normal amount on chips or mult, but have no effect on the other. Also supports [Bunco](https://github.com/jumbocarrot0/Bunco) and [Paperback](https://github.com/Balatro-Paperback/paperback) for their Spectrum Hands
-- 4 Spectrals
-- 6 Tags
-- A Legendary-themed Deck
+- 3 Additional special Planet cards
+- 9 Spectrals
+- 40 Tags (8 normal Tags plus a Golden version of every Tag)
+- 3 new Decks
+- 6 new Vouchers
+- 64 new Boss Blinds
 - A very Rare legendary Booster Pack
+- Blue Stake Rework
 - Way more to come!
 
 # Requirements
@@ -19,4 +23,4 @@ The mod currently adds:
 
 # Credits
 - All art is by by Nevernamed
-- Programming by Survivalaiden and RattlingSnow
+- Programming by Survivalaiden, RattlingSnow, Jumbocarrot, and ejwu

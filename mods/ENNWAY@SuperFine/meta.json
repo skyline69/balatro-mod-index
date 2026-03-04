@@ -10,6 +10,7 @@
   "repo": "https://github.com/energykid/SuperFine",
   "downloadURL": "https://github.com/energykid/SuperFine/releases/latest/download/SuperFine.zip",
   "folderName": "SuperFine",
-  "version": "v1.0.5",
-  "automatic-version-check": true
+  "version": "v1.0.6",
+  "automatic-version-check": true,
+  "last-updated": 1763187906
 }

@@ -1,0 +1,15 @@
+{
+  "title": "Jimbo's Histories",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Quality of Life"
+  ],
+  "author": "Mi1cK",
+  "repo": "https://github.com/InertSteak/Jimbos-Histories-InertSteak/tree/main",
+  "downloadURL": "https://github.com/InertSteak/Jimbos-Histories-InertSteak/archive/refs/heads/main.zip",
+  "folderName": "Jimbo's Histories",
+  "version": "848e3f5",
+  "automatic-version-check": true,
+  "last-updated": 1767155508
+}

@@ -1,0 +1,15 @@
+{
+  "title": "Balatro Producciones",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content",
+    "Joker"
+  ],
+  "author": "Kahn",
+  "repo": "https://github.com/Kahnio-110/balatro_producciones",
+  "downloadURL": "https://github.com/Kahnio-110/balatro_producciones/archive/refs/heads/main.zip",
+  "version": "330aad8",
+  "automatic-version-check": true,
+  "last-updated": 1764354346
+}

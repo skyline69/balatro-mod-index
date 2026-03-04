@@ -1,5 +1,5 @@
 {
-  "title": "KHJokers",
+  "title": "Final Mix",
   "requires-steamodded": true,
   "requires-talisman": false,
   "categories": [
@@ -7,8 +7,9 @@
     "Joker"
   ],
   "author": "cloudzXIII",
-  "repo": "https://github.com/cloudzXIII/KHJokers",
-  "downloadURL": "https://github.com/cloudzXIII/KHJokers/releases/latest/download/KHJokers.zip",
+  "repo": "https://github.com/cloudzXIII/FinalMix",
+  "downloadURL": "https://github.com/cloudzXIII/FinalMix/releases/latest/download/FinalMix.zip",
+  "version": "v1.1.4",
   "automatic-version-check": true,
-  "version": "v1.1.2"
+  "last-updated": 1768587627
 }

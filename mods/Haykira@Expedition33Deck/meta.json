@@ -1,0 +1,16 @@
+{
+  "title": "Expedition 33 Deck",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Resource Packs"
+  ],
+  "author": "Haykira",
+  "repo": "https://github.com/Haykira/balatro-expedition33-cards/",
+  "downloadURL": "https://github.com/Haykira/balatro-expedition33-cards//releases/download/release/expedition33_deck.zip",
+  "folderName": "balatro-expedition33-cards",
+  "version": "20260215_114432",
+  "automatic-version-check": true,
+  "fixed-release-tag-updates": true,
+  "last-updated": 1772447757
+}

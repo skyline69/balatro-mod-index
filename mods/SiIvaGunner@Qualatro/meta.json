@@ -1,0 +1,17 @@
+{
+  "title": "Qualatro",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Joker",
+    "Content",
+    "Miscellaneous"
+  ],
+  "author": "SiIvaGunner",
+  "repo": "https://github.com/SiIvaGunner/qualatro",
+  "downloadURL": "https://github.com/SiIvaGunner/qualatro/releases/latest/download/Qualatro.zip",
+  "folderName": "Qualatro",
+  "version": "v1.0.6",
+  "automatic-version-check": true,
+  "last-updated": 1770669393
+}

@@ -1,0 +1,15 @@
+{
+  "title": "Inkbleed",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content"
+  ],
+  "author": "baltdev",
+  "repo": "https://github.com/balt-dev/Inkbleed",
+  "downloadURL": "https://github.com/balt-dev/Inkbleed/archive/refs/heads/master.zip",
+  "folderName": "Inkbleed",
+  "version": "32ebca4",
+  "automatic-version-check": true,
+  "last-updated": 1764354346
+}

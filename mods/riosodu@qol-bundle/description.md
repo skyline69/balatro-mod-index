@@ -18,11 +18,11 @@ This mod provides several small adjustments to gameplay mechanics to enhance the
 - **Flower Pot Wildcard Rework**: Flower Pot only appears in shop when Wildcard-enhanced cards exist in deck and triggers when scoring hand contains any Wildcard.
 - **Baron Uncommon**: Makes Baron joker Uncommon rarity with reduced cost ($5 instead of $8).
 - **Mime Rare**: Makes Mime joker Rare rarity with increased cost ($6 instead of $5).
-- **Satellite Joker Rework**: Satellite now gives gold equal to half the highest poker hand level (rounded down).
+- **Satellite Joker Rework**: Satellite now gives gold equal to half the highest poker hand level (rounded up).
 - **Controlled Sigil**: Sigil now requires selecting a card first and converts all cards to selected card's suit instead of random suit.
 - **Controlled Ouija**: Ouija now requires selecting a card first and converts all cards to selected card's rank instead of random rank.
 - **Loyalty Card Rounds Mode**: Loyalty Card triggers based on rounds instead of hands played for more predictable timing and easier to plan around.
-- **Splash Joker Retrigger**: Splash Joker additionally retriggers a random scoring card.
+- **Splash Joker Retrigger**: Splash Joker additionally retriggers two random scoring cards.
 - **Ceremonial Dagger Common**: Makes Ceremonial Dagger joker Common rarity with reduced cost ($3 instead of $6).
 - **Mail-In Rebate Uncommon**: Makes Mail-In Rebate joker Uncommon rarity (was Common rarity - makes it rarer).
 - **Fortune Teller Cheaper**: Makes Fortune Teller joker cheaper (cost $4 instead of $6).

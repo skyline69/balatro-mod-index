@@ -1,0 +1,12 @@
+{
+	"title": "nyankatro [a The Battle Cats mod]",
+	"requires-steamodded": true,
+	"requires-talisman": false,
+	"categories": ["Content", "Joker"],
+	"author": "draconacht",
+	"folderName": "nyankatro",
+	"repo": "https://github.com/nyanko-army-knife/nyankatro",
+	"downloadURL": "https://github.com/nyanko-army-knife/nyankatro/releases/latest/download/nyankatro.zip",
+	"version": "0.1.0",
+	"automatic-version-check": true
+}

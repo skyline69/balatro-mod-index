@@ -1,0 +1,17 @@
+{
+  "title": "Balatro TCG",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content",
+    "Technical",
+    "Miscellaneous"
+  ],
+  "author": "IsaGoodFriend",
+  "repo": "https://github.com/BalatroTCG/BalatroTCG",
+  "downloadURL": "https://github.com/BalatroTCG/BalatroTCG/releases/latest/download/BalatroTCG.zip",
+  "folderName": "BalatroTCG",
+  "version": "v0.3.1c",
+  "automatic-version-check": true,
+  "last-updated": 1771204687
+}
