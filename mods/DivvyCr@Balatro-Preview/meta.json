@@ -9,7 +9,8 @@
   "repo": "https://github.com/DivvyCr/Balatro-Preview",
   "downloadURL": "https://github.com/DivvyCr/Balatro-Preview/releases/latest/download/DVPreview_BMM.zip",
   "folderName": "DVPreview",
-  "version": "v4.1",
+  "version": "9974ae4",
   "automatic-version-check": true,
-  "fixed-release-tag-updates": false
+  "fixed-release-tag-updates": false,
+  "last-updated": 1772733283
 }
