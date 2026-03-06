@@ -1,0 +1,12 @@
+{
+  "title": "Balatro: Blindside",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": ["Content", "Joker"],
+  "author": "Luna, Anne, and Base",
+  "repo": "https://github.com/LunaAstraCassiopeia/Blindside",
+  "downloadURL": "https://github.com/LunaAstraCassiopeia/Blindside/releases/latest",
+  "folderName": "Blindside",
+  "version": "0.3.0",
+  "automatic-version-check": true
+}
