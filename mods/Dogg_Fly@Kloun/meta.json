@@ -9,9 +9,8 @@
   ],
   "author": "Dogg Fly",
   "repo": "https://github.com/Dogg-Fly/Kloun-DEMO",
-  "downloadURL": "https://github.com/Dogg-Fly/Kloun-DEMO/releases/latest/download/kloun.zip",
+  "downloadURL": "https://github.com/Dogg-Fly/Kloun-DEMO/releases/latest/download/anotherstupidbalatromod.zip",
   "folderName": "kloun",
-  "version": "v0.1.0",
+  "version": "v0.1.1,
   "automatic-version-check": true,
-  "last-updated": 1762838285
-},
+}
