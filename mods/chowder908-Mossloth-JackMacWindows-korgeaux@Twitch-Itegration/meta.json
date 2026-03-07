@@ -1,0 +1,19 @@
+{
+  "title": "Twitch Itegration",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content",
+    "Joker",
+    "Quality of Life",
+    "Technical",
+    "Miscellaneous",
+    "API"
+  ],
+  "author": "chowder908, Mossloth, JackMacWindows, korgeaux",
+  "repo": "https://github.com/BalatroTwitchIntegrationMod/Balatro-Twitch-Integration-Mod/",
+  "downloadURL": "https://github.com/BalatroTwitchIntegrationMod/Balatro-Twitch-Integration-Mod/releases/download/Alpha/Balatro-Twitch-Integration-Mod.zip",
+  "version": "0.1.0",
+  "automatic-version-check": true,
+  "fixed-release-tag-updates": true
+}
