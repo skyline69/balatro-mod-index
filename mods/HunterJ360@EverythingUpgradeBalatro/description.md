@@ -1,41 +1,27 @@
-# Everything Upgrade Balatro
-Everything Upgrade Balatro (EUB) adds the following:
-- 49 Jokers 
-- 1 Tarot
-- 2 Spectrals
-- 12 Currency Cards 
-- 3 Decks
-- 3 Vouchers
-- 2 Enhancements
-- 2 Editions
-- 3 Seals
-- 10 Booster Packs 
+Welcome to Everything Upgrade Balatro! Also known as EUB, this is a content mod that adds new Jokers, Enhancements, Consumables, and more based on Everything Upgrade Tree to improve your run even further then vanilla!
+This mod isnt Vanilla+ or Chaos, its a mix inbetween!
+Additions:
+49 Jokers
+3 Decks
+3 Vouchers
+1 Tarot Card
+2 Spectral Cards
+12 Currency Cards
+2 Enhanced Cards
+3 Seals
+2 Editions
+10 Booster Packs
 
-This mods mechanics are based on Everything Upgrade Tree and adds fun strategies and combos to score more chips then vanilla. (my highscore is double e) 
-This is a Content Mod
-A balance of Chaos and Vanilla+
-Most art in this mod is made by me and from EUT
-All of the below is my art:
-- Seals
-- Currency Packs
-- HunterJ360 (self insert smh)
-- Vouchers
-- Decks
-- Currency Cards
-- Tarots and Spectrals
-- Goog Cards
-All of the below is EUT art:
-- 48 Jokers (excluding HunterJ360)
-- Joker Packs (slightly edited by me to fit Balatro)
-
-Also the BGM used for HunterJ360 is Call of the Void: Phase 3a, one left.
 # Extras
-This mod **REQUIRES** Talisman and Steammodded and is not built to be played with other mods (ex: Cryptid Value Changing)
+This mod **REQUIRES** Talisman/Amulet and Steammodded
+Reccomended to use Talisman
+Use Latest Versions
 
-Please report any bugs to my forums in Cryptid, Balatro, Balatro CLAMS, and Everything Upgrade Tree Discord Servers.
+Please report any bugs to my GitHub Repository or Mod Forums
 **EUT art was authorized to be used by EUT's current Owner Unby6 and the Illustrator Jiskin**
 
 # Credits
-- Unby6 - Owner of EUT
-- Jiskin the Banana - Illustrator for almost all the Jokers and Packs
-- Saster, Juora & TaeSkull - HunterJ360 BGM (Animated Soundtrack: https://www.youtube.com/watch?v=-VPpexoFuYA&list=RD-VPpexoFuYA&start_radio=1)
+- Unby6 - EUTs Current Owner
+- Jiskin the Banana - Illustrator for EUT Cards
+- 可樂XD (ColaXD) - HunterJ360 BGM & Art Inspiration 
+AMEG Flames OST: https://www.youtube.com/watch?v=bJ097CLnbdA

@@ -1,0 +1,16 @@
+{
+  "title": "Subtractions",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Quality of Life",
+    "Miscellaneous"
+  ],
+  "author": "xz47sv",
+  "repo": "https://github.com/xz47sv/balatro_subtractions",
+  "downloadURL": "https://github.com/xz47sv/balatro_subtractions/archive/refs/heads/master.zip",
+  "version": "15b3391",
+  "automatic-version-check": true,
+  "fixed-release-tag-updates": false,
+  "last-updated": 1772733283
+}

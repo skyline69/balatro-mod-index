@@ -11,6 +11,7 @@
   "repo": "https://github.com/GoonsTowerDefense/Goonlatro",
   "downloadURL": "https://github.com/GoonsTowerDefense/Goonlatro/archive/refs/heads/main.zip",
   "folderName": "Goonlatro",
-  "version": "9e4ecf9",
-  "automatic-version-check": true
+  "version": "869c847",
+  "automatic-version-check": true,
+  "last-updated": 1769890547
 }

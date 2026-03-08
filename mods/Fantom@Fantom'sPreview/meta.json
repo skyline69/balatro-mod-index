@@ -9,6 +9,7 @@
   "repo": "https://github.com/Fantom-Balatro/Fantoms-Preview",
   "downloadURL": "https://github.com/Fantom-Balatro/Fantoms-Preview/releases/latest/download/Fantoms-Preview.zip",
   "folderName": "Fantoms-Preview",
-  "version": "v2.4.1",
-  "automatic-version-check": true
+  "version": "v2.5.0",
+  "automatic-version-check": true,
+  "last-updated": 1770074384
 }

@@ -1,0 +1,15 @@
+{
+  "title": "ModUtils",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "API"
+  ],
+  "author": "xz7sv",
+  "repo": "https://github.com/xz47sv/balatro_mod_utils",
+  "downloadURL": "https://github.com/xz47sv/balatro_mod_utils/archive/refs/heads/master.zip",
+  "version": "373889f",
+  "automatic-version-check": true,
+  "fixed-release-tag-updates": false,
+  "last-updated": 1772733283
+}

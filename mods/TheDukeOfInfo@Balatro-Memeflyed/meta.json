@@ -1,0 +1,18 @@
+{
+  "title": "Balatro (Memeflyed)",
+  "requires-steamodded": true,
+  "requires-talisman": true,
+  "categories": [
+    "Content",
+    "Joker",
+    "Miscellaneous"
+  ],
+  "author": "TheDukeOfInfo",
+  "repo": "https://github.com/sailaltoffical-commits/Memeflyed-Mod-For-Balatro/tree/main#",
+  "downloadURL": "https://github.com/sailaltoffical-commits/Memeflyed-Mod-For-Balatro/archive/refs/heads/main.zip",
+  "version": "1c6e5d2",
+  "automatic-version-check": true,
+  "fixed-release-tag-updates": false,
+  "folderName": "memeflyed",
+  "last-updated": 1771387964
+}

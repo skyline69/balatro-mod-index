@@ -1,0 +1,16 @@
+{
+  "title": "Jimbos+",
+  "requires-steamodded": true,
+  "requires-talisman": true,
+  "categories": [
+    "Content",
+    "Joker"
+  ],
+  "author": "cybernetic",
+  "repo": "https://github.com/cokeblock/JimbosPlus",
+  "downloadURL": "https://github.com/cokeblock/JimbosPlus/releases/latest/download/jimbosplus.zip",
+  "version": "V0.3.0",
+  "automatic-version-check": true,
+  "fixed-release-tag-updates": false,
+  "last-updated": 1772683452
+}
