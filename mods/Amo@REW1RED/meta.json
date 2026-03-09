@@ -9,8 +9,9 @@
   "author": "Amo",
   "repo": "https://github.com/KiyomiLovesOreos/rew1red",
   "downloadURL": "https://github.com/KiyomiLovesOreos/rew1red/releases/latest/download/rew1red.zip",
-  "version": "0.2.0",
+  "version": "Beta_0.2.01",
   "automatic-version-check": true,
   "fixed-release-tag-updates": false,
-  "folderName": "REW1RED"
+  "folderName": "REW1RED",
+  "last-updated": 1773091437
 }
