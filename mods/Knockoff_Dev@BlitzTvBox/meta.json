@@ -9,8 +9,10 @@
   "folderName": "BlitzTvBox",
   "version": "1.0.2",
   "automatic-version-check": true
+  "fixed-release-tag-updates": true
 
 }
+
 
 
 
