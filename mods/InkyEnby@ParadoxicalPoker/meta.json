@@ -1,0 +1,15 @@
+{
+  "title": "Paradoxical Poker",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content"
+  ],
+  "author": "Inky 'Ivory' Enby, PotatoNerd",
+  "repo": "https://github.com/InkyEnby/ParadoxicalPoker",
+  "downloadURL": "https://github.com/InkyEnby/ParadoxicalPoker/releases/latest/download/ParadoxicalPoker.zip",
+  "folderName": "ParadoxicalPoker",
+  "version": "1.0.0",
+  "automatic-version-check": true,
+  "fixed-release-tag-updates": false
+}
