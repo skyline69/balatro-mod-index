@@ -1,0 +1,12 @@
+{
+  "title": "Jonahtro",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": ["Content", "Joker","Miscellaneous"],
+  "author": "probablyJonah",
+  "repo": "https://github.com/JonahFicklin/Jonahtro",
+  "downloadURL": "https://github.com/JonahFicklin/Jonahtro/releases/download/Jonahtro_New_Version/Jonahtro_v1.0.0.zip",
+  "folderName": "Jonahtro_v1.0.0",
+  "version": "1.0.0",
+  "automatic-version-check": true
+}
