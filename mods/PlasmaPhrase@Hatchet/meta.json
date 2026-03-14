@@ -1,0 +1,15 @@
+{
+  "title": "Hatchet",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content",
+    "Joker"
+  ],
+  "author": "PlasmaPhrase",
+  "repo": "https://github.com/PlasmaPhrase/Hatchet",
+  "downloadURL": "https://github.com/PlasmaPhrase/Hatchet/releases/latest/download/hatchet.zip",
+  "version": "v1.6.1",
+  "automatic-version-check": true,
+  "last-updated": 1773443956
+}
