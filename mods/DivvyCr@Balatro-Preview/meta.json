@@ -11,5 +11,6 @@
   "folderName": "DVPreview",
   "version": "v4.1",
   "automatic-version-check": true,
-  "fixed-release-tag-updates": false
+  "fixed-release-tag-updates": false,
+  "last-updated": 1772737769
 }
