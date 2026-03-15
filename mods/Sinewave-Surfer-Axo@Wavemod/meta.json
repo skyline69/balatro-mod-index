@@ -11,5 +11,6 @@
   "downloadURL": "https://github.com/icreatedthisaccountforamsmbackground/Wavemod/releases/download/v1.2.2/wavemod1.2.2.zip",
   "version": "1.2.2",
   "automatic-version-check": true,
-  "fixed-release-tag-updates": true
+  "fixed-release-tag-updates": true,
+  "last-updated": 1773537951
 }
