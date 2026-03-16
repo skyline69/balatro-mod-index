@@ -1,0 +1,14 @@
+{
+  "title": "Held Joker",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Quality of Life"
+  ],
+  "author": "joelmforsyth",
+  "repo": "https://github.com/joelmforsyth/BalatroMods/tree/main/HeldJoker",
+  "downloadURL": "https://github.com/joelmforsyth/HeldJoker/releases/download/0.1.0/HeldJoker.zip",
+  "version": "0.1.0",
+  "automatic-version-check": true,
+  "fixed-release-tag-updates": true
+}
