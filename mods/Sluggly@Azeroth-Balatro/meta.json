@@ -1,0 +1,16 @@
+{
+  "title": "Azeroth Balatro",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content",
+    "Joker"
+  ],
+  "author": "Sluggly",
+  "repo": "https://github.com/Sluggly/AzerothBalatro",
+  "downloadURL": "https://github.com/Sluggly/AzerothBalatro/archive/refs/heads/main.zip",
+  "version": "0.0.1",
+  "automatic-version-check": true,
+  "fixed-release-tag-updates": false,
+  "folderName": "Warcraft"
+}
