@@ -11,7 +11,8 @@
   "author": "J8-Bit + co",
   "repo": "https://github.com/orangequilavaburst/ForagerNonessentialsBLTR/",
   "downloadURL": "https://github.com/orangequilavaburst/ForagerNonessentialsBLTR/archive/refs/heads/main.zip",
-  "version": "v1.0.9",
+  "version": "c6ec34b",
   "automatic-version-check": true,
-  "fixed-release-tag-updates": false
+  "fixed-release-tag-updates": false,
+  "last-updated": 1773624322
 }
