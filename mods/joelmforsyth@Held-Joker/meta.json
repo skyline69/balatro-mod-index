@@ -8,7 +8,8 @@
   "author": "joelmforsyth",
   "repo": "https://github.com/joelmforsyth/HeldJoker",
   "downloadURL": "https://github.com/joelmforsyth/HeldJoker/releases/download/1.0.1/HeldJoker.zip",
-  "version": "1.0.1",
+  "version": "20260317_023056",
   "automatic-version-check": true,
-  "fixed-release-tag-updates": true
+  "fixed-release-tag-updates": true,
+  "last-updated": 1773876218
 }

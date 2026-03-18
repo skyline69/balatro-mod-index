@@ -9,8 +9,9 @@
   "author": "Sluggly",
   "repo": "https://github.com/Sluggly/AzerothBalatro",
   "downloadURL": "https://github.com/Sluggly/AzerothBalatro/archive/refs/heads/main.zip",
-  "version": "0.0.1",
+  "version": "c8a80a9",
   "automatic-version-check": true,
   "fixed-release-tag-updates": false,
-  "folderName": "Warcraft"
+  "folderName": "Warcraft",
+  "last-updated": 1773876218
 }
