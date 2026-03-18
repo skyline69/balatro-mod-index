@@ -1,7 +1,7 @@
 # TwitchIntegration
  A Work In Progress Twitch Integration Mod for [Balatro](https://store.steampowered.com/app/2379780/Balatro/)
 
-Includes 16 jokers as well as the commands listed below
+Includes 16 jokers as well as the commands listed below ↓ ↓ ↓ 
 
 **Commands**
 * !blueprint (Spawn a blueprint)
