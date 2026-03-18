@@ -1,6 +1,6 @@
 {
   "title": "Vietnamese Balatro",
-  "requires-steamodded": true,
+  "requires-steamodded": false,
   "requires-talisman": false,
   "categories": [
     "Miscellaneous"
