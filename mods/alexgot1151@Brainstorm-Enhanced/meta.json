@@ -10,8 +10,9 @@
   "author": "alexgot1151",
   "repo": "https://github.com/alexgot1151/Brainstorm-Enhanced",
   "downloadURL": "https://github.com/alexgot1151/Brainstorm-Enhanced/releases/download/release/mod.zip",
-  "version": "v.1.0.0",
+  "version": "20260319_132447",
   "automatic-version-check": true,
   "fixed-release-tag-updates": true,
-  "folderName": "Brainstorm"
+  "folderName": "Brainstorm",
+  "last-updated": 1773949251
 }
