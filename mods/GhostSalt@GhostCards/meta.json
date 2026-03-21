@@ -1,0 +1,14 @@
+{
+  "title": "Ghost Cards",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Resource Packs"
+  ],
+  "author": "GhostSalt",
+  "repo": "https://github.com/GhostSalt/GhostCards",
+  "downloadURL": "https://github.com/GhostSalt/GhostCards/archive/refs/heads/master.zip",
+  "folderName": "Ghost Cards",
+  "version": "1.3.0~BETA",
+  "automatic-version-check": true,
+}
