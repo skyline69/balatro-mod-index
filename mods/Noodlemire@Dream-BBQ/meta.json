@@ -1,0 +1,15 @@
+{
+  "title": "Dream BBQ",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content",
+    "Joker"
+  ],
+  "author": "Noodlemire",
+  "repo": "https://github.com/Noodlemire/Balatro-Dream-BBQ-Mod",
+  "downloadURL": "https://github.com/Noodlemire/Balatro-Dream-BBQ-Mod/archive/refs/heads/main.zip",
+  "version": "1.1.9",
+  "automatic-version-check": true,
+  "fixed-release-tag-updates": false
+}
