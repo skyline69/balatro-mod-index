@@ -9,7 +9,8 @@
   "repo": "https://github.com/InkyEnby/ParadoxicalPoker",
   "downloadURL": "https://github.com/InkyEnby/ParadoxicalPoker/releases/latest/download/ParadoxicalPoker.zip",
   "folderName": "ParadoxicalPoker",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "automatic-version-check": true,
-  "fixed-release-tag-updates": false
+  "fixed-release-tag-updates": false,
+  "last-updated": 1774152687
 }
