@@ -1,0 +1,15 @@
+{
+  "title": "Bundles Of Fun",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content",
+    "Joker"
+  ],
+  "author": "George The Rat",
+  "repo": "https://github.com/GeorgeTheRat/BundlesOfFun",
+  "downloadURL": "https://github.com/GeorgeTheRat/BundlesOfFun/archive/refs/heads/main.zip",
+  "version": "0.3.1",
+  "automatic-version-check": true,
+  "fixed-release-tag-updates": false
+}
