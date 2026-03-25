@@ -1,5 +1,5 @@
 {
-  "title": "Minty's Silly Little Mod",
+  "title": "Menthol",
   "requires-steamodded": true,
   "requires-talisman": false,
   "categories": [
@@ -7,7 +7,8 @@
   ],
   "author": "wingedcatgirl",
   "repo": "https://github.com/wingedcatgirl/MintysSillyMod",
-  "downloadURL": "https://github.com/wingedcatgirl/MintysSillyMod/archive/refs/tags/v0.7.3.zip",
+  "downloadURL": "https://github.com/wingedcatgirl/MintysSillyMod/releases/download/v1.0.0/Menthol-1.0.0.zip",
   "automatic-version-check": false,
-  "version": "v0.7.3"
+  "version": "v1.0.0"
 }
+
