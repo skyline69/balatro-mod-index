@@ -12,9 +12,8 @@
   ],
   "author": "chowder908, Mossloth, JackMacWindows, korgeaux",
   "repo": "https://github.com/BalatroTwitchIntegrationMod/Balatro-Twitch-Integration-Mod/",
-  "downloadURL": "https://github.com/BalatroTwitchIntegrationMod/Balatro-Twitch-Integration-Mod//releases/download/alpha2/Balatro-Twitch-Integration-Mod-main.zip",
-  "version": "20260316_041155",
+  "downloadURL": "https://github.com/BalatroTwitchIntegrationMod/Balatro-Twitch-Integration-Mod/releases/download/alpha3/Balatro-Twitch-Integration-Mod-main.zip",
+  "version": "alpha 0.1.2",
   "automatic-version-check": true,
-  "fixed-release-tag-updates": true,
   "last-updated": 1773876218
 }
