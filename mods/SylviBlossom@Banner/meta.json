@@ -8,7 +8,8 @@
   "author": "SylviBlossom",
   "repo": "https://github.com/SylviBlossom/Banner",
   "downloadURL": "https://codeload.github.com/SylviBlossom/Banner/zip/refs/tags/v1.2.1",
-  "version": "1.2.1",
+  "version": "v1.2.1",
   "automatic-version-check": true,
-  "fixed-release-tag-updates": false
+  "fixed-release-tag-updates": false,
+  "last-updated": 1775237175
 }
