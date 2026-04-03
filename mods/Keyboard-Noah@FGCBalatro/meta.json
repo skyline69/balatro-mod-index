@@ -10,7 +10,8 @@
   "author": "Keyboard Noah",
   "repo": "https://github.com/Noah-Bunis/FGCBalatro",
   "downloadURL": "https://github.com/Noah-Bunis/FGCBalatro/releases/latest/download/FGCBalatro.zip",
-  "version": "1.0.0",
+  "version": "1.0.5",
   "automatic-version-check": true,
-  "fixed-release-tag-updates": false
+  "fixed-release-tag-updates": false,
+  "last-updated": 1775233776
 }
