@@ -1,0 +1,16 @@
+{
+  "title": "Toontastic Mod Pack",
+  "requires-steamodded": true,
+  "requires-talisman": true,
+  "categories": [
+    "Content",
+    "Joker",
+    "Miscellaneous"
+  ],
+  "author": "Captainmanticore",
+  "repo": "https://github.com/captainmanticore/Toontastic-Pack",
+  "downloadURL": "https://github.com/captainmanticore/Toontastic-Pack/releases/download/smth/toontasticmodpack.zip",
+  "version": "2.0.0",
+  "automatic-version-check": true,
+  "fixed-release-tag-updates": true
+}
