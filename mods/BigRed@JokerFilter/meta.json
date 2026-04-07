@@ -1,0 +1,14 @@
+{
+  "title": "JokerFilter",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Quality of Life"
+  ],
+  "author": "BigRed",
+  "repo": "https://github.com/spadesmaster/BalatroJokerFilter",
+  "downloadURL": "https://github.com/spadesmaster/BalatroJokerFilter/releases/latest/download/BalatroJokerFilter.zip",
+  "version": "0.5.6",
+  "automatic-version-check": true,
+  "fixed-release-tag-updates": false
+}
