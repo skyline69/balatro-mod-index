@@ -6,10 +6,11 @@
     "Joker"
   ],
   "author": "Lumi",
-  "repo": "https://github.com/carpetrocketfuel/Balatro-1AHITM-Mod/releases",
-  "downloadURL": "https://github.com/carpetrocketfuel/Balatro-1AHITM-Mod/releases/download/v1.2/CarpetRocketfuel.zip",
-  "version": "v1.2",
+  "repo": "https://github.com/carpetrocketfuel/Balatro-1AHITM-Mod",
+  "downloadURL": "https://github.com/carpetrocketfuel/Balatro-1AHITM-Mod/releases/download/v1.1/CarpetRocketfuel.zip",
+  "version": "20260328_094635",
   "automatic-version-check": true,
   "fixed-release-tag-updates": false,
-  "folderName": "Carpet Rocketfuel"
+  "folderName": "Carpet Rocketfuel",
+  "last-updated": 1774729183
 }

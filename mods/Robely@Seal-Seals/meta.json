@@ -1,0 +1,16 @@
+{
+  "title": "Seal Seals",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content",
+    "Resource Packs"
+  ],
+  "author": "Robely",
+  "repo": "https://github.com/RobelyM/Seal-Seals/tree/main",
+  "downloadURL": "https://github.com/RobelyM/Seal-Seals/archive/refs/heads/main.zip",
+  "version": "9c9eefe",
+  "automatic-version-check": true,
+  "fixed-release-tag-updates": false,
+  "last-updated": 1775233776
+}
