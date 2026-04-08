@@ -10,7 +10,7 @@
   "downloadURL": "https://github.com/carpetrocketfuel/Balatro-1AHITM-Mod/releases/download/v1.2/CarpetRocketfuel.zip",
   "version": "v1.2",
   "automatic-version-check": true,
-  "fixed-release-tag-updates": false,
+  "fixed-release-tag-updates": true,
   "folderName": "Carpet Rocketfuel",
   "last-updated": 1774729183
 }
