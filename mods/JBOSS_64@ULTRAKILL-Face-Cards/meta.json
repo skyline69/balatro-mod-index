@@ -9,7 +9,8 @@
   "author": "JBOSS_64",
   "repo": "https://github.com/JBOSS-64/Ultrakill-Face-Cards-Mod",
   "downloadURL": "https://github.com/JBOSS-64/Ultrakill-Face-Cards-Mod/releases/latest/download/UltrakillFaceCards.zip",
-  "version": "1.0.0",
+  "version": "v1.0.0",
   "automatic-version-check": true,
-  "fixed-release-tag-updates": false
+  "fixed-release-tag-updates": false,
+  "last-updated": 1776606837
 }

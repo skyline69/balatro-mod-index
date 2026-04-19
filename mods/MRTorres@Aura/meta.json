@@ -10,7 +10,8 @@
   "author": "MRTorres",
   "repo": "https://github.com/SpectralPack/Aura",
   "downloadURL": "https://github.com/SpectralPack/Aura/archive/refs/heads/main.zip",
-  "version": "0.604.1c",
+  "version": "94ff63b",
   "automatic-version-check": true,
-  "fixed-release-tag-updates": false
+  "fixed-release-tag-updates": false,
+  "last-updated": 1776606837
 }
