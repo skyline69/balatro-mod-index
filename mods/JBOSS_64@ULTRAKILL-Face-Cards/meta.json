@@ -1,0 +1,15 @@
+{
+  "title": "ULTRAKILL Face Cards",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Miscellaneous",
+    "Resource Packs"
+  ],
+  "author": "JBOSS_64",
+  "repo": "https://github.com/JBOSS-64/Ultrakill-Face-Cards-Mod",
+  "downloadURL": "https://github.com/JBOSS-64/Ultrakill-Face-Cards-Mod/releases/latest/download/UltrakillFaceCards.zip",
+  "version": "1.0.0",
+  "automatic-version-check": true,
+  "fixed-release-tag-updates": false
+}
