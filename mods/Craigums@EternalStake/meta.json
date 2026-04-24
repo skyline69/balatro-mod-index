@@ -1,0 +1,16 @@
+{
+  "title": "Eternal Stake",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content",
+    "Miscellaneous"
+  ],
+  "author": "Craigums",
+  "repo": "https://github.com/craigsidcarlson/eternal-balatro",
+  "downloadURL": "https://github.com/craigsidcarlson/eternal-balatro/archive/refs/heads/main.zip",
+  "version": "40640b0",
+  "automatic-version-check": true,
+  "fixed-release-tag-updates": false,
+  "last-updated": 1777036829
+}
