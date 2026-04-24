@@ -10,8 +10,9 @@
   "author": "dekta",
   "repo": "https://github.com/LowDelta/Magician/",
   "downloadURL": "https://github.com/LowDelta/Magician/archive/refs/heads/main.zip",
-  "version": "1.0",
+  "version": "29f84d2",
   "automatic-version-check": true,
   "fixed-release-tag-updates": false,
-  "folderName": "Magician"
+  "folderName": "Magician",
+  "last-updated": 1777036829
 }
