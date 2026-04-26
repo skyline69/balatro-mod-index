@@ -1,17 +1,15 @@
 {
-  "id": "vegasstuff",
-  "name": "Vega's Stuff",
-  "author": [
-    "Vega"
+  "title": "Vega's Stuff",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content"
   ],
-  "description": "When the Jonklers",
-  "prefix": "vegasstuff",
-  "main_file": "main.lua",
-  "version": "1.1",
-  "priority": 0,
-  "badge_colour": "0ac400",
-  "badge_text_colour": "75000c",
-  "dependencies": [
-    "Steamodded (>=1.0.0~BETA-0827c)"
-  ]
+  "author": "Vega",
+  "repo": "https://github.com/VegaTheAvali/Vega-s-Stuff.git",
+  "downloadURL": "https://github.com/VegaTheAvali/Vega-s-Stuff/archive/refs/heads/master.zip",
+  "version": "1.1.0",
+  "automatic-version-check": true,
+  "fixed-release-tag-updates": false,
+  "folderName": "vegasstuff"
 }
