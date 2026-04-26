@@ -23,7 +23,8 @@
           "Technical",
           "Miscellaneous",
           "Resource Packs",
-          "API"
+          "API",
+          "Extension"
         ]
       },
       "minItems": 1,
