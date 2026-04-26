@@ -1,0 +1,17 @@
+{
+  "title": "Aura",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Quality of Life",
+    "Resource Packs",
+    "API"
+  ],
+  "author": "MRTorres",
+  "repo": "https://github.com/SpectralPack/Aura",
+  "downloadURL": "https://github.com/SpectralPack/Aura/archive/refs/heads/main.zip",
+  "version": "c14b099",
+  "automatic-version-check": true,
+  "fixed-release-tag-updates": false,
+  "last-updated": 1776894136
+}

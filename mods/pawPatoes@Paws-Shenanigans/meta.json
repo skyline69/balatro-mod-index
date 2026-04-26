@@ -1,0 +1,19 @@
+{
+  "title": "Paw's Shenanigans",
+  "requires-steamodded": true,
+  "requires-talisman": true,
+  "categories": [
+    "Content",
+    "Joker",
+    "Technical",
+    "Miscellaneous"
+  ],
+  "author": "pawPatoes",
+  "repo": "https://github.com/pawPatoes/paw-s-Shenanigans",
+  "downloadURL": "https://github.com/pawPatoes/paw-s-shenanigans/releases/latest/download/paw.s.UNLOCKED.zip",
+  "version": "balalalalalatro",
+  "automatic-version-check": true,
+  "fixed-release-tag-updates": false,
+  "folderName": "paws",
+  "last-updated": 1777049085
+}

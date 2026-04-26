@@ -7,7 +7,7 @@
 
 # Features
 - 24 Deck Skins
-- 84 Jokers
+- 89 Jokers
 - 30 Blinds (Dates)
 - 4 Seals
 - 4 Suits
@@ -19,7 +19,6 @@
 - 1 Enhancement
 
 # Notes:
-
 This mod does **NOT** require [Malverk](https://github.com/Eremel/Malverk), but it is compatible with it and will add itself as a texture pack if [Malverk](https://github.com/Eremel/Malverk) is also installed.
 
 # Credits
