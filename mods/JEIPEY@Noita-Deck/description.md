@@ -1,1 +1,1 @@
-Replaces default face cards king, queen, jack, to Noita creatures.
+Replaces default face cards King, Queen, Jack, to Noita creatures.
