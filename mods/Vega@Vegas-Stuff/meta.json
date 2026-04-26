@@ -1,0 +1,17 @@
+{
+  "id": "vegasstuff",
+  "name": "Vega's Stuff",
+  "author": [
+    "Vega"
+  ],
+  "description": "When the Jonklers",
+  "prefix": "vegasstuff",
+  "main_file": "main.lua",
+  "version": "1.1",
+  "priority": 0,
+  "badge_colour": "0ac400",
+  "badge_text_colour": "75000c",
+  "dependencies": [
+    "Steamodded (>=1.0.0~BETA-0827c)"
+  ]
+}
