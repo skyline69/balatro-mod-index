@@ -1,0 +1,16 @@
+{
+  "title": "Roze's Jokers",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content",
+    "Joker"
+  ],
+  "author": "pawPatoe",
+  "repo": "https://github.com/pawPatoes/Baltroze-s-Jokers",
+  "downloadURL": "https://github.com/pawPatoes/Baltroze-s-Jokers/releases/latest/download/Rozes.jokers.zip",
+  "version": "1.0",
+  "automatic-version-check": false,
+  "fixed-release-tag-updates": false,
+  "folderName": "roze"
+}
