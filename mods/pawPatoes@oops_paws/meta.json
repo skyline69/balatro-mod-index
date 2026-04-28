@@ -1,0 +1,14 @@
+{
+  "title": "oops all paw's",
+  "requires-steamodded": false,
+  "requires-talisman": false,
+  "categories": [
+    "Resource Packs"
+  ],
+  "author": "pawPatoes",
+  "repo": "https://github.com/pawPatoes/oops-all-paws",
+  "downloadURL": "https://github.com/pawPatoes/oops-all-paws/releases/latest/download/oops.all.paw.s.zip",
+  "version": "1.0.0",
+  "automatic-version-check": false,
+  "fixed-release-tag-updates": false
+}
