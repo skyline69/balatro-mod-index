@@ -8,8 +8,9 @@
   "author": "JEIPEY",
   "repo": "https://github.com/JEIPEY/Noita-Deck-Balatro-mod-",
   "downloadURL": "https://github.com/JEIPEY/Noita-Deck-Balatro-mod-/releases/latest/download/NoitaDeckBalatroMod.zip",
-  "version": "1.0.0",
+  "version": "v1.0.0",
   "automatic-version-check": true,
   "fixed-release-tag-updates": false,
-  "folderName": "NoitaDeck"
+  "folderName": "NoitaDeck",
+  "last-updated": 1777378847
 }

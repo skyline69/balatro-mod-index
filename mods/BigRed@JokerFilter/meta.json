@@ -8,7 +8,8 @@
   "author": "BigRed",
   "repo": "https://github.com/spadesmaster/BalatroJokerFilter",
   "downloadURL": "https://github.com/spadesmaster/BalatroJokerFilter/releases/latest/download/BalatroJokerFilter.zip",
-  "version": "0.5.6",
+  "version": "beta",
   "automatic-version-check": true,
-  "fixed-release-tag-updates": false
+  "fixed-release-tag-updates": false,
+  "last-updated": 1777378847
 }
