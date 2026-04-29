@@ -10,5 +10,6 @@
   "downloadURL": "https://github.com/acetna/Quilombo/releases/latest/download/Quilombo.zip",
   "folderName": "Quilombo",
   "version": "hotfix",
-  "automatic-version-check": true
+  "automatic-version-check": true,
+  "last-updated": 1772476470
 }

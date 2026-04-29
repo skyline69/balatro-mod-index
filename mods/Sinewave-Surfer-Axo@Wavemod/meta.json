@@ -1,0 +1,16 @@
+{
+  "title": "Wavemod",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content",
+    "Joker"
+  ],
+  "author": "Sinewave Surfer Axo",
+  "repo": "https://github.com/icreatedthisaccountforamsmbackground/Wavemod",
+  "downloadURL": "https://github.com/icreatedthisaccountforamsmbackground/Wavemod/releases/download/v1.2.2/wavemod1.2.2.zip",
+  "version": "20260314_235319",
+  "automatic-version-check": true,
+  "fixed-release-tag-updates": true,
+  "last-updated": 1773876218
+}

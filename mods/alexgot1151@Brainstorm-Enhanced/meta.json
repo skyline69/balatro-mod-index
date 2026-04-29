@@ -1,0 +1,18 @@
+{
+  "title": "Brainstorm-Enhanced",
+  "requires-steamodded": false,
+  "requires-talisman": false,
+  "categories": [
+    "Quality of Life",
+    "Technical",
+    "Miscellaneous"
+  ],
+  "author": "alexgot1151",
+  "repo": "https://github.com/alexgot1151/Brainstorm-Enhanced",
+  "downloadURL": "https://github.com/alexgot1151/Brainstorm-Enhanced/releases/download/release/mod.zip",
+  "version": "20260319_132447",
+  "automatic-version-check": true,
+  "fixed-release-tag-updates": true,
+  "folderName": "Brainstorm",
+  "last-updated": 1773949251
+}

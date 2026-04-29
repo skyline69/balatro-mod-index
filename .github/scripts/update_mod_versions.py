@@ -187,6 +187,10 @@ def process_mod(start_timestamp, name, meta_file):
         print(f"⚠️ Warning: Could not extract repo info from {repo_url}")
         return
 
+    # Normalize repo URL to canonical form to avoid path duplication
+    # (e.g. repo ending in /releases would produce /releases/releases/download/...)
+    repo_url = f"https://github.com/{owner}/{repo}"
+
     print(f"Checking GitHub repo: `{owner}/{repo}`")
         
     # If download url links to latest head, use version of latest commit hash

@@ -1,0 +1,16 @@
+{
+  "title": "Silk Touch",
+  "requires-steamodded": false,
+  "requires-talisman": false,
+  "categories": [
+    "Quality of Life",
+    "Technical",
+    "API"
+  ],
+  "author": "HuyTheKiller",
+  "repo": "https://github.com/HuyTheKiller/SilkTouch",
+  "downloadURL": "https://github.com/HuyTheKiller/SilkTouch/releases/latest/download/SilkTouch.zip",
+  "automatic-version-check": true,
+  "version": "1.1.4",
+  "last-updated": 1776840741
+}

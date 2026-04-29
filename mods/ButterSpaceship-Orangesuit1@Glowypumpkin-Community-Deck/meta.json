@@ -8,6 +8,7 @@
   "author": "ButterSpaceship",
   "repo": "https://github.com/ButterSpaceship/Glowypumpkin-Community-Mod",
   "downloadURL": "https://github.com/ButterSpaceship/Glowypumpkin-Community-Mod/releases/latest/download/GlowyPumpkin-Custom-Deck.zip",
-  "version": "V5.0",
-  "automatic-version-check": true
+  "version": "V6.0",
+  "automatic-version-check": true,
+  "last-updated": 1771787884
 }

@@ -5,6 +5,11 @@
 This repository indexes Balatro mods for use in Balatro Mod Manager.
 Follow this guide to submit mods that pass validation quickly.
 
+## You want to upload a new mod?
+
+Use the [BMI Submission Helper](https://bmi-helper.dasguney.com/) to easily upload new Mods to the index!
+After the PR has been made, Reviewers will check if the Submission is safe and ready to merge and your Mod will be on the Index in no time!
+
 ## Quick Checklist
 
 Before opening a PR, make sure all of the following are true:

@@ -1,0 +1,14 @@
+{
+  "title": "Todd Oddities",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Miscellaneous"
+  ],
+  "author": "FemboyAirlines",
+  "repo": "https://github.com/Femboy-Airlines/todd_oddities",
+  "downloadURL": "https://github.com/Femboy-Airlines/todd_oddities/archive/refs/tags/1.0.0.zip",
+  "version": "1.0.0",
+  "automatic-version-check": false,
+  "fixed-release-tag-updates": false
+}

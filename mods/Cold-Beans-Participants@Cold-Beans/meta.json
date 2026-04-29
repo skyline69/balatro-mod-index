@@ -1,0 +1,16 @@
+{
+  "title": "Cold Beans",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content",
+    "Joker"
+  ],
+  "author": "Cold Beans Participants",
+  "repo": "https://github.com/Cdrvo/Cold-Beans",
+  "downloadURL": "https://github.com/Cdrvo/Cold-Beans/archive/refs/heads/main.zip",
+  "version": "9cc1d52",
+  "automatic-version-check": true,
+  "fixed-release-tag-updates": false,
+  "last-updated": 1774461026
+}

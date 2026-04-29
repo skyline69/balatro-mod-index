@@ -1,0 +1,16 @@
+{
+  "title": "Nightmarish",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content",
+    "Miscellaneous"
+  ],
+  "author": "Nightmare",
+  "repo": "https://github.com/NightmareBalatro/Nightmarish",
+  "downloadURL": "https://github.com/NightmareBalatro/Nightmarish/releases/latest/download/Nightmarish.zip",
+  "automatic-version-check": true,
+  "fixed-release-tag-updates": false,
+  "version": "v1.4.0",
+  "last-updated": 1772900257
+}

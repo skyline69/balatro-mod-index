@@ -1,0 +1,15 @@
+{
+  "title": "Worlds Collide",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content",
+    "Joker"
+  ],
+  "author": "KaviD",
+  "repo": "https://github.com/KaviD-115/Worlds-Collide",
+  "downloadURL": "https://github.com/KaviD-115/Worlds-Collide/archive/refs/heads/main.zip",
+  "automatic-version-check": true,
+  "version": "726ee36",
+  "last-updated": 1774348906
+}

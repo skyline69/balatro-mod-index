@@ -1,0 +1,16 @@
+{
+  "title": "Vega's Stuff",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content"
+  ],
+  "author": "Vega",
+  "repo": "https://github.com/VegaTheAvali/Vega-s-Stuff",
+  "downloadURL": "https://github.com/VegaTheAvali/Vega-s-Stuff/archive/refs/heads/master.zip",
+  "version": "e689215",
+  "automatic-version-check": true,
+  "fixed-release-tag-updates": false,
+  "folderName": "vegasstuff",
+  "last-updated": 1777419868
+}

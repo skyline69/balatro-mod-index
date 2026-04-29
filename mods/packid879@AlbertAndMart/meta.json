@@ -1,0 +1,14 @@
+{
+  "title": "Albert and Mart",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Resource Packs"
+  ],
+  "author": "packid879",
+  "repo": "https://github.com/packid879/Albert-and-Mart-Balatro-Mod",
+  "downloadURL": "https://github.com/packid879/Albert-and-Mart-Balatro-Mod/releases/download/Resource/packid879@AlbertAndMart.zip",
+  "version": "1.0.0",
+  "automatic-version-check": false,
+  "fixed-release-tag-updates": false
+}

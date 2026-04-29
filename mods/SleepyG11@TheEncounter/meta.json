@@ -1,0 +1,15 @@
+{
+  "title": "TheEncounter",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "API"
+  ],
+  "author": "SleepyG11",
+  "repo": "https://github.com/SleepyG11/TheEncounterBalatro/tree/main",
+  "downloadURL": "https://github.com/SleepyG11/TheEncounterBalatro/archive/refs/heads/main.zip",
+  "version": "a07098e",
+  "automatic-version-check": true,
+  "fixed-release-tag-updates": false,
+  "last-updated": 1773029307
+}
