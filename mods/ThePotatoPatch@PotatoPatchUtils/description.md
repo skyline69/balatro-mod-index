@@ -1,0 +1,1 @@
+A util library for mods created by the Potato Patch with the explicit intent of being used for events run by the group

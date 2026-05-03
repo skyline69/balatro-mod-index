@@ -1,0 +1,13 @@
+{
+  "title": "Potato Patch Utils",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "API"
+  ],
+  "author": "The Potato Patch Events Group",
+  "repo": "https://github.com/Balatro-Potato-Patch/Potato-Patch-Utils",
+  "downloadURL": "https://github.com/Balatro-Potato-Patch/Potato-Patch-Utils/archive/refs/tags/v1.0.10.zip",
+  "version": "v1.0.10",
+  "automatic-version-check": true
+}
