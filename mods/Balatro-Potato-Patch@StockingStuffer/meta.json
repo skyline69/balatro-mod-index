@@ -7,7 +7,8 @@
   ],
   "author": "The Potato Patch Events Group",
   "repo": "https://github.com/Balatro-Potato-Patch/Stocking-Stuffer",
-  "downloadURL": "https://github.com/Balatro-Potato-Patch/Stocking-Stuffer/archive/refs/tags/v1.0.3.zip",
-  "version": "v1.0.3",
-  "automatic-version-check": true
+  "downloadURL": "https://github.com/Balatro-Potato-Patch/Stocking-Stuffer/archive/refs/tags/v1.1.0.zip",
+  "version": "v1.1.0",
+  "automatic-version-check": true,
+  "last-updated": 1778014439
 }
