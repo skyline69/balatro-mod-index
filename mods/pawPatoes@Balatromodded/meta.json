@@ -1,0 +1,17 @@
+{
+  "title": "Balatromodded",
+  "requires-steamodded": true,
+  "requires-talisman": true,
+  "categories": [
+    "Quality of Life",
+    "Technical",
+    "API"
+  ],
+  "author": "pawPatoes",
+  "repo": "https://github.com/pawPatoes/Balatromodded",
+  "downloadURL": "https://github.com/pawPatoes/Balatromodded/releases/latest/download/Balatromodded.zip",
+  "version": "0.1",
+  "automatic-version-check": true,
+  "fixed-release-tag-updates": false,
+  "folderName": "Balatromodded"
+}
