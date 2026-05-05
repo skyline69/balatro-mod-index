@@ -9,7 +9,8 @@
   "author": "Refractz",
   "repo": "https://github.com/Refractz/Flushful/",
   "downloadURL": "https://github.com/Refractz/Flushful/releases/download/Beta/Flushful-beta.zip",
-  "version": "1.0.0",
+  "version": "20260503_223754",
   "automatic-version-check": true,
-  "fixed-release-tag-updates": true
+  "fixed-release-tag-updates": true,
+  "last-updated": 1778018056
 }
