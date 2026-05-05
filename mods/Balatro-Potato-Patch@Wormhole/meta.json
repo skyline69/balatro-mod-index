@@ -7,8 +7,8 @@
   ],
   "author": "The Potato Patch Events Group",
   "repo": "https://github.com/Balatro-Potato-Patch/Wormhole",
-  "downloadURL": "https://github.com/Balatro-Potato-Patch/Wormhole/archive/refs/tags/v1.0.3.zip",
-  "version": "v1.0.3",
+  "downloadURL": "https://github.com/Balatro-Potato-Patch/Wormhole/archive/refs/tags/v1.0.3-QuickPatch-1.zip",
+  "version": "v1.0.3-QuickPatch-1",
   "automatic-version-check": true,
-  "last-updated": 1777958266
+  "last-updated": 1778007935
 }
