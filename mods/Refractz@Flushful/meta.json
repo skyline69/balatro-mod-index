@@ -1,0 +1,15 @@
+{
+  "title": "Flushful",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content",
+    "Miscellaneous"
+  ],
+  "author": "Refractz",
+  "repo": "https://github.com/Refractz/Flushful/",
+  "downloadURL": "https://github.com/Refractz/Flushful/releases/download/Beta/Flushful-beta.zip",
+  "version": "1.0.0",
+  "automatic-version-check": true,
+  "fixed-release-tag-updates": true
+}
