@@ -1,0 +1,14 @@
+{
+  "title": "Flipbook",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "API"
+  ],
+  "author": "GhostSalt",
+  "repo": "https://github.com/GhostSalt/Flipbook",
+  "downloadURL": "https://github.com/GhostSalt/Flipbook/archive/refs/heads/main.zip",
+  "folderName": "Flipbook",
+  "version": "1.3.0~BETA",
+  "automatic-version-check": true,
+}
