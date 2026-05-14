@@ -1,4 +1,4 @@
-![Marina Logo]()
+![Marina Logo](https://github.com/user-attachments/assets/5eaf2542-b77b-433d-adc0-8b383dda9c68)
 
 ### Marine Foolin' is a vanilla-esque Ocean themed expansion for Balatro that adds 15 new Jokers with balanced and fun effects!
 
