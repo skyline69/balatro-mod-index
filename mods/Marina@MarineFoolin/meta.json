@@ -10,5 +10,6 @@
   "repo": "https://github.com/marinaposting/MarineFoolin",
   "downloadURL": "https://github.com/marinaposting/MarineFoolin/releases/latest/download/Marina@Marine-Foolin.zip",
   "automatic-version-check": true,
-  "version": "0.1.2~beta"
+  "version": "0.1.2",
+  "last-updated": 1778872662
 }
