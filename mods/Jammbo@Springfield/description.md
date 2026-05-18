@@ -1,0 +1,1 @@
+Vanilla+ Balatro content mod based on the beloved adult animated sitcom: The Simpsons! Join your favourite Springfieldians and epic Simpsons moments as Jokers, Consumeables and Enhancements. Made by the same guy that did Jambatro, and you liked that mod, right?
