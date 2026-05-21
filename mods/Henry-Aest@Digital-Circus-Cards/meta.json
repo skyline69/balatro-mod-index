@@ -1,0 +1,15 @@
+{
+  "title": "Digital Circus Cards",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content",
+    "Resource Packs"
+  ],
+  "author": "Henry Aest",
+  "repo": "https://github.com/henryArst/Digital-Circus-Balatro/",
+  "downloadURL": "https://github.com/henryArst/Digital-Circus-Balatro/releases/download/files/Digital.Cards.zip",
+  "version": "1.0.0",
+  "automatic-version-check": true,
+  "fixed-release-tag-updates": true
+}
