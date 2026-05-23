@@ -10,8 +10,9 @@
   "author": "pawPatoes",
   "repo": "https://github.com/pawPatoes/Balatromodded",
   "downloadURL": "https://github.com/pawPatoes/Balatromodded/releases/latest/download/Balatromodded.zip",
-  "version": "0.1",
+  "version": "c3eec8c",
   "automatic-version-check": true,
   "fixed-release-tag-updates": false,
-  "folderName": "Balatromodded"
+  "folderName": "Balatromodded",
+  "last-updated": 1779548012
 }
