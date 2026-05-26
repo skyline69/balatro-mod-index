@@ -9,7 +9,8 @@
   "author": "Henry Aest",
   "repo": "https://github.com/henryArst/Digital-Circus-Balatro/",
   "downloadURL": "https://github.com/henryArst/Digital-Circus-Balatro/releases/download/files/Digital.Cards.zip",
-  "version": "1.0.0",
+  "version": "20260521_153620",
   "automatic-version-check": true,
-  "fixed-release-tag-updates": true
+  "fixed-release-tag-updates": true,
+  "last-updated": 1779803291
 }
