@@ -9,8 +9,8 @@
   "author": "mine4114",
   "repo": "https://github.com/Mine4114/ELWatro",
   "downloadURL": "https://github.com/Mine4114/ELWatro/releases/latest/download/elwatro.zip",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "automatic-version-check": true,
   "fixed-release-tag-updates": false,
-  "last-updated": 1779836462
+  "last-updated": 1779849281
 }
