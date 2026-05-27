@@ -2,12 +2,14 @@
   "title": "imbored",
   "requires-steamodded": true,
   "requires-talisman": false,
-  "categories": ["Content"],
+  "categories": [
+    "Content"
+  ],
   "author": "unfancy",
   "repo": "https://github.com/unfanciousthewizard/imbored-balatro/",
   "downloadURL": "https://github.com/unfanciousthewizard/imbored-balatro/archive/refs/heads/main.zip",
   "folderName": "imbored",
-  "version": "0.2.6",
-  "automatic-version-check": true
+  "version": "a856ad9",
+  "automatic-version-check": true,
+  "last-updated": 1779912037
 }
-
