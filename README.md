@@ -7,21 +7,21 @@ Follow this guide to submit mods that pass validation quickly.
 
 ## You want to upload a new mod?
 
-Use the [BMI Submission Helper](https://bmi-helper.dasguney.com/) to easily upload new Mods to the index!
+First, check the information below for what to submit, then use the [BMI Submission Helper](https://bmi-helper.dasguney.com/) to easily upload new Mods to the index!
 After the PR has been made, Reviewers will check if the Submission is safe and ready to merge and your Mod will be on the Index in no time!
 
 ## Quick Checklist
 
 Before opening a PR, make sure all of the following are true:
 
-- Your mod folder is `mods/Author@Modname/`
+- Your mod folder name is `mods/Author@Modname/`
 - `description.md` exists
 - `meta.json` exists and is valid JSON
 - Thumbnail is optional, but if present it must be called `thumbnail.jpg` (JPEG only)
 - `downloadURL` points directly to a downloadable file/archive (not an HTML page)
 - `categories` only uses allowed values
 - `version` is present and matches the downloadable artifact
-
+(Make sure to read this entire file for help so you don't open an issue for something resolved here)
 ## Required Structure
 
 ```text
