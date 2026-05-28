@@ -88,8 +88,8 @@ Do not use repository or release HTML page URLs.
 ### Accepted examples
 
 - `https://github.com/<owner>/<repo>/releases/latest/download/mod.zip` (You must upload it using [This button)](https://github.com/user-attachments/assets/da972ca3-3dec-47f6-b786-a34f6894e687)
-- `https://github.com/<owner>/<repo>/archive/refs/heads/main.zip` (This requires the uploaded content to be the mod fodler contents!)
-- `https://github.com/<owner>/<repo>/archive/refs/heads/master.zip` (This requires the uploaded content to be the mod fodler contents!)
+- `https://github.com/<owner>/<repo>/archive/refs/heads/main.zip` (This requires the uploaded content to be the mod folder contents!)
+- `https://github.com/<owner>/<repo>/archive/refs/heads/master.zip` (This requires the uploaded content to be the mod folder contents!)
 - `https://github.com/<owner>/<repo>/releases/download/<tag>/mod.zip` (You must upload it using [This button)](https://github.com/user-attachments/assets/da972ca3-3dec-47f6-b786-a34f6894e687)
 
 ### Rejected examples
