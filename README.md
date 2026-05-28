@@ -14,7 +14,7 @@ After the PR has been made, Reviewers will check if the Submission is safe and r
 
 Before opening a PR, make sure all of the following are true:
 
-- Your mod folder name is `mods/Author@Modname/`
+- Your mod folder name is `mods/AuthorName@Modname/`
 - `description.md` exists
 - `meta.json` exists and is valid JSON
 - Thumbnail is optional, but if present it must be called `thumbnail.jpg` (JPEG only)
@@ -36,18 +36,18 @@ mods/
 ## `meta.json` Fields
 
 Example:  
-("--" means a comment, aka don't write what comes after it in the line!)  
+(Don't write whats in red!)  
 ```json
 {
   "title": "Extended Cards", -- The name of your mod that'll appear on the mod manager.
   "requires-steamodded": true, -- Does the mod require the steamodded API?
-  "requires-talisman": false, -- -- Does the mod require the talisman API? (talisman adds exponential mult and chips!)
+  "requires-talisman": false, -- Does the mod require the talisman API? (talisman adds exponential mult and chips!)
   "categories": ["Content"], -- Table of categories (example: ["Content", "Joker"] ect..)
   "author": "Joe Mama", -- The person who made the mod, will appear on the manager.
   "repo": "https://github.com/joemama/extended-cards", -- The repo where the mod is released.
   "downloadURL": "https://github.com/joemama/extended-cards/releases/latest/download/extended-cards.zip", -- Refer to "Download URL Rules"
   "folderName": "ExtendedCards", -- Optional, the name of the folder in the balatro/mods folder.
-  "version": "1.0.0", -- Version of your mod.
+  "version": "1.0.0", -- The current version of your mod.
   "automatic-version-check": true -- Whether to automatically update the version (refer to "Automatic Version Check Rules" for more info)
 }
 ```
@@ -126,7 +126,7 @@ This is required to avoid accidental update freeze behavior.
 - If included, filename must be exactly `thumbnail.jpg`.
 - JPEG content only (`image/jpeg`).
 - Recommended max dimensions: `1920x1080`.
-- If it isn't accepted, make it a jpeg using any image editing software (yes even paint can do it)
+- If it isn't accepted, make it a jpeg using any image editing software (yes, even paint can do it)
 
 ## How To Submit
 Automatic way: https://bmi-helper.dasguney.com/  
@@ -139,11 +139,12 @@ Manual:
 5. Commit and push.
 6. Open a PR to `main`.
 
-## PR Title Suggestion
+## PR Title Suggestion  
+(Ignore this if you're doing this via the website!)
 
-Use a clear title, for example:
+Use a clear title for your pull request, for example:
 
-- `Add Author@Modname mod`
+- `Add AuthorName@Modname mod`
 
 ## Validation and Review
 
