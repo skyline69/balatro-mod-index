@@ -27,7 +27,7 @@ Before opening a PR, make sure all of the following are true:
 
 ```text
 mods/
-  Author@Modname/
+  AuthorName@Modname/
     description.md       # required
     meta.json            # required
     thumbnail.jpg        # optional, JPG only
@@ -35,20 +35,20 @@ mods/
 
 ## `meta.json` Fields
 
-Example:
-
+Example:  
+("--" means a comment, aka don't write what comes after it in the line!)  
 ```json
 {
-  "title": "Extended Cards",
-  "requires-steamodded": true,
-  "requires-talisman": false,
-  "categories": ["Content"],
-  "author": "Joe Mama",
-  "repo": "https://github.com/joemama/extended-cards",
-  "downloadURL": "https://github.com/joemama/extended-cards/releases/latest/download/extended-cards.zip",
-  "folderName": "ExtendedCards",
-  "version": "1.0.0",
-  "automatic-version-check": true
+  "title": "Extended Cards", -- The name of your mod that'll appear on the mod manager.
+  "requires-steamodded": true, -- Does the mod require the steamodded API?
+  "requires-talisman": false, -- -- Does the mod require the talisman API? (talisman adds exponential mult and chips!)
+  "categories": ["Content"], -- Table of categories (example: ["Content", "Joker"] ect..)
+  "author": "Joe Mama", -- The person who made the mod, will appear on the manager.
+  "repo": "https://github.com/joemama/extended-cards", -- The repo where the mod is released.
+  "downloadURL": "https://github.com/joemama/extended-cards/releases/latest/download/extended-cards.zip", -- Refer to "Download URL Rules"
+  "folderName": "ExtendedCards", -- Optional, the name of the folder in the balatro/mods folder.
+  "version": "1.0.0", -- Version of your mod.
+  "automatic-version-check": true -- Whether to automatically update the version (refer to "Automatic Version Check Rules" for more info)
 }
 ```
 
@@ -133,7 +133,7 @@ Automatic way: https://bmi-helper.dasguney.com/
 
 Manual:
 1. Fork this repository.
-2. Add your mod folder inside the "mods" folder with the name `mods/Author@Modname/`.
+2. Add your mod folder inside the "mods" directory using the format: `AuthorName@Modname/`
 3. Add `description.md` and `meta.json`.
 4. Optionally add `thumbnail.jpg`.
 5. Commit and push.
