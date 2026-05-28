@@ -17,7 +17,7 @@ Before opening a PR, make sure all of the following are true:
 - Your mod folder is `mods/Author@Modname/`
 - `description.md` exists
 - `meta.json` exists and is valid JSON
-- Thumbnail is optional, but if present it must be `thumbnail.jpg` (JPEG only)
+- Thumbnail is optional, but if present it must be called `thumbnail.jpg` (JPEG only)
 - `downloadURL` points directly to a downloadable file/archive (not an HTML page)
 - `categories` only uses allowed values
 - `version` is present and matches the downloadable artifact
@@ -70,13 +70,14 @@ Optional fields:
 
 Allowed category values:
 
-- `Content`
-- `Joker`
-- `Quality of Life`
-- `Technical`
-- `Miscellaneous`
-- `Resource Packs`
-- `API`
+- `Content` - The mod adds content to the game.
+- `Joker` - The mod has a relation to jokers.
+- `Quality of Life` - The mod adds features to improve the balatro experience.
+- `Technical` - The mod changes the game in technical ways.
+- `Miscellaneous` - The mod doesn't fit into any of these categories.
+- `Resource Packs` - The mod changes the look of the game
+- `API` - The mod adds features to make coding another mod easier.
+- `Extension` - The mod is an extension of another mod.
 
 ## Download URL Rules (Important)
 
@@ -85,18 +86,18 @@ Do not use repository or release HTML page URLs.
 
 ### Accepted examples
 
-- `https://github.com/<owner>/<repo>/releases/latest/download/mod.zip`
-- `https://github.com/<owner>/<repo>/archive/refs/heads/main.zip`
-- `https://github.com/<owner>/<repo>/archive/refs/heads/master.zip`
-- `https://github.com/<owner>/<repo>/releases/download/v1.2.3/mod.zip`
+- `https://github.com/<owner>/<repo>/releases/latest/download/mod.zip` (You must upload it using [This button)](https://github.com/user-attachments/assets/da972ca3-3dec-47f6-b786-a34f6894e687)
+- `https://github.com/<owner>/<repo>/archive/refs/heads/main.zip` (This requires the uploaded content to be the mod fodler contents!)
+- `https://github.com/<owner>/<repo>/archive/refs/heads/master.zip` (This requires the uploaded content to be the mod fodler contents!)
+- `https://github.com/<owner>/<repo>/releases/download/<tag>/mod.zip` (You must upload it using [This button)](https://github.com/user-attachments/assets/da972ca3-3dec-47f6-b786-a34f6894e687)
 
 ### Rejected examples
 
-- `https://github.com/<owner>/<repo>`
-- `https://github.com/<owner>/<repo>/tree/main`
-- `https://github.com/<owner>/<repo>/blob/main/mod.zip`
-- `https://github.com/<owner>/<repo>/releases/latest`
-- `https://github.com/<owner>/<repo>/releases/tag/v1.2.3`
+- `https://github.com/<owner>/<repo>` - This doesn't download anything.
+- `https://github.com/<owner>/<repo>/tree/main` - This doesn't download anything.
+- `https://github.com/<owner>/<repo>/blob/main/mod.zip` - This is a blob, not accepted.
+- `https://github.com/<owner>/<repo>/releases/latest` - This doesn't download anything.
+- `https://github.com/<owner>/<repo>/releases/tag/v1.2.3` - This doesn't download anything.
 
 ## Automatic Version Check Rules
 
@@ -104,8 +105,8 @@ Do not use repository or release HTML page URLs.
 
 Enable it only if `downloadURL` points to an automatically updating source:
 
-- Latest release download URL, or
-- Branch archive URL (for example `.../archive/refs/heads/main.zip`)
+- If the link has releases/latest
+- If the link is has `archive/refs/heads/main.zip`
 
 If your `downloadURL` uses a fixed release tag asset like:
 
@@ -124,11 +125,14 @@ This is required to avoid accidental update freeze behavior.
 - If included, filename must be exactly `thumbnail.jpg`.
 - JPEG content only (`image/jpeg`).
 - Recommended max dimensions: `1920x1080`.
+- If it isn't accepted, make it a jpeg using any image editing software (yes even paint can do it)
 
 ## How To Submit
+Automatic way: https://bmi-helper.dasguney.com/  
 
+Manual:
 1. Fork this repository.
-2. Add your mod folder under `mods/Author@Modname/`.
+2. Add your mod folder inside the "mods" folder with the name `mods/Author@Modname/`.
 3. Add `description.md` and `meta.json`.
 4. Optionally add `thumbnail.jpg`.
 5. Commit and push.
