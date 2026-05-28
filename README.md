@@ -14,7 +14,7 @@ After the PR has been made, Reviewers will check if the Submission is safe and r
 
 Before opening a PR, make sure all of the following are true:
 
-- Your mod folder name is `mods/AuthorName@Modname/`
+- Your mod folder location is in the `mods` folder, and your mod folder name is `AuthorName@ModName`
 - `description.md` exists
 - `meta.json` exists and is valid JSON
 - Thumbnail is optional, but if present it must be called `thumbnail.jpg` (JPEG only)
