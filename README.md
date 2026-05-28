@@ -21,6 +21,7 @@ Before opening a PR, make sure all of the following are true:
 - `downloadURL` points directly to a downloadable file/archive (not an HTML page)
 - `categories` only uses allowed values
 - `version` is present and matches the downloadable artifact
+
 (Make sure to read this entire file for help so you don't open an issue for something resolved here)
 ## Required Structure
 
