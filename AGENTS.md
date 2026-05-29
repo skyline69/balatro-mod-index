@@ -47,6 +47,7 @@ Ensure required fields exist and types are correct:
 - `Miscellaneous`
 - `Resource Packs`
 - `API`
+- `Extension`
 
 ### 4) Folder Name Rules
 If `folderName` exists:
