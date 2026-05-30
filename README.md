@@ -76,7 +76,7 @@ Allowed category values:
 - `Quality of Life` - The mod adds features to improve the balatro experience.
 - `Technical` - The mod changes the game in technical ways.
 - `Miscellaneous` - The mod doesn't fit into any of these categories.
-- `Resource Packs` - The mod changes the look of the game
+- `Resource Packs` - The mod changes the look of the game.
 - `API` - The mod adds features to make coding another mod easier.
 - `Extension` - The mod is an extension of another mod.
 
