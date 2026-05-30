@@ -106,8 +106,8 @@ Do not use repository or release HTML page URLs.
 
 Enable it only if `downloadURL` points to an automatically updating source:
 
-- If the link has releases/latest
-- If the link has `archive/refs/heads/main.zip`
+- If the link has `releases/latest`
+- If the link has `archive/refs/heads/main.zip` or `archive/refs/heads/master.zip`
 
 If your `downloadURL` uses a fixed release tag asset like:
 
