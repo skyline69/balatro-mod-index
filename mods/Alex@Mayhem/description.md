@@ -2,6 +2,8 @@
 # Mayhem
 Chaotic (and stupid) Balatro content mod that focuses on continuous fusions between Jokers. 
 
+Uploaded by pawPatoes, original by [Alex](https://codeberg.org/Alex343xd), Codeberg repo can be found [here](https://codeberg.org/BalatroMayhem/Mayhem/)
+
 Mayhem is very WIP and very buggy. Expect issues. 
 
 Don't play this if you're a vanilla stooge. Ever.
