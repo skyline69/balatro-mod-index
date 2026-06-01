@@ -8,9 +8,9 @@
   ],
   "author": "Balatro University Community",
   "repo": "https://github.com/PLagger7/House-of-Hearts",
-  "downloadURL": "https://github.com/PLagger7/House-of-Hearts/archive/refs/tags/1.0.zip",
+  "downloadURL": "https://github.com/PLagger7/House-of-Hearts/archive/refs/tags/1.1.zip",
   "folderName": "House-of-Hearts",
-  "version": "1.0",
-  "automatic-version-check": true
+  "version": "1.1",
+  "automatic-version-check": true,
+  "last-updated": 1780346972
 }
-
