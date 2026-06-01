@@ -1,0 +1,16 @@
+{
+  "title": "jjk_cusres deck",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content",
+    "Joker"
+  ],
+  "author": "myself",
+  "repo": "https://github.com/yvarrsrwra/jjk-cursed-deck",
+  "downloadURL": "https://github.com/yvarrsrwra/jjk-cursed-deck/archive/refs/heads/main.zip",
+  "version": "1.0.0",
+  "automatic-version-check": true,
+  "fixed-release-tag-updates": false,
+  "folderName": "jjk-cursed-deck"
+}
