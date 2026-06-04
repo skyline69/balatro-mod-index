@@ -1,0 +1,16 @@
+{
+  "title": "House of Hearts",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content",
+    "Joker"
+  ],
+  "author": "Balatro University Community",
+  "repo": "https://github.com/PLagger7/House-of-Hearts",
+  "downloadURL": "https://github.com/PLagger7/House-of-Hearts/archive/refs/tags/1.7.zip",
+  "folderName": "House-of-Hearts",
+  "version": "1.7",
+  "automatic-version-check": true,
+  "last-updated": 1780591513
+}
