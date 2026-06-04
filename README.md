@@ -5,28 +5,29 @@
 This repository indexes Balatro mods for use in Balatro Mod Manager.
 Follow this guide to submit mods that pass validation quickly.
 
-## You want to upload a new mod?
+## Want to upload a new mod?
 
-Use the [BMI Submission Helper](https://bmi-helper.dasguney.com/) to easily upload new Mods to the index!
+First, check the information below for what to submit, then use the [BMI Submission Helper](https://bmi-helper.dasguney.com/) to easily upload new Mods to the index!
 After the PR has been made, Reviewers will check if the Submission is safe and ready to merge and your Mod will be on the Index in no time!
 
 ## Quick Checklist
 
 Before opening a PR, make sure all of the following are true:
 
-- Your mod folder is `mods/Author@Modname/`
+- Your mod folder location is in the `mods` folder, and your mod folder name is `AuthorName@ModName`
 - `description.md` exists
 - `meta.json` exists and is valid JSON
-- Thumbnail is optional, but if present it must be `thumbnail.jpg` (JPEG only)
+- Thumbnail is optional, but if present it must be called `thumbnail.jpg` (JPEG only)
 - `downloadURL` points directly to a downloadable file/archive (not an HTML page)
 - `categories` only uses allowed values
 - `version` is present and matches the downloadable artifact
 
+(Make sure to read this entire file for help so you don't open an issue for something resolved here)
 ## Required Structure
 
 ```text
 mods/
-  Author@Modname/
+  AuthorName@Modname/
     description.md       # required
     meta.json            # required
     thumbnail.jpg        # optional, JPG only
@@ -34,20 +35,20 @@ mods/
 
 ## `meta.json` Fields
 
-Example:
-
+Example:  
+(Don't write whats in red!)  
 ```json
 {
-  "title": "Extended Cards",
-  "requires-steamodded": true,
-  "requires-talisman": false,
-  "categories": ["Content"],
-  "author": "Joe Mama",
-  "repo": "https://github.com/joemama/extended-cards",
-  "downloadURL": "https://github.com/joemama/extended-cards/releases/latest/download/extended-cards.zip",
-  "folderName": "ExtendedCards",
-  "version": "1.0.0",
-  "automatic-version-check": true
+  "title": "Extended Cards", -- The name of your mod that'll appear on the mod manager.
+  "requires-steamodded": true, -- Does the mod require the steamodded API?
+  "requires-talisman": false, -- Does the mod require the talisman API? (talisman adds exponential mult and chips!)
+  "categories": ["Content"], -- Table of categories (example: ["Content", "Joker"] ect..)
+  "author": "Joe Mama", -- The person who made the mod, will appear on the manager.
+  "repo": "https://github.com/joemama/extended-cards", -- The repo where the mod is released.
+  "downloadURL": "https://github.com/joemama/extended-cards/releases/latest/download/extended-cards.zip", -- Refer to "Download URL Rules"
+  "folderName": "ExtendedCards", -- Optional, the name of the folder in the balatro/mods folder.
+  "version": "1.0.0", -- The current version of your mod.
+  "automatic-version-check": true -- Whether to automatically update the version (refer to "Automatic Version Check Rules" for more info)
 }
 ```
 
@@ -70,13 +71,14 @@ Optional fields:
 
 Allowed category values:
 
-- `Content`
-- `Joker`
-- `Quality of Life`
-- `Technical`
-- `Miscellaneous`
-- `Resource Packs`
-- `API`
+- `Content` - The mod adds content to the game.
+- `Joker` - The mod has a relation to jokers.
+- `Quality of Life` - The mod adds features to improve the balatro experience.
+- `Technical` - The mod changes the game in technical ways.
+- `Miscellaneous` - The mod doesn't fit into any of these categories.
+- `Resource Packs` - The mod changes the look of the game.
+- `API` - The mod adds features to make coding another mod easier.
+- `Extension` - The mod is an extension of another mod.
 
 ## Download URL Rules (Important)
 
@@ -85,18 +87,18 @@ Do not use repository or release HTML page URLs.
 
 ### Accepted examples
 
-- `https://github.com/<owner>/<repo>/releases/latest/download/mod.zip`
-- `https://github.com/<owner>/<repo>/archive/refs/heads/main.zip`
-- `https://github.com/<owner>/<repo>/archive/refs/heads/master.zip`
-- `https://github.com/<owner>/<repo>/releases/download/v1.2.3/mod.zip`
+- `https://github.com/<owner>/<repo>/releases/latest/download/mod.zip` (You must upload it using [This button)](https://github.com/user-attachments/assets/da972ca3-3dec-47f6-b786-a34f6894e687)
+- `https://github.com/<owner>/<repo>/archive/refs/heads/main.zip` (This mimics pressing the green "code" button then clicking "download zip"!)
+- `https://github.com/<owner>/<repo>/archive/refs/heads/master.zip` (This mimics pressing the green "code" button then clicking "download zip"!)
+- `https://github.com/<owner>/<repo>/releases/download/<tag>/mod.zip` (You must upload it using [This button)](https://github.com/user-attachments/assets/da972ca3-3dec-47f6-b786-a34f6894e687)
 
 ### Rejected examples
 
-- `https://github.com/<owner>/<repo>`
-- `https://github.com/<owner>/<repo>/tree/main`
-- `https://github.com/<owner>/<repo>/blob/main/mod.zip`
-- `https://github.com/<owner>/<repo>/releases/latest`
-- `https://github.com/<owner>/<repo>/releases/tag/v1.2.3`
+- `https://github.com/<owner>/<repo>` - This doesn't download anything.
+- `https://github.com/<owner>/<repo>/tree/main` - This doesn't download anything.
+- `https://github.com/<owner>/<repo>/blob/main/mod.zip` - This is a blob, not accepted.
+- `https://github.com/<owner>/<repo>/releases/latest` - This doesn't download anything.
+- `https://github.com/<owner>/<repo>/releases/tag/v1.2.3` - This doesn't download anything.
 
 ## Automatic Version Check Rules
 
@@ -104,8 +106,8 @@ Do not use repository or release HTML page URLs.
 
 Enable it only if `downloadURL` points to an automatically updating source:
 
-- Latest release download URL, or
-- Branch archive URL (for example `.../archive/refs/heads/main.zip`)
+- If the link has `releases/latest`
+- If the link has `archive/refs/heads/main.zip` or `archive/refs/heads/master.zip`
 
 If your `downloadURL` uses a fixed release tag asset like:
 
@@ -124,21 +126,25 @@ This is required to avoid accidental update freeze behavior.
 - If included, filename must be exactly `thumbnail.jpg`.
 - JPEG content only (`image/jpeg`).
 - Recommended max dimensions: `1920x1080`.
+- If it isn't accepted, make it a jpeg using any image editing software (yes, even paint can do it)
 
 ## How To Submit
+Automatic way: https://bmi-helper.dasguney.com/  
 
+Manual:
 1. Fork this repository.
-2. Add your mod folder under `mods/Author@Modname/`.
+2. Add your mod folder inside the "mods" directory using the format: `AuthorName@Modname/`
 3. Add `description.md` and `meta.json`.
 4. Optionally add `thumbnail.jpg`.
 5. Commit and push.
 6. Open a PR to `main`.
 
-## PR Title Suggestion
+## PR Title Suggestion  
+(Ignore this if you're doing this via the website!)
 
-Use a clear title, for example:
+Use a clear title for your pull request, for example:
 
-- `Add Author@Modname mod`
+- `Add AuthorName@Modname mod`
 
 ## Validation and Review
 
