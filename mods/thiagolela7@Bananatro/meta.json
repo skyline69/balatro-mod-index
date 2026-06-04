@@ -5,13 +5,12 @@
   "categories": [
     "Content",
     "Joker",
-    "Miscellaneous"
+    "Quality of Life"
   ],
   "author": "thiagolela7",
   "repo": "https://github.com/trigalela777-beep/Bananatro",
-  "downloadURL": "https://github.com/trigalela777-beep/Bananatro/releases/latest/download/Bananatro.zip",
-  "version": "v,1,2,0",
+  "downloadURL": "https://github.com/trigalela777-beep/Bananatro/releases/download/1.2.1/Bananatro.rar",
+  "version": "1.2.1",
   "automatic-version-check": true,
-  "fixed-release-tag-updates": true,
-  "last-updated": 1780614074
+  "fixed-release-tag-updates": true
 }
