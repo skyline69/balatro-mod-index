@@ -1,9 +1,5 @@
 # Fazbear's Video Poker Simulator
 
-<div style="text-align: center;">
-    <img width="100%" src="/assets/2x/Logo.png">
-</div>
-
 **THIS MOD IS CURRENTLY IN DEVELOPMENT**
 
 >***Phew... What a shift!***
@@ -15,10 +11,6 @@
 ><sup><sup>*Employees are only allowed to engage in any of the activites present in the breakroom during their 15-minute break. Afterward, they are demanded to leave the breakroom and return to their shift. Not following this rule will result from a warning by management, resulting in punishment such as: revoked break privileges, docked salary, disciplinary actions, unpaid overtime or being fired.*</sup></sup>
 
 **Fazbear's Video Poker Simulator** is a Balatro mod that aims to add Five Nights at Freddy's™ themed content to balatro, such as new Jokers, Enhancements, Seals and Consumables
-
-<div style="text-align: center;">
-    <img width="100%" src="assets/Additions.png">
-</div>
 
 Currently, this mod adds:
 - 40 Jokers
