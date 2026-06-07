@@ -1,0 +1,3 @@
+Uninstall Balatro now....
+This mod adds a lot of stupid things to Balatro.
+Have fun!
