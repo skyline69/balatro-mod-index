@@ -9,9 +9,8 @@
   ],
   "author": "thiagolela7",
   "repo": "https://github.com/trigalela777-beep/Bananatro",
-  "downloadURL": "https://github.com/trigalela777-beep/Bananatro/releases/download/1.2.1/Bananatro.zip",
-  "version": "20260604_234128",
+  "downloadURL": "https://github.com/trigalela777-beep/Bananatro/releases/download/1.3.0/Bananatro.zip",
+  "version": "1.3.0",
   "automatic-version-check": true,
-  "fixed-release-tag-updates": true,
-  "last-updated": 1780626822
+  "fixed-release-tag-updates": true
 }
