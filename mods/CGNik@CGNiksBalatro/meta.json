@@ -2,11 +2,16 @@
   "title": "CGNik's Balatro",
   "requires-steamodded": true,
   "requires-talisman": false,
-  "categories": ["Content","Joker","Miscellaneous"],
+  "categories": [
+    "Content",
+    "Joker",
+    "Miscellaneous"
+  ],
   "author": "CGNik",
   "repo": "https://github.com/CG-Nik/CGNiksBalatro",
   "downloadURL": "https://github.com/CG-Nik/CGNiksBalatro/archive/refs/heads/main.zip",
   "folderName": "CGNiksBalatro",
-  "version": "1.0.0",
-  "automatic-version-check": true
+  "version": "0a10e9e",
+  "automatic-version-check": true,
+  "last-updated": 1781074765
 }
