@@ -1,0 +1,12 @@
+{
+  "title": "CGNik's Balatro",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": ["Content","Joker","Misc"],
+  "author": "CGNik",
+  "repo": "https://github.com/CG-Nik/CGNiksBalatro",
+  "downloadURL": "DOWNLOAD",
+  "folderName": "CGNiksBalatro",
+  "version": "1.0.0",
+  "automatic-version-check": true
+}
