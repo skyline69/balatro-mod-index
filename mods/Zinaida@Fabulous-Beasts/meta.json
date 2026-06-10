@@ -9,8 +9,9 @@
   ],
   "author": "Zinaida",
   "repo": "https://github.com/yinzhi24/FabulousBeasts",
-  "downloadURL": "https://github.com/yinzhi24/FabulousBeasts/releases/download/v0.3.0-alpha/FabulousBeasts.zip",
-  "version": "0.3.0-alpha",
+  "downloadURL": "https://github.com/yinzhi24/FabulousBeasts/releases/download/v0.3.0-alpha/FabulousBeasts.tar",
+  "version": "20260610_000824",
   "automatic-version-check": true,
-  "fixed-release-tag-updates": true
+  "fixed-release-tag-updates": true,
+  "last-updated": 1781058833
 }
