@@ -2,10 +2,14 @@
   "title": "Manifold",
   "requires-steamodded": true,
   "requires-talisman": false,
-  "categories": ["Content", "Joker"],
+  "categories": [
+    "Content",
+    "Joker"
+  ],
   "author": "ouiiskey",
   "repo": "https://github.com/ouiiskey/Manifold",
   "downloadURL": "https://github.com/ouiiskey/Manifold/releases/latest/download/Manifold.zip",
-  "version": "1.1.1",
-  "automatic-version-check": true
+  "version": "v1.1.1",
+  "automatic-version-check": true,
+  "last-updated": 1781155301
 }
