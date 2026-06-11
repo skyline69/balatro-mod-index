@@ -8,7 +8,8 @@
   "author": "Joshi",
   "repo": "https://github.com/joshi-13/Joshi-sDecks",
   "downloadURL": "https://github.com/joshi-13/Joshi-sDecks/archive/refs/heads/main.zip",
-  "version": "0.1.1",
+  "version": "b2ff894",
   "automatic-version-check": true,
-  "fixed-release-tag-updates": false
+  "fixed-release-tag-updates": false,
+  "last-updated": 1781212351
 }
