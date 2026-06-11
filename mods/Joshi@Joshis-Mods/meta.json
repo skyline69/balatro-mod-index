@@ -1,0 +1,14 @@
+{
+  "title": "Joshi's Mods",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content"
+  ],
+  "author": "Joshi",
+  "repo": "https://github.com/joshi-13/Joshi-sDecks",
+  "downloadURL": "https://github.com/joshi-13/Joshi-sDecks/archive/refs/heads/main.zip",
+  "version": "0.1.1",
+  "automatic-version-check": true,
+  "fixed-release-tag-updates": false
+}
