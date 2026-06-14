@@ -7,9 +7,9 @@
   ],
   "author": "Pyromantis",
   "repo": "https://github.com/Pyromantis/OneShot-X-Balatro",
-  "downloadURL": "https://github.com/Pyromantis/OneShot-X-Balatro/releases/download/1.0.0/OneShot.7z",
+  "downloadURL": "https://github.com/Pyromantis/OneShot-X-Balatro/releases/latest/download/oneshot.7z",
   "version": "1.0.0",
-  "automatic-version-check": false,
-  "fixed-release-tag-updates": false,
+  "automatic-version-check": true,
+  "fixed-release-tag-updates": true,
   "folderName": "OneShotDeckSkins"
 }
