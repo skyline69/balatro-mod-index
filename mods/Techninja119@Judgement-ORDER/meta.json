@@ -1,0 +1,14 @@
+{
+  "title": "Judgement ORDER",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Miscellaneous"
+  ],
+  "author": "Techninja119",
+  "repo": "https://github.com/techninja119/Judgesments-order",
+  "downloadURL": "https://github.com/techninja119/Judgesments-order/archive/refs/heads/main.zip",
+  "version": "1",
+  "automatic-version-check": true,
+  "fixed-release-tag-updates": false
+}
