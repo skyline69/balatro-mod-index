@@ -8,9 +8,9 @@
   ],
   "author": "CyberGaster",
   "repo": "https://github.com/CyberGaster/VanillaRedux",
-  "downloadURL": "https://github.com/CyberGaster/VanillaRedux/releases/download/v1.0.0/VanillaRedux.zip",
-  "version": "20260505_125902",
+  "downloadURL": "https://github.com/CyberGaster/VanillaRedux/releases/download/v1.0.1/VanillaRedux.zip",
+  "version": "20260522_144520",
   "automatic-version-check": true,
   "fixed-release-tag-updates": true,
-  "last-updated": 1778001262
+  "last-updated": 1779912037
 }
