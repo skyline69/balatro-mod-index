@@ -9,7 +9,8 @@
   "author": "Joshi",
   "repo": "https://github.com/joshi-13/NoMoreShoppingSimulator",
   "downloadURL": "https://github.com/joshi-13/NoMoreShoppingSimulator/archive/refs/heads/main.zip",
-  "version": "1.0.0",
+  "version": "88539ea",
   "automatic-version-check": true,
-  "fixed-release-tag-updates": false
+  "fixed-release-tag-updates": false,
+  "last-updated": 1781426184
 }
