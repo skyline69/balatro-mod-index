@@ -1,0 +1,15 @@
+{
+  "title": "OneShot deck skins",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Resource Packs"
+  ],
+  "author": "Pyromantis",
+  "repo": "https://github.com/Pyromantis/OneShot-X-Balatro",
+  "downloadURL": "https://github.com/Pyromantis/OneShot-X-Balatro/releases/download/Release/OneShot.7z",
+  "version": "1.0.0",
+  "automatic-version-check": false,
+  "fixed-release-tag-updates": false,
+  "folderName": "OneShotDeckSkins"
+}
