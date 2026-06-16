@@ -1,0 +1,16 @@
+{
+  "title": "Ena Deck",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Resource Packs"
+  ],
+  "author": "PixelLello",
+  "repo": "https://github.com/PixelLello/Ena-Deck/blob/4d5733135bfbd7de17d35afd50e51685d98012e0/EnaDeck.zip",
+  "downloadURL": "https://github.com/PixelLello/Ena-Deck/archive/refs/heads/main.zip",
+  "version": "b4e9380",
+  "automatic-version-check": true,
+  "fixed-release-tag-updates": false,
+  "folderName": "EnaDeck",
+  "last-updated": 1781556342
+}
