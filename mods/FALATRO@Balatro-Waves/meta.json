@@ -8,7 +8,8 @@
   "author": "FALATRO",
   "repo": "https://github.com/FALATRO/Balatro-Waves",
   "downloadURL": "https://github.com/FALATRO/Balatro-Waves/archive/refs/heads/main.zip",
-  "version": "V1,2,0",
+  "version": "e536473",
   "automatic-version-check": true,
-  "fixed-release-tag-updates": false
+  "fixed-release-tag-updates": false,
+  "last-updated": 1781777146
 }
