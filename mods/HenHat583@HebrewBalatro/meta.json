@@ -8,5 +8,5 @@
   "repo": "https://github.com/HenHat583/HebrewBalatro",
   "downloadURL": "https://github.com/HenHat583/HebrewBalatro/releases/latest/download/HebrewBalatro-1.0.1.zip",
   "automatic-version-check": true,
-  "fixed-release-tag-updates": true
+  "fixed-release-tag-updates": false
 }
