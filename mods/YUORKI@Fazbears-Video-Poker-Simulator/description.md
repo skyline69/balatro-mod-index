@@ -1,9 +1,5 @@
 # Fazbear's Video Poker Simulator
 
-<div style="text-align: center;">
-    <img width="100%" src="https://github.com/YUORKI/Fazbears-Video-Poker-Simulator/blob/main/assets/2x/Logo.png">
-</div>
-
 **THIS MOD IS CURRENTLY IN DEVELOPMENT**
 
 >***Phew... What a shift!***
@@ -16,38 +12,23 @@
 
 **Fazbear's Video Poker Simulator** is a Balatro mod that aims to add Five Nights at Freddy's™ themed content to balatro, such as new Jokers, Enhancements, Seals and Consumables
 
-<div style="text-align: center;">
-    <img width="100%" src="https://github.com/YUORKI/Fazbears-Video-Poker-Simulator/blob/main/assets/Sem%20t%C3%ADtulo.png">
-</div>
-
 Currently, this mod adds:
-- 30 Jokers
-- 2 Vouchers
+- 40 Jokers
+- 4 Vouchers
 - 2 Tarot Cards
 - 2 Spectral Cards
 - 3 Enhanced Cards
-- 2 Seals
+- 3 Seals
 - 1 Consumable types (containing their own booster pack):
-  - 6 Item cards : used for utility during rounds
+  - 10 Item cards : used for utility during rounds
  
-### Planned content
-- Finished Sprite work
-- More Jokers
-- Themed Boss Blinds
-- More Consumable
-  - Remnant cards (similar to [Stands](https://balatromods.miraheze.org/wiki/Cardsauce/Stands) on [Cardsauce](https://github.com/BarrierTrio/Cardsauce)) 
-  - Have Items Cards that interact with Jokers (similar to [Pokermon](https://github.com/InertSteak/Pokermon))
-- Challenges
-- Achievements
-- Config page
-
-More info at this [Roadmap](https://github.com/YUORKI/Fazbears-Video-Poker-Simulator/discussions/2#discussion-9090732)
+Check the Roadmap for info at upcoming content this [Roadmap](https://github.com/YUORKI/Fazbears-Video-Poker-Simulator/discussions/2#discussion-9090732)
 
 ## Installation
 
 This mod requires both [Lovely](https://github.com/ethangreen-dev/lovely-injector) and [Steammodded](https://github.com/Steamopollys/Steamodded) **(Version 1.0.0-beta-0827c or later)** to be installed in your copy of Balatro.
 
-Afterwards, simply drag the files from the latest release and put it in your Mods folder (`%APPDATA%\Balatro\Mods`), and go to the `imported` and add your data from your fnaf games on (`%APPDATA%\Roaming\MMFApplications`) (there will be a read me file explaining how to import it)
+Afterwards, simply drag the files from the latest release and put it in your Mods folder (`%AppData%\Balatro\Mods`), and go to the `imported` and add your data from your fnaf games on (`%AppData%\MMFApplications`) (there will be a read me file explaining how to import it)
 
 ***IMPORTANT NOTE:*** **THIS MOD IS CURRENTLY IN DEVELOPMENT meaning it has bugs and content that is being worked on**
 
@@ -64,4 +45,3 @@ Freddy Icon used on the mod was originaly created by [KniteBlargh](https://gamej
 The team behind [VanillaRemade](https://github.com/nh6574/VanillaRemade), specially nh6574 or [N'](https://nh6574.carrd.co). (If it weren't for them, I wouldn't have a code to ~~steal~~ use as a point of reference to know how to mod)
 
 Based on the video game series ***Five Nights at Freddy's*** by ***Scott Cawthon***
-

@@ -1,0 +1,15 @@
+{
+  "title": "Hanged Man",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content"
+  ],
+  "author": "Kusane Hexaku",
+  "repo": "https://github.com/KusaneHexaku/Hanged-Man",
+  "downloadURL": "https://github.com/KusaneHexaku/Hanged-Man/archive/refs/heads/main.zip",
+  "version": "afabe86",
+  "automatic-version-check": true,
+  "fixed-release-tag-updates": false,
+  "last-updated": 1781718299
+}

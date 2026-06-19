@@ -7,7 +7,8 @@
   ],
   "author": "The Potato Patch Events Group",
   "repo": "https://github.com/Balatro-Potato-Patch/Potato-Patch-Utils",
-  "downloadURL": "https://github.com/Balatro-Potato-Patch/Potato-Patch-Utils/archive/refs/tags/v1.0.10.zip",
-  "version": "v1.0.10",
-  "automatic-version-check": true
+  "downloadURL": "https://github.com/Balatro-Potato-Patch/Potato-Patch-Utils/archive/refs/tags/v1.0.11b.zip",
+  "version": "v1.0.11b",
+  "automatic-version-check": true,
+  "last-updated": 1781333381
 }

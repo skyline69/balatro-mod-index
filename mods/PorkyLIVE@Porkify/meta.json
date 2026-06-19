@@ -1,0 +1,16 @@
+{
+  "title": "Porkify",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content",
+    "Joker"
+  ],
+  "author": "PorkyLIVE",
+  "repo": "https://github.com/PorkifyNET/porkify",
+  "downloadURL": "https://github.com/PorkifyNET/porkify/archive/refs/heads/main.zip",
+  "version": "a1e6d1f",
+  "automatic-version-check": true,
+  "fixed-release-tag-updates": false,
+  "last-updated": 1781760502
+}

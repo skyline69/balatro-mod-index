@@ -1,1 +1,1 @@
-A dumb joke mod based around a single adorable dog breed, Chihuahuas. Its best with mods that allow you to go over Naneinf but not required.
+The most janky, dumb, broken, silly mod for Balatro... that centers around the OFFICIALLY recognized smallest dog breed, the cheewahwah. Yes Chihuahuas are the smallest dogs, the teacup poodle is a dog thats bred to have physical impairments, dont buy those. ANyways!

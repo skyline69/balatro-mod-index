@@ -8,7 +8,10 @@ Anyway this mod adds:
 * A bunch of nonsensical consumables
 * A bunch of nonsensical- You know what?             
 This mod was created for the purpose of being FUNNY!!!!!!!1111111111
-              
+# Cool forms or smth
+* Report bugs [here](https://forms.gle/nCVhj3w43pG9QcTV9)
+* Suggest a joker [here](https://forms.gle/RUvUkQtA3vt3kCpT6)
+#  
 # Things stol- I mean borrowed from other things
 * [**Cryptid**](https://github.com/SpectralPack/Cryptid): `cry.manipulate` and exotic joker sprites
 * [**Dj Soup And Salad**](https://twitch.tv/djsoupandsalad): His face (with permission)
