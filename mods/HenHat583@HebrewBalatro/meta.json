@@ -1,0 +1,12 @@
+{
+  "title": "Hebrew Translation / תרגום עברי",
+  "author": "HenHat583",
+  "version": "1.0.9",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": ["Technical", "Quality of Life"],
+  "repo": "https://github.com/HenHat583/HebrewBalatro",
+  "downloadURL": "https://github.com/HenHat583/HebrewBalatro/releases/latest/download/HebrewBalatro-1.0.9.zip",
+  "automatic-version-check": true,
+  "fixed-release-tag-updates": false
+}
