@@ -1,0 +1,15 @@
+{
+  "title": "Rebalatro",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content",
+    "Joker"
+  ],
+  "author": "LilacLilo",
+  "repo": "https://github.com/lilaclila/Rebalatro/tree/main",
+  "downloadURL": "https://github.com/lilaclila/Rebalatro/archive/refs/heads/main.zip",
+  "version": "1.0.0",
+  "automatic-version-check": true,
+  "fixed-release-tag-updates": false
+}
