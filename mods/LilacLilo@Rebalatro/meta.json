@@ -9,7 +9,8 @@
   "author": "LilacLilo",
   "repo": "https://github.com/lilaclila/Rebalatro/tree/main",
   "downloadURL": "https://github.com/lilaclila/Rebalatro/archive/refs/heads/main.zip",
-  "version": "1.0.0",
+  "version": "2788be8",
   "automatic-version-check": true,
-  "fixed-release-tag-updates": false
+  "fixed-release-tag-updates": false,
+  "last-updated": 1782075889
 }
