@@ -1,7 +1,7 @@
 {
   "title": "Hebrew Translation / תרגום עברי",
   "author": "HenHat583",
-  "version": "v1.0.10",
+  "version": "v1.0.12",
   "requires-steamodded": true,
   "requires-talisman": false,
   "categories": [
@@ -12,5 +12,5 @@
   "downloadURL": "https://github.com/HenHat583/HebrewBalatro/releases/latest/download/HebrewBalatro-1.0.9.zip",
   "automatic-version-check": true,
   "fixed-release-tag-updates": false,
-  "last-updated": 1782062350
+  "last-updated": 1782069349
 }
