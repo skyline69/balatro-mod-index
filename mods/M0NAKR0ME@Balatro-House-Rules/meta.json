@@ -1,0 +1,17 @@
+{
+  "title": "Balatro: House Rules",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content",
+    "Joker",
+    "Miscellaneous"
+  ],
+  "author": "M0NAKR0ME",
+  "repo": "https://github.com/MrThumble/Balatro-House-Rules",
+  "downloadURL": "https://github.com/MrThumble/Balatro-House-Rules/releases/download/main-mod/houserules.7z",
+  "version": "2.0.0",
+  "automatic-version-check": true,
+  "fixed-release-tag-updates": true,
+  "folderName": "House Rules"
+}
