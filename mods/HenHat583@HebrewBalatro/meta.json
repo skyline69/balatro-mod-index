@@ -1,7 +1,7 @@
 {
   "title": "Hebrew Translation / תרגום עברי",
   "author": "HenHat583",
-  "version": "v1.0.13",
+  "version": "20260621_190453",
   "requires-steamodded": true,
   "requires-talisman": false,
   "categories": [
@@ -13,5 +13,5 @@
   "folderName": "HebrewBalatro",
   "automatic-version-check": true,
   "fixed-release-tag-updates": true,
-  "last-updated": 1782069349
+  "last-updated": 1782075889
 }

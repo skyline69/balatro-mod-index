@@ -10,33 +10,13 @@ Follow this guide to submit mods that pass validation quickly.
 First, check the information below for what to submit, then use the [BMI Submission Helper](https://bmi-helper.dasguney.com/) to easily upload new Mods to the index!
 After the PR has been made, Reviewers will check if the Submission is safe and ready to merge and your Mod will be on the Index in no time!
 
-## Quick Checklist
+**(Make sure to read this entire file for help so you don't open an issue for something resolved here)**
 
-Before opening a PR, make sure all of the following are true:
-
-- Your mod folder location is in the `mods` folder, and your mod folder name is `AuthorName@ModName`
-- `description.md` exists
-- `meta.json` exists and is valid JSON
-- Thumbnail is optional, but if present it must be called `thumbnail.jpg` (JPEG only)
-- `downloadURL` points directly to a downloadable file/archive (not an HTML page)
-- `categories` only uses allowed values
-- `version` is present and matches the downloadable artifact
-
-(Make sure to read this entire file for help so you don't open an issue for something resolved here)
-## Required Structure
-
-```text
-mods/
-  AuthorName@Modname/
-    description.md       # required
-    meta.json            # required
-    thumbnail.jpg        # optional, JPG only
-```
 
 ## `meta.json` Fields
 
 Example:  
-(Don't write whats in red!)  
+(Don't write whats in red! Even though this is a manual step the fields here are basically the same if you're doing this via the website.)
 ```json
 {
   "title": "Extended Cards", -- The name of your mod that'll appear on the mod manager.
@@ -51,7 +31,6 @@ Example:
   "automatic-version-check": true -- Whether to automatically update the version (refer to "Automatic Version Check Rules" for more info)
 }
 ```
-
 Required fields:
 
 - `title` (string)
@@ -120,13 +99,19 @@ then you must set:
 
 This is required to avoid accidental update freeze behavior.
 
+## Description Suggestions
+- Make sure to include a summary of your mod with proper formatting, markdown is supported.
+- Please, do not just write "My cool balatro mod that adds 10 jokers".
+- Examples: [1](https://github.com/skyline69/balatro-mod-index/blob/main/mods/ABGamma%40Brainstorm-Rerolled/description.md), [2](https://github.com/skyline69/balatro-mod-index/blob/main/mods/Alex%40Mayhem/description.md), if your mod doesn't need much explaining you can also try something like [this](https://github.com/skyline69/balatro-mod-index/blob/main/mods/Virtualized%40Multiplayer/description.md), if your mod doesn't add many jokers you can also explain them all like [this](https://github.com/skyline69/balatro-mod-index/blob/main/mods/pawPatoes%40roze/description.md)
+
+
 ## Thumbnail Rules
 
 - Thumbnail is optional.
 - If included, filename must be exactly `thumbnail.jpg`.
 - JPEG content only (`image/jpeg`).
 - Recommended max dimensions: `1920x1080`.
-- If it isn't accepted, make it a jpeg using any image editing software (yes, even paint can do it)
+- If it isn't accepted, make it a jpeg using any image editing software. (yes, even paint can do it)
 
 ## How To Submit
 Automatic way: https://bmi-helper.dasguney.com/  
@@ -137,7 +122,30 @@ Manual:
 3. Add `description.md` and `meta.json`.
 4. Optionally add `thumbnail.jpg`.
 5. Commit and push.
-6. Open a PR to `main`.
+6. Open a PR to `main` after reading and verifying the quick checklist.
+
+## Quick Checklist
+
+Before opening a PR, make sure all of the following are true:
+
+- Your mod folder location is in the `mods` folder, and your mod folder name is `AuthorName@ModName`
+- `description.md` exists
+- `meta.json` exists and is valid JSON
+- Thumbnail is optional, but if present it must be called `thumbnail.jpg` (JPEG only)
+- `downloadURL` points directly to a downloadable file/archive (not an HTML page)
+- `categories` only uses allowed values
+- `version` is present and matches the downloadable artifact
+
+## Required Structure
+
+```text
+mods/
+  AuthorName@Modname/
+    description.md       # required
+    meta.json            # required
+    thumbnail.jpg        # optional, JPG only
+```
+
 
 ## PR Title Suggestion  
 (Ignore this if you're doing this via the website!)
