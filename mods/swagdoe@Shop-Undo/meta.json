@@ -9,7 +9,8 @@
   "author": "swagdoe",
   "repo": "https://github.com/poqoida/balatro-shop-undo",
   "downloadURL": "https://github.com/poqoida/balatro-shop-undo/releases/download/1.0.0/balatro-shop-undo.zip",
-  "version": "1.0.0",
+  "version": "20260625_054735",
   "automatic-version-check": true,
-  "fixed-release-tag-updates": true
+  "fixed-release-tag-updates": true,
+  "last-updated": 1782428897
 }
