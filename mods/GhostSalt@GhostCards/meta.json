@@ -10,5 +10,5 @@
   "downloadURL": "https://github.com/GhostSalt/GhostCards/archive/refs/heads/master.zip",
   "folderName": "Ghost Cards",
   "version": "1.5.0",
-  "automatic-version-check": true,
+  "automatic-version-check": true
 }
