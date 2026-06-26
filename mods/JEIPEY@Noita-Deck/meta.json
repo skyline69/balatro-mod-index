@@ -1,0 +1,16 @@
+{
+  "title": "Noita Deck",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Resource Packs"
+  ],
+  "author": "JEIPEY",
+  "repo": "https://github.com/JEIPEY/Noita-Deck-Balatro-mod-",
+  "downloadURL": "https://github.com/JEIPEY/Noita-Deck-Balatro-mod-/releases/latest/download/NoitaDeckBalatroMod.zip",
+  "version": "v1.0.0",
+  "automatic-version-check": true,
+  "fixed-release-tag-updates": false,
+  "folderName": "NoitaDeck",
+  "last-updated": 1777378847
+}

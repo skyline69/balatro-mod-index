@@ -1,5 +1,5 @@
 {
-  "title": "Kloun",
+  "title": "Kloun DEMO",
   "requires-steamodded": true,
   "requires-talisman": false,
   "categories": [
@@ -8,10 +8,10 @@
     "Miscellaneous"
   ],
   "author": "Dogg Fly",
-  "repo": "https://github.com/Dogg-Fly/Kloun",
-  "downloadURL": "https://github.com/Dogg-Fly/Kloun/releases/latest/download/kloun.zip",
+  "repo": "https://github.com/Dogg-Fly/Kloun-DEMO",
+  "downloadURL": "https://github.com/Dogg-Fly/Kloun-DEMO/releases/latest/download/kloun.zip",
   "folderName": "kloun",
-  "version": "v1.2.1",
+  "version": "0.1.0",
   "automatic-version-check": true,
-  "last-updated": 1762838285
+  "last-updated": 1775997598
 }

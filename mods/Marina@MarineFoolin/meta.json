@@ -1,0 +1,15 @@
+{
+  "title": "Marine Foolin'",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content",
+    "Joker"
+  ],
+  "author": "Marina",
+  "repo": "https://github.com/marinaposting/MarineFoolin",
+  "downloadURL": "https://github.com/marinaposting/MarineFoolin/releases/latest/download/Marina@Marine-Foolin.zip",
+  "automatic-version-check": true,
+  "version": "0.1.3",
+  "last-updated": 1778928932
+}

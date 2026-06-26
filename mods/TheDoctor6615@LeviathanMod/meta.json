@@ -1,0 +1,16 @@
+{
+  "title": "LeviathanMod",
+  "requires-steamodded": true,
+  "requires-talisman": true,
+  "categories": [
+    "Content",
+    "Joker"
+  ],
+  "author": "TheDoctor6615",
+  "repo": "https://github.com/HotChrissBuns/LeviathanMod",
+  "downloadURL": "https://github.com/HotChrissBuns/LeviathanMod/archive/refs/heads/main.zip",
+  "version": "4db0d52",
+  "automatic-version-check": true,
+  "fixed-release-tag-updates": false,
+  "last-updated": 1781564184
+}

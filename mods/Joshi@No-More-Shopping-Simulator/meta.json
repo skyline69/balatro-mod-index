@@ -1,0 +1,16 @@
+{
+  "title": "No More Shopping Simulator",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Quality of Life",
+    "Technical"
+  ],
+  "author": "Joshi",
+  "repo": "https://github.com/joshi-13/NoMoreShoppingSimulator",
+  "downloadURL": "https://github.com/joshi-13/NoMoreShoppingSimulator/archive/refs/heads/main.zip",
+  "version": "f646a38",
+  "automatic-version-check": true,
+  "fixed-release-tag-updates": false,
+  "last-updated": 1781546314
+}

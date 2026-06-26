@@ -331,7 +331,7 @@ jobs:
               fi
 
               if [ "$AUTO_CHECK" = "true" ]; then
-                if echo "$DOWNLOAD_URL" | grep -Eq '/blob/|/tree/|/archive/refs/tags/|/releases/latest$|/releases/tag/|github\.com/[^/]+/[^/]+/?$'; then
+                if echo "$DOWNLOAD_URL" | grep -Eq '/blob/|/tree/|/releases/latest$|/releases/tag/|github\.com/[^/]+/[^/]+/?$'; then
                   echo "- '$MOD_DIR': automatic-version-check requires an auto-updating file URL" >> "$REPORT_FILE"
                 fi
 

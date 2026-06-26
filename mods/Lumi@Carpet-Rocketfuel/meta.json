@@ -1,0 +1,16 @@
+{
+  "title": "Carpet Rocketfuel",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Joker"
+  ],
+  "author": "Lumi",
+  "repo": "https://github.com/carpetrocketfuel/Balatro-1AHITM-Mod",
+  "downloadURL": "https://github.com/carpetrocketfuel/Balatro-1AHITM-Mod/releases/latest/download/CarpetRocketfuel.zip",
+  "version": "v1.2",
+  "automatic-version-check": false,
+  "fixed-release-tag-updates": false,
+  "folderName": "Carpet Rocketfuel",
+  "last-updated": 1774729183
+}

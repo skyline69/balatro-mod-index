@@ -1,0 +1,15 @@
+{
+  "title": "Banner",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Technical"
+  ],
+  "author": "SylviBlossom",
+  "repo": "https://github.com/SylviBlossom/Banner",
+  "downloadURL": "https://codeload.github.com/SylviBlossom/Banner/zip/refs/tags/v1.2.1",
+  "version": "v1.2.1",
+  "automatic-version-check": true,
+  "fixed-release-tag-updates": false,
+  "last-updated": 1775237175
+}

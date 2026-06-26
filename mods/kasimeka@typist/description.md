@@ -14,17 +14,23 @@ a fully keyboard-driven UX mod for Balatro, with a bunch of QoL keybinds.
     - uses consumable cards
     - selects the highlighted pack item
     - starts a new run from the game over screen
+    - starts a run from the new run screen with the currently selected deck and stake
   - `tab` being the dismiss button:
     - it discards the selected hand
     - moves from the shop to blind selection
     - sells consumable or joker cards
     - skips the current booster pack
-    - closes any overlay menu
+    - cycles `new run`, `continue` and `challenges` on the run setup screen
+    - closes any other overlay menu
     - exits to main menu from the game over screen
+  - `escape` being the back button on the run setup screen:
+    - it closes the run setup overlay instead of cycling tabs
   - the bottom row of the keyboard as the "control panel", for example:
     - in rounds:
       - hold `z` for the quick deck preview
-      - press `c` to sort by suit
+      - press `,` to select the leftmost 5 cards
+      - `.` to select the rightmost 5 cards
+      - `c` to sort by suit
       - `v` to sort by rank
       - `b` to sort by enhancement+score, where glass cards are moved to the end, and lucky and mult cards to the beginning
     - in the shop:
@@ -32,7 +38,24 @@ a fully keyboard-driven UX mod for Balatro, with a bunch of QoL keybinds.
       - `v` to buy and use an item, or buy a pack or a voucher
     - `n` to deselect all cards in a cardarea and `m` to invert card selection in rounds
     - `x` to view run info whenever it's available
-    - & others (see [`./mod/layout.lua`](https://github.com/janw4ld/balatro-typist-mod/blob/main/mod/layout.lua)) for dvorak and the full keymap
+    - & others (see [`./mod/layout.lua`](https://github.com/kasimeka/balatro-typist-mod/blob/main/mod/layout.lua)) the full keymap as well as other layouts
+and the full keymap
+- cardarea keybind layers for selecting, moving, selling & using cards. these apply globally for
+  - consumables, accessed by holding `'`
+  - jokers, accessed by holding `[`
+  - a convenience jokers+consumables area accessed with the number row buttons and no leader key
+  - pack cards, with no leader key
+  - the shop, with no leader key
+  - the hand, which is accessed
+    - by holding `/` everywhere for selection and movement of a single card
+    - by holding `shift+/` for multiselect in booster packs
+    - with no leader key for multiselect in rounds
+- run setup keybinds
+  - `h` and `l` to change decks, `j` and `k` to change stakes
+  - `s` to toggle "seeded run" on and focus the seed input field, `escape` to disable seeded run
+  - `space` or `enter` to start a run with the selected options
+  - `tab` to cycle "new run", "continue" and "challenges" tabs
+- mnemonic keys for less frequent actions, like `s` to skip blinds, `r` to reroll the shop or boss, `b` in the cheat layer and the full keymap
   - mnemonic keys for less frequent actions, like `s` to skip blinds, `r` to reroll the shop or boss, `b` in the cheat layer (accessed by holding `p`) to pick the best hand out the available cards, `f` in the cheat layer to fish for the best flush in hand, etc
 - cardarea keybind layers for selecting, moving, selling & using cards. these apply globally for
   - consumables, accessed by holding `'`

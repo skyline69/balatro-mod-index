@@ -1,0 +1,17 @@
+{
+  "title": "Endless Chihuahuas",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content",
+    "Joker",
+    "Miscellaneous"
+  ],
+  "author": "FloppaGuy",
+  "repo": "https://github.com/TheFloppaGuy/Endless-Chihuahuas-/releases/download/v1.0.1/endlesschihuahua.3.zip",
+  "downloadURL": "https://github.com/TheFloppaGuy/Endless-Chihuahuas-/releases/download/v1.0.1/endlesschihuahua.3.zip",
+  "version": "20260511_171650",
+  "automatic-version-check": true,
+  "fixed-release-tag-updates": true,
+  "last-updated": 1778872662
+}

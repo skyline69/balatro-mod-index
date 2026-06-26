@@ -1,0 +1,18 @@
+{
+  "title": "Mayhem",
+  "requires-steamodded": true,
+  "requires-talisman": true,
+  "categories": [
+    "Content",
+    "Joker",
+    "Technical"
+  ],
+  "author": "alex343xd",
+  "repo": "https://github.com/pawPatoes/Mayhem",
+  "downloadURL": "https://github.com/pawPatoes/Mayhem/archive/refs/heads/main.zip",
+  "version": "f3f0bb3",
+  "automatic-version-check": true,
+  "fixed-release-tag-updates": false,
+  "folderName": "mayhem",
+  "last-updated": 1781611440
+}
