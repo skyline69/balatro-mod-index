@@ -1,0 +1,11 @@
+{
+  "title": "Bad Director",
+  "requires-steamodded": true, 
+  "requires-talisman": false,
+  "categories": ["Content", "Joker", "Technical", "Miscellaneous"],
+  "author": "Nxkoo", 
+  "repo": "https://github.com/Clickseee/BadDirector",
+  "downloadURL": "https://github.com/Clickseee/BadDirector/archive/refs/heads/main.zip",
+  "version": "1.0.0",
+  "automatic-version-check": true
+}
