@@ -10,5 +10,5 @@
   "downloadURL": "https://github.com/GhostSalt/Flipbook/archive/refs/heads/main.zip",
   "folderName": "Flipbook",
   "version": "1.3.0~BETA",
-  "automatic-version-check": true,
+  "automatic-version-check": true
 }
