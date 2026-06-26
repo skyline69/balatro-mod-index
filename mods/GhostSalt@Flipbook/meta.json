@@ -9,6 +9,7 @@
   "repo": "https://github.com/GhostSalt/Flipbook",
   "downloadURL": "https://github.com/GhostSalt/Flipbook/archive/refs/heads/main.zip",
   "folderName": "Flipbook",
-  "version": "1.3.0~BETA",
-  "automatic-version-check": true
+  "version": "3e96386",
+  "automatic-version-check": true,
+  "last-updated": 1782498190
 }
