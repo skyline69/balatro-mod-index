@@ -4,9 +4,7 @@ This is a balatro mod I made that adds 2 custom jokers, 1 custom spectral card, 
 Latest Release: https://github.com/JonahFicklin/Jonahtro/releases/tag/Jonahtro_New_Version
 
 ## Installation
-Requires lovely and Steamodded:
-
-Lovely: https://github.com/ethangreen-dev/lovely-injector/releases
+Requires Steamodded:
 
 Steamodded: https://github.com/Steamodded/smods?tab=readme-ov-file#readme
 
