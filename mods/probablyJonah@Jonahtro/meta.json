@@ -8,5 +8,6 @@
   "downloadURL": "https://github.com/JonahFicklin/Jonahtro/releases/download/Jonahtro_New_Version/Jonahtro_v1.0.0.zip",
   "folderName": "Jonahtro_v1.0.0",
   "version": "1.0.0",
-  "automatic-version-check": true
+  "automatic-version-check": true,
+  "fixed-release-tag-updates": true
 }
