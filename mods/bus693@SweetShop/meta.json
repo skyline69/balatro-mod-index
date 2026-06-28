@@ -8,7 +8,8 @@
   "author": "bus693",
   "repo": "https://github.com/bus693/sweet-shop/",
   "downloadURL": "https://github.com/bus693/sweet-shop/archive/refs/heads/main.zip",
-  "version": "v0.0.1",
+  "version": "c30358a",
   "automatic-version-check": true,
-  "fixed-release-tag-updates": false
+  "fixed-release-tag-updates": false,
+  "last-updated": 1782652680
 }
