@@ -114,6 +114,9 @@ This is required to avoid accidental update freeze behavior.
 - If it isn't accepted, make it a jpeg using any image editing software. (yes, even paint can do it)
 
 ## How To Submit
+### Disclaimer
+* After submitting a mod, please make sure to check github often to see if your mod had an issue/got rejected!
+
 Automatic way: https://bmi-helper.dasguney.com/  
 
 Manual:
