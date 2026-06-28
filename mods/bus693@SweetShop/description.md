@@ -2,7 +2,7 @@
 
 Labels for your near-vanilla mods.
 
-&lt;img src="assets/original/example.png" width="644"&gt;
+<img src="assets/original/example.png" width="644">
 
 Vanilla rebalance mod screenshots look like regular games, but they play differently. This mod provides a subtle hint in the bottom left corner to people you share screenshots with.
 
