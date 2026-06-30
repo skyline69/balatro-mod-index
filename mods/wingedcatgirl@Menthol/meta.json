@@ -6,9 +6,8 @@
     "Content"
   ],
   "author": "wingedcatgirl",
-  "repo": "https://github.com/wingedcatgirl/MintysSillyMod",
-  "downloadURL": "https://github.com/wingedcatgirl/MintysSillyMod/releases/download/v1.0.0/Menthol-1.0.0.zip",
+  "repo": "https://github.com/wingedcatgirl/Menthol",
+  "downloadURL": "https://github.com/wingedcatgirl/Menthol/releases/download/v1.0.0/Menthol-1.0.0.zip",
   "automatic-version-check": false,
   "version": "v1.0.0"
 }
-
