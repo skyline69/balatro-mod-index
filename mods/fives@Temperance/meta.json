@@ -1,0 +1,15 @@
+{
+  "title": "Temperance",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Quality of Life"
+  ],
+  "author": "fives",
+  "repo": "https://github.com/luccamargiotta/Temperance",
+  "downloadURL": "https://github.com/luccamargiotta/Temperance/releases/download/1.0/Temperance.zip",
+  "version": "20260704_221251",
+  "automatic-version-check": true,
+  "fixed-release-tag-updates": true,
+  "last-updated": 1783233033
+}
