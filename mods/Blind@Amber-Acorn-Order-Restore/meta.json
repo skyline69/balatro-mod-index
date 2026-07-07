@@ -8,7 +8,8 @@
   "author": "Blind",
   "repo": "https://github.com/blindyy/amber-acorn-restore",
   "downloadURL": "https://github.com/blindyy/amber-acorn-restore/releases/download/balatro/amber-acorn-restore-balatro.zip",
-  "version": "1.0",
+  "version": "20260706_110003",
   "automatic-version-check": true,
-  "fixed-release-tag-updates": true
+  "fixed-release-tag-updates": true,
+  "last-updated": 1783394775
 }
