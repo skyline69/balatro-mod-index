@@ -1,0 +1,14 @@
+{
+  "title": "Dark Louie's Balala Mod",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content"
+  ],
+  "author": "Dark Louie",
+  "repo": "https://github.com/darklouie18/Dark-Louie-Balala-Mod",
+  "downloadURL": "https://github.com/darklouie18/Dark-Louie-Balala-Mod/releases/download/2.0v/darklouiebalalamod_20v.zip",
+  "version": "2.0",
+  "automatic-version-check": true,
+  "fixed-release-tag-updates": true
+}
