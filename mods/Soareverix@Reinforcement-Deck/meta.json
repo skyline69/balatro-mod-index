@@ -1,0 +1,14 @@
+{
+  "title": "Reinforcement Deck",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content"
+  ],
+  "author": "Soareverix",
+  "repo": "https://github.com/Michael-Andrzejewski/Reinforcement-Deck",
+  "downloadURL": "https://github.com/Michael-Andrzejewski/Reinforcement-Deck/releases/latest/download/ReinforcementDeck.zip",
+  "version": "0.1.0",
+  "automatic-version-check": true,
+  "fixed-release-tag-updates": false
+}
