@@ -8,7 +8,8 @@
   "author": "Soareverix",
   "repo": "https://github.com/Michael-Andrzejewski/Reinforcement-Deck",
   "downloadURL": "https://github.com/Michael-Andrzejewski/Reinforcement-Deck/releases/latest/download/ReinforcementDeck.zip",
-  "version": "0.1.0",
+  "version": "v0.1.0",
   "automatic-version-check": true,
-  "fixed-release-tag-updates": false
+  "fixed-release-tag-updates": false,
+  "last-updated": 1783544214
 }
