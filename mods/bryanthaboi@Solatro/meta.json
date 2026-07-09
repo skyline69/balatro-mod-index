@@ -9,7 +9,8 @@
   "author": "bryanthaboi",
   "repo": "https://github.com/bryanthaboi/solatro",
   "downloadURL": "https://github.com/bryanthaboi/solatro/releases/download/v1.0.0/Solatro-1.0.0.zip",
-  "version": "1.0",
+  "version": "20260709_131917",
   "automatic-version-check": true,
-  "fixed-release-tag-updates": true
+  "fixed-release-tag-updates": true,
+  "last-updated": 1783629719
 }

@@ -8,7 +8,8 @@
   "author": "Hawker, Possessed",
   "repo": "https://github.com/Hawker-Balatro-Mods/Card-Parser",
   "downloadURL": "https://github.com/Hawker-Balatro-Mods/Card-Parser/releases/download/V1.0.0/Card.Parser.zip",
-  "version": "1.0.0",
+  "version": "20260709_191925",
   "automatic-version-check": true,
-  "fixed-release-tag-updates": true
+  "fixed-release-tag-updates": true,
+  "last-updated": 1783629719
 }
