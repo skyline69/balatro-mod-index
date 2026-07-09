@@ -1,0 +1,14 @@
+{
+  "title": "CryptLib",
+  "requires-steamodded": false,
+  "requires-talisman": false,
+  "categories": [
+    "Technical"
+  ],
+  "author": "Lord Ruby",
+  "repo": "https://github.com/SpectralPack/Cryptlib#",
+  "downloadURL": "https://github.com/SpectralPack/Cryptlib/archive/refs/heads/main.zip",
+  "version": "1.3b",
+  "automatic-version-check": true,
+  "fixed-release-tag-updates": false
+}
