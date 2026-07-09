@@ -1,0 +1,14 @@
+{
+  "title": "Card Parser",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Quality of Life"
+  ],
+  "author": "Hawker, Possessed",
+  "repo": "https://github.com/Hawker-Balatro-Mods/Card-Parser",
+  "downloadURL": "https://github.com/Hawker-Balatro-Mods/Card-Parser/releases/download/V1.0.0/Card.Parser.zip",
+  "version": "1.0.0",
+  "automatic-version-check": true,
+  "fixed-release-tag-updates": true
+}
