@@ -10,8 +10,9 @@
   "author": "gyrogold",
   "repo": "https://github.com/gyrogold/BALEGGTRO",
   "downloadURL": "https://github.com/gyrogold/BALEGGTRO/archive/refs/heads/main.zip",
-  "version": "1.1",
+  "version": "6b26d91",
   "automatic-version-check": true,
   "fixed-release-tag-updates": false,
-  "folderName": "BALEGGTRO"
+  "folderName": "BALEGGTRO",
+  "last-updated": 1783802979
 }
