@@ -8,7 +8,8 @@
   "author": "FatalError404X",
   "repo": "https://github.com/FatalError404X/Uberlatro",
   "downloadURL": "https://github.com/FatalError404X/Uberlatro/archive/refs/heads/main.zip",
-  "version": "v1.3.0",
+  "version": "53ca2ca",
   "automatic-version-check": true,
-  "fixed-release-tag-updates": false
+  "fixed-release-tag-updates": false,
+  "last-updated": 1783975783
 }
