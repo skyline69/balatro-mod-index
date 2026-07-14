@@ -1,0 +1,14 @@
+{
+  "title": "Signalis Tarot Cards",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Resource Packs"
+  ],
+  "author": "subspaceember",
+  "repo": "https://github.com/SubspaceEmber/SignalisTarot",
+  "downloadURL": "https://github.com/SubspaceEmber/SignalisTarot/releases/download/v0.0.1/SignalisTarot.zip",
+  "version": "0.0.1",
+  "automatic-version-check": true,
+  "fixed-release-tag-updates": true
+}
