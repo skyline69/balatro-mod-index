@@ -1,6 +1,6 @@
 {
   "title": "Holy Fools",
-  "requires-steamodded": false,
+  "requires-steamodded": true,
   "requires-talisman": false,
   "categories": [
     "Joker"
