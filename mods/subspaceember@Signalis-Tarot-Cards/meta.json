@@ -8,7 +8,8 @@
   "author": "subspaceember",
   "repo": "https://github.com/SubspaceEmber/SignalisTarot",
   "downloadURL": "https://github.com/SubspaceEmber/SignalisTarot/releases/download/v0.0.1/SignalisTarot.zip",
-  "version": "0.0.1",
+  "version": "20260713_212802",
   "automatic-version-check": true,
-  "fixed-release-tag-updates": true
+  "fixed-release-tag-updates": true,
+  "last-updated": 1783992581
 }
