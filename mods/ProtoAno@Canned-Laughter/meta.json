@@ -1,0 +1,15 @@
+{
+  "title": "Canned Laughter",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content"
+  ],
+  "author": "ProtoAno",
+  "repo": "https://github.com/ProtoAnoWasTaken/Canned-Laughter",
+  "downloadURL": "https://github.com/ProtoAnoWasTaken/Canned-Laughter/releases/download/V1.0/CannedLaughter_V1.0.zip",
+  "version": "1.0",
+  "automatic-version-check": true,
+  "fixed-release-tag-updates": true,
+  "folderName": "Canned Laughter"
+}
