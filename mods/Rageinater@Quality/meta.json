@@ -9,7 +9,8 @@
   "author": "Rageinater",
   "repo": "https://github.com/RageinaterCode/Balatro-Quality",
   "downloadURL": "https://github.com/RageinaterCode/Balatro-Quality/archive/refs/heads/main.zip",
-  "version": "0.3.5",
+  "version": "cffaada",
   "automatic-version-check": true,
-  "fixed-release-tag-updates": false
+  "fixed-release-tag-updates": false,
+  "last-updated": 1784527199
 }
