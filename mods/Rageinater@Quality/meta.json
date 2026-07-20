@@ -1,0 +1,15 @@
+{
+  "title": "Quality",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content",
+    "Joker"
+  ],
+  "author": "Rageinater",
+  "repo": "https://github.com/RageinaterCode/Balatro-Quality",
+  "downloadURL": "https://github.com/RageinaterCode/Balatro-Quality/archive/refs/heads/main.zip",
+  "version": "0.3.5",
+  "automatic-version-check": true,
+  "fixed-release-tag-updates": false
+}
