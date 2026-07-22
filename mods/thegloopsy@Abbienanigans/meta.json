@@ -1,0 +1,17 @@
+{
+  "title": "Abbienanigans",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content",
+    "Joker"
+  ],
+  "author": "thegloopsy",
+  "repo": "https://gitlab.com/thegloopsy/abbienanigans",
+  "downloadURL": "https://gitlab.com/thegloopsy/abbienanigans/-/archive/master/abbienanigans-master.zip?ref_type=heads",
+  "version": "eb1dd49b",
+  "automatic-version-check": true,
+  "fixed-release-tag-updates": false,
+  "folderName": "abbienanigans",
+  "last-updated": 1784717494
+}
