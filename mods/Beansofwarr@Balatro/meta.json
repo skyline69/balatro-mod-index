@@ -1,0 +1,14 @@
+{
+  "title": "Balatro+",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content"
+  ],
+  "author": "Beansofwarr",
+  "repo": "https://github.com/beansofwarr-maker2/-unofficial-balatro-",
+  "downloadURL": "https://github.com/beansofwarr-maker2/-unofficial-balatro-/releases/latest/download/balatroplus132_version.zip",
+  "version": "1.3.2",
+  "automatic-version-check": true,
+  "fixed-release-tag-updates": false
+}
