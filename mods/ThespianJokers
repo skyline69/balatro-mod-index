@@ -1,0 +1,12 @@
+reigansander-cloud@ThespianJokers/meta.json
+{
+  "title": "Thespian Jokers",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": ["Joker"],
+  "author": "reigansander-cloud",
+  "repo": "https://github.com/reigansander-cloud/ThespianJokers",
+  "downloadURL": "https://github.com/reigansander-cloud/ThespianJokers/releases/latest/download/ThespianJokers.zip",
+  "version": "1.0.0",
+  "automatic-version-check": true
+}
