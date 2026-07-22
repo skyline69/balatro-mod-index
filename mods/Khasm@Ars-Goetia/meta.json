@@ -1,0 +1,15 @@
+{
+  "title": "Ars Goetia",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content",
+    "Joker",
+    "Miscellaneous"
+  ],
+  "author": "Khasm",
+  "repo": "https://github.com/Czar-Khasm/ars-goetia-balatro-mod",
+  "downloadURL": "https://github.com/Czar-Khasm/ars-goetia-balatro-mod/archive/refs/heads/main.zip",
+  "automatic-version-check": true,
+  "version": "6.6.6"
+}
