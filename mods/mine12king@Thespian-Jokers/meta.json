@@ -1,0 +1,14 @@
+{
+  "title": "Thespian Jokers",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Joker"
+  ],
+  "author": "mine12king",
+  "repo": "https://github.com/reigansander-cloud/ThespianJokers",
+  "downloadURL": "https://github.com/reigansander-cloud/ThespianJokers/releases/download/v1.0/ThespianJokers.zip",
+  "version": "1.0.0",
+  "automatic-version-check": true,
+  "fixed-release-tag-updates": true
+}
