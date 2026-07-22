@@ -8,7 +8,8 @@
   "author": "mine12king",
   "repo": "https://github.com/reigansander-cloud/ThespianJokers",
   "downloadURL": "https://github.com/reigansander-cloud/ThespianJokers/releases/download/v1.0/ThespianJokers.zip",
-  "version": "1.0.0",
+  "version": "20260722_183655",
   "automatic-version-check": true,
-  "fixed-release-tag-updates": true
+  "fixed-release-tag-updates": true,
+  "last-updated": 1784757442
 }
