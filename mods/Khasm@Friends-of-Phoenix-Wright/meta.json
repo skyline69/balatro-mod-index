@@ -1,0 +1,13 @@
+{
+  "title": "Friends of Phoenix Wright",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Resource Packs"
+  ],
+  "author": "Khasm",
+  "repo": "https://github.com/Czar-Khasm/phoenix-deck-balatro-mod",
+  "downloadURL": "https://github.com/Czar-Khasm/phoenix-deck-balatro-mod/archive/refs/heads/main.zip",
+  "automatic-version-check": true,
+  "version": "1.0.0",
+}
