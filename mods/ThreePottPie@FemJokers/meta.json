@@ -1,5 +1,5 @@
 {
-  "name": "Jane Jokers",
+  "title": "Jane Jokers",
   "id": "FemJokers",
   "author": "ThreePottpie",
   "version": "2.0.0",
@@ -8,5 +8,6 @@
   "categories": ["Resource Packs"],
   "repo": "https://github.com/Threepottpie/Jane-Jokers",
   "downloadURL": "https://github.com/Threepottpie/Jane-Jokers/releases/download/2.0.0/FemJokers.zip",
-  "automatic-version-check": false,
+  "automatic-version-check": true,
   "description": "Female Jokers texture pack"
+}
