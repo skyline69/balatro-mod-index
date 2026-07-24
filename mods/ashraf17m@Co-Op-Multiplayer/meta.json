@@ -1,0 +1,15 @@
+{
+  "title": "Co-Op Multiplayer",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content",
+    "Quality of Life"
+  ],
+  "author": "ashraf17m",
+  "repo": "https://github.com/ashraf17m/BalatroMultiplayerExperimental.git",
+  "downloadURL": "https://codeload.github.com/ashraf17m/BalatroMultiplayerExperimental/zip/refs/tags/0.8.1",
+  "version": "0.8.1",
+  "automatic-version-check": true,
+  "fixed-release-tag-updates": false
+}
