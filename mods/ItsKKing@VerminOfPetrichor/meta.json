@@ -1,0 +1,15 @@
+{
+  "title": "Vermin Of Petrichor",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Resource Packs"
+  ],
+  "author": "ItsKKing",
+  "repo": "https://github.com/KKingOfficial/Vermin-of-Balatro/tree/main",
+  "downloadURL": "https://github.com/KKingOfficial/Vermin-of-Balatro/archive/refs/heads/main.zip",
+  "version": "74c0a82",
+  "automatic-version-check": true,
+  "fixed-release-tag-updates": false,
+  "last-updated": 1784514948
+}
