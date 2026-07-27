@@ -1,0 +1,18 @@
+{
+  "title": "TAO",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content",
+    "Joker",
+    "Technical",
+    "Miscellaneous"
+  ],
+  "author": "Hurlemort",
+  "repo": "https://github.com/Hurlemort/Balatro_Tao_Mod/",
+  "downloadURL": "https://github.com/Hurlemort/Balatro_Tao_Mod/releases/download/release/TAO-v1.0.0.zip",
+  "version": "1.0.0",
+  "automatic-version-check": true,
+  "fixed-release-tag-updates": true,
+  "folderName": "TAO"
+}
