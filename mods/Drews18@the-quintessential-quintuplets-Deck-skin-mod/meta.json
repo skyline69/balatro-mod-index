@@ -1,0 +1,15 @@
+{
+  "title": "the quintessential quintuplets Deck skin mod",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Miscellaneous",
+    "Resource Packs"
+  ],
+  "author": "Drews18",
+  "repo": "https://github.com/Drews12the12",
+  "downloadURL": "https://github.com/Drews12the12/The-Quintessential-Quintuplets-Balatro-skin-mod-raw-file/releases/download/Balatro/The.Quintessential.Quintuplets.zip",
+  "version": "0.1",
+  "automatic-version-check": true,
+  "fixed-release-tag-updates": true
+}
