@@ -1,0 +1,15 @@
+{
+  "title": "Balatro Stats",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Quality of Life"
+  ],
+  "author": "jagodben",
+  "repo": "https://github.com/jagodben/Balatro-Record-Stats-Mod",
+  "downloadURL": "https://github.com/jagodben/Balatro-Record-Stats-Mod/releases/latest/download/BalatroStats.zip",
+  "folderName": "BalatroStats",
+  "automatic-version-check": true,
+  "version": "0.3.0",
+  "last-updated": 1785116100
+}
