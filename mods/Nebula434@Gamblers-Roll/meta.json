@@ -1,0 +1,15 @@
+{
+  "title": "Gambler's Roll",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Joker",
+    "Miscellaneous"
+  ],
+  "author": "Nebula434",
+  "repo": "https://github.com/Nebula434/Gamblers-Set/releases/download/v0.0.1-alpha/GamblersPlay.zip",
+  "downloadURL": "https://github.com/Nebula434/Gamblers-Set/releases/download/v0.0.1-alpha/GamblersPlay.zip",
+  "version": "v0.0.1-alpha",
+  "automatic-version-check": true,
+  "fixed-release-tag-updates": true
+}
