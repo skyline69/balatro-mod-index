@@ -9,6 +9,7 @@
   "repo": "https://github.com/its-edalo/slay-the-jokers",
   "downloadURL": "https://github.com/its-edalo/slay-the-jokers/archive/main.zip",
   "folderName": "slay-the-jokers-main",
-  "version": "v0.2",
-  "automatic-version-check": true
+  "version": "V0.2.1",
+  "automatic-version-check": true,
+  "last-updated": 1785369204
 }
