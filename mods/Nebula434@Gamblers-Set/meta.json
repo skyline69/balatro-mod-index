@@ -1,0 +1,16 @@
+{
+  "title": "Gambler's Set",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content",
+    "Joker",
+    "Miscellaneous"
+  ],
+  "author": "Nebula434",
+  "repo": "https://github.com/Nebula434/Gamblers-Set",
+  "downloadURL": "https://github.com/Nebula434/Gamblers-Set/releases/download/v0.0.2-alpha/Nebula434@Gamblers-Set.zip",
+  "version": "v0.0.2-alpha",
+  "automatic-version-check": false,
+  "fixed-release-tag-updates": false
+}
