@@ -1,0 +1,1 @@
+A balatro mod(now 18% worse than other mods!) filled with inside jokes, stupid jokers, an attempt at balancing, many crashouts(thank you conditional animations and ui), 2% more BALALA, and so much more (b)atrocious additions. Hope you enjoy!!!
