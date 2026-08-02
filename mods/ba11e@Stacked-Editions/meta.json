@@ -8,7 +8,8 @@
   "author": "ba11e",
   "repo": "https://github.com/ba11e-mos/balatro-stacked-editions",
   "downloadURL": "https://github.com/ba11e-mos/balatro-stacked-editions/releases/download/v1.0.0/StackedEditions.zip",
-  "version": "1.0.0",
+  "version": "20260801_223630",
   "automatic-version-check": true,
-  "fixed-release-tag-updates": true
+  "fixed-release-tag-updates": true,
+  "last-updated": 1785635556
 }
