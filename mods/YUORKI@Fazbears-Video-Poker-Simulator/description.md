@@ -1,5 +1,9 @@
 # Fazbear's Video Poker Simulator
 
+<div style="text-align: center;">
+    <img width="100%" src="https://github.com/YUORKI/Fazbears-Video-Poker-Simulator/blob/main/assets/2x/Logo.png">
+</div>
+
 **THIS MOD IS CURRENTLY IN DEVELOPMENT**
 
 >***Phew... What a shift!***
@@ -12,15 +16,19 @@
 
 **Fazbear's Video Poker Simulator** is a Balatro mod that aims to add Five Nights at Freddy's™ themed content to balatro, such as new Jokers, Enhancements, Seals and Consumables
 
+<div style="text-align: center;">
+    <img width="100%" src="https://github.com/YUORKI/Fazbears-Video-Poker-Simulator/blob/main/assets/Additions.png">
+</div>
+
 Currently, this mod adds:
-- 40 Jokers
+- 45 Jokers
 - 4 Vouchers
 - 2 Tarot Cards
 - 2 Spectral Cards
 - 3 Enhanced Cards
 - 3 Seals
 - 1 Consumable types (containing their own booster pack):
-  - 10 Item cards : used for utility during rounds
+  - 13 Item cards : used for utility during rounds
  
 Check the Roadmap for info at upcoming content this [Roadmap](https://github.com/YUORKI/Fazbears-Video-Poker-Simulator/discussions/2#discussion-9090732)
 
@@ -28,7 +36,7 @@ Check the Roadmap for info at upcoming content this [Roadmap](https://github.com
 
 This mod requires both [Lovely](https://github.com/ethangreen-dev/lovely-injector) and [Steammodded](https://github.com/Steamopollys/Steamodded) **(Version 1.0.0-beta-0827c or later)** to be installed in your copy of Balatro.
 
-Afterwards, simply drag the files from the latest release and put it in your Mods folder (`%AppData%\Balatro\Mods`), and go to the `imported` and add your data from your fnaf games on (`%AppData%\MMFApplications`) (there will be a read me file explaining how to import it)
+Afterwards, simply drag the files from the latest release and put it in your Mods folder (`%APPDATA%\Balatro\Mods`), and go to the `imported` and add your data from your fnaf games on (`%APPDATA%\Roaming\MMFApplications`) (there will be a read me file explaining how to import it)
 
 ***IMPORTANT NOTE:*** **THIS MOD IS CURRENTLY IN DEVELOPMENT meaning it has bugs and content that is being worked on**
 
