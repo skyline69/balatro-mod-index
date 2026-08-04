@@ -1,0 +1,15 @@
+{
+  "title": "Balatro Story Mode",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content",
+    "Miscellaneous"
+  ],
+  "author": "PLagger",
+  "repo": "https://github.com/PLagger7/Balatro-Story-Mode",
+  "downloadURL": "https://github.com/PLagger7/Balatro-Story-Mode/archive/refs/heads/main.zip",
+  "version": "0.6.7",
+  "automatic-version-check": true,
+  "fixed-release-tag-updates": false
+}
