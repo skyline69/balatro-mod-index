@@ -10,8 +10,9 @@
   "author": "Bignastyy",
   "repo": "https://github.com/Bignastyy/NeedForSeedMod.git",
   "downloadURL": "https://github.com/Bignastyy/NeedForSeedMod/archive/refs/heads/main.zip",
-  "version": "1.0.0",
+  "version": "09c0ba5",
   "automatic-version-check": true,
   "fixed-release-tag-updates": false,
-  "folderName": "NeedForSeedMod"
+  "folderName": "NeedForSeedMod",
+  "last-updated": 1786068540
 }
