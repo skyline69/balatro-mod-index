@@ -2,7 +2,7 @@
 # Mayhem
 Big Balatro content mod based on chains of fusions with Jokers. Each fusion results in a much stronger Joker, leading up to the endgame where you can score incomprehensibly high numbers with scaling hyperoperators.  
 
-Original mod found on [CodeBerg](https://codeberg.org/BalatroMayhem/Mayhem). This is an unofficial release, no changes are made to the mod, however this was uploaded by [pawPatoes](https://github.com/pawPatoes) with [Permission From Alex](https://codeberg.org/BalatroMayhem/Mayhem/issues/28#issuecomment-17288315)
+Original mod found on [CodeBerg](https://codeberg.org/BalatroMayhem/Mayhem). 
 
 Yeah this mod is not vanilla-friendly. 
 
