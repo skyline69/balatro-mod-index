@@ -1,0 +1,14 @@
+{
+  "title": "Spectral Arcana",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Miscellaneous"
+  ],
+  "author": "Liminal Drenge",
+  "repo": "https://github.com/LiminalDrenge/Spectral-Arcana",
+  "downloadURL": "https://github.com/LiminalDrenge/Spectral-Arcana/releases/download/Misc/SpectralArcana.zip",
+  "version": "1.0.0",
+  "automatic-version-check": true,
+  "fixed-release-tag-updates": true
+}
