@@ -8,7 +8,8 @@
   "author": "Liminal Drenge",
   "repo": "https://github.com/LiminalDrenge/Spectral-Arcana",
   "downloadURL": "https://github.com/LiminalDrenge/Spectral-Arcana/releases/download/Misc/SpectralArcana.zip",
-  "version": "1.0.0",
+  "version": "20260808_125047",
   "automatic-version-check": true,
-  "fixed-release-tag-updates": true
+  "fixed-release-tag-updates": true,
+  "last-updated": 1786206036
 }
