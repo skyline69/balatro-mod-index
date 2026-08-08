@@ -1,0 +1,14 @@
+{
+  "title": "Hiker Indicator",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Quality of Life"
+  ],
+  "author": "Cambi",
+  "repo": "https://github.com/Cambi-GH/Hiker-Indiactor.git",
+  "downloadURL": "https://github.com/Cambi-GH/Hiker-Indiactor/releases/download/Balatro_Mod/HikerIndicator.zip",
+  "version": "1.0.0",
+  "automatic-version-check": false,
+  "fixed-release-tag-updates": false
+}
