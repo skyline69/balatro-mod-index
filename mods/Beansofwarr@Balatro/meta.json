@@ -1,0 +1,14 @@
+{
+  "title": "Balatro+",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content"
+  ],
+  "author": "Beansofwarr",
+  "repo": "https://github.com/beansofwarr-maker2/balatro-mod-index",
+  "downloadURL": "https://github.com/beansofwarr-maker2/balatro-mod-index/releases/latest/download/balatroplus1421_version.zip",
+  "version": "1.4.21",
+  "automatic-version-check": true,
+  "fixed-release-tag-updates": false
+}
