@@ -1,0 +1,15 @@
+{
+  "title": "VanillaSauce!",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content",
+    "Joker"
+  ],
+  "author": "SauceQuest31",
+  "repo": "https://github.com/saucequest/VanillaSauce",
+  "downloadURL": "https://github.com/saucequest/VanillaSauce/releases/latest/download/vanillasauce.zip",
+  "version": "1.0.0 Beta",
+  "automatic-version-check": true,
+  "fixed-release-tag-updates": false
+}
