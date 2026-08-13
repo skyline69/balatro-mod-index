@@ -1,0 +1,15 @@
+{
+  "title": "Jotaket's Stuff",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content",
+    "Joker"
+  ],
+  "author": "Jotaket",
+  "repo": "https://github.com/jotagame/Jotaket-s-stuff",
+  "downloadURL": "https://github.com/jotagame/Jotaket-s-stuff/releases/download/v0.5.1-beta/Jotaket.Stuff.zip",
+  "version": "0.5.1 beta",
+  "automatic-version-check": true,
+  "fixed-release-tag-updates": true
+}
