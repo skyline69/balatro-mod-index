@@ -1,0 +1,14 @@
+{
+  "title": "CallMeWhatYouWant",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Miscellaneous"
+  ],
+  "author": "Dee9c",
+  "repo": "https://github.com/dee9c-git/Balatro-CallMeWhatYouWant",
+  "downloadURL": "https://github.com/dee9c-git/Balatro-CallMeWhatYouWant/archive/refs/heads/master.zip",
+  "version": "0.1.0",
+  "automatic-version-check": true,
+  "fixed-release-tag-updates": false
+}
