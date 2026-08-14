@@ -8,7 +8,8 @@
   "author": "Dee9c",
   "repo": "https://github.com/dee9c-git/Balatro-CallMeWhatYouWant",
   "downloadURL": "https://github.com/dee9c-git/Balatro-CallMeWhatYouWant/archive/refs/heads/master.zip",
-  "version": "0.1.0",
+  "version": "fd69576",
   "automatic-version-check": true,
-  "fixed-release-tag-updates": false
+  "fixed-release-tag-updates": false,
+  "last-updated": 1786685167
 }
