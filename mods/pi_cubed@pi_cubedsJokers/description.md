@@ -1,8 +1,8 @@
 Adds a bunch of new vanilla-esque jokers that expand your choices in how you play and craft strong builds! All jokers and their art were personally developed by me, with a great amount of dev help from the Balatro Discord #modding-dev channel.
 
-Steamodded **[1.0.0-beta-0827c](https://github.com/Steamodded/smods/releases/tag/1.0.0-beta-0827c)** or later is required.
+Steamodded **[1.0.0-beta-1620a](https://github.com/Steamodded/smods/releases/tag/1.0.0-beta-1620a)** or later is required.
 
-List of Jokers (Modded Wiki Page): https://balatromods.miraheze.org/wiki/Pi_cubed's_Jokers/Jokers
+List of Jokers (Modded Wiki Page): https://balatromods.miraheze.org/wiki/Pi_cubed%27s_Jokers/Jokers
 
 Documentation spreadsheet (Planned content, patch notes, & more info): https://docs.google.com/spreadsheets/d/1s2MFswjKUeVcx3W0Cylmya1ZfFvx2fiQZD42ZThxd5Q/edit?usp=sharing
 
@@ -14,12 +14,16 @@ pi_cubed's Jokers is a relatively lightweight mod with minimal lovely patching a
 A game restart is required for Config options to take effect.
 
 ### New Spectral Cards  
-This option enables or disables the Spectral Cards Commander, Rupture, and Extinction from appearing.
+This option enables or disables the Spectral Cards Commander, Rupture, Extinction, Glamour, and Partition from appearing.
 
 ### New Tags
-This option enables or disables the Rebound Tag from appearing.
+This option enables or disables the Rebound Tag and Bisexual Tag from appearing.
+
+### New Editions
+This option enables or disables the Bisexual edition and related content from appearing.
 
 ### Custom Sound Effects  
+(this one does not require a restart)  
 Enables or disables any custom sound effects I've implemented into the mod. Currently, this affects Rhythmic Joker, Explosher, On-beat, Off-beat, Pot, Talking Flower, "Monkey See, Monkey Do", Otamatone, and Panic Fire.
 
 ### Hand type-affecting Jokers
@@ -50,6 +54,18 @@ https://github.com/Cdrvo/Revos-Vault---Balatro-Mod
 pi_cubed's Jokers adds a Joker that synergises with Clips! In addition, Paperback adds *many* Jokers that synergise very well in general!  
 https://github.com/GitNether/paperback  
 
+### Artbox by SadCube  
+The Bisexual edition has a sprite for the Modifier Collectable!  
+https://github.com/SadCubeArt/ArtBox  
+
+### More Fluff by notmario  
+pi_cubed's Jokers adds a related... lover? She's quite janky!  
+https://github.com/notmario/MoreFluff  
+
+### Cryptid by MathIsFun_ & many more  
+There's some hidden content that requires Cryptid. In addition, I've put a big focus on making sure the changing value mechanics, Misprintize, scaling manipulation, and forcetriggering behave properly with all Jokers!  
+https://github.com/SpectralPack/Cryptid  
+
 ### Ortalab by CrimsonHeart, Eremel, & the Ortalab Team
 https://github.com/EremelMods/Ortalab  
 
@@ -59,9 +75,17 @@ https://github.com/GuilloryCraft/ExtraCredit
 ### Neato Jokers by NEATO  
 https://github.com/neatoqueen/NeatoJokers  
 
-### Cryptid by MathIsFun_ & many more  
-There's some hidden content that requires Cryptid. In addition, I've put a big focus on making sure the changing value mechanics and Misprintize behave properly with all Jokers!  
-https://github.com/SpectralPack/Cryptid  
+### Lucky Rabbit by Fennex, Trif, & HarmoniusJoker 
+https://github.com/Trif3ctal/Lucky-Rabbit  
+
+### Cardsauce by BarrierTrio/Gote, Keku, & TheWinterComet
+https://github.com/BarrierTrio/Cardsauce  
+
+### Lobotomy Corporation by Mysthaps  
+https://github.com/Mysthaps/LobotomyCorp  
+
+### Bunco by Firch, RENREN, Peas, minichibis, J.D., Guwahavel, Ciirulean, ejwu, & more
+(jumbocarrot fork) https://github.com/jumbocarrot0/Bunco/
 
 ### Opandora's Box by opan  
 (Disclaimer: This mod has major issues with latest SMODS, but I want to give a shoutout regardless)  
