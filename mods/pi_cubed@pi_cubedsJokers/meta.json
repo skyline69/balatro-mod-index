@@ -3,7 +3,8 @@
   "requires-steamodded": true,
   "requires-talisman": false,
   "categories": [
-    "Joker"
+    "Joker",
+    "Content"
   ],
   "author": "pi_cubed",
   "repo": "https://github.com/pi-cubed-cat/pi_cubeds_jokers",
