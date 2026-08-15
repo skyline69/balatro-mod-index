@@ -8,7 +8,8 @@
   "author": "Christar2020",
   "repo": "https://github.com/Christar2020/Combo-Mod",
   "downloadURL": "https://github.com/Christar2020/Combo-Mod/releases/download/v0.1/Combo.zip",
-  "version": "v0.1",
+  "version": "20260814_183412",
   "automatic-version-check": true,
-  "fixed-release-tag-updates": true
+  "fixed-release-tag-updates": true,
+  "last-updated": 1786835481
 }
