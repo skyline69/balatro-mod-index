@@ -1,0 +1,15 @@
+{
+  "title": "Joker evolutions",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content",
+    "Joker"
+  ],
+  "author": "Bacond, Coolbanana",
+  "repo": "https://github.com/jkcuz2/EvolutionaryJokersBaltatro/releases/tag/EvolutionJokers1.1",
+  "downloadURL": "https://github.com/jkcuz2/EvolutionaryJokersBaltatro/archive/refs/heads/main.zip?utm_source=chatgpt.com",
+  "version": "Current downloadable release version",
+  "automatic-version-check": true,
+  "fixed-release-tag-updates": false
+}
