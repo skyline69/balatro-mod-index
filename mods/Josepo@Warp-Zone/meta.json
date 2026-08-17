@@ -1,0 +1,15 @@
+{
+  "title": "Warp Zone",
+  "requires-steamodded": true,
+  "requires-talisman": true,
+  "categories": [
+    "Joker"
+  ],
+  "author": "Josepo",
+  "repo": "https://github.com/KranlaxProgrammer/Warpzone-mod/",
+  "downloadURL": "https://github.com/KranlaxProgrammer/WarpZone-Mod/releases/download/mod/warpzonemod.rar",
+  "version": "1.0.0",
+  "automatic-version-check": true,
+  "fixed-release-tag-updates": true,
+  "folderName": "WarpZone"
+}
