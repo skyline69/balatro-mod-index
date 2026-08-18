@@ -8,7 +8,8 @@
   "author": "Josepo",
   "repo": "https://github.com/KranlaxProgrammer/warpzone-mod/",
   "downloadURL": "https://github.com/KranlaxProgrammer/warpzone-mod/releases/download/mod/warpzone.mod.zip",
-  "version": "1.0.0",
+  "version": "20260818_202509",
   "automatic-version-check": true,
-  "fixed-release-tag-updates": true
+  "fixed-release-tag-updates": true,
+  "last-updated": 1787094773
 }
