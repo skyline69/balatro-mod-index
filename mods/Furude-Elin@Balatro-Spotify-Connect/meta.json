@@ -1,0 +1,14 @@
+{
+  "title": "Balatro Spotify Connect",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Quality of Life"
+  ],
+  "author": "Furude Elin",
+  "repo": "https://github.com/eliiinyt/balatro-spotify-connect",
+  "downloadURL": "https://github.com/eliiinyt/balatro-spotify-connect/releases/download/v1.0.0/balatro-spotify-connect-complete.zip",
+  "version": "1.0.0",
+  "automatic-version-check": true,
+  "fixed-release-tag-updates": true
+}
