@@ -1,0 +1,15 @@
+{
+  "title": "Silly Jokers",
+  "requires-steamodded": true,
+  "requires-talisman": true,
+  "categories": [
+    "Content",
+    "Joker"
+  ],
+  "author": "1988Koi",
+  "repo": "https://github.com/1988Koi/Silly-Jokers",
+  "downloadURL": "https://github.com/1988Koi/Silly-Jokers/releases/download/Mod/sillyjokers.rar",
+  "version": "0.1.0",
+  "automatic-version-check": false,
+  "fixed-release-tag-updates": false
+}
