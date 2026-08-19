@@ -1,6 +1,6 @@
-# Black Seal
+Adds a rare single use seal that adds negative to a random joker.
 
-A port of the original Black Seal mod to newer versions of Steamodded. This mod adds a rare black seal to the game that provides powerful negative edition effects.
+A port of the original Black Seal mod to newer versions of Steamodded.
 
 ## How It Works
 
@@ -8,11 +8,16 @@ When a card with black seal is used, it will apply **negative edition** to a ran
 
 ## Key Features
 
-- **Automatic Cleanup**: All other black seals in the deck will be removed when triggered (seals on cards in hand are kept)
-- **Rare Spawn**: Can be found anywhere a random seal may appear, most commonly in booster packs with a 2% base chance
-- **Configurable Spawn Rate**: The spawn chance relative to all other seals can be configured (defaults to 10%)
+- **Retriggers apply**: Each retrigger of the seal will try to apply the effect to an eligible joker
+  - A single seal can apply many negative editions before being removed if done by a retrigger
+  - This behavior can be disabled
+- **Only one in deck (sort of)**: All other black seals in the deck will be removed when triggered
+  - Does not remove black seals in hand. Can be comboed with effects such as DNA. Can be disabled.
 - **Ectoplasm Override**: Can override the 'Ectoplasm' spectral card to add a black seal instead of its normal effect
 - **Hand Reduction Toggle**: When Ectoplasm override is active, you can also disable the hand reduction effect
+- **Rare Spawn**: Can be found anywhere a random seal may appear, most commonly in booster packs (around 2% if no other seals)
+- **Configurable Spawn Rate**: The spawn chance relative to all other seals can be configured (defaults to 10%)
+  - The spawn chance is absolute. For the remaining pool, the weights are normalized to remain proportional
 
 ## Installation
 
