@@ -1,1 +1,0 @@
-Maximus is a Vanilla+ mod that strives to preserve the Vanilla feel of the game (for the most part, looking at you Nuclear deck) while innovating on newer ideas to keep things fresh!
