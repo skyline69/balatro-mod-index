@@ -1,0 +1,14 @@
+{
+  "title": "Blueprint UI",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "API"
+  ],
+  "author": "Cristiandis",
+  "repo": "https://github.com/Cristiandis/Blueprint-UI",
+  "downloadURL": "https://codeload.github.com/Cristiandis/Blueprint-UI/zip/refs/tags/v1.0.0",
+  "version": "v1.0.0",
+  "automatic-version-check": true,
+  "fixed-release-tag-updates": false
+}

@@ -1,0 +1,16 @@
+{
+  "title": "Flowery Plant",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Miscellaneous",
+    "Resource Packs"
+  ],
+  "author": "PLagger",
+  "repo": "https://github.com/PLagger7/Flowery-Plant",
+  "downloadURL": "https://github.com/PLagger7/Flowery-Plant/archive/refs/heads/main.zip",
+  "version": "b847ab1",
+  "automatic-version-check": true,
+  "fixed-release-tag-updates": false,
+  "last-updated": 1786068540
+}

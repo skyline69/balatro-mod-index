@@ -1,0 +1,15 @@
+{
+  "title": "NoTilt",
+  "requires-steamodded": false,
+  "requires-talisman": false,
+  "categories": [
+    "Quality of Life"
+  ],
+  "author": "bus693",
+  "repo": "https://github.com/bus693/NoTilt/",
+  "downloadURL": "https://github.com/bus693/NoTilt/archive/refs/heads/main.zip",
+  "version": "342d19b",
+  "automatic-version-check": true,
+  "fixed-release-tag-updates": false,
+  "last-updated": 1783394775
+}

@@ -1,0 +1,15 @@
+{
+  "title": "Joshi's Decks",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content"
+  ],
+  "author": "Joshi",
+  "repo": "https://github.com/joshi-13/Joshi-sDecks",
+  "downloadURL": "https://github.com/joshi-13/Joshi-sDecks/archive/refs/heads/main.zip",
+  "version": "962f928",
+  "automatic-version-check": true,
+  "fixed-release-tag-updates": false,
+  "last-updated": 1781232002
+}

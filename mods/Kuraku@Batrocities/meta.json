@@ -1,0 +1,15 @@
+{
+  "title": "Batrocities",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content"
+  ],
+  "author": "Kuraku",
+  "repo": "https://github.com/Kuraku1245/Batrocities",
+  "downloadURL": "https://github.com/Kuraku1245/Batrocities/archive/refs/heads/main.zip",
+  "version": "21ebb9a",
+  "automatic-version-check": true,
+  "fixed-release-tag-updates": false,
+  "last-updated": 1785635556
+}

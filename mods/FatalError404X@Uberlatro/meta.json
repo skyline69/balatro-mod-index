@@ -1,0 +1,15 @@
+{
+  "title": "Uberlatro",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content"
+  ],
+  "author": "FatalError404X",
+  "repo": "https://github.com/FatalError404X/Uberlatro",
+  "downloadURL": "https://github.com/FatalError404X/Uberlatro/archive/refs/heads/main.zip",
+  "version": "53ca2ca",
+  "automatic-version-check": true,
+  "fixed-release-tag-updates": false,
+  "last-updated": 1783975783
+}

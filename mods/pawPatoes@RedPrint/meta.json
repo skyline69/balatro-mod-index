@@ -1,0 +1,17 @@
+{
+  "title": "RedPrint",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content",
+    "Joker",
+    "Miscellaneous",
+    "Resource Packs"
+  ],
+  "author": "pawPatoes",
+  "repo": "https://github.com/pawPatoes/RedPrint",
+  "downloadURL": "https://github.com/pawPatoes/RedPrint/releases/latest/download/redprint.zip",
+  "version": "1.0",
+  "automatic-version-check": true,
+  "fixed-release-tag-updates": false
+}

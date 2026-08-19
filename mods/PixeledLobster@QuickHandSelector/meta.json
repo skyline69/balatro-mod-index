@@ -1,0 +1,15 @@
+{
+  "title": "Quick Hand Selector",
+  "requires-steamodded": false,
+  "requires-talisman": false,
+  "categories": [
+    "Quality of Life"
+  ],
+  "author": "PixeledLobster",
+  "repo": "https://github.com/PixeledLobster/Quick-Hand-Selector",
+  "downloadURL": "https://github.com/PixeledLobster/Quick-Hand-Selector/archive/refs/tags/v1.0.0.zip",
+  "version": "v1.0.0",
+  "automatic-version-check": true,
+  "fixed-release-tag-updates": true,
+  "last-updated": 1785836026
+}

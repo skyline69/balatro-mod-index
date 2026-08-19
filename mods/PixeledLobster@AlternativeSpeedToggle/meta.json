@@ -1,0 +1,15 @@
+{
+  "title": "Alternative Speed Toggle",
+  "requires-steamodded": false,
+  "requires-talisman": false,
+  "categories": [
+    "Quality of Life"
+  ],
+  "author": "PixeledLobster",
+  "repo": "https://github.com/PixeledLobster/Balatro-Alternative-Speed-Toggle",
+  "downloadURL": "https://github.com/PixeledLobster/Balatro-Alternative-Speed-Toggle/archive/refs/tags/v1.0.0.zip",
+  "version": "v1.0.0",
+  "automatic-version-check": true,
+  "fixed-release-tag-updates": true,
+  "last-updated": 1786068540
+}

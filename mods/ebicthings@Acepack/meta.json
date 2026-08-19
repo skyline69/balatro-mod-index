@@ -1,0 +1,16 @@
+{
+  "title": "Acepack",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content",
+    "Joker"
+  ],
+  "author": "ebicthings",
+  "repo": "https://github.com/6543ozne/Acepack_new",
+  "downloadURL": "https://github.com/6543ozne/Acepack_new/archive/refs/tags/v1.0.3.zip",
+  "version": "v1.0.3",
+  "automatic-version-check": true,
+  "fixed-release-tag-updates": true,
+  "last-updated": 1786685167
+}

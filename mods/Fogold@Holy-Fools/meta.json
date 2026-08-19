@@ -1,0 +1,14 @@
+{
+  "title": "Holy Fools",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Joker"
+  ],
+  "author": "Fogold",
+  "repo": "https://github.com/Fogold/Holy-Fools",
+  "downloadURL": "https://github.com/Fogold/Holy-Fools/archive/refs/heads/main.zip",
+  "version": "1860336",
+  "automatic-version-check": true,
+  "fixed-release-tag-updates": false
+}

@@ -1,0 +1,15 @@
+{
+  "title": "Fools-Pack",
+  "requires-steamodded": true,
+  "requires-talisman": true,
+  "categories": [
+    "Content"
+  ],
+  "author": "Kitsunare",
+  "repo": "https://github.com/amyamethyst404/FoolsPack-Balatro-Mod",
+  "downloadURL": "https://github.com/amyamethyst404/FoolsPack-Balatro-Mod/releases/latest/download/foolspack.zip",
+  "folderName": "FoolsPack-Balatro-Mod",
+  "version": "Foolspack1",
+  "automatic-version-check": true,
+  "last-updated": 1782498190
+}

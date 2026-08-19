@@ -8,9 +8,9 @@
   ],
   "author": "SauceQuest31",
   "repo": "https://github.com/saucequest/Sauces-Condiment-Pack---Balatro-Mod",
-  "downloadURL": "https://github.com/saucequest/Sauces-Condiment-Pack---Balatro-Mod/releases/download/8.2.0/condiments.zip",
-  "version": "20260106_235104",
+  "downloadURL": "https://github.com/saucequest/Sauces-Condiment-Pack---Balatro-Mod/releases/latest/download/condiments.zip",
+  "version": "10.1.1",
   "automatic-version-check": true,
-  "fixed-release-tag-updates": true,
-  "last-updated": 1772277099
+  "fixed-release-tag-updates": false,
+  "last-updated": 1780331413
 }

@@ -1,0 +1,17 @@
+{
+  "title": "JJK Curses Deck",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content",
+    "Joker"
+  ],
+  "author": "yvarrsrwra",
+  "repo": "https://github.com/yvarrsrwra/jjk-cursed-deck",
+  "downloadURL": "https://github.com/yvarrsrwra/jjk-cursed-deck/archive/refs/heads/main.zip",
+  "version": "231da50",
+  "automatic-version-check": true,
+  "fixed-release-tag-updates": false,
+  "folderName": "jjk-cursed-deck",
+  "last-updated": 1781944866
+}

@@ -1,0 +1,16 @@
+{
+  "title": "VanillaRedux",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content",
+    "Joker"
+  ],
+  "author": "CyberGaster",
+  "repo": "https://github.com/CyberGaster/VanillaRedux",
+  "downloadURL": "https://github.com/CyberGaster/VanillaRedux/releases/download/v1.0.1/VanillaRedux.zip",
+  "version": "20260522_144520",
+  "automatic-version-check": true,
+  "fixed-release-tag-updates": true,
+  "last-updated": 1779912037
+}

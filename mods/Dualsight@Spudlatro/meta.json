@@ -1,0 +1,17 @@
+{
+  "title": "Spudlatro",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content",
+    "Joker",
+    "Miscellaneous"
+  ],
+  "author": "Dualsight",
+  "repo": "https://github.com/DualTheFool/spudlatro",
+  "downloadURL": "https://github.com/DualTheFool/spudlatro/releases/download/v0.1.3/spudlatro.zip",
+  "version": "20260802_224902",
+  "automatic-version-check": true,
+  "fixed-release-tag-updates": true,
+  "last-updated": 1785748945
+}

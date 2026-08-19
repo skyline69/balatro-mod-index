@@ -1,0 +1,17 @@
+{
+  "title": "Taoist Talismans",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Quality of Life",
+    "Technical",
+    "API"
+  ],
+  "author": "Zinaida",
+  "repo": "https://github.com/yinzhi24/TaoistTalismans",
+  "downloadURL": "https://github.com/yinzhi24/TaoistTalismans/archive/refs/heads/main.zip",
+  "version": "f89963f",
+  "automatic-version-check": true,
+  "fixed-release-tag-updates": false,
+  "last-updated": 1782330144
+}

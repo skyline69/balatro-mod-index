@@ -1,0 +1,14 @@
+{
+  "title": "Overflow",
+  "requires-steamodded": false,
+  "requires-talisman": false,
+  "categories": [
+    "Quality of Life"
+  ],
+  "author": "Ruby",
+  "repo": "https://github.com/lord-ruby/Overflow.git",
+  "downloadURL": "https://github.com/lord-ruby/Overflow/archive/refs/tags/v1.3.1.zip",
+  "version": "v1.3.1",
+  "automatic-version-check": true,
+  "fixed-release-tag-updates": false
+}

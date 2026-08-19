@@ -1,0 +1,18 @@
+{
+  "title": "BALEGGTRO",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content",
+    "Joker",
+    "Resource Packs"
+  ],
+  "author": "gyrogold",
+  "repo": "https://github.com/gyrogold/BALEGGTRO",
+  "downloadURL": "https://github.com/gyrogold/BALEGGTRO/archive/refs/heads/main.zip",
+  "version": "6b26d91",
+  "automatic-version-check": true,
+  "fixed-release-tag-updates": false,
+  "folderName": "BALEGGTRO",
+  "last-updated": 1783802979
+}

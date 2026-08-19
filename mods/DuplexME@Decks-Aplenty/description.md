@@ -1,0 +1,1 @@
+A fun, semi-Vanilla+ mod that adds many, many fun new decks to try. Most of these decks are balanced. Some of them are not. At the moment (7/26/26) not all of the decks work, though the majority of them do.

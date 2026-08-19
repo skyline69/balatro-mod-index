@@ -1,0 +1,15 @@
+{
+  "title": "Combo Mod",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content"
+  ],
+  "author": "Christar2020",
+  "repo": "https://github.com/Christar2020/Combo-Mod",
+  "downloadURL": "https://github.com/Christar2020/Combo-Mod/releases/download/v0.1/Combo.zip",
+  "version": "20260814_183412",
+  "automatic-version-check": true,
+  "fixed-release-tag-updates": true,
+  "last-updated": 1786835481
+}

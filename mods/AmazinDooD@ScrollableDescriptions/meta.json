@@ -1,0 +1,16 @@
+{
+  "title": "ScrollableDescriptions",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Quality of Life",
+    "Miscellaneous"
+  ],
+  "author": "AmazinDooD",
+  "repo": "https://github.com/AmazinDooD/ScrollableDescriptions",
+  "downloadURL": "https://github.com/AmazinDooD/ScrollableDescriptions/archive/refs/heads/main.zip",
+  "version": "dc846b4",
+  "automatic-version-check": true,
+  "fixed-release-tag-updates": false,
+  "last-updated": 1784221402
+}

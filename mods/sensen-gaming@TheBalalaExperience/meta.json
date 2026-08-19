@@ -8,9 +8,9 @@
   ],
   "author": "Sen",
   "repo": "https://github.com/sensen-gaming/TheBalalaExperience",
-  "downloadURL": "https://github.com/sensen-gaming/TheBalalaExperience/archive/refs/tags/whyer.zip",
+  "downloadURL": "https://github.com/sensen-gaming/TheBalalaExperience/archive/refs/tags/0.1.0.zip",
   "folderName": "thebalalaexperience",
-  "version": "whyer",
+  "version": "0.1.0",
   "automatic-version-check": true,
-  "last-updated": 1771118490
+  "last-updated": 1782565849
 }

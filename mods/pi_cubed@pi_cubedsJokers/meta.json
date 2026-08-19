@@ -3,12 +3,13 @@
   "requires-steamodded": true,
   "requires-talisman": false,
   "categories": [
-    "Joker"
+    "Joker",
+    "Content"
   ],
   "author": "pi_cubed",
   "repo": "https://github.com/pi-cubed-cat/pi_cubeds_jokers",
   "downloadURL": "https://github.com/pi-cubed-cat/pi_cubeds_jokers/archive/refs/heads/main.zip",
-  "version": "40eb76b",
+  "version": "6c0347e",
   "automatic-version-check": true,
-  "last-updated": 1773128123
+  "last-updated": 1786781762
 }

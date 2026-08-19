@@ -1,0 +1,14 @@
+{
+  "title": "Balatro-Run-Tracker",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Miscellaneous"
+  ],
+  "author": "Timeless",
+  "repo": "https://github.com/TimelessC1/balatro-run-tracker",
+  "downloadURL": "https://github.com/TimelessC1/balatro-run-tracker/releases/latest/download/RunTracker.zip",
+  "version": "v1.15.0",
+  "automatic-version-check": true,
+  "fixed-release-tag-updates": false
+}

@@ -1,0 +1,18 @@
+{
+  "title": "NeedForSeed",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Quality of Life",
+    "Technical",
+    "Miscellaneous"
+  ],
+  "author": "Bignastyy",
+  "repo": "https://github.com/Bignastyy/NeedForSeedMod.git",
+  "downloadURL": "https://github.com/Bignastyy/NeedForSeedMod/archive/refs/heads/main.zip",
+  "version": "09c0ba5",
+  "automatic-version-check": true,
+  "fixed-release-tag-updates": false,
+  "folderName": "NeedForSeedMod",
+  "last-updated": 1786068540
+}

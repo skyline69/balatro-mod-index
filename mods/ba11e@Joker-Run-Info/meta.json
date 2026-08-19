@@ -1,0 +1,16 @@
+{
+  "title": "Joker Run Info",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Quality of Life",
+    "Technical"
+  ],
+  "author": "ba11e",
+  "repo": "https://github.com/ba11e-mos/balatro-joker-info",
+  "downloadURL": "https://github.com/ba11e-mos/balatro-joker-info/releases/download/v1.0.0/JokerRunInfo.zip",
+  "version": "20260801_223639",
+  "automatic-version-check": true,
+  "fixed-release-tag-updates": true,
+  "last-updated": 1785635556
+}

@@ -1,0 +1,16 @@
+{
+  "title": "Springfield",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content",
+    "Joker"
+  ],
+  "author": "Jammbo",
+  "repo": "https://github.com/the-2nd-olsberg/BalatroSpringfield",
+  "downloadURL": "https://github.com/the-2nd-olsberg/BalatroSpringfield/archive/refs/heads/master.zip",
+  "folderName": "Springfield",
+  "version": "342f321",
+  "automatic-version-check": true,
+  "last-updated": 1787044966
+}

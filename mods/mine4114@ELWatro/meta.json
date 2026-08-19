@@ -1,0 +1,16 @@
+{
+  "title": "ELWatro",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content",
+    "Joker"
+  ],
+  "author": "mine4114",
+  "repo": "https://github.com/Mine4114/ELWatro",
+  "downloadURL": "https://github.com/Mine4114/ELWatro/releases/latest/download/elwatro.zip",
+  "version": "1.2.2",
+  "automatic-version-check": true,
+  "fixed-release-tag-updates": false,
+  "last-updated": 1779990991
+}

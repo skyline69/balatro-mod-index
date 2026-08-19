@@ -1,0 +1,15 @@
+{
+  "title": "BalatroMuteUnFocus",
+  "requires-steamodded": false,
+  "requires-talisman": false,
+  "categories": [
+    "Quality of Life"
+  ],
+  "author": "akashrtd",
+  "repo": "https://github.com/akashrtd/BalatroMuteUnFocus",
+  "downloadURL": "https://github.com/akashrtd/BalatroMuteUnFocus/releases/download/v1.0.0/BalatroMuteUnFocus-v1.0.0.zip",
+  "version": "20260529_142157",
+  "automatic-version-check": true,
+  "fixed-release-tag-updates": true,
+  "last-updated": 1780082826
+}

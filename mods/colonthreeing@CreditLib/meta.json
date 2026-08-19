@@ -9,6 +9,7 @@
   "repo": "https://github.com/colonthreeing/CreditLib",
   "downloadURL": "https://github.com/colonthreeing/CreditLib/releases/latest/download/CreditLib.zip",
   "folderName": "CreditLib",
-  "version": "v0.4.1",
-  "automatic-version-check": true
+  "version": "v0.4.1b",
+  "automatic-version-check": true,
+  "last-updated": 1780308626
 }
