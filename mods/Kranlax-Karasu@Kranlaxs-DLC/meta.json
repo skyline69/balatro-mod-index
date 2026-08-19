@@ -1,0 +1,18 @@
+{
+  "title": "Kranlax's DLC",
+  "requires-steamodded": true,
+  "requires-talisman": true,
+  "categories": [
+    "Content",
+    "Joker",
+    "Miscellaneous"
+  ],
+  "author": "Kranlax Karasu",
+  "repo": "https://github.com/KranlaxProgrammer/kranlaxdlc/",
+  "downloadURL": "https://github.com/KranlaxProgrammer/kranlaxdlc/releases/download/mod/kranlaxmod.zip",
+  "version": "20260819_143218",
+  "automatic-version-check": true,
+  "fixed-release-tag-updates": true,
+  "folderName": "Kranlaxdlc",
+  "last-updated": 1787167068
+}
