@@ -1,10 +1,4 @@
-# QOL Bundle
-
-A collection of quality-of-life improvements for Balatro.
-
-## How It Works
-
-This mod provides several small adjustments to gameplay mechanics to enhance the overall experience, particularly when using other mods that add new content.
+Balance and gameplay changes that feels good, configurable per feature. Bad mod name, too late now.
 
 ## Features
 
