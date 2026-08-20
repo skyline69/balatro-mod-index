@@ -1,0 +1,15 @@
+{
+  "title": "FoolsDisplay",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Quality of Life",
+    "Miscellaneous"
+  ],
+  "author": "Dee9c",
+  "repo": "https://github.com/dee9c-git/Balatro-FoolsDisplay",
+  "downloadURL": "https://github.com/dee9c-git/Balatro-FoolsDisplay/archive/refs/heads/master.zip",
+  "version": "0.1.0",
+  "automatic-version-check": true,
+  "fixed-release-tag-updates": false
+}
