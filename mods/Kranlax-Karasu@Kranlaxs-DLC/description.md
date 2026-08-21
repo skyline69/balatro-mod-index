@@ -13,7 +13,7 @@ This mod adds:
 - 8 booster packs
 - 6 tags
 - 1 sticker
-- and some micelaneous extras
+- and some micelaneous extras (also some kinky [not nsfw] sprites, but you must active a hidden option)
 
 This mod is compatible with any other mod that you have installed
 
@@ -34,7 +34,20 @@ future plans and things to add:
 - Finish some missing textures
 - fix some bugs if there are still some in the mod
 - add more jokers (requests and suggestions are open)
-- add editions (i still trying to figure it out how to add editions)
 - do balance changes if necesary (open to suggestions)
 - add the missing laguages
 - in previous stages of development, i tried to implement Balance changes but to the vanilla jokers, it kinda worked but it was way too inestable, so i deleted that and decided to implement the changes on further versions
+
+==================================================================================================================================================================================
+Version 1.1.0
+
+what's new?
+
+5 new editions
+some textures were fixed
+
+On the menu's options configuration, there is an miscelaneous options that lets you see each item individualy, uhm, it was meant to be for screenshots and showcase videos, out of that is kinda useless
+This Showcase window lets you see every item and category one by one, compatible with mods
+If you see that a item doesn't has a translated description, it's an issue of that mod because it doesn't has a proper translation
+You must pick the "Close showcase" button, it shuts the game, it's absolutely necesary because for some reason idk, it bugs the decks and makes all teh decks the default one
+don't worry, your gampley is safe unless you open this window, you only must close and open the game to restore everthing
