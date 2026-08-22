@@ -9,8 +9,9 @@
   "author": "Rodro-Dev",
   "repo": "https://github.com/Rodro-Dev/monopoly-mod",
   "downloadURL": "https://github.com/Rodro-Dev/monopoly-mod/archive/refs/heads/main.zip",
-  "version": "1.0.2",
+  "version": "0cdbc87",
   "automatic-version-check": true,
   "fixed-release-tag-updates": false,
-  "folderName": "monopoly-mod-restored_code"
+  "folderName": "monopoly-mod-restored_code",
+  "last-updated": 1787372558
 }
