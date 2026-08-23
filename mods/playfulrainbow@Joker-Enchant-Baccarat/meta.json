@@ -1,0 +1,16 @@
+{
+  "title": "Joker Enchant Baccarat",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content",
+    "Joker",
+    "Quality of Life"
+  ],
+  "author": "playfulrainbow",
+  "repo": "https://github.com/chloe6111/Joker-Enchant-Baccarat/releases/tag/v1.1",
+  "downloadURL": "https://github.com/chloe6111/Joker-Enchant-Baccarat/releases/download/v1.1/Baccarat.Enchant.zip",
+  "version": "v1.1",
+  "automatic-version-check": true,
+  "fixed-release-tag-updates": true
+}
