@@ -48,3 +48,17 @@ This Showcase window lets you see every item and category one by one, compatible
 If you see that a item doesn't has a translated description, it's an issue of that mod because it doesn't has a proper translation
 You must pick the "Close showcase" button, it shuts the game, it's absolutely necesary because for some reason idk, it bugs the decks and makes all teh decks the default one
 don't worry, your gampley is safe unless you open this window, you only must close and open the game to restore everthing
+
+==================================================================================================================================================================================
+
+Version 1.3.5
+
+what's new?
+
+the mod is working again, idk why i sent an empty zip that deleted the mod lmao
+
+30 new jokers were added to the mod, they have a placeholder image until my friend that helps me to do the sprites finishes to do them all
+
+6 new tags fully prited
+
+the 5 editions added previously got a big hotfix, now they work as they were meant to xd
