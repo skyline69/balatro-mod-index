@@ -7,10 +7,12 @@
     "Joker",
     "Miscellaneous"
   ],
-  "author": "Flowire, unkokat",
+  "author": "Flowire",
   "repo": "https://github.com/FlowireXen/Shimmerberry",
-  "downloadURL": "https://github.com/FlowireXen/Shimmerberry/archive/refs/heads/master.zip",
+  "downloadURL": "https://github.com/FlowireXen/Shimmerberry/archive/refs/heads/main.zip",
+  "version": "26.8.26a",
   "automatic-version-check": true,
+  "fixed-release-tag-updates": false,
   "version": "a94a109",
   "last-updated": 1787770124
 }
