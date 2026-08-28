@@ -1,0 +1,15 @@
+{
+  "title": "Balatromon",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content",
+    "Joker"
+  ],
+  "author": "ChubbyMeel",
+  "repo": "https://github.com/ChubbyMeel/Balatromon",
+  "downloadURL": "https://github.com/ChubbyMeel/Balatromon/releases/latest/download/Balatromon.zip",
+  "version": "0.8.7",
+  "automatic-version-check": true,
+  "fixed-release-tag-updates": false
+}
