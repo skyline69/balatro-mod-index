@@ -1,6 +1,3 @@
-
-![Thumbnail](thumbnail.jpg)
-
 # BUSTED BUFFOONS
 ## What is Busted Buffoons?
 Busted Buffoons is an absolutely broken mod that aims to add as many characters (That i know of) as possible.
@@ -12,9 +9,6 @@ There are new Rarities to look out for, like Fantastic and Grandiose.
 New Consumables include Infinity, Bootleg, and Pizza.
 Couple new Vouchers, Enhancements, Seals, and one more edition.
 There will be Meme Jokers in this, and also OC Jokers.
-
-(Real footage of Busted Buffoons alone)
-![Screenshot](Screenshot.png)
 
 # DEPENDENCIES
 For this mod to function as intended, please install all of the following dependencies:
