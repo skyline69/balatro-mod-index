@@ -1,0 +1,14 @@
+{
+    "title": "Mahrlatro",
+    "requires-steamodded": true,
+    "requires-talisman": false,
+    "categories": [
+        "Content",
+        "Joker"
+    ],
+    "author": "FlyingDragon, SplasBoi and Wanyay",
+    "repo": "https://github.com/SplasBoi/Mahrlatro",
+    "downloadURL": "https://github.com/SplasBoi/Mahrlatro/archive/refs/heads/main.zip",
+    "version": "1.0.0",
+    "automatic-version-check": true
+}
