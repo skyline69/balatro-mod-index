@@ -1,0 +1,16 @@
+{
+  "title": "Balatro: Reshuffled",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content",
+    "Miscellaneous"
+  ],
+  "author": "Demonde",
+  "repo": "https://github.com/DemondesMods/Balatro-Reshuffled",
+  "downloadURL": "https://github.com/DemondesMods/Balatro-Reshuffled/releases/latest/download/Balatro-Reshuffled-0.3.0-beta.zip",
+  "version": "0.3.0-beta",
+  "automatic-version-check": true,
+  "fixed-release-tag-updates": false,
+  "folderName": "Balatro-Reshuffled"
+}
