@@ -1,0 +1,17 @@
+{
+  "title": "Fundamental Joker Education",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content",
+    "Joker",
+    "Technical",
+    "Miscellaneous"
+  ],
+  "author": "xXCubesAwayXx",
+  "repo": "https://github.com/xXCubesAwayXx/Fundamental-Joker-Education",
+  "downloadURL": "https://github.com/xXCubesAwayXx/Fundamental-Joker-Education/archive/refs/heads/main.zip",
+  "version": "0.2.1",
+  "automatic-version-check": true,
+  "fixed-release-tag-updates": false
+}
