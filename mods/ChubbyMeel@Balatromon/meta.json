@@ -9,7 +9,8 @@
   "author": "ChubbyMeel",
   "repo": "https://github.com/ChubbyMeel/Balatromon",
   "downloadURL": "https://github.com/ChubbyMeel/Balatromon/releases/latest/download/Balatromon.zip",
-  "version": "0.8.7",
+  "version": "v0.9.1a",
   "automatic-version-check": true,
-  "fixed-release-tag-updates": false
+  "fixed-release-tag-updates": false,
+  "last-updated": 1788300705
 }
