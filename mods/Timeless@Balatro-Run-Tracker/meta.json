@@ -8,7 +8,8 @@
   "author": "Timeless",
   "repo": "https://github.com/TimelessC1/balatro-run-tracker",
   "downloadURL": "https://github.com/TimelessC1/balatro-run-tracker/releases/latest/download/RunTracker.zip",
-  "version": "v1.15.0",
+  "version": "v1.16.0",
   "automatic-version-check": true,
-  "fixed-release-tag-updates": false
+  "fixed-release-tag-updates": false,
+  "last-updated": 1788241967
 }
