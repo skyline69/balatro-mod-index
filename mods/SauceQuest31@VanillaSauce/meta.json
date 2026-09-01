@@ -9,8 +9,8 @@
   "author": "SauceQuest31",
   "repo": "https://github.com/saucequest/VanillaSauce",
   "downloadURL": "https://github.com/saucequest/VanillaSauce/releases/latest/download/vanillasauce.zip",
-  "version": "V1beta",
+  "version": "1.0.0",
   "automatic-version-check": true,
   "fixed-release-tag-updates": false,
-  "last-updated": 1786518529
+  "last-updated": 1788221571
 }
