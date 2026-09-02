@@ -1,0 +1,16 @@
+{
+  "title": "The Cracked Balatro!!",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content",
+    "Joker"
+  ],
+  "author": "Unknow102",
+  "repo": "https://github.com/Unknow1022/Cracklatro",
+  "downloadURL": "https://github.com/Unknow1022/Cracklatro/archive/refs/heads/main.zip",
+  "version": "v2.5",
+  "automatic-version-check": true,
+  "fixed-release-tag-updates": false,
+  "folderName": "Cracklatro"
+}
