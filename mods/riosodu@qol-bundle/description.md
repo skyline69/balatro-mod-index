@@ -15,7 +15,7 @@ Balance and gameplay changes that feels good, configurable per feature. Bad mod 
 - **Satellite Joker Rework**: Satellite now gives gold equal to half the highest poker hand level (rounded up).
 - **Controlled Sigil**: Sigil now requires selecting a card first and converts all cards to selected card's suit instead of random suit.
 - **Controlled Ouija**: Ouija now requires selecting a card first and converts all cards to selected card's rank instead of random rank.
-- **Loyalty Card Rounds Mode**: Loyalty Card triggers based on rounds instead of hands played for more predictable timing and easier to plan around.
+- **Loyalty Card Rounds Mode**: Loyalty Card triggers based on rounds instead of hands, becoming active for a whole round after every 3 rounds. Skipping a blind counts twice, but raises the chance of the card being permanently disabled (a clean redeem lowers it again).
 - **Splash Joker Retrigger**: Splash Joker additionally retriggers two random scoring cards.
 - **Ceremonial Dagger Common**: Makes Ceremonial Dagger joker Common rarity with reduced cost ($3 instead of $6).
 - **Mail-In Rebate Uncommon**: Makes Mail-In Rebate joker Uncommon rarity (was Common rarity - makes it rarer).
@@ -24,7 +24,7 @@ Balance and gameplay changes that feels good, configurable per feature. Bad mod 
 - **Interest on Skip**: Gain interest when skipping blinds, calculated and awarded before obtaining the tag.
 - **Paperback Compatibility**: Added compatibility for Paperback mod's Jester of Nihil joker and suit considerations for Smeared Joker.
 - **Nerf Hanging Chad**: Makes Hanging Chad joker Uncommon rarity and more expensive (cost $7 instead of $6).
-- **Castle Checkered Reliability**: Castle now counts either Clubs and Spades or Hearts and Diamonds, making it as reliable as in the checkered deck. If Paperback mod is installed, light suits or dark suits will be used instead.
+- **Castle Checkered Reliability**: Castle now counts either Clubs and Spades or Hearts and Diamonds. The suit group follows your deck composition, so suit fixing makes Castle more reliable and the checkered deck always counts the same group. If Paperback mod is installed, light suits or dark suits will be used instead.
 - **Yorick Enhancement**: Yorick now gains a configurable amount (+1.5x for each 23 cards instead of +1x).
 - **Reworked Magic Trick and Illusion Vouchers**: 
     - Magic Trick is now a "better" Illusion voucher with playing cards in shop appearing with enhancements, editions and seals (actually spawn instead of the bugged vanilla). 
