@@ -1,0 +1,15 @@
+{
+  "title": "DANDY'S WORLD JOKERS",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content",
+    "Joker"
+  ],
+  "author": "thezudikmaster",
+  "repo": "https://github.com/thezudikmaster/Dandys_World_Jokers",
+  "downloadURL": "https://github.com/thezudikmaster/Dandys_World_Jokers/archive/refs/heads/master.zip",
+  "version": "0.25.2",
+  "automatic-version-check": true,
+  "fixed-release-tag-updates": false
+}
