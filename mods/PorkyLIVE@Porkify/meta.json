@@ -9,8 +9,8 @@
   "author": "PorkyLIVE",
   "repo": "https://github.com/PorkifyNET/porkify",
   "downloadURL": "https://github.com/PorkifyNET/porkify/archive/refs/heads/main.zip",
-  "version": "87a0604",
+  "version": "bb351fa",
   "automatic-version-check": true,
   "fixed-release-tag-updates": false,
-  "last-updated": 1788157534
+  "last-updated": 1788633611
 }
