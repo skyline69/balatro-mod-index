@@ -1,0 +1,15 @@
+{
+  "title": "HunggMod(Balatroll)",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content",
+    "Joker"
+  ],
+  "author": "HunggViEn",
+  "repo": "https://github.com/HunggViEn/HunggMod.git",
+  "downloadURL": "https://github.com/HunggViEn/HunggMod/releases/download/v1.0.3/HunggMod-v1.0.3.zip",
+  "version": "1.0.3",
+  "automatic-version-check": true,
+  "fixed-release-tag-updates": true
+}
