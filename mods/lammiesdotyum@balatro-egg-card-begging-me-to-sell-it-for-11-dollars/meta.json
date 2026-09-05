@@ -1,0 +1,14 @@
+{
+  "title": "balatro egg card begging me to sell it for 11 dollars",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Resource Packs"
+  ],
+  "author": "lammiesdotyum",
+  "repo": "https://github.com/lammies-yum/socpenseggs",
+  "downloadURL": "https://github.com/lammies-yum/socpenseggs/releases/download/zippy/scorpegg.zip",
+  "version": "1.0.0",
+  "automatic-version-check": true,
+  "fixed-release-tag-updates": true
+}
