@@ -1,0 +1,15 @@
+{
+  "title": "My Singing Jokers",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content",
+    "Joker"
+  ],
+  "author": "Gloptical Illusion",
+  "repo": "https://github.com/GlopticalIllusion/My-Singing-Jokers",
+  "downloadURL": "https://github.com/GlopticalIllusion/My-Singing-Jokers/releases/latest/download/My-Singing-Jokers.zip",
+  "version": "0.1.0",
+  "automatic-version-check": true,
+  "fixed-release-tag-updates": false
+}
