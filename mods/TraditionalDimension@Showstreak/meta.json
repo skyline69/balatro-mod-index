@@ -1,0 +1,15 @@
+{
+  "title": "Showstreak",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content",
+    "API"
+  ],
+  "author": "TraditionalDimension",
+  "repo": "https://github.com/TraditionalDimension/Showstreak",
+  "downloadURL": "https://github.com/TraditionalDimension/Showstreak/releases/latest/download/Showstreak-BMM.zip",
+  "folderName": "Showstreak",
+  "version": "1.0.0",
+  "automatic-version-check": true
+}
