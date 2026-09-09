@@ -1,0 +1,14 @@
+{
+  "title": "Final Score Preview",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Quality of Life"
+  ],
+  "author": "Wangy",
+  "repo": "https://github.com/Wangy-szu/FinalScorePreview",
+  "downloadURL": "https://github.com/Wangy-szu/FinalScorePreview/releases/latest/download/mod.zip",
+  "version": "0.2.1",
+  "automatic-version-check": true,
+  "fixed-release-tag-updates": false
+}
