@@ -1,0 +1,14 @@
+{
+  "title": "Vanilla Save Bridge v0.4.1",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Quality of Life"
+  ],
+  "author": "Wangy",
+  "repo": "https://github.com/Wangy-szu/FinalScorePreview",
+  "downloadURL": "https://github.com/Wangy-szu/FinalScorePreview/releases/download/v0.4.1/VanillaSaveBridge-0.4.1.zip",
+  "version": "0.4.1",
+  "automatic-version-check": true,
+  "fixed-release-tag-updates": true
+}
