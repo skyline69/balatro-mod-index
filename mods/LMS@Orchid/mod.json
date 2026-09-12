@@ -1,0 +1,9 @@
+{
+  "id": "Orchid",
+  "name": "Orchid",
+  "author": ["LM S"],
+  "description": "Orchid aims to elevate the vanilla experience, giving you new strong options for scoring.",
+  "prefix": "21",
+  "main_file": "main.lua",
+  "version": "1.0.1" 
+}
