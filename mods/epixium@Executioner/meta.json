@@ -1,0 +1,15 @@
+{
+  "title": "Executioner",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content",
+    "Joker"
+  ],
+  "author": "epixium",
+  "repo": "https://github.com/Epixium/Executioner",
+  "downloadURL": "https://github.com/Epixium/Executioner/releases/download/v1.0.0/Executioner.zip",
+  "version": "1.0.0",
+  "automatic-version-check": true,
+  "fixed-release-tag-updates": true
+}
