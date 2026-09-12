@@ -8,7 +8,8 @@
   "author": "Wangy",
   "repo": "https://github.com/Wangy-szu/FinalScorePreview",
   "downloadURL": "https://github.com/Wangy-szu/FinalScorePreview/releases/download/v0.4.1/VanillaSaveBridge-0.4.1.zip",
-  "version": "0.4.1",
+  "version": "20260910_064408",
   "automatic-version-check": true,
-  "fixed-release-tag-updates": true
+  "fixed-release-tag-updates": true,
+  "last-updated": 1789242768
 }

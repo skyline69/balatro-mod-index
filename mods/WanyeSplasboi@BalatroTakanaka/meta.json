@@ -2,11 +2,15 @@
   "title": "Balatro Takanaka",
   "requires-steamodded": true,
   "requires-talisman": false,
-  "categories": ["Content", "Miscellaneous"],
+  "categories": [
+    "Content",
+    "Miscellaneous"
+  ],
   "author": "Wanye, Splasboi",
   "repo": "https://github.com/Wanyatta/Balatro-Takanaka",
   "downloadURL": "https://github.com/Wanyatta/Balatro-Takanaka/archive/refs/heads/main.zip",
   "folderName": "BalatroTakanaka",
-  "version": "1.0.0",
-  "automatic-version-check": true
+  "version": "6dfafff",
+  "automatic-version-check": true,
+  "last-updated": 1789242768
 }

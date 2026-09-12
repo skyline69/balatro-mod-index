@@ -9,7 +9,8 @@
   "author": "epixium",
   "repo": "https://github.com/Epixium/Executioner",
   "downloadURL": "https://github.com/Epixium/Executioner/releases/download/v1.0.0/Executioner.zip",
-  "version": "1.0.0",
+  "version": "20260906_220120",
   "automatic-version-check": true,
-  "fixed-release-tag-updates": true
+  "fixed-release-tag-updates": true,
+  "last-updated": 1789242768
 }
