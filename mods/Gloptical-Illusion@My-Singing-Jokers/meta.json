@@ -9,8 +9,8 @@
   "author": "Gloptical Illusion",
   "repo": "https://github.com/GlopticalIllusion/My-Singing-Jokers",
   "downloadURL": "https://github.com/GlopticalIllusion/My-Singing-Jokers/releases/latest/download/My-Singing-Jokers.zip",
-  "version": "v0.2.0",
+  "version": "v0.2.1",
   "automatic-version-check": true,
   "fixed-release-tag-updates": false,
-  "last-updated": 1789242768
+  "last-updated": 1789343448
 }
