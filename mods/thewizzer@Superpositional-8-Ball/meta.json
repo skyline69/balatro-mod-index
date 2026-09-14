@@ -8,7 +8,8 @@
   "author": "thewizzer",
   "repo": "https://github.com/otherboxofpencils-bit/superpostional8ball",
   "downloadURL": "https://github.com/otherboxofpencils-bit/superpostional8ball/archive/refs/heads/main.zip",
-  "version": "1.0.0",
+  "version": "6fa01ff",
   "automatic-version-check": true,
-  "fixed-release-tag-updates": false
+  "fixed-release-tag-updates": false,
+  "last-updated": 1789399627
 }
