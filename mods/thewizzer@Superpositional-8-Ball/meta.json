@@ -1,0 +1,14 @@
+{
+  "title": "Superpositional 8-Ball",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content"
+  ],
+  "author": "thewizzer",
+  "repo": "https://github.com/otherboxofpencils-bit/superpostional8ball",
+  "downloadURL": "https://github.com/otherboxofpencils-bit/superpostional8ball/archive/refs/heads/main.zip",
+  "version": "1.0.0",
+  "automatic-version-check": true,
+  "fixed-release-tag-updates": false
+}
