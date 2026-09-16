@@ -9,8 +9,8 @@
   "author": "DoubleAA",
   "repo": "https://github.com/DoubleAAdev/BalatroObserver",
   "downloadURL": "https://github.com/DoubleAAdev/BalatroObserver/releases/download/v1.2.0/BalatroObserver-v1.2.0.zip",
-  "version": "v2.0.0",
+  "version": "v2.0.4",
   "automatic-version-check": true,
   "fixed-release-tag-updates": false,
-  "last-updated": 1789480770
+  "last-updated": 1789566808
 }
