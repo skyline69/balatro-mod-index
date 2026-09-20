@@ -1,0 +1,18 @@
+{
+  "title": "Linkas' Outrageous Balatro",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content",
+    "Joker",
+    "Technical",
+    "Miscellaneous",
+    "Resource Packs"
+  ],
+  "author": "Linkas Play",
+  "repo": "https://github.com/LinkasPlay/LinkasOutrageousBalatro",
+  "downloadURL": "https://github.com/LinkasPlay/LinkasOutrageousBalatro/releases/download/release/LinkasOutrageousBalatro.zip",
+  "version": "1.0.0",
+  "automatic-version-check": true,
+  "fixed-release-tag-updates": true
+}
