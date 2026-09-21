@@ -1,0 +1,15 @@
+{
+  "title": "Function",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Content",
+    "Joker"
+  ],
+  "author": "KBSkmkh",
+  "repo": "https://github.com/KBSkmkh/Function-A-Balatro-Mod-/releases/download/v0.0.1-beta_Balatro_Mod/Function_0.0.1_beta_release.zip",
+  "downloadURL": "https://github.com/KBSkmkh/Function-A-Balatro-Mod-/archive/refs/heads/main.zip",
+  "version": "0.0.1",
+  "automatic-version-check": true,
+  "fixed-release-tag-updates": false
+}
