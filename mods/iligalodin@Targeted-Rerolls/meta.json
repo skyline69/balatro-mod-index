@@ -1,0 +1,14 @@
+{
+  "title": "Targeted Rerolls",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Quality of Life"
+  ],
+  "author": "@_Odinh",
+  "repo": "https://github.com/iligalodin/TargetedRerolls",
+  "downloadURL": "https://github.com/iligalodin/TargetedRerolls/archive/refs/heads/main.zip",
+  "folderName": "TargetedRerolls",
+  "version": "26.09.23",
+  "automatic-version-check": true
+}
