@@ -1,0 +1,16 @@
+{
+  "title": "Balatro Rebalanced",
+  "requires-steamodded": true,
+  "requires-talisman": false,
+  "categories": [
+    "Joker",
+    "Quality of Life",
+    "Miscellaneous"
+  ],
+  "author": "Djoaieuh",
+  "repo": "https://github.com/Djoaieuh/BalatroRebalanced",
+  "downloadURL": "https://github.com/Djoaieuh/BalatroRebalanced/archive/refs/heads/main.zip",
+  "version": "v0.1.0-alpha",
+  "automatic-version-check": true,
+  "fixed-release-tag-updates": false
+}
