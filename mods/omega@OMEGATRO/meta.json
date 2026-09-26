@@ -1,0 +1,16 @@
+{
+  "title": "OMEGATRO",
+  "requires-steamodded": true,
+  "requires-talisman": true,
+  "categories": [
+    "Content",
+    "Joker"
+  ],
+  "author": "omega",
+  "repo": "https://github.com/OmegaYT3/OMEGATRO",
+  "downloadURL": "https://github.com/OmegaYT3/OMEGATRO/releases/latest/download/OMEGATRO.zip",
+  "version": "1.0",
+  "automatic-version-check": true,
+  "fixed-release-tag-updates": false,
+  "folderName": "OMEGATRO"
+}
