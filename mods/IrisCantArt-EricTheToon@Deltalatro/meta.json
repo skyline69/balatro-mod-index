@@ -1,0 +1,17 @@
+{
+  "title": "Deltalatro",
+  "requires-steamodded": true,
+  "requires-talisman": true,
+  "categories": [
+    "Content",
+    "Joker",
+    "Miscellaneous"
+  ],
+  "author": "IrisCantArt, EricTheToon",
+  "repo": "https://github.com/IrisCantArt/Deltalatro",
+  "downloadURL": "https://github.com/IrisCantArt/Deltalatro/archive/refs/heads/main.zip",
+  "version": "1",
+  "automatic-version-check": true,
+  "fixed-release-tag-updates": false,
+  "folderName": "Deltalatro"
+}
