@@ -1,0 +1,10 @@
+{
+    "title": "Orchid",
+    "requires-steamodded": true,
+    "categories": ["Content", "Joker"],
+    "author": "LM S",
+    "repo": "https://github.com/whoisLMS/Orchid",
+    "downloadURL": "https://github.com/whoisLMS/Orchid/archive/refs/heads/main.zip",
+    "version": "1.0.1",
+    "automatic-version-check": true
+}
