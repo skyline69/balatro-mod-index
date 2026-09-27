@@ -18,6 +18,6 @@ Predictions come from the game's own generation code, and a test rig checks them
 
 Requires Lovely 0.9 or newer. Tested on Balatro 1.0.1o. It works offline and leaves achievements alone.
 
-Works alongside Steamodded, which lists it in its Mods menu. Under Steamodded, bosses and shops are unverified, so the Oracle previews tags, bosses and Vouchers only, and the Finder searches those clauses only. With content mods that add cards to the pools, the Oracle and Finder switch off and say why.
+Works alongside Steamodded, which lists it in its Mods menu. Checked against the real Steamodded game, it makes the same cards as vanilla, but it rolls editions and picks bosses its own way. So under Steamodded, the Oracle leaves editions out and marks later bosses unverified, and the Finder skips boss clauses and edition requirements. With content mods that add cards to the pools, the Oracle and Finder switch off and say why.
 
 Source, screenshots and FAQ: https://github.com/r-metal/balatro-seed-suite
