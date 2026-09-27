@@ -1,15 +1,14 @@
 {
-  "title": "Balatro-Run-Tracker",
+  "title": "Run Tracker",
   "requires-steamodded": true,
   "requires-talisman": false,
   "categories": [
-    "Miscellaneous"
+    "Quality of Life"
   ],
-  "author": "Timeless",
+  "author": "TimelessC1",
   "repo": "https://github.com/TimelessC1/balatro-run-tracker",
   "downloadURL": "https://github.com/TimelessC1/balatro-run-tracker/releases/latest/download/RunTracker.zip",
-  "version": "1.22.0",
-  "automatic-version-check": true,
-  "fixed-release-tag-updates": false,
-  "last-updated": 1790459010
+  "folderName": "RunTracker",
+  "version": "1.23.0",
+  "automatic-version-check": true
 }
