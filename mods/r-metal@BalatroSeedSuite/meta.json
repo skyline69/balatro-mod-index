@@ -10,6 +10,6 @@
   "repo": "https://github.com/r-metal/balatro-seed-suite",
   "downloadURL": "https://github.com/r-metal/balatro-seed-suite/releases/latest/download/BalatroSeedSuite.zip",
   "folderName": "BalatroSeedSuite",
-  "version": "v0.3.4",
+  "version": "v0.4.0",
   "automatic-version-check": true
 }
