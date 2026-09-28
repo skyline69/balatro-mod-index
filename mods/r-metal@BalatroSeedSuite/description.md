@@ -11,7 +11,7 @@ Four tools for seeded runs and a shared library, in one Lovely mod. Steamodded i
 - **Seed Oracle** (`Ctrl+O` in a run). It shows each ante's skip tags, boss, voucher and Soul legendary, the shop on the shelf and after each reroll, and what every pack holds.
   - **What-if toggles** (skip Small or Big, rerolls 0–5) predict again without touching your run.
   - A **divergence banner** tells you when the live shop stops matching the prediction, and why.
-- **Save Slots** (the **Saves** tab). Named saves with a card-level preview, favorites, per-ante checkpoints, practice scenarios and share codes.
+- **Save Slots** (the **Saves** tab). Named saves with a card-level preview, favorites, folders and search, per-ante checkpoints, practice scenarios and share codes.
 - **Run Journal**. It records every run, with stats by deck, stake and joker, same-seed comparisons and CSV/JSON export.
 
 Predictions come from the game's own generation code, and a test rig checks them against real seeded runs of the actual game.
