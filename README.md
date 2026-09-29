@@ -1,5 +1,8 @@
 # Balatro Mod Index Guide
 
+> [!WARNING]
+> **This index is no longer maintained.**
+
 ![Balatro Image](https://github.com/skyline69/balatro-mod-index/blob/main/media/Balatro.jpg?raw=true)
 
 This repository indexes Balatro mods for use in Balatro Mod Manager.
